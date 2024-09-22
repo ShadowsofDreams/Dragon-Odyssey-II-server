@@ -1,0 +1,996 @@
+[{
+    "dimension": "undergarden:undergarden",
+    "mob": "unusualend:endstone_golem",
+    "mincount": {
+      "amount": 2,
+      "mob": "unusualend:endstone_golem",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },{
+    "dimension": "undergarden:undergarden",
+    "mob": "alexsmobs:anaconda",
+    "mincount": {
+      "amount": 6,
+      "mob": "alexsmobs:anaconda",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },{
+    "dimension": "undergarden:undergarden",
+    "mob": "weirdmobs:thorn_wolf",
+    "mincount": {
+      "amount": 16,
+      "mob": "weirdmobs:thorn_wolf",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },{
+    "dimension": "undergarden:undergarden",
+    "mob": "weirdmobs:thorn_corrupted_wolfman_2",
+    "mincount": {
+      "amount": 8,
+      "mob": "weirdmobs:thorn_corrupted_wolfman_2",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },{
+    "dimension": "undergarden:undergarden",
+    "mob": "weirdmobs:thorn_corrupted_wolfman_1",
+    "mincount": {
+      "amount": 8,
+      "mob": "weirdmobs:thorn_corrupted_wolfman_1",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },{
+    "dimension": "minecraft:the_end",
+    "mob": "unusualend:endstone_golem",
+    "mincount": {
+      "amount": 2,
+      "mob": "unusualend:endstone_golem",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },{
+    "dimension": "undergarden:undergarden",
+    "mob": "minecraft:zombie_horse",
+    "mincount": {
+      "amount": 5,
+      "mob": "minecraft:zombie_horse",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "weirdmobs:creeper_spiderling",
+    "mincount": {
+      "amount": 6, 
+    "mob": "weirdmobs:creeper_spiderling",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "minecraft:silverfish",
+    "mincount": {
+      "amount": 5,
+	  "mob": "minecraft:silverfish",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "weirdmobs:creeper_spider",
+    "mincount": {
+      "amount": 5, 
+    "mob": "weirdmobs:creeper_spider",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "weirdmobs:wolfwoman",
+    "mincount": {
+      "amount": 6,
+    "mob": "weirdmobs:wolfwoman",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "infernalexp:warpbeetle",
+    "mincount": {
+      "amount": 6,
+    "mob": "infernalexp:warpbeetle",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "enemyexpansion:crawler",
+    "mincount": {
+      "amount": 6,
+    "mob": "enemyexpansion:crawler",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:overworld",
+    "mob": "enemyexpansion:angler",
+    "mincount": {
+      "amount": 10,
+    "mob": "enemyexpansion:angler",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "enemyexpansion:angler",
+    "mincount": {
+      "amount": 8,
+    "mob": "enemyexpansion:angler",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "born_in_chaos_v1:pumpkinhead",
+    "mincount": {
+      "amount": 2,
+    "mob": "born_in_chaos_v1:pumpkinhead",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "minecraft:silverfish",
+    "mincount": {
+      "amount": 10,
+    "mob": "minecraft:silverfish",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "mining_dimension:mining",
+    "mob": "minecraft:silverfish",
+    "mincount": {
+      "amount": 10,
+    "mob": "minecraft:silverfish",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:overworld",
+    "mob": "minecraft:silverfish",
+    "mincount": {
+      "amount": 10,
+    "mob": "minecraft:silverfish",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:the_nether",
+    "mob": "minecraft:silverfish",
+    "mincount": {
+      "amount": 10,
+    "mob": "minecraft:silverfish",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:the_end",
+    "mob": "minecraft:silverfish",
+    "mincount": {
+      "amount": 10,
+    "mob": "minecraft:silverfish",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "minecraft:silverfish",
+    "mincount": {
+      "amount": 10,
+    "mob": "minecraft:silverfish",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "ulterlands:ulterlands_dimension",
+    "mob": "minecraft:silverfish",
+    "mincount": {
+      "amount": 10,
+    "mob": "minecraft:silverfish",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "the_cataclysm:the_cataclysm",
+    "mob": "minecraft:silverfish",
+    "mincount": {
+      "amount": 10,
+    "mob": "minecraft:silverfish",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:the_end",
+    "mob": "nether_dragon:nether_dragon",
+    "mincount": {
+      "amount": 2,
+    "mob": "nether_dragon:nether_dragon",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:the_nether",
+    "mob": "nether_dragon:nether_dragon",
+    "mincount": {
+      "amount": 2,
+    "mob": "nether_dragon:nether_dragon",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:the_end",
+    "mob": "nether_dragon:netherman",
+    "mincount": {
+      "amount": 6,
+    "mob": "nether_dragon:netherman",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:the_nether",
+    "mob": "nether_dragon:netherman",
+    "mincount": {
+      "amount": 6,
+    "mob": "nether_dragon:netherman",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:overworld",
+    "mob": "the_cataclysm:cataclysm_crawler",
+    "mincount": {
+      "amount": 6,
+    "mob": "the_cataclysm:cataclysm_crawler",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "the_cataclysm:the_cataclysm",
+    "mob": "the_cataclysm:cataclysm_crawler",
+    "mincount": {
+      "amount": 7,
+    "mob": "the_cataclysm:cataclysm_crawler",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:overworld",
+    "mob": "the_cataclysm:cataclysm_flier",
+    "mincount": {
+      "amount": 6,
+    "mob": "the_cataclysm:cataclysm_flier",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "the_cataclysm:the_cataclysm",
+    "mob": "the_cataclysm:cataclysm_flier",
+    "mincount": {
+      "amount": 7,
+    "mob": "the_cataclysm:cataclysm_flier",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "enemyexpansion:frigid",
+    "mincount": {
+      "amount": 8,
+    "mob": "enemyexpansion:frigid",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "enemyexpansion:marauder",
+    "mincount": {
+      "amount": 8,
+    "mob": "enemyexpansion:marauder",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "panthalassa:helicoprion",
+    "mincount": {
+      "amount": 12,
+    "mob": "panthalassa:helicoprion",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:overworld",
+    "mob": "panthalassa:helicoprion",
+    "mincount": {
+      "amount": 10,
+    "mob": "panthalassa:helicoprion",
+      "perplayer": false
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "dragonmod:fairydragon",
+    "mincount": {
+      "amount": 5,
+    "mob": "dragonmod:fairydragon",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "isleofberk:speed_stinger",
+    "mincount": {
+      "amount": 8,
+    "mob": "isleofberk:speed_stinger",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "weirdmobs:feathered_winged_serpent",
+    "mincount": {
+      "amount": 8,
+    "mob": "weirdmobs:feathered_winged_serpent",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "undergarden:rotling",
+    "mincount": {
+      "amount": 20,
+    "mob": "undergarden:rotling",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "undergarden:rotwalker",
+    "mincount": {
+      "amount": 20,
+    "mob": "undergarden:rotwalker",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "twilightforest:naga",
+    "mincount": {
+      "amount": 2,
+    "mob": "twilightforest:naga",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "twilightforest:lich",
+    "mincount": {
+      "amount": 2,
+    "mob": "twilightforest:lich",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "graveyard:lich",
+    "mincount": {
+      "amount": 2,
+    "mob": "graveyard:lich",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "whisperwoods:hirschgeist",
+    "mincount": {
+      "amount": 2,
+    "mob": "whisperwoods:hirschgeist",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "twilightforest:alpha_yeti",
+    "mincount": {
+      "amount": 2,
+    "mob": "twilightforest:alpha_yeti",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "twilightforest:minoshroom",
+    "mincount": {
+      "amount": 2,
+    "mob": "twilightforest:minoshroom",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "twilightforest:ur_ghast",
+    "mincount": {
+      "amount": 2,
+    "mob": "twilightforest:ur_ghast",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "born_in_chaos_v1:sir_pumpkinhead",
+    "mincount": {
+      "amount": 2,
+    "mob": "born_in_chaos_v1:sir_pumpkinhead",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "born_in_chaos_v1:sir_pumpkinhead_without_horse",
+    "mincount": {
+      "amount": 2,
+    "mob": "born_in_chaos_v1:sir_pumpkinhead_without_horse",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "born_in_chaos_v1:felsteed",
+    "mincount": {
+      "amount": 2,
+    "mob": "born_in_chaos_v1:felsteed",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "born_in_chaos_v1:pumpkinhead",
+    "mincount": {
+      "amount": 2,
+    "mob": "born_in_chaos_v1:pumpkinhead",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "born_in_chaos_v1:sir_the_headless",
+    "mincount": {
+      "amount": 2,
+    "mob": "born_in_chaos_v1:sir_the_headless",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "ulterlands:ulterlands_dimension",
+    "mob": "ulterlands:edgerider",
+    "mincount": {
+      "amount": 2,
+    "mob": "ulterlands:edgerider",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "ulterlands:ulterlands_dimension",
+    "mob": "ulterlands:gilded_edgerider",
+    "mincount": {
+      "amount": 2,
+    "mob": "ulterlands:gilded_edgerider",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "ulterlands:ulterlands_dimension",
+    "mob": "ulterlands:oriath_queen",
+    "mincount": {
+      "amount": 3,
+    "mob": "ulterlands:oriath_queen",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "ulterlands:ulterlands_dimension",
+    "mob": "ulterlands:perished_01",
+    "mincount": {
+      "amount": 2,
+    "mob": "ulterlands:perished_01",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "ulterlands:ulterlands_dimension",
+    "mob": "ulterlands:perished_02",
+    "mincount": {
+      "amount": 2,
+    "mob": "ulterlands:perished_02",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "mining_dimension:mining",
+    "mob": "ulterlands:perished_01",
+    "mincount": {
+      "amount": 2,
+    "mob": "ulterlands:perished_01",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "mining_dimension:mining",
+    "mob": "ulterlands:perished_02",
+    "mincount": {
+      "amount": 2,
+    "mob": "ulterlands:perished_02",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "ulterlands:perished_01",
+    "mincount": {
+      "amount": 2,
+    "mob": "ulterlands:perished_01",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "ulterlands:perished_02",
+    "mincount": {
+      "amount": 2,
+    "mob": "ulterlands:perished_02",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "ulterlands:perished_01",
+    "mincount": {
+      "amount": 2,
+    "mob": "ulterlands:perished_01",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "ulterlands:perished_02",
+    "mincount": {
+      "amount": 2,
+    "mob": "ulterlands:perished_02",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "ulterlands:ulterlands_dimension",
+    "mob": "alexsmobs:void_worm",
+    "mincount": {
+      "amount": 4,
+    "mob": "alexsmobs:void_worm",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "ulterlands:ulterlands_dimension",
+    "mob": "dragonmod:fairydragon_5",
+    "mincount": {
+      "amount": 8,
+    "mob": "dragonmod:fairydragon_5",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "ulterlands:ulterlands_dimension",
+    "mob": "ulterlands:gyroc",
+    "mincount": {
+      "amount": 14,
+    "mob": "ulterlands:gyroc",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "ulterlands:ulterlands_dimension",
+    "mob": "ulterlands:aegin",
+    "mincount": {
+      "amount": 14,
+    "mob": "ulterlands:aegin",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "ulterlands:ulterlands_dimension",
+    "mob": "ulterlands:osteon",
+    "mincount": {
+      "amount": 18,
+    "mob": "ulterlands:osteon",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "ulterlands:ulterlands_dimension",
+    "mob": "minecraft:wither",
+    "mincount": {
+      "amount": 2,
+    "mob": "minecraft:wither",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:overworld",
+    "mob": "minecraft:wither",
+    "mincount": {
+      "amount": 2,
+    "mob": "minecraft:wither",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:the_nether",
+    "mob": "minecraft:wither",
+    "mincount": {
+      "amount": 2,
+    "mob": "minecraft:wither",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "minecraft:wither",
+    "mincount": {
+      "amount": 2,
+    "mob": "minecraft:wither",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "minecraft:wither",
+    "mincount": {
+      "amount": 2,
+    "mob": "minecraft:wither",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+  {
+    "dimension": "ulterlands:ulterlands_dimension",
+    "mob": "dragone_aventure:dragon",
+    "mincount": {
+      "amount": 4,
+    "mob": "dragone_aventure:dragon",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:overworld",
+    "mob": "dragone_aventure:dragon",
+    "mincount": {
+      "amount": 4,
+    "mob": "dragone_aventure:dragon",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:the_nether",
+    "mob": "dragone_aventure:dragon",
+    "mincount": {
+      "amount": 4,
+    "mob": "dragone_aventure:dragon",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "twilightforest:twilight_forest",
+    "mob": "dragone_aventure:dragon",
+    "mincount": {
+      "amount": 4,
+    "mob": "dragone_aventure:dragon",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "undergarden:undergarden",
+    "mob": "dragone_aventure:dragon",
+    "mincount": {
+      "amount": 4,
+    "mob": "dragone_aventure:dragon",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:the_end",
+    "mob": "dragone_aventure:dragon",
+    "mincount": {
+      "amount": 4,
+    "mob": "dragone_aventure:dragon",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:the_nether",
+    "mob": "cataclysm:ignis",
+    "mincount": {
+      "amount": 2,
+    "mob": "cataclysm:ignis",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:the_nether",
+    "mob": "cataclysm:netherite_monstrosity",
+    "mincount": {
+      "amount": 2,
+    "mob": "cataclysm:netherite_monstrosity",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:the_end",
+    "mob": "cataclysm:ender_guardian",
+    "mincount": {
+      "amount": 2,
+    "mob": "cataclysm:ender_guardian",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:overworld",
+    "mob": "the_cataclysm:warlock",
+    "mincount": {
+      "amount": 12,
+    "mob": "the_cataclysm:warlock",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "the_cataclysm:the_cataclysm",
+    "mob": "the_cataclysm:warlock",
+    "mincount": {
+      "amount": 12,
+    "mob": "the_cataclysm:warlock",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:overworld",
+    "mob": "the_cataclysm:portal_guardian",
+    "mincount": {
+      "amount": 2,
+    "mob": "the_cataclysm:portal_guardian",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "the_cataclysm:the_cataclysm",
+    "mob": "the_cataclysm:portal_guardian",
+    "mincount": {
+      "amount": 2,
+    "mob": "the_cataclysm:portal_guardian",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "the_cataclysm:the_cataclysm",
+    "mob": "the_cataclysm:infected_maggot",
+    "mincount": {
+      "amount": 12,
+    "mob": "the_cataclysm:infected_maggot",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:overworld",
+    "mob": "the_cataclysm:infected_maggot",
+    "mincount": {
+      "amount": 12,
+    "mob": "the_cataclysm:infected_maggot",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "the_cataclysm:the_cataclysm",
+    "mob": "the_cataclysm:infected_king",
+    "mincount": {
+      "amount": 2,
+    "mob": "the_cataclysm:infected_king",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  },
+{
+    "dimension": "minecraft:overworld",
+    "mob": "the_cataclysm:infected_king",
+    "mincount": {
+      "amount": 2,
+    "mob": "the_cataclysm:infected_king",
+      "perplayer": true
+    },
+    "result": "deny",
+    "onjoin": true
+  }]
+  

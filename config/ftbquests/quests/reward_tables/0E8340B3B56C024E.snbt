@@ -1,0 +1,108 @@
+{
+	id: "0E8340B3B56C024E"
+	order_index: 1
+	title: "升级卡"
+	loot_size: 1
+	rewards: [
+		{ item: "sophisticatedbackpacks:pickup_upgrade" }
+		{ item: "sophisticatedbackpacks:filter_upgrade" }
+		{ item: "sophisticatedbackpacks:magnet_upgrade" }
+		{ item: "sophisticatedbackpacks:feeding_upgrade" }
+		{ item: "sophisticatedbackpacks:compacting_upgrade" }
+		{ item: "sophisticatedbackpacks:void_upgrade" }
+		{ item: "sophisticatedbackpacks:restock_upgrade" }
+		{ item: "sophisticatedbackpacks:deposit_upgrade" }
+		{ item: "sophisticatedbackpacks:refill_upgrade" }
+		{ item: "sophisticatedbackpacks:inception_upgrade" }
+		{ item: "sophisticatedbackpacks:everlasting_upgrade" }
+		{
+			item: {
+				id: "sophisticatedbackpacks:smelting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:smoking_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:blasting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:crafting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{ item: "sophisticatedbackpacks:stonecutter_upgrade" }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_1" }
+		{ item: "sophisticatedbackpacks:jukebox_upgrade" }
+		{ item: "sophisticatedbackpacks:tool_swapper_upgrade" }
+		{ item: "sophisticatedbackpacks:tank_upgrade" }
+		{ item: "sophisticatedbackpacks:pump_upgrade" }
+		{ item: "sophisticatedstorage:pickup_upgrade" }
+		{ item: "sophisticatedstorage:filter_upgrade" }
+		{ item: "sophisticatedstorage:magnet_upgrade" }
+		{ item: "sophisticatedstorage:feeding_upgrade" }
+		{ item: "sophisticatedstorage:compacting_upgrade" }
+		{ item: "sophisticatedstorage:void_upgrade" }
+		{
+			item: {
+				id: "sophisticatedstorage:smelting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{ item: "sophisticatedstorage:hopper_upgrade" }
+		{ item: "sophisticatedstorage:compression_upgrade" }
+		{ item: "sophisticatedstorage:pump_upgrade" }
+		{ item: "sophisticatedstorage:jukebox_upgrade" }
+		{ item: "sophisticatedstorage:stonecutter_upgrade" }
+		{
+			item: {
+				id: "sophisticatedstorage:crafting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedstorage:smoking_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedstorage:blasting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+	]
+}

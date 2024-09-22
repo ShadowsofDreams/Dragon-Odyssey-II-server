@@ -1,0 +1,11 @@
+{
+	id: "016DE4A77A5B9AFC"
+	group: "6012FF85FF3686AC"
+	order_index: 3
+	filename: "016DE4A77A5B9AFC"
+	title: "西宫白虎"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

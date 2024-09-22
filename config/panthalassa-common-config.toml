@@ -1,0 +1,238 @@
+
+[general]
+	#This boolean value will determine whether or not the Panthalassa Journal (Guide Book) is given to players when they first join the server
+	give_journal = true
+	#This boolean value will determine whether Panthalassa's creatures spawn outside the Panthalassa Dimension
+	external_spawning = false
+	#This boolean value will determine whether the crush depth mechanic is enabled within Panthalassa
+	crush_depth = false
+	#This boolean value will determine whether entities will try and avoid walls when randomly swimming
+	random_swimming_avoid = false
+
+[entities]
+
+	[entities.kronosaurus]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 2
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 1
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 3
+
+		[entities.kronosaurus.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+
+	[entities.megalodon]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 1
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 1
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 1
+
+		[entities.megalodon.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+
+	[entities.archelon]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 3
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 1
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 2
+
+		[entities.archelon.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+
+	[entities.mosasaurus]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 1
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 1
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 1
+
+		[entities.mosasaurus.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+
+	[entities.coelacanth]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 5
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 3
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 5
+
+		[entities.coelacanth.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+
+	[entities.dunkleosteus]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 1
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 1
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 2
+
+		[entities.dunkleosteus.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+
+	[entities.leedischthys]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 2
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 1
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 2
+
+		[entities.leedischthys.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+
+	[entities.giant_orthocone]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 1
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 1
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 1
+
+		[entities.giant_orthocone.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+
+	[entities.basilosaurus]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 3
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 1
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 2
+
+		[entities.basilosaurus.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+
+	[entities.thalassomedon]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 3
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 1
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 2
+
+		[entities.thalassomedon.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+
+	[entities.acrolepis]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 3
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 3
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 5
+
+		[entities.acrolepis.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+
+	[entities.ceratodus]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 3
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 3
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 5
+
+		[entities.ceratodus.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+
+	[entities.helicoprion]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 3
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 3
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 5
+
+		[entities.helicoprion.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+
+	[entities.anglerfish]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 3
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 3
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 5
+
+		[entities.anglerfish.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+
+	[entities.anomalocaris]
+		#External Spawn Rates will be proportional to this value. Set to 0 to disable spawning
+		#Range: > 0
+		spawn_rate = 3
+		#Minimum number of this entity that will spawn in each group
+		#Range: > 1
+		min_group_size = 3
+		#Maximum number of this entity that will spawn in each group
+		#Range: > 1
+		max_group_size = 5
+
+		[entities.anomalocaris.biome_config]
+			#Allow spawns in these biomes
+			biome_whitelist = ["minecraft:cold_ocean,minecraft:deep_cold_ocean,minecraft:deep_frozen_ocean,minecraft:deep_lukewarm_ocean,minecraft:deep_ocean,minecraft:frozen_ocean,minecraft:lukewarm_ocean,minecraft:ocean,minecraft:warm_ocean,minecraft:frozen_river,minecraft:river"]
+

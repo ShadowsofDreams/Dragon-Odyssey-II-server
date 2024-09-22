@@ -1,0 +1,132 @@
+{
+	id: "7914FD1FF08FBE1D"
+	group: "6FAF4D7A9C6A8763"
+	order_index: 3
+	filename: "7914FD1FF08FBE1D"
+	title: "大型遗迹"
+	icon: {
+		id: "explorerscompass:explorerscompass"
+		Count: 1b
+		tag: { }
+	}
+	subtitle: ["来自主世界的一些大型遗迹"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -2.0d
+			subtitle: "大型的矿山遗迹，路口通常接近地表。"
+			id: "3C3670C2428A52D8"
+			tasks: [{
+				id: "18100394AB0BBA0A"
+				type: "structure"
+				title: "Ancient Mines"
+				icon: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.26f
+							"tconstruct:mining_speed": 2.875f
+							"tconstruct:attack_damage": 2.2f
+							"tconstruct:harvest_tier": "minecraft:wood"
+							"tconstruct:durability": 42.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:pierce"
+								level: 1s
+							}
+							{
+								name: "tinkerscalibration:ecological"
+								level: 1s
+							}
+							{
+								name: "tconstruct:hydraulic"
+								level: 2s
+							}
+							{
+								name: "tconstruct:enderference"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_materials: [
+							"tconstruct:bamboo"
+							"tinkers_thinking:prismarine"
+							"tconstruct:chorus"
+						]
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				structure: "idas:ancient_mines"
+			}]
+			rewards: [{
+				id: "10AC40697B6C677C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "_"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			subtitle: "沙漠中的市场"
+			id: "42EF62D073703F24"
+			tasks: [{
+				id: "463F30DE4550507F"
+				type: "structure"
+				title: "bazaar"
+				icon: "hanew_village_mod:hanewcoin"
+				structure: "idas:bazaar"
+			}]
+			rewards: [{
+				id: "02E88EF3B6CCAC4B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "_"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "沙漠迷宫"
+			id: "18E7F6E5A99026FE"
+			tasks: [{
+				id: "64BF364ADE0A4BA7"
+				type: "structure"
+				title: "labyrinth"
+				icon: "minecraft:sand"
+				structure: "idas:labyrinth"
+			}]
+			rewards: [{
+				id: "2999224C1A01BCAF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "_"
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

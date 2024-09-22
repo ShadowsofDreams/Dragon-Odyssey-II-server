@@ -1,0 +1,18 @@
+{
+	id: "3FA0604F631C3C23"
+	order_index: 27
+	title: "深园生物"
+	icon: "undergarden:muncher_spawn_egg"
+	loot_size: 1
+	rewards: [
+		{ item: "undergarden:mog_spawn_egg" }
+		{ item: "undergarden:stoneborn_spawn_egg" }
+		{ item: "undergarden:rotbeast_spawn_egg" }
+		{ item: "undergarden:nargoyle_spawn_egg" }
+		{ item: "undergarden:muncher_spawn_egg" }
+		{ item: "minecraft:cow_spawn_egg" }
+		{ item: "minecraft:sheep_spawn_egg" }
+		{ item: "tconstruct:sky_slime_spawn_egg" }
+		{ item: "minecraft:guardian_spawn_egg" }
+	]
+}

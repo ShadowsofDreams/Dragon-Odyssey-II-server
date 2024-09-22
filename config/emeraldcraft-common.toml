@@ -1,0 +1,49 @@
+
+[emeraldcraft-common-config]
+
+	#You can determine whether each biome can generate in the world or not.
+	[emeraldcraft-common-config.biomes-generation]
+		#Range: 0 ~ 65536
+		EMERALD_CRAFT_OVERWORLD_BIOMES_WEIGHT = 40
+		#Range: 0 ~ 65536
+		EMERALD_CRAFT_NETHER_BIOMES_WEIGHT = 40
+		GENERATE_DEAD_CRIMSON_OCEAN = true
+		GENERATE_DEAD_WARPED_OCEAN = true
+		GENERATE_XANADU = true
+		GENERATE_GINKGO_FOREST = true
+		GENERATE_KARST_HILLS = true
+		GENERATE_PETUNIA_PLAINS = true
+		GENERATE_GOLDEN_BEACH = true
+		GENERATE_PALM_BEACH = true
+		GENERATE_AZURE_DESERT = true
+		GENERATE_JADEITE_DESERT = true
+		GENERATE_VOLCANIC_CAVES = true
+		GENERATE_MOSSY_CAVES = true
+		GENERATE_EMERY_DESERT = true
+		GENERATE_QUARTZ_DESERT = true
+		GENERATE_PURPURACEUS_SWAMP = true
+
+	#You can enable/disable curing mobs and change the possibilities.
+	[emeraldcraft-common-config.cure-mobs]
+		#Allow players to cure zombified piglin.
+		ENABLE_CURE_ZOMBIFIED_PIGLIN = true
+		#Multiplicative Inverse of the possibility of cured zombified piglin convert to piglin brute. For example, 16 means 6.25% (1/16) chance for converting to piglin brute and 93.75% for piglin.
+		#Range: 1 ~ 256
+		ZOMBIFIED_PIGLIN_CONVERT_TO_PIGLIN_BRUTE_POSSIBILITY_INV = 16
+		#Allow players to cure phantom.
+		ENABLE_CURE_PHANTOM = true
+
+	#Other functional configs.
+	[emeraldcraft-common-config.functional-configs]
+		#How many gold blocks will a piglin cutey give to the player who helps her.
+		#Range: 1 ~ 64
+		PIGLIN_CUTEY_GIFT = 16
+		#The possibility of continuous miner works successfully and drops loots (such as ores and planks) each time it tries. If this value is greater than 1.0, it may drops more loots.
+		#Range: 0.0 ~ 10.0
+		POSSIBILITY_CONTINUOUS_MINER_DROP = 0.75
+
+	#You can disable some functions to improve the speed of server starting.
+	[emeraldcraft-common-config.additional-functions]
+		#If disabled, players cannot use JEI to look over the trading list of villagers and other tradable mobs, but it might be faster for starting the server.
+		ENABLE_JEI_TRADING_SHADOW_RECIPE = true
+

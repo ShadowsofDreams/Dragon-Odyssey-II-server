@@ -1,0 +1,4626 @@
+{
+	id: "020CF492681B85C6"
+	group: "6FAF4D7A9C6A8763"
+	order_index: 0
+	filename: "020CF492681B85C6"
+	title: "盔甲"
+	icon: {
+		id: "upgradednetherite:fire_upgraded_netherite_chestplate"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["展示3种不同类型的护甲。"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -1.5d
+		y: -5.5d
+		width: 12.0d
+		height: 6.0d
+		rotation: 0.0d
+		image: "blackaures_paintings:textures/p2.png"
+		hover: ["一套好的盔甲可以帮助玩家越级打怪，当然，好附魔也是。"]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -1.5d
+			y: 1.0d
+			subtitle: "不论护甲种类，原版护甲们自带一些治疗加成。"
+			description: ["    总体来说，位置越在下方的装备，强度越高。"]
+			id: "0CF60D019829E41E"
+			tasks: [
+				{
+					id: "471E4A56426920EB"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2912EF382616C2B7"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "729D774BFC07E514"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "054439DC34FC87E0"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7393383454269071"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2B6D03980CE6815E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1379160654919710476L
+				}
+			]
+		}
+		{
+			title: "铜潜水套件"
+			x: -8.0d
+			y: 2.0d
+			id: "2523A07605B41631"
+			tasks: [
+				{
+					id: "2EA5F1432ECE22B7"
+					type: "item"
+					item: {
+						id: "create:copper_diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5306617ECA7085CF"
+					type: "item"
+					item: {
+						id: "create:copper_backtank"
+						Count: 1b
+						tag: {
+							Air: 900
+						}
+					}
+				}
+				{
+					id: "652BF7FFDB0BC9AF"
+					type: "item"
+					item: {
+						id: "create:copper_diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "26E15BE5FD7A546A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "森林"
+			x: -6.5d
+			y: 3.0d
+			subtitle: "如吉利服一般，全套给予隐身效果，连装备一起隐身。"
+			id: "3B7FE4C90C1D3DF3"
+			tasks: [
+				{
+					id: "1DF057F6BA480601"
+					type: "item"
+					item: {
+						id: "dragone_aventure:theforestmasque_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23ADCCCDFA5C2204"
+					type: "item"
+					item: {
+						id: "dragone_aventure:theforestmasque_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "461F81C48B07ACAC"
+					type: "item"
+					item: {
+						id: "dragone_aventure:theforestmasque_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33489A9A4AD38ABF"
+					type: "item"
+					item: {
+						id: "dragone_aventure:theforestmasque_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "38F9B06C02DB23C8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "铁木"
+			x: -1.5d
+			y: 2.0d
+			id: "180D53C07514A960"
+			tasks: [
+				{
+					id: "1586EA803B5FBD88"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:aqua_affinity"
+							}]
+						}
+					}
+				}
+				{
+					id: "2ABC4B9982F9E432"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "2A14606F8858D470"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "7C709028ED342246"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7E49489EC4473008"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "钢叶"
+			x: -7.0d
+			y: 2.0d
+			id: "576A0579E05CB371"
+			tasks: [
+				{
+					id: "76C17009F5499E6F"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:projectile_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "1EBFCBCDF831F055"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:blast_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "58586F5019F1231F"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "3A82E457D6EA3AC3"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "37F841EF6A59EEA7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "灵魂盔甲"
+			x: 4.5d
+			y: 3.0d
+			subtitle: "给予夜视和速度"
+			id: "7FF8E86A9831AFEC"
+			tasks: [
+				{
+					id: "28EE465FDBFAF393"
+					type: "item"
+					item: {
+						id: "dragone_aventure:spiritiumarmor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3049C3765286F608"
+					type: "item"
+					item: {
+						id: "dragone_aventure:spiritiumarmor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07FE588B882B0CF6"
+					type: "item"
+					item: {
+						id: "dragone_aventure:spiritiumarmor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "780DBD81FAD97CF7"
+					type: "item"
+					item: {
+						id: "dragone_aventure:spiritiumarmor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3860EBC7D7EEE3C0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "骷髅变异体"
+			x: -7.5d
+			y: 3.0d
+			subtitle: "给予速度和跳跃提升"
+			id: "0B775CBC023E0974"
+			tasks: [
+				{
+					id: "293C1B47058E2583"
+					type: "item"
+					item: {
+						id: "mutantmonsters:mutant_skeleton_skull"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63DC35828EA92C58"
+					type: "item"
+					item: {
+						id: "mutantmonsters:mutant_skeleton_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7FA205B977387B31"
+					type: "item"
+					item: {
+						id: "mutantmonsters:mutant_skeleton_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A10AE127FCAA527"
+					type: "item"
+					item: {
+						id: "mutantmonsters:mutant_skeleton_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "10F22451386C3E30"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "扼塞"
+			x: -2.5d
+			y: 2.5d
+			id: "6EE664FA55ABA8DD"
+			tasks: [
+				{
+					id: "05C98DBD81FA785A"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27F4CDF0876CBB40"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E3A4EEDC6364350"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "06BB94EF2BFCEFF2"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4F7A081EDD8F298D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			id: "6943DDA232783CE2"
+			tasks: [
+				{
+					id: "76CFA782E67F0C5E"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "678845547D98F0AC"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1F72796489E056CD"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10704258E8B075AD"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "32DC6C061B7EBB28"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "极地"
+			x: 4.0d
+			y: 2.0d
+			id: "31D052BDDECCE1A8"
+			tasks: [
+				{
+					id: "3493470821CEE084"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4809A1BF9E87F80A"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7FB6D3FB66ADC6AD"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70B371CBE2DAF643"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "066EEEE92A749093"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "旅行者"
+			x: -6.0d
+			y: 2.0d
+			id: "2F022DD966A6A2AD"
+			tasks: [
+				{
+					id: "3EA821C5DDC50CD9"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_helmet"
+						Count: 1b
+						tag: {
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:durability": 110.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_volatile_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "2D4895FEB69A1253"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_chestplate"
+						Count: 1b
+						tag: {
+							tic_persistent: { }
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.55f
+							}
+							tic_stats: {
+								"tconstruct:attack_damage": 0.0f
+								"tconstruct:durability": 160.0f
+								"tconstruct:armor": 5.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_volatile_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "4DDE60735F5ACCB7"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_leggings"
+						Count: 1b
+						tag: {
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:durability": 150.0f
+								"tconstruct:armor": 4.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_volatile_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "7266EAE5271E9DE5"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_boots"
+						Count: 1b
+						tag: {
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:durability": 130.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [{
+								name: "tconstruct:snow_boots"
+								level: 1s
+							}]
+							Damage: 0
+							tic_volatile_data: {
+								abilities: 1
+								"tconstruct:snow_boots": 1b
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "血红虫壳"
+			x: -0.5d
+			y: 3.5d
+			id: "40BC4BED4A45D199"
+			tasks: [
+				{
+					id: "4DE68BFF2742C33D"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_red_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1E1579C41F9130D9"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_red_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F822382C3F73B4D"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_red_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "361F7E6BAF678981"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_red_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2DCC0AF33C941D0F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "沙褐虫壳"
+			x: -2.5d
+			y: 3.5d
+			id: "2CA3D7F9002E11B3"
+			tasks: [
+				{
+					id: "410B76405E8392F9"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_yellow_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3BE4B235E4B4E3A4"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_yellow_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E7D314CD345B244"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_yellow_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0FEA294C5FF16CD0"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_yellow_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4A7828668869826A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "苍白虫壳"
+			x: -1.5d
+			y: 3.0d
+			id: "22C6638245BFCA39"
+			tasks: [
+				{
+					id: "3F455A9D3E8B78AF"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_white_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A6E514251900E61"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_white_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5CFA2F0DA46D5C98"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_white_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "29338DB4B9A04612"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_white_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "13331E3D14BA173F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "丛林蚁甲"
+			x: -8.0d
+			y: 1.0d
+			id: "1147F8DB204876F7"
+			tasks: [
+				{
+					id: "5F5BB640D8714FBA"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_jungle_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "014356CFE81E1C62"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_jungle_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7182454FE20A2717"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_jungle_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6479F0B67FC91BE3"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_jungle_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "37C7950BDB4861C5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "沙漠蚁甲"
+			x: -6.0d
+			y: 1.0d
+			id: "764A99EC421C8D54"
+			tasks: [
+				{
+					id: "331232A11AE09814"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_desert_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "154CE4647C349A22"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_desert_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "107C6C95C983C7E8"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_desert_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E18265D972F4FD2"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_desert_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "439490D568C77E87"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "粘液"
+			x: 5.0d
+			y: 2.0d
+			id: "5E035C83A390975A"
+			tasks: [
+				{
+					id: "1A006FB349C9710F"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_broken: 0b
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+				{
+					id: "7E9FB3BA0B652353"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_chestplate"
+						Count: 1b
+						tag: {
+							tic_persistent: { }
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.4f
+							}
+							tic_stats: {
+								"tconstruct:attack_damage": 0.0f
+								"tconstruct:durability": 672.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:overslime_friend"
+									level: 1s
+								}
+								{
+									name: "tconstruct:wings"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 5
+								"tconstruct:elyta": 1b
+								"tconstruct:overslime_friend": 1b
+							}
+						}
+					}
+				}
+				{
+					id: "6565807D299DFCB9"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_leggings"
+						Count: 1b
+						tag: {
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:durability": 630.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:overslime_friend"
+									level: 1s
+								}
+								{
+									name: "tconstruct:shulking"
+									level: 1s
+								}
+								{
+									name: "tconstruct:pockets"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 5
+								"tconstruct:total_item_slots": 18
+								"tconstruct:overslime_friend": 1b
+							}
+						}
+					}
+				}
+				{
+					id: "6DCF5461F3C151EB"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_boots"
+						Count: 1b
+						tag: {
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:durability": 546.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:overslime_friend"
+									level: 1s
+								}
+								{
+									name: "tconstruct:bouncy"
+									level: 1s
+								}
+								{
+									name: "tconstruct:leaping"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 5
+								"tconstruct:overslime_friend": 1b
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2FAC4BBBB8E8018D"
+				type: "item"
+				item: "hardcorequesting:epic_bag"
+			}]
+		}
+		{
+			title: "幽魂"
+			x: -0.5d
+			y: 1.5d
+			id: "5734E3034C1C09B7"
+			tasks: [
+				{
+					id: "1A15CB891B082C62"
+					type: "item"
+					item: {
+						id: "gothic:ghost_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7A88671E4ECBE09C"
+					type: "item"
+					item: {
+						id: "gothic:ghost_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "281D754C2E669382"
+					type: "item"
+					item: {
+						id: "gothic:ghost_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0A755DA7DB7E2899"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "爬虫板甲"
+			x: -2.5d
+			y: 1.5d
+			id: "3B6E6E82421905D6"
+			tasks: [
+				{
+					id: "429007A322FA061B"
+					type: "item"
+					item: {
+						id: "gothic:crawler_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6803AFA4C1E0AFCD"
+					type: "item"
+					item: {
+						id: "gothic:crawler_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "277504EBADB64587"
+					type: "item"
+					item: {
+						id: "gothic:crawler_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6DF34A00B0DCC6C1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "玄武岩蛇"
+			x: 3.0d
+			y: 2.0d
+			id: "295D2555596F7B23"
+			tasks: [
+				{
+					id: "278ABD02610BBE97"
+					type: "item"
+					item: {
+						id: "weirdmobs:basaltsnake_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A281BA86C21AFED"
+					type: "item"
+					item: {
+						id: "weirdmobs:basaltsnake_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "697D81B13F9424CC"
+					type: "item"
+					item: {
+						id: "weirdmobs:basaltsnake_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60C282C5AB6917EE"
+					type: "item"
+					item: {
+						id: "weirdmobs:basaltsnake_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4226E211692FF9F0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "幻影狐狸"
+			x: 3.5d
+			y: 3.0d
+			id: "660CA86FE9CB1514"
+			tasks: [
+				{
+					id: "0633D5D89DF75D52"
+					type: "item"
+					item: {
+						id: "weirdmobs:phantomfox_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F6BD367E7838346"
+					type: "item"
+					item: {
+						id: "weirdmobs:phantomfox_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "51294C4837D99666"
+					type: "item"
+					item: {
+						id: "weirdmobs:phantomfox_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "67C518B328AC36C1"
+					type: "item"
+					item: {
+						id: "weirdmobs:phantomfox_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6BACC304C9DEF871"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "钻石"
+			x: -1.5d
+			y: 5.5d
+			subtitle: "不论护甲种类，原版护甲们自带一些治疗加成。"
+			id: "167B2E9E022B570F"
+			tasks: [
+				{
+					id: "31B8AF4CFB58063A"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4DFEA5788D0D8F64"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "08BF5D33E7B3419D"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "283F6CF99638CE45"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "31E992EE6B91F840"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "阿努比斯"
+			x: -7.0d
+			y: 6.5d
+			id: "7D6BE68261626FA4"
+			tasks: [
+				{
+					id: "168D76F56F98E104"
+					type: "item"
+					item: {
+						id: "dragone_aventure:anubisarmor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "407505346A32DE0E"
+					type: "item"
+					item: {
+						id: "dragone_aventure:anubisarmor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35D1017BE0E3C8A8"
+					type: "item"
+					item: {
+						id: "dragone_aventure:anubisarmor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1185B97325A45AA5"
+					type: "item"
+					item: {
+						id: "dragone_aventure:anubisarmor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "212F1DEF6E06AB22"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "冰霜合金"
+			x: 4.0d
+			y: 7.5d
+			id: "6AD59C5153B57D99"
+			tasks: [
+				{
+					id: "781585461593C078"
+					type: "item"
+					item: {
+						id: "ulterlands:pykrete_armour_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "43DA6CD993ED1C8D"
+					type: "item"
+					item: {
+						id: "ulterlands:pykrete_armour_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36918C86A15722D3"
+					type: "item"
+					item: {
+						id: "ulterlands:pykrete_armour_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7AE239108CA3B4A2"
+					type: "item"
+					item: {
+						id: "ulterlands:pykrete_armour_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "35111E2A0CD40FFE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "森林食人妖"
+			x: 4.0d
+			y: 5.5d
+			id: "295CC0E951FCDB88"
+			tasks: [
+				{
+					id: "3930580E20D93E62"
+					type: "item"
+					item: {
+						id: "iceandfire:forest_troll_leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3223E477B056A77F"
+					type: "item"
+					item: {
+						id: "iceandfire:forest_troll_leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "692A997876BC524C"
+					type: "item"
+					item: {
+						id: "iceandfire:forest_troll_leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B81880EB9F9B0A7"
+					type: "item"
+					item: {
+						id: "iceandfire:forest_troll_leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1450C2D8EADC36CD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "山地食人妖"
+			x: -7.0d
+			y: 5.5d
+			id: "56A511F119E85253"
+			tasks: [
+				{
+					id: "017ED54F0E2E5264"
+					type: "item"
+					item: {
+						id: "iceandfire:mountain_troll_leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69CABBEB45D138C6"
+					type: "item"
+					item: {
+						id: "iceandfire:mountain_troll_leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6ABF273DA1D655B8"
+					type: "item"
+					item: {
+						id: "iceandfire:mountain_troll_leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7AB871CE1A97CCB1"
+					type: "item"
+					item: {
+						id: "iceandfire:mountain_troll_leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5D35ED931F9A11BA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "下界合金"
+			x: -1.5d
+			y: 6.5d
+			subtitle: "不论护甲种类，原版护甲们自带一些治疗加成。"
+			id: "3DAD9BA53AB18EB8"
+			tasks: [
+				{
+					id: "0F4D88A504DA68DF"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F135BA144C49176"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B1DC01BF02E0BC7"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45B238525D6F5F1A"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "29E01D5E1442193A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "钨"
+			x: -0.5d
+			y: 6.0d
+			id: "4907CD4BAF02F9A4"
+			tasks: [
+				{
+					id: "79C3292EF3F67A11"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:tungsten_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0848ECD13729ED42"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:tungsten_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05685D040B19288C"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:tungsten_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F25D3322A03F64C"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:tungsten_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "06F89D62A78C272E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "疣化钨"
+			x: 3.5d
+			y: 6.5d
+			id: "59FD871C5E1B6867"
+			tasks: [
+				{
+					id: "2A000E092C7030BA"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:warted_tungsten_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B7D296DE8ADE4ED"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:warted_tungsten_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71B14DD9F1B1EF84"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:warted_tungsten_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55FCE5E96D8DC7F0"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:warted_tungsten_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 6.0d
+			id: "69CC5D9A784DB4D0"
+			tasks: [
+				{
+					id: "6162E5DACD3C98BD"
+					type: "item"
+					item: {
+						id: "gothic:guardian_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DCA6774715A1BDB"
+					type: "item"
+					item: {
+						id: "gothic:guardian_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70E99AEB497A6FBA"
+					type: "item"
+					item: {
+						id: "gothic:guardian_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "203D19D4209DF958"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			subtitle: "比其他食人妖套属性稍强"
+			id: "4991D58D9BFC44DA"
+			tasks: [
+				{
+					id: "6A253FA327FE44B0"
+					type: "item"
+					item: {
+						id: "iceandfire:frost_troll_leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7896B5AFCE3DD65A"
+					type: "item"
+					item: {
+						id: "iceandfire:frost_troll_leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "647CD2F197482968"
+					type: "item"
+					item: {
+						id: "iceandfire:frost_troll_leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3FF937A5E14A0B07"
+					type: "item"
+					item: {
+						id: "iceandfire:frost_troll_leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "24137621A51EC772"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			id: "491E561A8C602D00"
+			tasks: [
+				{
+					id: "43FD6866C60F6A31"
+					type: "item"
+					item: {
+						id: "aquamirae:three_bolt_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41AF736AE9BC312C"
+					type: "item"
+					item: {
+						id: "aquamirae:three_bolt_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "144D009DD3F9CEA4"
+					type: "item"
+					item: {
+						id: "aquamirae:three_bolt_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "015EF2CB39BD62ED"
+					type: "item"
+					item: {
+						id: "aquamirae:three_bolt_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4FB864AD0AE48909"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.0d
+			subtitle: "可以抵抗鲸歌潜渊的水压"
+			id: "2E5224BA650F8F38"
+			tasks: [
+				{
+					id: "0056980F06113D4D"
+					type: "item"
+					item: {
+						id: "panthalassa:diving_suit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "49C32A6FC38C960F"
+					type: "item"
+					item: {
+						id: "panthalassa:diving_suit_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "188FB47AE3CCABBD"
+					type: "item"
+					item: {
+						id: "panthalassa:diving_suit_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "428740CE56CAE9AA"
+					type: "item"
+					item: {
+						id: "panthalassa:diving_suit_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6B48EA8F69CB02D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			id: "715117D7D08D1DB2"
+			tasks: [
+				{
+					id: "23B28D87D4176EE3"
+					type: "item"
+					item: {
+						id: "tconstruct:plate_helmet"
+						Count: 1b
+						tag: {
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:knockback_resistance": 0.1f
+								"tconstruct:durability": 330.0f
+								"tconstruct:armor": 2.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_volatile_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+						}
+					}
+				}
+				{
+					id: "09E94A7BBD0AB3A3"
+					type: "item"
+					item: {
+						id: "tconstruct:plate_chestplate"
+						Count: 1b
+						tag: {
+							tic_persistent: { }
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.4f
+							}
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:knockback_resistance": 0.1f
+								"tconstruct:attack_damage": 0.0f
+								"tconstruct:durability": 480.0f
+								"tconstruct:armor": 7.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_volatile_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+						}
+					}
+				}
+				{
+					id: "0C319CE2677BFCB0"
+					type: "item"
+					item: {
+						id: "tconstruct:plate_leggings"
+						Count: 1b
+						tag: {
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:knockback_resistance": 0.1f
+								"tconstruct:durability": 450.0f
+								"tconstruct:armor": 5.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_volatile_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+						}
+					}
+				}
+				{
+					id: "5C12C3872DCD01CD"
+					type: "item"
+					item: {
+						id: "tconstruct:plate_boots"
+						Count: 1b
+						tag: {
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:knockback_resistance": 0.1f
+								"tconstruct:durability": 390.0f
+								"tconstruct:armor": 2.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_volatile_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "32E838B5EB34CE5E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -7.0d
+			y: 7.5d
+			subtitle: "冒牌货"
+			id: "32BC36B1E1A68550"
+			tasks: [
+				{
+					id: "77B0DFCED9FCB71E"
+					type: "item"
+					item: {
+						id: "bygonenether:gilded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A0794490BBCA73B"
+					type: "item"
+					item: {
+						id: "bygonenether:gilded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5076549D37456DF1"
+					type: "item"
+					item: {
+						id: "bygonenether:gilded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B4BDE015683EC31"
+					type: "item"
+					item: {
+						id: "bygonenether:gilded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0E835B9CAFE4E274"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "升级下界合金"
+			x: -2.5d
+			y: 10.5d
+			id: "4AC74A36110C7B07"
+			tasks: [
+				{
+					id: "355615C3284B25C7"
+					type: "item"
+					title: "升级下界合金头盔"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "upgradednetherite:upgraded_netherite_helmet"
+						}
+					}
+				}
+				{
+					id: "187C3784C8319053"
+					type: "item"
+					title: "升级下界合金胸甲"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "upgradednetherite:upgraded_netherite_chestplate"
+						}
+					}
+					weak_nbt_match: true
+				}
+				{
+					id: "118F81C24F9D28DD"
+					type: "item"
+					title: "升级下界合金护腿"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "upgradednetherite:upgraded_netherite_leggings"
+						}
+					}
+				}
+				{
+					id: "498B7D97EF89B2A7"
+					type: "item"
+					title: "升级下界合金靴子"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "upgradednetherite:upgraded_netherite_boots"
+						}
+					}
+					task_screen_only: true
+				}
+			]
+			rewards: [{
+				id: "67C7A8F4C5A2432B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "龙鳞"
+			x: -1.5d
+			y: 10.0d
+			subtitle: "这个等级的装备通常强度接近龙鳞。"
+			id: "3F9167833C08CB9B"
+			tasks: [{
+				id: "093476AA8C9AB903"
+				type: "item"
+				title: "龙鳞"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:scales/dragon"
+					}
+				}
+			}]
+			rewards: [{
+				id: "06C103A2FFBC8F47"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "海蟒"
+			x: 4.0d
+			y: 10.0d
+			id: "6F06E9189189F367"
+			tasks: [{
+				id: "4590CEF9BAE706FE"
+				type: "item"
+				title: "海蟒"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:scales/sea_serpent"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A2EF4C8BD3BFAED"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			id: "7EDF90B05B69D524"
+			tasks: [
+				{
+					id: "606596C9F2E4FF10"
+					type: "item"
+					item: {
+						id: "undergarden:utherium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71AC69A088DEB6EC"
+					type: "item"
+					item: {
+						id: "undergarden:utherium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7ABEAED0D9307D9A"
+					type: "item"
+					item: {
+						id: "undergarden:utherium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41237DC9E349C407"
+					type: "item"
+					item: {
+						id: "undergarden:utherium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "095AACAF3245E879"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -8.0d
+			y: 6.0d
+			id: "5C4EB98304D7479B"
+			tasks: [
+				{
+					id: "37DEEF64D2727ABE"
+					type: "item"
+					item: {
+						id: "create:netherite_diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "619571B989A1E5F7"
+					type: "item"
+					item: {
+						id: "create:netherite_backtank"
+						Count: 1b
+						tag: {
+							Air: 900
+						}
+					}
+				}
+				{
+					id: "0D49345DDAB1FA94"
+					type: "item"
+					item: {
+						id: "create:netherite_diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7FD00227E9BFD28A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -2.0d
+			y: 12.0d
+			id: "16ABC5B5ABED173B"
+			tasks: [
+				{
+					id: "3E623CBCED19FD94"
+					type: "item"
+					item: {
+						id: "mutant_wolf:mutant_wolf_a_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C3466D9A388C96D"
+					type: "item"
+					item: {
+						id: "mutant_wolf:mutant_wolf_a_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35E64943FF2BFEDB"
+					type: "item"
+					item: {
+						id: "mutant_wolf:mutant_wolf_a_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A5A9DB4A8E9FF7F"
+					type: "item"
+					item: {
+						id: "mutant_wolf:mutant_wolf_a_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3BCBFABFBA611CA7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: 10.5d
+			id: "4A4D3089A13527EB"
+			tasks: [
+				{
+					id: "6BD7528703642382"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:chorundum_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "22ED5EB3BFC6C0A7"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:chorundum_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C1B04D9EE0D3845"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:chorundum_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2AA3BBFB03D76817"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:chorundum_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2F3C6163C0ABBEA4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -6.5d
+			y: 10.0d
+			id: "0844145ED1F10AFC"
+			tasks: [
+				{
+					id: "447D4C82F06633D7"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A69913339661956"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "30541F1B79F5DD48"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73C29E437D1F6B71"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 10.0d
+			id: "3F0CBF6C40E6B361"
+			tasks: [
+				{
+					id: "174339474091E836"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A79361A01EB9C43"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BD330BC61A84AD8"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F86E28D0E47DADB"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 11.0d
+			id: "4CD00BA65E988D50"
+			tasks: [
+				{
+					id: "5F72A78422B8D4DF"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2DE902DD0F36E514"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 10.5d
+			id: "6B86F6A0FA0DD8B4"
+			tasks: [
+				{
+					id: "352F2C506136BFD7"
+					type: "item"
+					item: {
+						id: "gothic:magic_ore_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16F67270087EB122"
+					type: "item"
+					item: {
+						id: "gothic:magic_ore_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "590900002D3FF8B7"
+					type: "item"
+					item: {
+						id: "gothic:magic_ore_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3D302CA71C2B404A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -0.5d
+			y: 10.5d
+			id: "1A2474A0388FB918"
+			tasks: [
+				{
+					id: "504304AF6E0555D6"
+					type: "item"
+					item: {
+						id: "rainbowcompound:obsidianite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F31A1D3A1B94D2B"
+					type: "item"
+					item: {
+						id: "rainbowcompound:obsidianite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1839EA6184C53472"
+					type: "item"
+					item: {
+						id: "rainbowcompound:obsidianite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D093371118E74F2"
+					type: "item"
+					item: {
+						id: "rainbowcompound:obsidianite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3AB30915E09C7A7C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 11.0d
+			id: "33487DF4635BE31B"
+			tasks: [
+				{
+					id: "6A6FE1258E9D9E09"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "77399EB07B81D7C0"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "50BE83FF452F8BC4"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6DFC5093FFDD2B01"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "12065926F5F135ED"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 4.0d
+			y: 11.0d
+			id: "15C78333726C4CE0"
+			tasks: [
+				{
+					id: "1DAD003A023461EA"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "4DF449C111E83B79"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "0876C16EC23E5CF7"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "54E405A3AE85803B"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:protection"
+								}
+								{
+									lvl: 4s
+									id: "minecraft:feather_falling"
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0BE65B60F059B801"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5549946F68786449"
+					type: "item"
+					item: "twilightforest:ice_bomb"
+					random_bonus: 20
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 13.0d
+			id: "0DB89CD52CCC30F3"
+			tasks: [
+				{
+					id: "7CA4C3864034430B"
+					type: "item"
+					item: {
+						id: "ulterlands:astrumm_set_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05253F1078EA425F"
+					type: "item"
+					item: {
+						id: "ulterlands:astrumm_set_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B90A20B3FA05F7D"
+					type: "item"
+					item: {
+						id: "ulterlands:astrumm_set_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3805DF4D2A16E0AC"
+					type: "item"
+					item: {
+						id: "ulterlands:astrumm_set_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 12.0d
+			id: "779C6E0455C7FD82"
+			tasks: [
+				{
+					id: "7213F83408641AF5"
+					type: "item"
+					item: {
+						id: "the_cataclysm:cataclysmic_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "38ECE6DAE0092DE5"
+					type: "item"
+					item: {
+						id: "the_cataclysm:cataclysmic_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6CD5EA9834353CA0"
+					type: "item"
+					item: {
+						id: "the_cataclysm:cataclysmic_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F13971561351B06"
+					type: "item"
+					item: {
+						id: "the_cataclysm:cataclysmic_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "32FD67755D59A367"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 4.0d
+			y: 15.5d
+			subtitle: "玩家获得相应的元素伤害加成。"
+			id: "69A20E8A1E8AA982"
+			tasks: [
+				{
+					id: "55F8CE1D2982AC75"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "50D086FFCCC4C19B"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4FE9501792642D8A"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "670FD75266DFD86B"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "12AF2B222A754A82"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "7A4861F82B48BA13"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1523656020773173642L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 15.5d
+			subtitle: "玩家获得相应的元素伤害加成。"
+			id: "0975D1DA6C53958C"
+			tasks: [
+				{
+					id: "0297DB91EC713D4B"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2E596F8F53E56F0F"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3699D206B257A134"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4208E25B69C6E8E7"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "57CCF7A19361D8E3"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "055BD7E130D560D0"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1523656020773173642L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 15.5d
+			subtitle: "玩家获得相应的元素伤害加成。"
+			id: "4D1BE1EB1B42127F"
+			tasks: [
+				{
+					id: "74E7B4D02EC44762"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E1D98901AFE5A59"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E784D506C947379"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "779B0F4B59AF3492"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "20C02208A210C063"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "68F65CCBE1C9B083"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1523656020773173642L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 17.5d
+			id: "2C822097133F1E47"
+			tasks: [
+				{
+					id: "7FC529AB5950A106"
+					type: "item"
+					item: {
+						id: "xero:dragon_plate_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3886954C183DF1A2"
+					type: "item"
+					item: {
+						id: "xero:dragon_plate_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4BC42C7AF41BBA02"
+					type: "item"
+					item: {
+						id: "xero:dragon_plate_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6FBC84E7AF8BDAE3"
+					type: "item"
+					item: {
+						id: "xero:dragon_plate_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0DF71BFA712AB6B3"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1523656020773173642L
+				}
+				{
+					id: "716575604931836D"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 16.5d
+			id: "2E1A303E8D5D89BD"
+			tasks: [
+				{
+					id: "2CB6A560E27CB15F"
+					type: "item"
+					item: {
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "309BA8E7F44808EE"
+					type: "item"
+					item: {
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10F7A443A47D710F"
+					type: "item"
+					item: {
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7042B32C5D6B15B3"
+					type: "item"
+					item: {
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7C4B451DD3933873"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "6FFA643AD8DA346C"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1523656020773173642L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 16.5d
+			id: "4183861D75909027"
+			tasks: [
+				{
+					id: "2BAF5E78A7DED4CA"
+					type: "item"
+					item: {
+						id: "aquamirae:terrible_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24C7D49CB0A5A64F"
+					type: "item"
+					item: {
+						id: "aquamirae:terrible_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5157DD0B8D655E11"
+					type: "item"
+					item: {
+						id: "aquamirae:terrible_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "49D2EBB172FDDE1F"
+					type: "item"
+					item: {
+						id: "aquamirae:terrible_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 18.0d
+			subtitle: "受到致命伤害后，死亡推迟90s。"
+			id: "764A1A0BA667D1A3"
+			tasks: [
+				{
+					id: "0CFCCBB4C9DE857D"
+					type: "item"
+					item: {
+						id: "aquamirae:abyssal_heaume"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "26D1E84D6DE74FC7"
+					type: "item"
+					item: {
+						id: "aquamirae:abyssal_brigantine"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "054E0648E35A4C49"
+					type: "item"
+					item: {
+						id: "aquamirae:abyssal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D38483EE3793BD6"
+					type: "item"
+					item: {
+						id: "aquamirae:abyssal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1C1CBDB5AD764776"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1379160654919710476L
+				}
+				{
+					id: "775DE500A7858951"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1523656020773173642L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 17.5d
+			subtitle: "凋零保护其实一直会生效"
+			id: "5BFF382B4F15EE5F"
+			tasks: [
+				{
+					id: "3F6E97ADAB3B8CA0"
+					type: "item"
+					item: {
+						id: "born_in_chaos_v1:dark_metal_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F6521071BA763AC"
+					type: "item"
+					item: {
+						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E8256D0DEA0AF62"
+					type: "item"
+					item: {
+						id: "born_in_chaos_v1:dark_metal_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2E2C5979F6CD997A"
+					type: "item"
+					item: {
+						id: "born_in_chaos_v1:dark_metal_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "571EA65275E91B71"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "5C011AA98EBCD00E"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1523656020773173642L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 17.0d
+			id: "05407AE9D2508EE4"
+			tasks: [
+				{
+					id: "6133B03BC9F4CAE0"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F208D80AE3138FF"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_elytra_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "15A83231BF243E3B"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B871C6243550F93"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1760B13C1ECA46F6"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "5119CCD6AB874496"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1523656020773173642L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 16.5d
+			id: "7B80F469F6ED88B1"
+			tasks: [{
+				id: "2DAE4779B9C48363"
+				type: "item"
+				item: {
+					id: "cataclysm:monstrous_helm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6D8441CFD8747217"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "1FE5DF673597D0E6"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1523656020773173642L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 18.0d
+			id: "3E25CF923C37E541"
+			tasks: [
+				{
+					id: "48F3EB961C2F633B"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DC3B19D8FBF4078"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "15860005A4D128E0"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34C34D6BDBC9FC4C"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3B92E7F02AA4E15C"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1523656020773173642L
+				}
+				{
+					id: "4FB69A957E9EC91C"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 18.0d
+			subtitle: "虽然属性很好，但是他的主要作用还是给剑、图腾、盾提供加成。"
+			id: "14615A17AF51A6E7"
+			tasks: [
+				{
+					id: "2149F168C08055F2"
+					type: "item"
+					item: {
+						id: "upgradednetherite:corrupt_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6348152F29594606"
+					type: "item"
+					item: {
+						id: "upgradednetherite:corrupt_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "524ABB80515BE96B"
+					type: "item"
+					item: {
+						id: "upgradednetherite:corrupt_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7421453331515656"
+					type: "item"
+					item: {
+						id: "upgradednetherite:corrupt_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "14F3F02D4AF9CE17"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "7E1ED6EAA5124C48"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1523656020773173642L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 18.0d
+			dependency_requirement: "one_completed"
+			id: "3FE894FFC747DF0F"
+			tasks: [
+				{
+					id: "27C5DDEA3FBD46B1"
+					type: "item"
+					item: {
+						id: "rainbowcompound:rainbow_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1F94BC7DCEA456C9"
+					type: "item"
+					item: {
+						id: "rainbowcompound:rainbow_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6EBE1ED04BF7647C"
+					type: "item"
+					item: {
+						id: "rainbowcompound:rainbow_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D6D24AF98A866B0"
+					type: "item"
+					item: {
+						id: "rainbowcompound:rainbow_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5DDDC0F8DFBE8C73"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "687DDF568EC4529C"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1523656020773173642L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 22.0d
+			shape: "gear"
+			subtitle: "可以在4种形态间相互切换。"
+			id: "1F53AF3A29D5EC3C"
+			tasks: [
+				{
+					id: "3145A24121348302"
+					type: "item"
+					item: "dreadsteel:dreadsteel_helmet"
+				}
+				{
+					id: "54C955D15AC789E7"
+					type: "item"
+					item: "dreadsteel:dreadsteel_chestplate"
+				}
+				{
+					id: "13F97D7FAAD0D833"
+					type: "item"
+					item: "dreadsteel:dreadsteel_leggings"
+				}
+				{
+					id: "5EB18C662E90941E"
+					type: "item"
+					item: "dreadsteel:dreadsteel_boots"
+				}
+			]
+			rewards: [
+				{
+					id: "41505F52E12B1485"
+					type: "xp_levels"
+					xp_levels: 9999
+				}
+				{
+					id: "1C95673C585D48C1"
+					type: "item"
+					item: "hardcorequesting:legendary_bag"
+				}
+				{
+					id: "75305D8480AC768E"
+					type: "item"
+					item: {
+						id: "apotheosis:gem"
+						Count: 1b
+						tag: {
+							variant: 1
+							purity: 625.0f
+							modifier: {
+								Operation: 0
+								attribute: "minecraft:generic.attack_speed"
+								UUID: [I;
+									-548132592
+									803424435
+									-1880102982
+									997780978
+								]
+								Amount: 100.0d
+								Name: "GemBonus_apotheosis:swim_speed"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 22.0d
+			shape: "octagon"
+			subtitle: "受到的伤害减半"
+			id: "5F6EAF578B04D676"
+			tasks: [
+				{
+					id: "3A80054A1D0BA635"
+					type: "item"
+					item: {
+						id: "weirdmobs:wardendragon_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E5FB8E3DFDF7D8E"
+					type: "item"
+					item: {
+						id: "weirdmobs:wardendragon_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05365E12314BEC2C"
+					type: "item"
+					item: {
+						id: "weirdmobs:wardendragon_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A69447F15646D23"
+					type: "item"
+					item: {
+						id: "weirdmobs:wardendragon_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5D2ED4A8EA6E5D19"
+					type: "xp_levels"
+					xp_levels: 9999
+				}
+				{
+					id: "1385BF2EFEADF833"
+					type: "item"
+					item: "hardcorequesting:legendary_bag"
+				}
+				{
+					id: "3C6656CFAE62BAB4"
+					type: "item"
+					item: {
+						id: "apotheosis:gem"
+						Count: 1b
+						tag: {
+							variant: 1
+							purity: 625.0f
+							modifier: {
+								Operation: 0
+								attribute: "minecraft:generic.max_health"
+								UUID: [I;
+									-548132592
+									803424435
+									-1880102982
+									997780978
+								]
+								Amount: 10000.0d
+								Name: "GemBonus_apotheosis:swim_speed"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 22.0d
+			shape: "hexagon"
+			subtitle: "拥有所有原版正面buff"
+			id: "1F287D186C2FDB8C"
+			tasks: [
+				{
+					id: "7A40E2FCE9F4A209"
+					type: "item"
+					item: {
+						id: "dragone_aventure:dragonitearmor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5912A916C4920E9E"
+					type: "item"
+					item: {
+						id: "dragone_aventure:dragonitearmor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05FF8F6BD7B313B2"
+					type: "item"
+					item: {
+						id: "dragone_aventure:dragonitearmor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3271C5074B487A05"
+					type: "item"
+					item: {
+						id: "dragone_aventure:dragonitearmor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "31A106E294AE351B"
+					type: "xp_levels"
+					xp_levels: 9999
+				}
+				{
+					id: "72665A155C2090DE"
+					type: "item"
+					item: "hardcorequesting:legendary_bag"
+				}
+				{
+					id: "02AC6BE1FB527CAE"
+					type: "item"
+					item: {
+						id: "apotheosis:gem"
+						Count: 1b
+						tag: {
+							variant: 1
+							purity: 625.0f
+							modifier: {
+								Operation: 0
+								attribute: "minecraft:generic.armor"
+								UUID: [I;
+									-548132592
+									803424435
+									-1880102982
+									997780978
+								]
+								Amount: 200.0d
+								Name: "GemBonus_apotheosis:swim_speed"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 22.0d
+			shape: "heart"
+			id: "5B235E11685BA152"
+			tasks: [
+				{
+					id: "784D2698B965F813"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_helmet"
+				}
+				{
+					id: "34884A67DC786DA9"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_chestplate"
+				}
+				{
+					id: "69CE882B6F1187DA"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_leggings"
+				}
+				{
+					id: "5A304954645FFD19"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_boots"
+				}
+			]
+			rewards: [
+				{
+					id: "0D07E07B883EDF45"
+					type: "xp_levels"
+					xp_levels: 9999
+				}
+				{
+					id: "2E0F1B33DAFC6274"
+					type: "item"
+					item: "hardcorequesting:legendary_bag"
+				}
+				{
+					id: "3B4E9B25C7D028FA"
+					type: "item"
+					item: {
+						id: "apotheosis:gem"
+						Count: 1b
+						tag: {
+							variant: 1
+							purity: 625.0f
+							modifier: {
+								Operation: 0
+								attribute: "minecraft:generic.luck"
+								UUID: [I;
+									-548132592
+									803424435
+									-1880102982
+									997780978
+								]
+								Amount: 2333.0d
+								Name: "GemBonus_apotheosis:swim_speed"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 17.0d
+			subtitle: "生命值低于40%时，获得60%伤害减免。"
+			id: "61F06F271DF78564"
+			tasks: [
+				{
+					id: "6975FBB0DABF545A"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:etherium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17C6A39DE1F52926"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:etherium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "09496C23BEB50171"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:etherium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "53840B95EB8FCA95"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:etherium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "540217BB997FA44A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: 12.0d
+			id: "0DBB13B4B00421D6"
+			tasks: [
+				{
+					id: "1DD6A65CE949DE92"
+					type: "item"
+					item: {
+						id: "ender_dragon_loot_:dragon_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35637CBA0D6B8208"
+					type: "item"
+					item: {
+						id: "ender_dragon_loot_:dragon_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03A161678BA80680"
+					type: "item"
+					item: {
+						id: "ender_dragon_loot_:dragon_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "52D185473C09E8E4"
+					type: "item"
+					item: {
+						id: "ender_dragon_loot_:dragon_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "32A4E96BA4881E80"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			shape: "hexagon"
+			subtitle: "可以选择一套基础级别的盔甲。"
+			description: [
+				"    在“龙境II”中，护甲分为“轻甲”“重甲”“布甲”，"
+				"    他们各自有不同的特长和弱点，具体请在本任务的三个分支处查看。"
+				""
+				"    除3种护甲类型外，类似珍宝材料和奖励袋，护甲们按照强度分为5个等级，在图鉴里从上到下依次分变强。"
+				"    相同等级的奖励袋可能开出相同等级的护甲，但是等级越高，概率越低。"
+			]
+			size: 2.0d
+			id: "3E22F91E18303D53"
+			tasks: [{
+				id: "196AB71EAB45FEDF"
+				type: "checkmark"
+				title: "盔甲图鉴"
+			}]
+			rewards: [{
+				id: "47017636AB95A0AA"
+				type: "choice"
+				icon: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "defense"
+					}
+				}
+				exclude_from_claim_all: true
+				table_id: 7426518600283556189L
+			}]
+		}
+		{
+			title: "轻甲"
+			x: -7.0d
+			y: 0.0d
+			subtitle: "护甲值低于重甲，但是高于布甲，会额外提供闪避和弹反属性。"
+			description: [
+				"闪避：受到攻击时有概率免疫此次伤害。"
+				"弹反：受到伤害时有概率反弹此次伤害给攻击者。"
+			]
+			dependencies: ["3E22F91E18303D53"]
+			id: "1BB0EE57ACD03862"
+			tasks: [{
+				id: "40FFCCC21BA3FE25"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2E215B684804A7D2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "重甲"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "主要提供护甲值和生命值，高级的会提供韧性"
+			dependencies: ["3E22F91E18303D53"]
+			id: "519F133E9FD091B6"
+			tasks: [{
+				id: "31D3AB782F01C4EE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "67728D21BF45C638"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "布甲"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "提供少量的护甲值和介于轻重甲之间的韧性，额外提供再生并加强治疗效果；部分盔甲会加强玩家的输出能力。"
+			description: [
+				"再生：每隔一段时间会无条件回复一定血量。"
+				"治疗效果：百分比增幅任何形式的生命恢复。"
+			]
+			dependencies: ["3E22F91E18303D53"]
+			id: "7E533078C2C7B116"
+			tasks: [{
+				id: "72A3F72C568D79B6"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3093CD62527BB78C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "↑ 普通盔甲"
+			icon: "storagenetwork:stack_upgrade"
+			x: -7.0d
+			y: 4.5d
+			id: "6C20BA9BDD2CAF59"
+			tasks: [{
+				id: "155F284771C07FA9"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "28AA974E26C747F1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "↓  良好盔甲"
+			icon: "storagenetwork:slow_upgrade"
+			x: 4.0d
+			y: 4.5d
+			dependencies: ["6C20BA9BDD2CAF59"]
+			dependency_requirement: "one_started"
+			id: "45834D4F585107B4"
+			tasks: [{
+				id: "684F0DCFEB39767E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4FB3D31752390631"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			subtitle: "不论护甲种类，原版护甲们自带一些治疗加成。"
+			id: "4B20DEC38B9FBDBB"
+			tasks: [
+				{
+					id: "0DB273066B09DE46"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DBDF5A0410B533D"
+					type: "item"
+					item: {
+						id: "minecraft:leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5276CB4D52E34EB8"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "14269E059767798A"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4B0838951980D628"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			subtitle: "不论护甲种类，原版护甲们自带一些治疗加成。"
+			id: "5F96BFDC42D108B0"
+			tasks: [
+				{
+					id: "05922081F24B3166"
+					type: "item"
+					item: {
+						id: "minecraft:golden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "600FC3AF525B05F6"
+					type: "item"
+					item: {
+						id: "minecraft:golden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6929E620C253A677"
+					type: "item"
+					item: {
+						id: "minecraft:golden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A2892EC42FC63B0"
+					type: "item"
+					item: {
+						id: "minecraft:golden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3CEE2BB90515DBAF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "storagenetwork:stack_upgrade"
+			x: -7.0d
+			y: 9.0d
+			id: "61CDB3FB2992F55E"
+			tasks: [{
+				id: "7DADF9C4F0147767"
+				type: "checkmark"
+				title: "↑ 良好盔甲"
+			}]
+			rewards: [{
+				id: "0E674E335706838A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			icon: "storagenetwork:slow_upgrade"
+			x: 4.0d
+			y: 9.0d
+			dependencies: ["61CDB3FB2992F55E"]
+			id: "040658614117792F"
+			tasks: [{
+				id: "744E7564B6A0644A"
+				type: "checkmark"
+				title: "↓ 上好盔甲"
+			}]
+			rewards: [{
+				id: "5C40369D90DDB61D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "↑ 上好盔甲"
+			icon: "storagenetwork:stack_upgrade"
+			x: -7.0d
+			y: 14.5d
+			id: "59AEC8D583A23AA7"
+			tasks: [{
+				id: "63C86BA2911B5F20"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0E85C77E9D27BD62"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			subtitle: "不论护甲种类，原版护甲们自带一些治疗加成。"
+			id: "0F5EF92256C8B6C8"
+			tasks: [
+				{
+					id: "6597516BE50E9F0A"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2E045131F186BF0F"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "75642FD90FA37A9B"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "720F87428FD56A37"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "20B2CA16836362C1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "storagenetwork:slow_upgrade"
+			x: 4.0d
+			y: 14.5d
+			dependencies: ["59AEC8D583A23AA7"]
+			id: "155EEF361FF37193"
+			tasks: [{
+				id: "56D3EA7FB044EA3D"
+				type: "checkmark"
+				title: "↓ 史诗盔甲"
+			}]
+			rewards: [{
+				id: "5200D442FC52E58B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			icon: "storagenetwork:speed_upgrade"
+			x: -7.0d
+			y: 20.0d
+			id: "2162ED797DF6DC6B"
+			tasks: [{
+				id: "4AECE648191A998F"
+				type: "checkmark"
+				title: "↑  史诗盔甲"
+			}]
+			rewards: [{
+				id: "5C4696A99EBC2360"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			icon: "storagenetwork:slow_upgrade"
+			x: 4.0d
+			y: 20.0d
+			subtitle: "当玩家同时装备神话多颗装备提供的的特殊“宝石”时，只生效一颗。"
+			dependencies: ["2162ED797DF6DC6B"]
+			id: "3F4E2CE64D0AF52B"
+			tasks: [{
+				id: "446CC6EA3452FB60"
+				type: "checkmark"
+				title: "↓  神话盔甲"
+			}]
+			rewards: [{
+				id: "0ACCD8B243012854"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+	]
+	quest_links: [ ]
+}

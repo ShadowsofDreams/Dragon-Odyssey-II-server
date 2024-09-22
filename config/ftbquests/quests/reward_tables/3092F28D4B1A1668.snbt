@@ -1,0 +1,118 @@
+{
+	id: "3092F28D4B1A1668"
+	order_index: 10
+	title: "中形传送门"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:slime_gate"
+				}
+			}
+			weight: 113
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:skeleton_gate"
+				}
+			}
+			weight: 113
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:shulker_gate"
+				}
+			}
+			weight: 113
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:magma_cube_gate"
+				}
+			}
+			weight: 113
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:ghast_gate"
+				}
+			}
+			weight: 113
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:enderman_gate"
+				}
+			}
+			weight: 113
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:creeper_gate"
+				}
+			}
+			weight: 113
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:blaze_gate"
+				}
+			}
+			weight: 113
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:zombie_gate"
+				}
+			}
+			weight: 113
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:witch_gate"
+				}
+			}
+			weight: 113
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:spider_gate"
+				}
+			}
+			weight: 113
+		}
+	]
+}

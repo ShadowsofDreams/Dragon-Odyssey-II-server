@@ -1,0 +1,10 @@
+{
+	id: "513D7F77118B71B9"
+	order_index: 33
+	title: "提取"
+	loot_size: 1
+	rewards: [
+		{ item: "apotheosis:vial_of_extraction" }
+		{ item: "apotheosis:vial_of_expulsion" }
+	]
+}

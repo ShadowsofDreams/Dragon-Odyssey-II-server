@@ -1,0 +1,11 @@
+{
+	id: "59413E02A0E1A563"
+	order_index: 16
+	title: "陈旧布匹"
+	icon: "apotheosis:uncommon_material"
+	loot_size: 1
+	rewards: [
+		{ item: "apotheosis:common_material", count: 640, random_bonus: 320 }
+		{ item: "apotheosis:rare_material" }
+	]
+}

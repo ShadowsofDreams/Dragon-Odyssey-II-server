@@ -1,0 +1,11 @@
+{
+	id: "4AD93769E38C6C1B"
+	order_index: 2
+	title: "指路石"
+	loot_size: 1
+	rewards: [
+		{ item: "waystones:waystone" }
+		{ item: "waystones:mossy_waystone" }
+		{ item: "waystones:sandy_waystone" }
+	]
+}

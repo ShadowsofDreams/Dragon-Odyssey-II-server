@@ -1,0 +1,50 @@
+{
+	id: "7F5F847A9BA94968"
+	order_index: 30
+	title: "匠魂升级"
+	icon: "minecraft:stone"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "upgrades"
+				}
+			}
+			count: 3
+			random_bonus: 3
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "defense"
+				}
+			}
+			count: 3
+			random_bonus: 3
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "souls"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+			random_bonus: 2
+		}
+	]
+}

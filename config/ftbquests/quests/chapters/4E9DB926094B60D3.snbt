@@ -1,0 +1,3725 @@
+{
+	id: "4E9DB926094B60D3"
+	group: "6FAF4D7A9C6A8763"
+	order_index: 2
+	filename: "4E9DB926094B60D3"
+	title: "饰品"
+	icon: "enigmaticlegacy:gem_ring"
+	subtitle: ["饰品们似乎是不需要介绍的，不过仍需要展示一些效果不能一目了然的物品"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -17.5d
+			y: -4.0d
+			width: 6.0d
+			height: 12.0d
+			rotation: 0.0d
+			image: "blackaures_paintings:textures/p23.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 16.0d
+			y: 7.5d
+			width: 6.0d
+			height: 12.0d
+			rotation: 0.0d
+			image: "blackaures_paintings:textures/p24.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -1.5d
+			y: -1.5d
+			description: [
+				"你打开你的背包，想要安装饰品，但是发现你头盔栏旁边的小圆圈不再是你的饰品栏。他去哪儿了？"
+				"通常，你可以直接使用快捷键P打开饰品栏。但你也有别的选择。"
+				"在你物品栏右边，有个图标像箱子的按键，他可以打开你还是人类时使用的物品栏，这时，你可以使用头盔旁边的按钮进入饰品栏。"
+			]
+			size: 3.0d
+			id: "4463028FEA640422"
+			tasks: [{
+				id: "1B017174B827C300"
+				type: "dimension"
+				dimension: "undergarden:undergarden"
+			}]
+			rewards: [
+				{
+					id: "36F05623F9DAB46B"
+					type: "xp_levels"
+					auto: "disabled"
+					exclude_from_claim_all: true
+					xp_levels: 1
+				}
+				{
+					id: "1D6038B4B816E1C8"
+					type: "command"
+					title: "牢房底部"
+					icon: "minecraft:diorite"
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-2 ~-2 ~-2 ~2 ~-2 ~2 minecraft:obsidian"
+					player_command: false
+				}
+				{
+					id: "6A7396C9D12D958D"
+					type: "command"
+					title: "玩家生成"
+					icon: "dragonmod:egghatcher"
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-1 ~-2 ~-1 ~1 ~-2 ~1 minecraft:crying_obsidian replace minecraft:obsidian"
+					player_command: false
+				}
+				{
+					id: "631F03E08617C3A3"
+					type: "command"
+					title: "牢笼墙壁"
+					icon: "create:andesite_bars"
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-2 ~2 ~-2 ~2 ~2 ~2 minecraft:obsidian"
+					player_command: false
+				}
+				{
+					id: "738D2B52543A560B"
+					type: "command"
+					title: "维生设备"
+					icon: "alexsmobs:hummingbird_feeder"
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-2 ~-1 ~-2 ~2 ~1 ~2 minecraft:iron_bars"
+					player_command: false
+				}
+				{
+					id: "05867E3683EA0EA3"
+					type: "command"
+					title: "封顶设施"
+					icon: "create:crafter_slot_cover"
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -4.5d
+			subtitle: "另一个基板"
+			description: ["等你来强化他"]
+			id: "5829E436F018DB5E"
+			tasks: [{
+				id: "20776B8AE6C32B92"
+				type: "item"
+				item: "potion_rings_rebooted:potion_ring"
+			}]
+			rewards: [{
+				id: "0FC0D8D4A971AB0F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.5d
+			y: -4.5d
+			id: "3CFA5FB285D6A658"
+			tasks: [{
+				id: "27860D3AF0DE5396"
+				type: "item"
+				item: "potion_rings_rebooted:potion_ring_of_jump_boost"
+			}]
+			rewards: [{
+				id: "5E96297B63F7C9EB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -10.5d
+			y: -2.5d
+			id: "4C49D7BF72A6A89D"
+			tasks: [{
+				id: "40B38144BC962574"
+				type: "item"
+				item: "potion_rings_rebooted:potion_ring_of_speed"
+			}]
+			rewards: [{
+				id: "777688148CB6BBB4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -12.5d
+			y: -4.5d
+			id: "68586597B5D4B265"
+			tasks: [{
+				id: "7225AC4C53138A5B"
+				type: "item"
+				item: "potion_rings_rebooted:potion_ring_of_strength"
+			}]
+			rewards: [{
+				id: "327BE95EAAD1E29E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -10.5d
+			y: -6.5d
+			id: "47D02967878AA542"
+			tasks: [{
+				id: "68422A891FFE2A07"
+				type: "item"
+				item: "potion_rings_rebooted:potion_ring_of_regeneration"
+			}]
+			rewards: [{
+				id: "5B41BC674E1215A2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -8.5d
+			y: -6.5d
+			id: "269A91A57B5163B0"
+			tasks: [{
+				id: "19985D1E46B4E52A"
+				type: "item"
+				item: "potion_rings_rebooted:potion_ring_of_haste"
+			}]
+			rewards: [{
+				id: "6D2DA0CAFA1A1EB0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -12.5d
+			y: -2.5d
+			id: "20362086FB99EB66"
+			tasks: [{
+				id: "79EA14E043EB35F4"
+				type: "item"
+				item: "potion_rings_rebooted:potion_ring_of_resistance"
+			}]
+			rewards: [{
+				id: "005418CB6C172113"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			subtitle: "一个基板"
+			description: ["顾名思义，它本身没什么用，你需要强化它。"]
+			id: "58C39A927BCF5CDA"
+			tasks: [{
+				id: "7BD720B03099DB7F"
+				type: "item"
+				item: "copper_amulets:empty_amulet"
+			}]
+			rewards: [{
+				id: "0093766115592E6F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.0d
+			subtitle: "硬化你的皮肤！"
+			description: ["给予抗性提升1。"]
+			id: "0CDA6E0DB053AADD"
+			tasks: [{
+				id: "75184152284BF84A"
+				type: "item"
+				item: {
+					id: "copper_amulets:iron_amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "02F369D297F7827E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			subtitle: "金光闪闪！"
+			description: ["给予急迫2；佩戴后，猪灵对你中立。"]
+			id: "09323191F2C4B1F5"
+			tasks: [{
+				id: "08053CC51FE7D287"
+				type: "item"
+				item: "copper_amulets:gold_amulet"
+			}]
+			rewards: [{
+				id: "75856BB156D63CC1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			subtitle: "声名远扬！"
+			description: ["给予村庄英雄1。"]
+			id: "5FCADF950168D090"
+			tasks: [{
+				id: "353FB0667271F9C1"
+				type: "item"
+				item: {
+					id: "copper_amulets:emerald_amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B0050358D22A521"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			subtitle: "拳头硬了！"
+			description: ["给予力量"]
+			id: "7C595764A7304716"
+			tasks: [{
+				id: "59F4F92888F470B1"
+				type: "item"
+				item: {
+					id: "copper_amulets:diamond_amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "290BF92138EB6B94"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			subtitle: "既是矛也是盾！"
+			description: ["给予力量4、抗性提升3。"]
+			id: "77AF870AE11DA821"
+			tasks: [{
+				id: "5885698D4E7AD88B"
+				type: "item"
+				item: {
+					id: "copper_amulets:netherite_amulety"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6DCF0148AAF2BE27"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			subtitle: "把自己附魔了？"
+			description: ["给予海豚恩惠2。"]
+			id: "50753F46987856AC"
+			tasks: [{
+				id: "1A86D100960E0872"
+				type: "item"
+				item: {
+					id: "copper_amulets:lapis_amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			subtitle: "机械义眼？"
+			description: ["给予夜视2。"]
+			id: "1B74E40479415417"
+			tasks: [{
+				id: "22D376B8719DEBD5"
+				type: "item"
+				item: {
+					id: "copper_amulets:redstone_amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "612D00B44DB06A9A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			subtitle: "下界矿物的魔力？"
+			description: ["给予生命恢复1。"]
+			id: "37717A70BD59B9C4"
+			tasks: [{
+				id: "671CEF1E9BB60C2F"
+				type: "item"
+				item: {
+					id: "copper_amulets:quartz_amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "40891EEC6D85BD3B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.0d
+			subtitle: "叮当作响的晶体！"
+			description: ["给予幸运2。"]
+			id: "40FDFA19AB9D304C"
+			tasks: [{
+				id: "6C3DA2A5225A3D78"
+				type: "item"
+				item: {
+					id: "copper_amulets:amethyst_amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B308920281DE70B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.0d
+			subtitle: "既生瑜何生亮？"
+			description: ["给予幸运1。"]
+			id: "292CEAFB7559A36D"
+			tasks: [{
+				id: "0FD1A35937B67B49"
+				type: "item"
+				item: {
+					id: "copper_amulets:lucky_amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F3A061E2541876B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.0d
+			subtitle: "海的味道！"
+			description: ["给予水下呼吸1。"]
+			id: "17A79549A82BBF43"
+			tasks: [{
+				id: "7B038F86D2B8E34F"
+				type: "item"
+				item: {
+					id: "copper_amulets:ocean_amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			subtitle: "结束了？"
+			description: ["给予跳跃提升3、生命恢复2、缓降1。"]
+			id: "55D84CD54E07A7C6"
+			tasks: [{
+				id: "7D50710654E99591"
+				type: "item"
+				item: "copper_amulets:end_amulet"
+			}]
+			rewards: [{
+				id: "233684CBED1FD381"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 3.5d
+			y: -10.5d
+			subtitle: "如此强大！"
+			description: ["    给予夜视1、水下呼吸1、急迫3、幸运3、村庄英雄3、跳跃提升3、速度2、力量5、抗性提升4、生命恢复2、缓降2。"]
+			size: 1.5d
+			id: "1E919151D5CA1CFB"
+			tasks: [{
+				id: "1710A54EE9A79EFE"
+				type: "item"
+				item: "copper_amulets:amulet_of_amulets"
+			}]
+			rewards: [
+				{
+					id: "3E29977498B29D42"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "383B689495BBA3FB"
+					type: "choice"
+					icon: "tinkers_ingenuity:death_essence"
+					exclude_from_claim_all: true
+					table_id: 1523656020773173642L
+				}
+				{
+					id: "0723746221FE13A1"
+					type: "item"
+					item: "hardcorequesting:epic_bag"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 3.0d
+			subtitle: "当然，我们认为放在副手的东西也算饰品"
+			id: "3FC442B3806A6AA1"
+			tasks: [{
+				id: "415463F0F695DD71"
+				type: "checkmark"
+				title: "这里有些不算饰品但是不好归类的东西。"
+			}]
+			rewards: [{
+				id: "5FE6DE5E7AEE097D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: 4.5d
+			subtitle: "右击一个方块，召唤[地狱战马]"
+			id: "122BF1663A829B1F"
+			tasks: [{
+				id: "45A289210E6512E9"
+				type: "item"
+				item: "born_in_chaos_v1:fel_lamp"
+			}]
+			rewards: [{
+				id: "32CAA5573BEB5F43"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: 6.0d
+			subtitle: "手持时，为你抵挡一次致命伤害，并给予5秒生命恢复5、10秒力量3、10秒魔力耗尽，同时将你的饱食度变为1"
+			id: "6544267CE4438F49"
+			tasks: [{
+				id: "3F6F23380E4E718C"
+				type: "item"
+				item: "born_in_chaos_v1:death_totem"
+			}]
+			rewards: [{
+				id: "7406C3E39BA10594"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.5d
+			y: -2.5d
+			id: "015C67DD23883A12"
+			tasks: [{
+				id: "502E6155BAA22BE8"
+				type: "item"
+				item: "enigmaticlegacy:iron_ring"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -6.5d
+			subtitle: "黄金镶嵌的美丽戒指"
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "23CE74EFDAA7EDE3"
+			tasks: [{
+				id: "7E54630D25CDEAEC"
+				type: "item"
+				item: {
+					id: "relics:bastion_ring"
+					Count: 1b
+					tag: {
+						abilities: {
+							trade: {
+								stats: {
+									rolls: 1.482d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "152A6D80BA68D488"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.5d
+			y: -8.0d
+			id: "411B942A5E50E98A"
+			tasks: [{
+				id: "2E9EBFC4EA1D194D"
+				type: "item"
+				item: "enigmaticlegacy:cursed_ring"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -5.5d
+			id: "28FDEEB1823BA6CE"
+			tasks: [{
+				id: "755341933E3055F1"
+				type: "item"
+				item: "enigmaticlegacy:magnet_ring"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -5.5d
+			id: "3D63FC35DE2BAD32"
+			tasks: [{
+				id: "12185564947CE1B5"
+				type: "item"
+				item: "enigmaticlegacy:ender_ring"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -3.5d
+			id: "512EEA086263ABB1"
+			tasks: [{
+				id: "31869C061B771E76"
+				type: "item"
+				item: "enigmaticlegacy:super_magnet_ring"
+			}]
+			rewards: [{
+				id: "4D1021DF96120E3F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.5d
+			y: -3.5d
+			id: "27584241958702E7"
+			tasks: [{
+				id: "4D32BA96DD61F1FF"
+				type: "item"
+				item: "enigmaticlegacy:desolation_ring"
+			}]
+			rewards: [{
+				id: "36150CE28D2BF9C6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.5d
+			y: -9.5d
+			size: 1.5d
+			id: "6CE5BAA012FC8CAC"
+			tasks: [{
+				id: "6CE400C88F8DBA73"
+				type: "item"
+				item: "potion_rings_rebooted:potion_ring_of_configuration"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -8.0d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "0286C20DFFE40A4B"
+			tasks: [{
+				id: "35CE8CDBCC6C2A67"
+				type: "item"
+				item: {
+					id: "relics:jellyfish_necklace"
+					Count: 1b
+					tag: {
+						abilities: {
+							paralysis: {
+								stats: {
+									duration: 0.903d
+								}
+								points: 0
+							}
+							shock: {
+								stats: {
+									damage: 2.1d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "08B6BBCD7D3747ED"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: -9.0d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "64C4FADFA1145F3B"
+			tasks: [{
+				id: "53191FBA9F459563"
+				type: "item"
+				item: {
+					id: "relics:reflection_necklace"
+					Count: 1b
+					tag: {
+						abilities: {
+							explode: {
+								stats: {
+									capacity: 48.795d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "04E5DAFD333AD901"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: -9.0d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "12425AFCE96352B2"
+			tasks: [{
+				id: "410200E24A4B4934"
+				type: "item"
+				item: {
+					id: "relics:holy_locket"
+					Count: 1b
+					tag: {
+						abilities: {
+							steal: {
+								stats: {
+									radius: 5.468d
+									amount: 0.232d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A18F6C65B7243BF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.0d
+			id: "59729D40D348DF94"
+			tasks: [{
+				id: "07A2B577B500CD5A"
+				type: "item"
+				item: "artifacts:panic_necklace"
+			}]
+			rewards: [{
+				id: "4552873301A8F105"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: -8.0d
+			id: "5589BFC5DDD3934E"
+			tasks: [{
+				id: "2F3060ACB38147F1"
+				type: "item"
+				item: "artifacts:cross_necklace"
+			}]
+			rewards: [{
+				id: "0882F881A40D8666"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			id: "74B719C0B4C12DA7"
+			tasks: [{
+				id: "377549687132AE7E"
+				type: "item"
+				item: "artifacts:charm_of_sinking"
+			}]
+			rewards: [{
+				id: "41D03AE54564FADF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			id: "7B817E95E3176E01"
+			tasks: [{
+				id: "26772765ADC1584C"
+				type: "item"
+				item: "artifacts:flame_pendant"
+			}]
+			rewards: [{
+				id: "33AAFBE0E3339A90"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			id: "575AEE27CC2AC998"
+			tasks: [{
+				id: "25C83A5AE714CCD2"
+				type: "item"
+				item: "artifacts:shock_pendant"
+			}]
+			rewards: [{
+				id: "1ACE3D306DF17B59"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			id: "13BEE8F2A35A5950"
+			tasks: [{
+				id: "42E6774D96C600DA"
+				type: "item"
+				item: "oceanworld:black_pearl_necklace"
+			}]
+			rewards: [
+				{
+					id: "0CB2EDD4A6784EEE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3150011BF4FA66E4"
+					type: "item"
+					item: "hardcorequesting:epic_bag"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			id: "703E76426122C7FA"
+			tasks: [{
+				id: "4C580C2E5D1091CD"
+				type: "item"
+				item: "oceanworld:white_pearl_necklace"
+			}]
+			rewards: [
+				{
+					id: "3CAB1EB80B466C25"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4C988D70EEE12A79"
+					type: "item"
+					item: "hardcorequesting:epic_bag"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			id: "78305B157D60139D"
+			tasks: [{
+				id: "74116CED6F8066F4"
+				type: "item"
+				item: "oceanworld:golden_pearl_necklace"
+			}]
+			rewards: [
+				{
+					id: "54CB3BFA990B3FEC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "210D89A40E5E8A92"
+					type: "item"
+					item: "hardcorequesting:epic_bag"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			id: "091B0D78A88C15BB"
+			tasks: [{
+				id: "390816202833407E"
+				type: "item"
+				item: "artifacts:thorn_pendant"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			id: "3D1C0021249BABF0"
+			tasks: [{
+				id: "6468D09929E8DC4B"
+				type: "item"
+				item: "artifacts:whoopee_cushion"
+			}]
+			rewards: [{
+				id: "362BDCE0B2962161"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			id: "4B6EA9BCD6F7DB4C"
+			tasks: [{
+				id: "2683F4AB5CCFEBFA"
+				type: "item"
+				item: "supplementaries:key"
+			}]
+			rewards: [{
+				id: "6FA490680600B787"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			id: "76B340C09B8881EB"
+			tasks: [{
+				id: "7EFF1F4ACBA31E5F"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+			rewards: [{
+				id: "6F953D3378553A83"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			id: "50EFB272A19F609F"
+			tasks: [{
+				id: "75F49F9931381F1E"
+				type: "item"
+				item: {
+					id: "twilightforest:wither_skeleton_skull_candle"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							CandleColor: 0
+							CandleAmount: 1
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "65D87788B699F03D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			id: "49C3BB110A5A96BE"
+			tasks: [{
+				id: "6AAC2E43035F71A7"
+				type: "item"
+				item: {
+					id: "twilightforest:creeper_skull_candle"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							CandleColor: 0
+							CandleAmount: 1
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2451C4EF4EF6C479"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			id: "55AD91329360D648"
+			tasks: [{
+				id: "6A8EBD339828FD16"
+				type: "item"
+				item: {
+					id: "twilightforest:player_skull_candle"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							CandleColor: 0
+							CandleAmount: 1
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2798BF77EA2FD25D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			id: "06593CA9145403E4"
+			tasks: [{
+				id: "7C2C84F5B10262F5"
+				type: "item"
+				item: {
+					id: "twilightforest:skeleton_skull_candle"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							CandleColor: 0
+							CandleAmount: 1
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "748F670C5304D56A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			id: "6BEE0E876F6DEB76"
+			tasks: [{
+				id: "5D46A7173C185F34"
+				type: "item"
+				item: {
+					id: "twilightforest:zombie_skull_candle"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							CandleColor: 0
+							CandleAmount: 1
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5EDA26C15DC39368"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			id: "582294B9F6B48E83"
+			tasks: [{
+				id: "2C3A28FAD976EF16"
+				type: "item"
+				item: "twilightforest:quest_ram_trophy"
+			}]
+			rewards: [{
+				id: "27EA2DAD94C4F179"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			id: "2C8E6A85B00B33C9"
+			tasks: [{
+				id: "61B610DA100196D0"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+			rewards: [{
+				id: "1207AA4A45F9C69D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			id: "7CAB733A3F1178A2"
+			tasks: [{
+				id: "73C903D7BA90D7E6"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+			rewards: [{
+				id: "40F3253B57A32252"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			id: "08D7DC3954E8FAF1"
+			tasks: [{
+				id: "5D717452841044CD"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+			rewards: [{
+				id: "6DEE988ED6C8C1F4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			id: "2740626B5F6807AB"
+			tasks: [{
+				id: "3748A1E30E99E736"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+			rewards: [{
+				id: "0380325A8020E87F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			id: "4968A495937046DA"
+			tasks: [{
+				id: "0CD3E2EE5FB1C0E6"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+			rewards: [{
+				id: "7B211B504456DD4F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			id: "53946E7B9A78F67A"
+			tasks: [{
+				id: "3D4DB523D09E5976"
+				type: "item"
+				item: "twilightforest:alpha_yeti_trophy"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			id: "6DFBF3783F77ED81"
+			tasks: [{
+				id: "5F0223E52218A633"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+			rewards: [{
+				id: "2E6EC88721359441"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			id: "12817BCCCA19D08F"
+			tasks: [{
+				id: "5F91D483B206794C"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [{
+				id: "423155F9013008B9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			id: "1F639157786315C2"
+			tasks: [{
+				id: "5749A5AD63EDD560"
+				type: "item"
+				item: "artifacts:snorkel"
+			}]
+			rewards: [{
+				id: "7304A04DE6451552"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			id: "591359AB4FCC014B"
+			tasks: [{
+				id: "1C2B8704146A02AF"
+				type: "item"
+				item: "artifacts:night_vision_goggles"
+			}]
+			rewards: [{
+				id: "19E8A9E8943F2F35"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			id: "49DBD2B71B0E6ACB"
+			tasks: [{
+				id: "1C72262299088273"
+				type: "item"
+				item: "artifacts:villager_hat"
+			}]
+			rewards: [{
+				id: "665D3C995776B43B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			id: "240A806509E9FC54"
+			tasks: [{
+				id: "65A07B71FC9A2DB4"
+				type: "item"
+				item: "artifacts:novelty_drinking_hat"
+			}]
+			rewards: [{
+				id: "5C79B10ADE87978C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			id: "46D6EE1291D977AF"
+			tasks: [{
+				id: "3E554CD51B030ECC"
+				type: "item"
+				item: "artifacts:superstitious_hat"
+			}]
+			rewards: [{
+				id: "0D359FA4D91742B7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			id: "31D0EDC3CA2A10EF"
+			tasks: [{
+				id: "31434120240A62A8"
+				type: "item"
+				item: "twilightforest:firefly"
+			}]
+			rewards: [{
+				id: "017FDC1AD7A340FB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			id: "78EFB44512E2C1C4"
+			tasks: [{
+				id: "68E3AF248070B156"
+				type: "item"
+				item: "twilightforest:cicada"
+			}]
+			rewards: [{
+				id: "7A8791C20EB65F5C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			id: "27341391607CFE10"
+			tasks: [{
+				id: "7F5554618C8A8C88"
+				type: "item"
+				item: "twilightforest:moonworm"
+			}]
+			rewards: [{
+				id: "73C71DE82C90F015"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			id: "04497775A39B9DBA"
+			tasks: [{
+				id: "05E10B731DD52E37"
+				type: "item"
+				item: "artifacts:plastic_drinking_hat"
+			}]
+			rewards: [{
+				id: "36E8364F10FA37D2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "55159AE4BAD09C97"
+			tasks: [{
+				id: "33339EDB272971BF"
+				type: "item"
+				item: {
+					id: "relics:midnight_robe"
+					Count: 1b
+					tag: {
+						abilities: {
+							backstab: {
+								stats: {
+									distance: 19.484d
+									damage: 1.703d
+								}
+								points: 0
+							}
+							vanish: {
+								stats: {
+									light: 1.833d
+									speed: 0.261d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3A11121F7685B788"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "275C2061E8F58E46"
+			tasks: [{
+				id: "1A5186F05F98615C"
+				type: "item"
+				item: {
+					id: "relics:arrow_quiver"
+					Count: 1b
+					tag: {
+						abilities: {
+							receptacle: {
+								stats: {
+									slots: 2.889d
+								}
+								points: 0
+							}
+							agility: {
+								stats: {
+									modifier: 1.0d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1626662246190B5D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "22606BD98C7CA565"
+			tasks: [{
+				id: "368DEC18AD7CC403"
+				type: "item"
+				item: {
+					id: "relics:elytra_booster"
+					Count: 1b
+					tag: {
+						abilities: {
+							boost: {
+								stats: {
+									speed: 1.21d
+									capacity: 60.911d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6978F61D25F5220C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			id: "53EA925AE4966C2C"
+			tasks: [{
+				id: "599B74074125BEB7"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E3EAB337B02D864"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: -9.0d
+			subtitle: "谁会不喜欢血量呢？"
+			description: [
+				"    右击打开界面，可以放入四色心之容器，每种上限10个。"
+				"    每个被放入的心之容器为你增加2点生命值。"
+				"    和其他项链不共用饰品槽位。"
+			]
+			size: 2.5d
+			id: "7683F8B90562275F"
+			tasks: [{
+				id: "6965496689D30DD1"
+				type: "item"
+				item: "bhc:heart_amulet"
+			}]
+			rewards: [{
+				id: "3AFFDBDB1FA2755C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			id: "6411DB72CEE269CA"
+			tasks: [{
+				id: "29ACCEA2AB751B60"
+				type: "item"
+				item: "oceanworld:white_pearl_bracelet"
+			}]
+			rewards: [
+				{
+					id: "34129C5449C9FD26"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "288AE6E7DA8542CD"
+					type: "item"
+					item: "hardcorequesting:epic_bag"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 1.5d
+			id: "25855A459F613016"
+			tasks: [{
+				id: "2BD8F5B067955BEB"
+				type: "item"
+				item: "oceanworld:black_pearl_bracelet"
+			}]
+			rewards: [
+				{
+					id: "61D9D02370FA44FA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "03EBB3D18921F2C9"
+					type: "item"
+					item: "hardcorequesting:epic_bag"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			id: "6F80AC2EF3C0910E"
+			tasks: [{
+				id: "4E810F3F92AE4AFE"
+				type: "item"
+				item: "oceanworld:golden_pearl_bracelet"
+			}]
+			rewards: [
+				{
+					id: "0DCD3606394F56E5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "54ED6A6E608DB682"
+					type: "item"
+					item: "hardcorequesting:epic_bag"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			id: "4851FB8685440259"
+			tasks: [{
+				id: "0774F69D98353F94"
+				type: "item"
+				item: "artifacts:pocket_piston"
+			}]
+			rewards: [{
+				id: "4C6543EFA824D121"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			id: "25F122CC8057ED81"
+			tasks: [{
+				id: "58FD34CA3DC499CB"
+				type: "item"
+				item: "artifacts:fire_gauntlet"
+			}]
+			rewards: [{
+				id: "714E1988D900B329"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			id: "440D025A6D976248"
+			tasks: [{
+				id: "75EBFD2540ACA937"
+				type: "item"
+				item: "artifacts:power_glove"
+			}]
+			rewards: [{
+				id: "6E3AA788BB01B932"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			id: "0FD62ADC707A7DCC"
+			tasks: [{
+				id: "4765914F8FCDDE95"
+				type: "item"
+				item: "artifacts:feral_claws"
+			}]
+			rewards: [{
+				id: "5FD932D1802E8E6B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			id: "28154AD62AD46AAB"
+			tasks: [{
+				id: "72662AF7B92CD621"
+				type: "item"
+				item: "artifacts:digging_claws"
+			}]
+			rewards: [{
+				id: "3C0BE5B49EBB8AD8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "53B5BA93F4F8E79A"
+			tasks: [{
+				id: "6D6D273024452918"
+				type: "item"
+				item: {
+					id: "relics:wool_mitten"
+					Count: 1b
+					tag: {
+						abilities: {
+							mold: {
+								stats: {
+									damage: 0.235d
+									freeze: 1.371d
+									size: 25.373d
+									stun: 0.039d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "63161B382EBFD9AF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "56BD548FAF269594"
+			tasks: [{
+				id: "3C9650AEAE0C8535"
+				type: "item"
+				item: {
+					id: "relics:enders_hand"
+					Count: 1b
+					tag: {
+						abilities: {
+							swap: {
+								stats: {
+									distance: 21.496d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7EA0EA1260F6A3DA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "47F7F5481E83A133"
+			tasks: [{
+				id: "62DAC930FDC14B52"
+				type: "item"
+				item: {
+					id: "relics:rage_glove"
+					Count: 1b
+					tag: {
+						abilities: {
+							rage: {
+								stats: {
+									attack_speed: 0.009d
+									incoming_damage: 0.043d
+									dealt_damage: 0.069d
+									movement_speed: 0.014d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7664FF8D23E16CFB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			id: "40AF07FC02F6AABD"
+			tasks: [{
+				id: "7DEF53A3EFEBDF36"
+				type: "item"
+				item: "artifacts:vampiric_glove"
+			}]
+			rewards: [{
+				id: "7CC0E2A0CFE6B3ED"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			id: "1EA056B788FA008D"
+			tasks: [{
+				id: "03BBA2548B6EC4AC"
+				type: "item"
+				item: "meetyourfight:bone_raker"
+			}]
+			rewards: [{
+				id: "1BD65A3A46C87A1C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			id: "45C575E52DAE4910"
+			tasks: [{
+				id: "6FD2F8DD47BEBB8D"
+				type: "item"
+				item: "meetyourfight:spectres_grasp"
+			}]
+			rewards: [{
+				id: "1C8F06F808D32021"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			id: "40A1D2C7D9F3B94E"
+			tasks: [{
+				id: "40EC166481F43664"
+				type: "item"
+				item: "artifacts:golden_hook"
+			}]
+			rewards: [{
+				id: "26E00BA00CDC69B8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			id: "0CBD10D942E638DB"
+			tasks: [{
+				id: "3BA08953E452F76C"
+				type: "item"
+				item: {
+					id: "toolbelt:belt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4B3E866FD4DF429E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "52CE26076C7ED457"
+			tasks: [{
+				id: "4CCB3C9615C442FC"
+				type: "item"
+				item: {
+					id: "relics:leather_belt"
+					Count: 1b
+					tag: {
+						abilities: {
+							slots: {
+								stats: {
+									talisman: 1.586d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "067164BECEA86FEF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "36E8FF2DC93D06E9"
+			tasks: [{
+				id: "08FE05C2C69561B6"
+				type: "item"
+				item: {
+					id: "relics:hunter_belt"
+					Count: 1b
+					tag: {
+						abilities: {
+							slots: {
+								stats: {
+									talisman: 1.172d
+								}
+								points: 0
+							}
+							training: {
+								stats: {
+									damage: 1.912d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6EA43D45366533FD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "00C75B412FAFB017"
+			tasks: [{
+				id: "281B16DE87958375"
+				type: "item"
+				item: {
+					id: "relics:drowned_belt"
+					Count: 1b
+					tag: {
+						abilities: {
+							slots: {
+								stats: {
+									talisman: 1.653d
+								}
+								points: 0
+							}
+							pressure: {
+								stats: {
+									damage: 1.539d
+								}
+								points: 0
+							}
+							riptide: {
+								stats: {
+									cooldown: 5.61d
+								}
+								points: 0
+							}
+							anchor: {
+								stats: {
+									sinking: 4.555d
+									slowness: 0.252d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C6DBF788DB8BC1C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			id: "772B82120D35E3E5"
+			tasks: [{
+				id: "4E21D1E251A60E52"
+				type: "item"
+				item: "artifacts:cloud_in_a_bottle"
+			}]
+			rewards: [{
+				id: "1E7F4433D51C3988"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			id: "571D6EE861D848BF"
+			tasks: [{
+				id: "17E5702557AA1CE9"
+				type: "item"
+				item: "artifacts:obsidian_skull"
+			}]
+			rewards: [{
+				id: "7C96A284E27FE974"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			id: "3C68AAD9E16F56CB"
+			tasks: [{
+				id: "4D5FF666E35CCE18"
+				type: "item"
+				item: "artifacts:antidote_vessel"
+			}]
+			rewards: [{
+				id: "171CBCE93CF24D34"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			id: "4E21CC6BCB4799CC"
+			tasks: [{
+				id: "34F043DD955732DB"
+				type: "item"
+				item: "artifacts:universal_attractor"
+			}]
+			rewards: [{
+				id: "1E5519976490EA04"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: 8.0d
+			id: "71C03A17E1C38521"
+			tasks: [{
+				id: "19A4238DD4B22786"
+				type: "item"
+				item: "artifacts:crystal_heart"
+			}]
+			rewards: [{
+				id: "48C31E1DED071B9A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.0d
+			id: "5ADD6EDF5418CB31"
+			tasks: [{
+				id: "26BF4AF37CF5DCA4"
+				type: "item"
+				item: "artifacts:helium_flamingo"
+			}]
+			rewards: [{
+				id: "7610AE071C5F8859"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.0d
+			y: 5.0d
+			id: "0A67DED4CEADB86D"
+			tasks: [{
+				id: "5F9A815263B2A866"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+			rewards: [{
+				id: "10ABE2C06F8AB1CB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.0d
+			y: 6.0d
+			id: "06671533BAE009F5"
+			tasks: [{
+				id: "587F649D4D69549F"
+				type: "item"
+				item: {
+					id: "ulterlands:ulterlands_dimension"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "74673F0104732105"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.0d
+			y: 6.0d
+			id: "078D286EACA91854"
+			tasks: [{
+				id: "229834491A675D2A"
+				type: "item"
+				item: "unusualend:void_totem"
+			}]
+			rewards: [{
+				id: "14A01548558FC01C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.0d
+			y: 8.5d
+			id: "6D64A769A0D818A0"
+			tasks: [{
+				id: "6B4B159E8CE75B47"
+				type: "item"
+				item: "upgradednetherite_items:gold_upgraded_netherite_totem"
+			}]
+			rewards: [{
+				id: "60428014378C65FB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.0d
+			y: 8.5d
+			id: "49B9EE6F12555FC6"
+			tasks: [{
+				id: "31E08BC2EE188F03"
+				type: "item"
+				item: "upgradednetherite_items:fire_upgraded_netherite_totem"
+			}]
+			rewards: [{
+				id: "2F94DC44CC52116E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.0d
+			y: 7.5d
+			id: "75F1C06BB61FDB21"
+			tasks: [{
+				id: "2DF8DB01F1B203D8"
+				type: "item"
+				item: "upgradednetherite_items:netherite_totem"
+			}]
+			rewards: [{
+				id: "697D3178CC8461D6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: 8.5d
+			id: "7A96E41DE8660E93"
+			tasks: [{
+				id: "3DAC2A71FE0BF08B"
+				type: "item"
+				item: "upgradednetherite_items:ender_upgraded_netherite_totem"
+			}]
+			rewards: [{
+				id: "16586CC04FFC7A3F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: 8.5d
+			id: "327219199FDDE48A"
+			tasks: [{
+				id: "745D5F1231FFB419"
+				type: "item"
+				item: "upgradednetherite_items:water_upgraded_netherite_totem"
+			}]
+			rewards: [{
+				id: "00E1E24719F24885"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.0d
+			y: 8.5d
+			id: "5B620303A950C587"
+			tasks: [{
+				id: "39D9BF1D5C68C0D8"
+				type: "item"
+				item: "upgradednetherite_items:wither_upgraded_netherite_totem"
+			}]
+			rewards: [{
+				id: "0AC2FE674D724C83"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.0d
+			y: 9.5d
+			id: "15CB04526DEFBA35"
+			tasks: [{
+				id: "621FD50349CCC1AE"
+				type: "item"
+				item: "upgradednetherite_items:poison_upgraded_netherite_totem"
+			}]
+			rewards: [{
+				id: "47B8D65FD7A21123"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: 9.5d
+			id: "1D4880164CF12BEC"
+			tasks: [{
+				id: "6C97D9FB2C9FA32A"
+				type: "item"
+				item: "upgradednetherite_items:phantom_upgraded_netherite_totem"
+			}]
+			rewards: [{
+				id: "364E3A81FD16654B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.0d
+			y: 9.5d
+			id: "3279D803484F2577"
+			tasks: [{
+				id: "1D7C29AEBA64B15C"
+				type: "item"
+				item: "upgradednetherite_items:feather_upgraded_netherite_totem"
+			}]
+			rewards: [{
+				id: "3E48595EF87D624A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.0d
+			y: 14.0d
+			subtitle: "根据身上龙血合金装备数量给予玩家抗性"
+			size: 2.0d
+			id: "024402CBB74A08B2"
+			tasks: [{
+				id: "21E37880927B8AF1"
+				type: "item"
+				item: "upgradednetherite_items:corrupt_upgraded_netherite_totem"
+			}]
+			rewards: [{
+				id: "2E2FBD9F1F69CF78"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -10.0d
+			y: 16.25d
+			size: 2.5d
+			id: "034EE6E43774ADA3"
+			tasks: [{
+				id: "4362C0D104EA7EFE"
+				type: "item"
+				item: "upgradednetherite_items:creative_upgraded_netherite_totem"
+			}]
+			rewards: [{
+				id: "31843B31EA4EB2DB"
+				type: "xp_levels"
+				xp_levels: 500
+			}]
+		}
+		{
+			x: -11.0d
+			y: 14.0d
+			subtitle: "可叠加的不死图腾（在物品栏就能生效，生效时给予抗性提升、生命恢复、防火）"
+			size: 2.0d
+			id: "72CDC70D2EACA4D5"
+			tasks: [{
+				id: "7D7AA5EF7B4A46FA"
+				type: "item"
+				item: "twilightforest:charm_of_life_2"
+			}]
+			rewards: [{
+				id: "190B58618F4A4E5F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -10.0d
+			y: 11.5d
+			subtitle: "可叠加的不死图腾（在物品栏就能生效）"
+			size: 1.5d
+			id: "55E45618DB9FC4AC"
+			tasks: [{
+				id: "612D1275E5DF1400"
+				type: "item"
+				item: "twilightforest:charm_of_life_1"
+			}]
+			rewards: [{
+				id: "39A208A0B9F5DB46"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -9.5d
+			y: 10.5d
+			id: "32D92618124246B5"
+			tasks: [{
+				id: "79609F50E4BA979B"
+				type: "item"
+				item: "unusualend:wither_orb"
+			}]
+			rewards: [{
+				id: "60848FFF172EF434"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.5d
+			y: 10.5d
+			id: "5260C97D1A6EDC6D"
+			tasks: [{
+				id: "19240522FB81E21C"
+				type: "item"
+				item: "unusualend:shulker_orb"
+			}]
+			rewards: [{
+				id: "5EF62BDEBF27002C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.5d
+			y: 10.5d
+			id: "0759F21F80EC9F45"
+			tasks: [{
+				id: "1A0567CCEC3794CF"
+				type: "item"
+				item: "unusualend:nether_orb"
+			}]
+			rewards: [{
+				id: "66443A8631F0AB08"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.5d
+			y: 10.5d
+			id: "245D3FC0D56FE01E"
+			tasks: [{
+				id: "64793BCD935B7340"
+				type: "item"
+				item: "unusualend:golem_orb"
+			}]
+			rewards: [{
+				id: "16A6BF5B290D4866"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "药水护符"
+			x: -7.5d
+			y: 10.5d
+			id: "1DF48D5935100C07"
+			tasks: [{
+				id: "3F6081DA9B4ACED0"
+				type: "item"
+				item: {
+					id: "apotheosis:potion_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CE808EBD34693FF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.0d
+			y: 9.5d
+			id: "2029DDD6C19B41BE"
+			tasks: [{
+				id: "19E18F04476D5514"
+				type: "item"
+				item: "meetyourfight:spectres_eye"
+			}]
+			rewards: [{
+				id: "7BB96D49DE60AC01"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.5d
+			y: 10.5d
+			id: "17A0205FC911A280"
+			tasks: [{
+				id: "41F396B4EF10595E"
+				type: "item"
+				item: "storagenetwork:crafting_remote"
+			}]
+			rewards: [{
+				id: "52C2AF8EAE87C8F3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -13.0d
+			y: 9.5d
+			id: "4015B28620A09A64"
+			tasks: [{
+				id: "71E810B93C5BA492"
+				type: "item"
+				item: "storagenetwork:inventory_remote"
+			}]
+			rewards: [{
+				id: "3DC2DB12E972F7F6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -13.5d
+			y: 10.5d
+			id: "620AE5F6FAB9D419"
+			tasks: [{
+				id: "4017F48154FC8C66"
+				type: "item"
+				item: "storagenetwork:collector_remote"
+			}]
+			rewards: [{
+				id: "1C4F64E1B121E201"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: 9.5d
+			id: "5F6AD2B007A91F2A"
+			tasks: [{
+				id: "3629653B6F6D39CB"
+				type: "item"
+				item: "meetyourfight:slicers_dice"
+			}]
+			rewards: [{
+				id: "12C71FFDF3DD2993"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.5d
+			y: 10.5d
+			id: "3CEBBF71E1FDC1CE"
+			tasks: [{
+				id: "1D7422DC617A72EF"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:mining_charm"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2E5D31018945E4A0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: 11.5d
+			id: "465D609B01694C03"
+			tasks: [{
+				id: "286BB84AAC3BD902"
+				type: "item"
+				item: "enigmaticlegacy:monster_charm"
+			}]
+			rewards: [{
+				id: "1B972E910E482B41"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -13.0d
+			y: 11.5d
+			id: "0D6AD3E86E16386E"
+			tasks: [{
+				id: "211F2631DA7C80AE"
+				type: "item"
+				item: "enigmaticlegacy:mega_sponge"
+			}]
+			rewards: [{
+				id: "7A681BC5E9847F93"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.0d
+			y: 12.0d
+			id: "3B26F66B1F7935D5"
+			tasks: [{
+				id: "1CF1AF50819D1BCE"
+				type: "item"
+				item: "enigmaticlegacy:berserk_emblem"
+			}]
+			rewards: [{
+				id: "4DFD44E6D011B621"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: 12.0d
+			id: "1C4EFB1711A7F1B9"
+			tasks: [{
+				id: "0E6BBCFE7F7BB8FA"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:insignia"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "262C145B70DE8CCF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: 9.5d
+			id: "05A43D06D5528F67"
+			tasks: [{
+				id: "696E123D2109C096"
+				type: "item"
+				item: "enigmaticlegacy:enchanter_pearl"
+			}]
+			rewards: [{
+				id: "69AC831757D6B01E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: 9.5d
+			id: "32980C6049884CBB"
+			tasks: [{
+				id: "7A74927ABFE64ED1"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:architect_eye"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "10FC0A91EDA7EE41"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: 12.5d
+			id: "769B84F61CFD6F6D"
+			tasks: [{
+				id: "7182A3E17D600570"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:eldritch_amulet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "195D87523F53BD0D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -14.0d
+			y: 9.5d
+			id: "14091A6E2C13E57F"
+			tasks: [{
+				id: "36A1D35640C96606"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:ascension_amulet"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"\\u00A75数码兽罗伊的鳞片，有着神秘护身符的全部功能。\"}"]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2ACC8E64D4AEA8AB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.0d
+			y: 12.5d
+			id: "2CD1A45AB1C04E4E"
+			tasks: [{
+				id: "13A28C6FECC88CD4"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4ED12A16A13AEBED"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.5d
+			y: 6.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "1B4EA57ACCDE875A"
+			tasks: [{
+				id: "0F74D1F457D39561"
+				type: "item"
+				item: {
+					id: "relics:amphibian_boot"
+					Count: 1b
+					tag: {
+						abilities: {
+							swimming: {
+								stats: {
+									speed: 0.008d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5E4ADBB21E8972DA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "7CC971918525D33E"
+			tasks: [{
+				id: "5EE512316C80455F"
+				type: "item"
+				item: {
+					id: "relics:roller_skates"
+					Count: 1b
+					tag: {
+						abilities: {
+							skating: {
+								stats: {
+									duration: 24.292d
+									speed: 0.003d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "52D6F886CD99BD50"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			id: "45E8428E06421DBE"
+			tasks: [{
+				id: "7E673F608290B73C"
+				type: "item"
+				item: "artifacts:aqua_dashers"
+			}]
+			rewards: [{
+				id: "396639C04961ADE3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 10.5d
+			y: 8.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "7D2333BBB9E0FA55"
+			tasks: [{
+				id: "7F069DEE0647B5C3"
+				type: "item"
+				item: {
+					id: "relics:ice_breaker"
+					Count: 1b
+					tag: {
+						abilities: {
+							sustainability: {
+								stats: {
+									modifier: 0.69d
+								}
+								points: 0
+							}
+							impact: {
+								stats: {
+									size: 4.973d
+									damage: 2.87d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "49C1BFF44DD8ADC6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "36500A69911AEBA7"
+			tasks: [{
+				id: "2D7E61498487B0A8"
+				type: "item"
+				item: {
+					id: "relics:ice_skates"
+					Count: 1b
+					tag: {
+						abilities: {
+							skating: {
+								stats: {
+									duration: 45.504d
+									speed: 0.034d
+								}
+								points: 0
+							}
+							ram: {
+								stats: {
+									damage: 0.115d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D76140BA7A39A68"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "473976D42A1DB6FF"
+			tasks: [{
+				id: "725B58583A71D31A"
+				type: "item"
+				item: {
+					id: "relics:aqua_walker"
+					Count: 1b
+					tag: {
+						abilities: {
+							walking: {
+								stats: {
+									time: 40.331d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 5.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "4CCA130B9BF32C4E"
+			tasks: [{
+				id: "3802CB70C9738996"
+				type: "item"
+				item: {
+					id: "relics:magma_walker"
+					Count: 1b
+					tag: {
+						abilities: {
+							pace: {
+								stats: {
+									heat: 42.081d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6ADB8EEC0F618E15"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 12.0d
+			y: 7.5d
+			id: "2E005618A1A62823"
+			tasks: [{
+				id: "05BEDCB9DE3E4D5B"
+				type: "item"
+				item: "artifacts:steadfast_spikes"
+			}]
+			rewards: [{
+				id: "51BFF0F567D953CD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 10.5d
+			y: 7.0d
+			id: "2C124ACFA06DCE5C"
+			tasks: [{
+				id: "1B98A5D57DA8B14B"
+				type: "item"
+				item: "artifacts:running_shoes"
+			}]
+			rewards: [{
+				id: "2DC8506C37484134"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.0d
+			y: 7.5d
+			id: "24C893AB97A37E4A"
+			tasks: [{
+				id: "5C02DDC06F423C88"
+				type: "item"
+				item: "artifacts:flippers"
+			}]
+			rewards: [{
+				id: "57593D987EEF2A95"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.0d
+			y: 8.5d
+			id: "72B9A68CEBA5B820"
+			tasks: [{
+				id: "67759896F693D441"
+				type: "item"
+				item: "artifacts:kitty_slippers"
+			}]
+			rewards: [{
+				id: "6447FFD8C3596A3D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 12.0d
+			y: 8.5d
+			id: "237F66CEAE70DB3F"
+			tasks: [{
+				id: "23F9E4900A71736E"
+				type: "item"
+				item: "artifacts:bunny_hoppers"
+			}]
+			rewards: [{
+				id: "7AE94BD754DFD0ED"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.0d
+			y: 5.0d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "410CD06B6FF9C5DF"
+			tasks: [{
+				id: "1A9CC7B89D87522D"
+				type: "item"
+				item: {
+					id: "relics:spatial_sign"
+					Count: 1b
+					tag: {
+						abilities: {
+							seal: {
+								stats: {
+									duration: 8.859d
+									speed: 1.1d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "746B0B6EBA14FFD2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "5F42463591143AB0"
+			tasks: [{
+				id: "00B047CA5668BA20"
+				type: "item"
+				item: {
+					id: "relics:horse_flute"
+					Count: 1b
+					tag: {
+						abilities: {
+							heal: {
+								stats: {
+									amount: 0.041d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C9979E558812FA9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.0d
+			y: 4.0d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "55A3EA7D92D9B223"
+			tasks: [{
+				id: "2CE82A9A30FC564F"
+				type: "item"
+				item: {
+					id: "relics:magic_mirror"
+					Count: 1b
+					tag: {
+						abilities: {
+							teleport: {
+								stats: {
+									distance: 701.037d
+									cooldown: 97.856d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B95ABD916D9CCDB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: 5.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "6B9EDB6DAAEEF80E"
+			tasks: [{
+				id: "2A1454E15A0AEAD6"
+				type: "item"
+				item: {
+					id: "relics:blazing_flask"
+					Count: 1b
+					tag: {
+						abilities: {
+							bonfire: {
+								stats: {
+									step: 2.055d
+									speed: 0.029d
+									height: 4.013d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "26294C494447C65A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.5d
+			y: 10.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "4161616EEC77C65D"
+			tasks: [{
+				id: "0ABBBA5EAA402028"
+				type: "item"
+				item: {
+					id: "relics:chorus_inhibitor"
+					Count: 1b
+					tag: {
+						abilities: {
+							blink: {
+								stats: {
+									distance: 27.28d
+									cooldown: 8.808d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F351FB542A693C3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: 10.5d
+			description: ["    遗物是一类拥有独立经验值，可以随着玩家成长的饰品，他们需要在”研究台”上查看能力、获取升级方法和加点。"]
+			id: "17BC71D6F5D2F778"
+			tasks: [{
+				id: "32A5F8CB20573A6F"
+				type: "item"
+				item: {
+					id: "relics:spore_sack"
+					Count: 1b
+					tag: {
+						abilities: {
+							spore: {
+								stats: {
+									resize: 0.023d
+									amount: 1.0d
+								}
+								points: 0
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E2204A51557CF49"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: 10.0d
+			subtitle: "插入魔咒"
+			description: [
+				"    咒符是一类特殊的饰品，只有区区两种。"
+				"    虽然作为饰品，但是玩家无法直接使用。必须在玩家穿戴3种遗物腰带后，才会在饰品栏开辟新的“咒符”槽位，此时方可使用“咒符”。"
+			]
+			id: "3864D1B094C3A4BB"
+			tasks: [{
+				id: "3962B12E350255AD"
+				type: "checkmark"
+				title: "咒符"
+			}]
+			rewards: [{
+				id: "7E0ECEDF712FC6FC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			id: "0EC447EE3B45D68B"
+			tasks: [{
+				id: "108DE1B46BCABD88"
+				type: "item"
+				item: "meetyourfight:ace_of_iron"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			id: "2C4690EE1E7A406F"
+			tasks: [{
+				id: "4EA6E1298C4A3EBB"
+				type: "item"
+				item: "meetyourfight:caged_heart"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -8.0d
+			subtitle: "与光辉的力量同调的戒指，能够在日间与同系列套装产生共鸣提升自身属性。"
+			description: [
+				"    身上每装备一件M.S.A.T.噬极光 格莱利姆 奈米自修复超级胶子纤维龙甲中的护甲，就能够在日间获得1层“虹之共鸣”效果，每层“虹之共鸣”效果能为玩家提供："
+				"●0.25触及距离"
+				"●0.25攻击范围"
+				"●5生命上限"
+				"●1护甲韧性"
+				"●5%移动速度"
+			]
+			id: "2D2618AEFC405DAB"
+			tasks: [{
+				id: "445AB043CF58FFBC"
+				type: "item"
+				item: "rainbowcompound:radiance_ring"
+			}]
+			rewards: [{
+				id: "4474F2E49A599C30"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.5d
+			y: -8.0d
+			subtitle: "与暗影的力量同调的戒指，能够在夜间与同系列套装产生共鸣提升自身属性"
+			description: [
+				"    身上每装备一件M.S.A.T.噬极光 格莱利姆 奈米自修复超级胶子纤维龙甲，就能够在夜间获得1层“虹之共鸣”效果，每层“虹之共鸣”效果能为玩家提供："
+				"●0.25触及距离"
+				"●0.25攻击范围"
+				"●5生命上限"
+				"●1护甲韧性"
+				"●5%移动速度"
+			]
+			id: "383DD4FE4C29F9FF"
+			tasks: [{
+				id: "525C7E3AFC80E0E6"
+				type: "item"
+				item: "rainbowcompound:shadow_ring"
+			}]
+			rewards: [{
+				id: "26AB5BE994F89016"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.0d
+			id: "097709C46E8087FE"
+			tasks: [{
+				id: "1688BB4A84B477FA"
+				type: "item"
+				item: {
+					id: "rainbowcompound:home_magic_mirror"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0E0DA443CB55E9C8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			id: "4CDF3DEF4916D2A3"
+			tasks: [{
+				id: "10C9005A62E5F71D"
+				type: "item"
+				item: {
+					id: "rainbowcompound:obsidianite_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			subtitle: "装备动力鞘翅时，在鞘翅飞行状态中保持按下动力鞘翅推进绑定键（默认为空格），即会如同使用烟花火箭一样消耗耐久为玩家提供推进力；若不启用自身的推进功能，则飞行时不消耗耐久。"
+			id: "162C4CA2E72ECA61"
+			tasks: [{
+				id: "143251027BBFD50C"
+				type: "item"
+				item: {
+					id: "rainbowcompound:dynamic_elytra_radiance"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "57DFBF04C02CB052"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			subtitle: "装备动力鞘翅时，在鞘翅飞行状态中保持按下动力鞘翅推进绑定键（默认为空格），即会如同使用烟花火箭一样消耗耐久为玩家提供推进力；若不启用自身的推进功能，则飞行时不消耗耐久。"
+			id: "52F8B27A98A4B3F6"
+			tasks: [{
+				id: "556673B05962E0B8"
+				type: "item"
+				item: {
+					id: "rainbowcompound:dynamic_elytra_ender"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "53BBAC30BC378467"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			subtitle: "装备动力鞘翅时，在鞘翅飞行状态中保持按下动力鞘翅推进绑定键（默认为空格），即会如同使用烟花火箭一样消耗耐久为玩家提供推进力；若不启用自身的推进功能，则飞行时不消耗耐久。"
+			id: "7CB0325A9677C31E"
+			tasks: [{
+				id: "1807218CD0711E50"
+				type: "item"
+				item: {
+					id: "rainbowcompound:dynamic_elytra_ice"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3ACBFDB427F610D7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.5d
+			subtitle: "装备动力鞘翅时，在鞘翅飞行状态中保持按下动力鞘翅推进绑定键（默认为空格），即会如同使用烟花火箭一样消耗耐久为玩家提供推进力；若不启用自身的推进功能，则飞行时不消耗耐久。"
+			id: "103A6EC7B3C6715A"
+			tasks: [{
+				id: "685D9126B983DD0F"
+				type: "item"
+				item: {
+					id: "rainbowcompound:dynamic_elytra_fire"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2607612556712ED4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.5d
+			subtitle: "芙兰朵露之翼是彩虹之翼的特殊皮肤，其灵感来自东方project中红魔馆的二小姐芙兰朵露·斯卡蕾特。除了皮肤材质以外，芙兰朵露之翼与彩虹之翼没有任何不同。"
+			id: "58DE51AD8EB71D50"
+			tasks: [{
+				id: "2B25F2C1E40B138C"
+				type: "item"
+				item: {
+					id: "rainbowcompound:dynamic_elytra_flandre"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "06BD96176F0167D4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			subtitle: "装备动力鞘翅时，在鞘翅飞行状态中保持按下动力鞘翅推进绑定键（默认为空格），即会如同使用烟花火箭一样消耗耐久为玩家提供推进力；若不启用自身的推进功能，则飞行时不消耗耐久。"
+			id: "641B714879F56D27"
+			tasks: [{
+				id: "5591ECF3D0A51978"
+				type: "item"
+				item: {
+					id: "rainbowcompound:dynamic_elytra_66ccff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C21F923BA86F087"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			subtitle: "彩虹之翼是动力鞘翅的升级版本，具有与动力鞘翅相同的功能，且更好。"
+			description: [
+				"    与此同时，彩虹之翼能够提供比动力鞘翅更高的防护，当装备在胸甲槽位时，彩虹之翼能够提供6点（）护甲与3点（）盔甲韧性。"
+				"    彩虹之翼同样可以在附魔台中被附魔，其本身具有13点附魔等级，但只能在附魔台中获得耐久或其他模组中专为鞘翅设计的附魔，正常情况下无法在附魔台上取得盔甲附魔。"
+				"    除此之外，彩虹之翼的速度比动力鞘翅快约20%、使用推进功能时消耗耐久速度比动力鞘翅慢25%。"
+			]
+			id: "1BB6553B5730A118"
+			tasks: [{
+				id: "05D2CC1DB34881D6"
+				type: "item"
+				item: {
+					id: "rainbowcompound:dynamic_elytra_rainbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0E5329ECE290AD6C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			subtitle: "装备动力鞘翅时，在鞘翅飞行状态中保持按下动力鞘翅推进绑定键（默认为空格），即会如同使用烟花火箭一样消耗耐久为玩家提供推进力；若不启用自身的推进功能，则飞行时不消耗耐久。"
+			id: "401ABC5258C77DCD"
+			tasks: [{
+				id: "3D86FF9BD7A6D64E"
+				type: "item"
+				item: {
+					id: "rainbowcompound:dynamic_elytra_slime"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6AC5EBB0F59F3110"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 10.0d
+			y: -7.0d
+			size: 2.0d
+			id: "1B01724FE2BB9D2A"
+			tasks: [{
+				id: "285E4FAB5106D069"
+				type: "item"
+				item: "enigmaticlegacy:enigmatic_item"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.0d
+			id: "39ADDE555CD7ABA3"
+			tasks: [{
+				id: "105C8EB78DCDE1DB"
+				type: "item"
+				item: "enigmaticlegacy:golem_heart"
+			}]
+			rewards: [{
+				id: "638BE003864323D4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.5d
+			y: -7.0d
+			id: "5D9F9985750C1D0D"
+			tasks: [{
+				id: "248A8DE20CA59F10"
+				type: "item"
+				item: "enigmaticlegacy:angel_blessing"
+			}]
+			rewards: [{
+				id: "6C2769511A16140A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.0d
+			y: -8.0d
+			id: "03909405C2CA092E"
+			tasks: [{
+				id: "199EC8E72B5215F6"
+				type: "item"
+				item: "enigmaticlegacy:ocean_stone"
+			}]
+			rewards: [{
+				id: "69158364A4246A5D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.5d
+			y: -7.0d
+			id: "73E2599A9D1DB0B2"
+			tasks: [{
+				id: "2D0E31D727F76791"
+				type: "item"
+				item: "enigmaticlegacy:magma_heart"
+			}]
+			rewards: [{
+				id: "49B4B1D58809A8CA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.0d
+			id: "534561D3FBBA09B0"
+			tasks: [{
+				id: "3F60ACBEBEBE02AC"
+				type: "item"
+				item: "enigmaticlegacy:eye_of_nebula"
+			}]
+			rewards: [{
+				id: "5FC67998CA7348BE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.0d
+			y: -6.0d
+			id: "51FC7721408AD1C6"
+			tasks: [{
+				id: "2FD99B743BA7C0AE"
+				type: "item"
+				item: "enigmaticlegacy:void_pearl"
+			}]
+			rewards: [{
+				id: "79F1CC8DA4D337E1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.0d
+			y: 4.0d
+			id: "19F83EEC6691AED5"
+			tasks: [{
+				id: "040BCE7D66CC110C"
+				type: "item"
+				item: "enigmaticlegacy:dark_mirror"
+			}]
+			rewards: [{
+				id: "7735C3179851E23B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -13.0d
+			y: 4.5d
+			id: "55AE80946B95C1FA"
+			tasks: [{
+				id: "4C7A0FED858224BC"
+				type: "item"
+				item: "apotheosis:scrap_tome"
+			}]
+			rewards: [{
+				id: "306723CB24E739F3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			id: "5EDC9E11C556D00A"
+			tasks: [{
+				id: "0EE7E871CE421CF8"
+				type: "item"
+				item: "enigmaticlegacy:enchantment_transposer"
+			}]
+			rewards: [{
+				id: "643A47FB266C4CF2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.5d
+			id: "4F837D63CC3C900E"
+			tasks: [{
+				id: "68F33A14B49855DE"
+				type: "item"
+				item: "enigmaticlegacy:infinimeal"
+			}]
+			rewards: [{
+				id: "7E36B7B06C698A45"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.5d
+			id: "7612486C6B9A0D69"
+			tasks: [{
+				id: "26827926198D1982"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:oblivion_stone"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3EAB53D85896FB50"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -13.0d
+			y: 5.5d
+			id: "78F0B7094A7B0E10"
+			tasks: [{
+				id: "279FDC5B42CB7242"
+				type: "item"
+				item: "enigmaticlegacy:guardian_heart"
+			}]
+			rewards: [{
+				id: "10406A79254CA14D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: 5.0d
+			id: "12784D3B957197C3"
+			tasks: [{
+				id: "0E66B2B59CEF1C2D"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:extradimensional_eye"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "121A3524DAB6A5C8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.5d
+			id: "694C5CCB996D89F7"
+			tasks: [{
+				id: "49B193DB5F5BC54C"
+				type: "item"
+				item: "enigmaticlegacy:the_cube"
+			}]
+			rewards: [{
+				id: "6EAF2F0E191CF22F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 14.5d
+			y: -2.5d
+			id: "753DDC3373876519"
+			tasks: [{
+				id: "6B5B2F8415567FD1"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:xp_scroll"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "096E52D0654990FF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 15.5d
+			y: -2.5d
+			id: "6779AC512E667B70"
+			tasks: [{
+				id: "3CF565C555A705B7"
+				type: "item"
+				item: "enigmaticlegacy:fabulous_scroll"
+			}]
+			rewards: [{
+				id: "3BD6E835D6DCC0A4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.5d
+			id: "1EF37B063146ECA6"
+			tasks: [{
+				id: "61E96D66837E1502"
+				type: "item"
+				item: "enigmaticlegacy:escape_scroll"
+			}]
+			rewards: [{
+				id: "2DFE33EC80963468"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.5d
+			id: "52F07C91C9C6B26B"
+			tasks: [{
+				id: "080E5257713B5B08"
+				type: "item"
+				item: "enigmaticlegacy:heaven_scroll"
+			}]
+			rewards: [{
+				id: "04A6A33742BF3E46"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 15.5d
+			y: -0.5d
+			id: "6F39F02F911910CC"
+			tasks: [{
+				id: "4E08B7DAD687DF9E"
+				type: "item"
+				item: "enigmaticlegacy:darkest_scroll"
+			}]
+			rewards: [{
+				id: "35318DA09FCC7241"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 14.5d
+			y: -0.5d
+			id: "45E5B509728B1398"
+			tasks: [{
+				id: "4F3F086B9654F4E9"
+				type: "item"
+				item: "enigmaticlegacy:avarice_scroll"
+			}]
+			rewards: [{
+				id: "7815F57BB3574CB9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.5d
+			id: "753CEEFA60C593EE"
+			tasks: [{
+				id: "19E53CAD4AAFB60A"
+				type: "item"
+				item: "enigmaticlegacy:cursed_scroll"
+			}]
+			rewards: [{
+				id: "2323CEE9830380E1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+	quest_links: [ ]
+}

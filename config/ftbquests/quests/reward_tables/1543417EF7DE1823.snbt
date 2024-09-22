@@ -1,0 +1,24 @@
+{
+	id: "1543417EF7DE1823"
+	order_index: 19
+	title: "饮料"
+	icon: {
+		id: "emeraldcraft:beetroot_juice"
+		Count: 16b
+	}
+	loot_size: 1
+	rewards: [
+		{ item: "create:builders_tea", count: 16, weight: 2 }
+		{ item: "minecraft:honey_bottle", count: 16, weight: 2 }
+		{ item: "unusualend:chorus_juice", count: 16, weight: 2 }
+		{ item: "unusualend:chorus_tea", count: 8, random_bonus: 16 }
+		{ item: "upgrade_aquatic:mulberry_jam_bottle", count: 16, weight: 2 }
+		{ item: "minecraft:beetroot_soup", count: 8, random_bonus: 16 }
+		{ item: "minecraft:mushroom_stew", count: 8, random_bonus: 16 }
+		{ item: "aquaculture:turtle_soup", count: 8, random_bonus: 16 }
+		{ item: "gothic:molerat_soup", count: 8, random_bonus: 16 }
+		{ item: "born_in_chaos_v1:potion_of_rampage", count: 2, random_bonus: 6 }
+		{ item: "born_in_chaos_v1:spiritinabottle", count: 2, random_bonus: 6 }
+		{ item: "unsheathe_r:flame_energy_unit", count: 2, random_bonus: 14 }
+	]
+}

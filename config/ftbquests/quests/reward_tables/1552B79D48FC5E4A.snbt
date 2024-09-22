@@ -1,0 +1,70 @@
+{
+	id: "1552B79D48FC5E4A"
+	order_index: 32
+	title: "破甲"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:splash_potion"
+				Count: 1b
+				tag: {
+					Potion: "apotheosis:long_sundering"
+				}
+			}
+			random_bonus: 15
+		}
+		{
+			item: {
+				id: "minecraft:splash_potion"
+				Count: 1b
+				tag: {
+					Potion: "apotheosis:strong_sundering"
+				}
+			}
+			random_bonus: 15
+		}
+		{
+			item: {
+				id: "minecraft:splash_potion"
+				Count: 1b
+				tag: {
+					Potion: "undergarden:long_brittleness"
+				}
+			}
+			random_bonus: 15
+		}
+		{
+			item: {
+				id: "minecraft:splash_potion"
+				Count: 1b
+				tag: {
+					Potion: "undergarden:strong_brittleness"
+				}
+			}
+			random_bonus: 15
+		}
+		{
+			item: {
+				id: "minecraft:tipped_arrow"
+				Count: 1b
+				tag: {
+					Potion: "apotheosis:strong_sundering"
+				}
+			}
+			count: 32
+			random_bonus: 64
+		}
+		{
+			item: {
+				id: "minecraft:tipped_arrow"
+				Count: 1b
+				tag: {
+					Potion: "undergarden:long_brittleness"
+				}
+			}
+			count: 32
+			random_bonus: 64
+		}
+	]
+}

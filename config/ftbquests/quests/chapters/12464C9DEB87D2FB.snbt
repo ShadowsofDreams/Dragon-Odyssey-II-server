@@ -1,0 +1,5070 @@
+{
+	id: "12464C9DEB87D2FB"
+	group: "6FAF4D7A9C6A8763"
+	order_index: 1
+	filename: "12464C9DEB87D2FB"
+	title: "武器"
+	icon: {
+		id: "enigmaticlegacy:etherium_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["只介绍可升级武器，并列出其升级路线。"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.0d
+			y: -7.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "blackaures_paintings:textures/p11.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -11.0d
+			y: -7.5d
+			width: 10.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "blackaures_paintings:textures/p15.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: -1.0d
+			subtitle: "命中时，清除目标的所有药水效果(可升级）"
+			id: "4FD43ADA5AD86258"
+			tasks: [{
+				id: "67ED65266CD1BB02"
+				type: "item"
+				item: {
+					id: "useless_sword:clay_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "256753837F6DDA7B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "神铸武器"
+			icon: "apotheosis:mythic_material"
+			x: -1.5d
+			y: -9.0d
+			subtitle: "功夫不负有心人！"
+			description: [
+				"    或许你在寻找变强的方法？"
+				"    升级你的武器吧！"
+				"    至于如何升级，那就看你的选择了。当然，条条大路通罗马，无论你选择何种武器、何种方式，只要你能将它推到顶点，你最终都能得到神的眷顾！"
+				"(有些武器在当前版本暂时被隐藏了）"
+			]
+			size: 3.0d
+			id: "540D300C29DB1AC4"
+			tasks: [{
+				id: "609846DD022EC7A6"
+				type: "checkmark"
+				title: "终极武器"
+			}]
+			rewards: [{
+				id: "432FF49654FFFE03"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.0d
+			subtitle: "投掷型小饮料!"
+			id: "116B2EFF1DD55599"
+			tasks: [{
+				id: "7FCB2A0ED65115B6"
+				type: "item"
+				item: "born_in_chaos_v1:intoxicatind_bomb"
+			}]
+			rewards: [{
+				id: "57ED955285E4AE43"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			subtitle: "武器们偶尔开过酒会，有一次匕首喝的烂醉并不断如此自称，同时因此错过了第二天的神铸武器竞选，此后武器们都拿这个名字笑话他。"
+			description: ["        逸一时，误一世，指的是匕首一时喝酒痛快，错过竞选一辈子后悔。"]
+			id: "35B93DB863E4D12E"
+			tasks: [{
+				id: "73B1A27057FD7A3F"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:intoxicating_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "61872780175A89B9"
+					type: "xp"
+					xp: 114
+				}
+				{
+					id: "294E14C431E818B7"
+					type: "xp"
+					xp: 514
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			subtitle: "右击一个动物或召唤物，给予10秒力量2和生命恢复3，同时该生物会被献祭"
+			id: "55A97B7BE736412B"
+			tasks: [{
+				id: "0218E4892ADB157E"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:dark_ritual_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			subtitle: "必须拥有力量效果才能使用。命中时，施加数秒的骨折1、碎盾1（可升级）"
+			description: [
+				"碎盾：暂时禁用盾牌"
+				"骨折：期间，获得缓慢2和虚弱1"
+			]
+			id: "13201F724FD45B22"
+			tasks: [{
+				id: "3C10E8E024434FD2"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:darkwarblade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "67233F2633AD101B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			subtitle: "（可升级）"
+			id: "317649A84C7A6369"
+			tasks: [{
+				id: "0F18E952643E2EF9"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1BDE82B9146E96A4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			subtitle: "（可升级）"
+			id: "7806947C379CFDF8"
+			tasks: [{
+				id: "683117805194847C"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:spiritual_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6415F6D097CD2CC3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			subtitle: "跳劈命中时，造成短暂脑震荡（可升级）"
+			description: ["脑震荡：获得缓慢6和虚弱2"]
+			id: "18704E64C1FFB6AF"
+			tasks: [{
+				id: "443AE18ACD4F4930"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:skullbreaker_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "52C93F771469FD6D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			subtitle: "击杀怪物时，给予5秒狂暴buff，可叠加至5层(可升级)"
+			description: ["狂暴：提升力量和速度"]
+			id: "213E472842A8D500"
+			tasks: [{
+				id: "5BDD8B19285E8104"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:great_reaper_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "75E15C9B924561C7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			subtitle: "命中时，施加数秒的凋零2、恐怖凝视1（可升级）"
+			description: [
+				"恐怖凝视：期间，获得失明和魔力耗尽"
+				"魔力耗尽：期间，无法召唤仆从"
+			]
+			id: "729C4C1CF7BF3FAB"
+			tasks: [{
+				id: "7B7B911D46D2D823"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:nightmare_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "76A3600A34C47B9F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			subtitle: "命中时，施加数秒的缓慢2、灵魂出窍1(可升级）"
+			description: ["灵魂出窍期间，受到的所有伤害会被统计，效果消失时，将累计的伤害再次施加"]
+			id: "38076DCA3D5D210B"
+			tasks: [{
+				id: "0C7DC39D4D52DB03"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:soul_cutlass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "606AB3B2D1E1EACA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			id: "4C4A6B7147ECD4EF"
+			tasks: [{
+				id: "2EC7E18E99588D13"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:staffof_blindness"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			subtitle: "右键发射魔血法球，可蓄力"
+			id: "3369300CF3402C69"
+			tasks: [{
+				id: "20062524C3478F72"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:staffof_magic_arrows"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "56D36FB877583C91"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			subtitle: "右击一个方块，召唤2只骷髅仆从，并给予15秒魔力耗尽"
+			id: "2B29015B5BB268D9"
+			tasks: [{
+				id: "54F5D7E57DCFBDBC"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:staffofthe_summoner"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "05C5B1C205D7E435"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			subtitle: "右键发射爆炸南瓜，可蓄力；未命中目标但是命中方块时，召唤1只南瓜仆从，并给予25秒魔力耗尽"
+			id: "7AD1C4186F06F9BE"
+			tasks: [{
+				id: "43E10C8CA25CA406"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:pumpkin_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3544481808037526"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			id: "0611B87EE320D500"
+			tasks: [{
+				id: "307B918FD6877881"
+				type: "item"
+				item: {
+					id: "iceandfire:pixie_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "061F31DF1FFAB57F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			id: "50880DF5A01DA012"
+			tasks: [{
+				id: "6AC4F1815DD5B8A0"
+				type: "item"
+				item: {
+					id: "relics:shadow_glaive"
+					Count: 1b
+					tag: {
+						abilities: {
+							saw: {
+								stats: {
+									damage: 1.498d
+									speed: 17.51d
+								}
+								points: 0
+							}
+							glaive: {
+								stats: {
+									damage: 3.811d
+									bounces: 3.405d
+									radius: 3.123d
+									recharge: 10.257d
+								}
+								points: 0
+							}
+						}
+						charges: 8
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "49F7E47974A1D312"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			subtitle: "命中时，施加数秒的失明,自带2个空镶孔。(可升级)"
+			id: "2AC2F1416A0C5D95"
+			tasks: [{
+				id: "0FB48E39A6138582"
+				type: "item"
+				item: {
+					id: "useless_sword:coal_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1274E524540733B5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			subtitle: "命中时，施加数秒的饥饿2、挖掘疲劳3；右键给予5秒速度2"
+			id: "5AB5C3D06DB43B25"
+			tasks: [{
+				id: "4418D8EAC679A84F"
+				type: "item"
+				item: {
+					id: "useless_sword:redstone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "05D3ECE5BB2F2301"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			subtitle: "命中时，生成一个经验球"
+			id: "1F186823F80851DF"
+			tasks: [{
+				id: "0D3351D4D8E818D5"
+				type: "item"
+				item: {
+					id: "useless_sword:lapis_lazuli_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1938052A23A27220"
+				type: "item"
+				item: "create:experience_nugget"
+				random_bonus: 1023
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			subtitle: "命中时，施加33秒反胃2，并把目标拉向你；右键给予3秒跳跃提升3"
+			id: "6BB215E6306134A4"
+			tasks: [{
+				id: "40E13AF996407249"
+				type: "item"
+				item: {
+					id: "useless_sword:slime_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F3A50D9518B8989"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			subtitle: "命中时，施加数秒的失明2，自带4个空镶孔（可升级）"
+			id: "2882F2D1EFFB847C"
+			tasks: [{
+				id: "2AC64AD0F14E9026"
+				type: "item"
+				item: {
+					id: "useless_sword:sand_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			subtitle: "命中时，施加数秒的失明2，自带6个空镶孔（可升级）"
+			id: "576942A8B3CFFA72"
+			tasks: [{
+				id: "14BBB5A61316D706"
+				type: "item"
+				item: {
+					id: "useless_sword:red_sand_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F26FA90702BF555"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			subtitle: "命中时，施加数秒的失明2，10%概率施加数秒凋零1，8个空镶孔（可升级）"
+			id: "4464768E3CEC3B52"
+			tasks: [{
+				id: "6A3606FFC2A360D7"
+				type: "item"
+				item: {
+					id: "useless_sword:soul_sand_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			subtitle: "命中时，施加数秒的凋零2,概率反弹伤害。（可升级）"
+			id: "1A30AD19B7563116"
+			tasks: [{
+				id: "6415DD5B86B298F8"
+				type: "item"
+				item: {
+					id: "useless_sword:witherred_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E0E69E7E7A57EBC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			subtitle: "右键烧炼副手持有的物品，需要消耗煤炭"
+			id: "773180E99847BFE9"
+			tasks: [{
+				id: "2B00D24703F5FA94"
+				type: "item"
+				item: {
+					id: "useless_sword:furnace_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2BC6DF0FFAE4F0E3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.0d
+			y: 1.0d
+			subtitle: "在主手时，给予急迫1"
+			id: "112B04A844958191"
+			tasks: [{
+				id: "4AD0B1553CF52E75"
+				type: "item"
+				item: {
+					id: "useless_sword:emerald_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "562DD0D4A6B3ABFD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: -11.0d
+			subtitle: "命中时，施加150秒挖掘疲劳3；右键清除你的挖掘疲劳；在主手时，接触水给予力量、海豚恩惠、潮涌能量、水下呼吸"
+			description: [
+				"    守卫先生天生就胃口大，似乎永远都吃不饱，它和同样喜欢美食的终结者先生是很好的朋友。"
+				"    有一次终结者先生带来了永恒糖果，吃不饱的守卫先生瞬间就迷上了这种食物，并在日后陆续寻求到了永恒蛋糕与永恒牛排。"
+				"    “俗话说得好，越古越强，不是么？”永恒守卫如是说道，可实际上它是吃了太多永恒食物才变成这样的。"
+			]
+			id: "6CBF6DFCE0B7DF2E"
+			tasks: [{
+				id: "44EECCB7BF963E3D"
+				type: "item"
+				item: {
+					id: "useless_sword:ancient_guardian_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7D072B64DA0F6B6C"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "命中时，施加150秒挖掘疲劳3；右键清除你的挖掘疲劳；在主手时，接触水给予力量、海豚恩惠、潮涌能量、水下呼吸（可升级）"
+			description: [
+				"    吃多了爆炒坚守者导致的."
+				"    “你知道的，我就爱吃这种东西”"
+			]
+			id: "3161848EEBFE3A3A"
+			tasks: [{
+				id: "5C19BC2CE97BB8C2"
+				type: "item"
+				item: {
+					id: "useless_sword:elder_guardian_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "21A3F4972D61F0D3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "79CD8F02EB6C00E4"
+					type: "item"
+					title: "守卫先生最爱的食物"
+					item: "emeraldcraft:stir_fried_warden_heart"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			subtitle: "在主手时，接触水给予力量、海豚恩惠、潮涌能量、水下呼吸（可升级）"
+			id: "478107588D578D78"
+			tasks: [{
+				id: "25909D4FD436A1BB"
+				type: "item"
+				item: {
+					id: "useless_sword:guardian_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "59253303E2B9B59A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			subtitle: "对守卫者的伤害增加20（可升级）"
+			id: "144D7D7770CE9405"
+			tasks: [{
+				id: "130D9F5324D72849"
+				type: "item"
+				item: {
+					id: "useless_sword:prismarine_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "18C7A7C2343CC3A1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F7B86E5E205E592"
+					type: "item"
+					item: "celestial_artifacts:guardian_eye"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			subtitle: "在主手时，若你离开水体，持续扣除耐久"
+			id: "7549AFA3476FE8E7"
+			tasks: [{
+				id: "63B96C13EF44F395"
+				type: "item"
+				item: {
+					id: "useless_sword:brain_coral_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6518899F0F377770"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: -11.0d
+			subtitle: "七神原罪，七神祝福"
+			description: [
+				"    雷霆与火焰是什么神明的象征，以雷霆降下惩戒与火焰照亮众生。你尝试窃取神明的伟力，但总而言之只有不断的打磨自己的剑才是接近神明的最好方法，可是总是差一点差一点……"
+				"    你千方百计打造的剑胚，甚至不如他之前的样子!看起来像毫无生气的木棍!作为一头龙你尝试为“他”注入龙焰，给予他火焰的力量，可剑胚还是缺少什么？缺少最为重要的惩戒之力，你开始尝试引导代表惩戒的雷霆之力降下，在轰然一声巨响后，你成功了!你真的成功了!这把武器透露着七种流光，拿起这把剑的时候，你脑海有了一个名字!七宗罪!七神的伟力!"
+			]
+			id: "6C5154024AB3CB25"
+			tasks: [{
+				id: "32F3ADBAC7230A3B"
+				type: "item"
+				item: {
+					id: "useless_sword:charged_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "05056D15BEAC2CC1"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "加强龙息伤害（可升级）"
+			id: "0EA3C159D21E66D6"
+			tasks: [{
+				id: "2C7C7F02389AC69E"
+				type: "item"
+				item: {
+					id: "useless_sword:alloy_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0FA9021117D23FC8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "加强龙息伤害（可升级）"
+			description: [
+				"通过手持上一阶段的武器被雷电劈中而获得。"
+				"什么？你免疫自然雷电？试试让其他生物帮你手持吧，比如盔甲架。"
+			]
+			id: "042E2618ED96C1C4"
+			tasks: [{
+				id: "7124BA18007E45FC"
+				type: "item"
+				item: {
+					id: "useless_sword:charged_copper_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "791CAD53ED7E1956"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			subtitle: "加强龙息伤害（可升级）"
+			description: ["磨刀霍霍向猪羊"]
+			id: "413BE6E8E5BD1B62"
+			tasks: [{
+				id: "41062E380EC5CB44"
+				type: "item"
+				item: {
+					id: "useless_sword:copper_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "098DDA0EAAB7A683"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			subtitle: "加强龙息伤害（可升级）"
+			id: "305D049925CD0582"
+			tasks: [{
+				id: "6FF398DA0C278C0A"
+				type: "item"
+				item: {
+					id: "iceandfire:copper_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "36BD4E08722DA741"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "21E30270ABA11FCE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1379160654919710476L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -3.0d
+			id: "4A45D4554DC644A9"
+			tasks: [{
+				id: "5E536447193CEB5B"
+				type: "item"
+				item: {
+					id: "twilightforest:twilight_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.0d
+			id: "44AEB9DA46D6B2E4"
+			tasks: [{
+				id: "19EC0FAAFAA63D09"
+				type: "item"
+				item: {
+					id: "twilightforest:lifedrain_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			id: "36EE7156196244FC"
+			tasks: [{
+				id: "4D6E5FB609E9BF9B"
+				type: "item"
+				item: {
+					id: "twilightforest:zombie_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			id: "5593D5DA7AE43207"
+			tasks: [{
+				id: "3F051140C94D35E8"
+				type: "item"
+				item: {
+					id: "twilightforest:fortification_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			subtitle: "命中时，恢复血量（可升级）"
+			id: "472D5CAE148B6517"
+			tasks: [{
+				id: "2A970F95FBAB2BDC"
+				type: "item"
+				item: {
+					id: "useless_sword:life_draining_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "798E3578F4BAD794"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			subtitle: "命中时，恢复血量；右键给予生命恢复和伤害吸收（可升级）"
+			id: "10BA0C425CE38EB8"
+			tasks: [{
+				id: "6FCF5F3B0DC01318"
+				type: "item"
+				item: "useless_sword:undying_sword"
+			}]
+			rewards: [{
+				id: "31E5E53F2FE653D7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "永生大剑"
+			x: 7.0d
+			y: -11.0d
+			subtitle: "命中时，恢复血量；右键给予生命恢复和伤害吸收"
+			id: "256E89FF0EEDEF72"
+			tasks: [{
+				id: "5A263787EE5795AE"
+				type: "item"
+				item: "useless_sword:sword_of_immortality"
+			}]
+			rewards: [{
+				id: "027A250AB0BF8114"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			subtitle: "右键传送到准星所指位置。潜行右击一个方块，以设置一个坐标点，潜行命中时，将目标传送至该坐标点；在主手且位于末地时，给予力量（可升级）"
+			id: "09806117584FD253"
+			tasks: [{
+				id: "2A9ABF04CFA5366F"
+				type: "item"
+				item: {
+					id: "useless_sword:ender_catalyst_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0529D81B15C659C4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5E680B570A83B359"
+					type: "command"
+					title: "提升触及距离"
+					icon: "graveyard:skeleton_hand"
+					command: "/attribute @p forge:reach_distance base set 30"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -11.0d
+			subtitle: "右键传送到准星所指位置。潜行右击一个方块，以设置一个坐标点，潜行命中时，将目标传送至该坐标点；在主手且位于末地时，给予力量"
+			id: "6DAAE518822EFBD5"
+			tasks: [{
+				id: "5CCA80DCAC29886F"
+				type: "item"
+				item: {
+					id: "useless_sword:ender_claymore"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "47A12A46234F7104"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "4F9974F6A0F29A29"
+					type: "command"
+					title: "触及距离大大提升"
+					icon: "whisperwoods:hand_of_fate"
+					command: "/attribute @p forge:reach_distance base set 200"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "右键抛射一个无摔落伤害的末影珍珠（可升级）"
+			id: "2709B43EE9A71391"
+			tasks: [{
+				id: "2D16F4135BA27EF0"
+				type: "item"
+				item: {
+					id: "useless_sword:enderman_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 32
+						display: {
+							Lore: ["{\"text\":\"\\u00A77右键:抛射一个无摔落伤害的末影珍珠\"}"]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D59AE0C37AB9D25"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			subtitle: "(可升级)"
+			id: "1D673769231D0396"
+			tasks: [{
+				id: "71455693D3BD9AF9"
+				type: "item"
+				item: {
+					id: "useless_sword:endstone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A934B20A999715C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			subtitle: "命中时，施加短暂的饱和；右键恢复饱食度，但消耗耐久"
+			id: "515AF08836279850"
+			tasks: [{
+				id: "54319069E4657012"
+				type: "item"
+				item: {
+					id: "useless_sword:chocolate_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "32CCE53F06156E4B"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade"
+						Count: 1b
+						tag: {
+							Material: "tinkers_thinking:black_chocolate"
+						}
+					}
+				}
+				{
+					id: "05CF70BE1D37BCE4"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade"
+						Count: 1b
+						tag: {
+							Material: "tinkers_thinking:white_chocolate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -1.0d
+			subtitle: "命中恼鬼时，吸收它们以恢复耐久度；右键给予隐身；潜行右键给予10秒观察者模式"
+			id: "748FD3040C61427F"
+			tasks: [{
+				id: "01A48EFB3D6CFA7A"
+				type: "item"
+				item: {
+					id: "useless_sword:vex_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "13C98FB1BDFA28CD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			subtitle: "命中时，施加60秒反胃1（可升级）"
+			id: "069B1F6D85FC14FF"
+			tasks: [{
+				id: "7E41DD2B13E090B0"
+				type: "item"
+				item: {
+					id: "useless_sword:pesting_rapier"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "32E1A8194BE3299C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: -16.0d
+			subtitle: "来自异世界的猎人的斧子"
+			description: ["      斧子上的气味......看来它的主人喜欢烧烤"]
+			size: 2.0d
+			id: "4F21491EE70AFFE7"
+			tasks: [{
+				id: "1DBD6E7CB9C08082"
+				type: "item"
+				item: "born_in_chaos_v1:supreme_measure"
+			}]
+			rewards: [{
+				id: "220DB9899823BFBF"
+				type: "command"
+				title: "将玩家的基础伤害提升至5000"
+				icon: {
+					id: "tconstruct:broad_axe_head"
+					Count: 1b
+					tag: {
+						Material: "tinkers_ingenuity:ignitium_ingot"
+					}
+				}
+				command: "/attribute @p minecraft:generic.attack_damage base set 5000"
+				player_command: false
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			id: "6C103C28F47376B6"
+			tasks: [{
+				id: "42716ACE56BEDB9D"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:trident_hayfork"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: -1.0d
+			subtitle: "作为流星锤，除了正常攻击外，还能甩出去。"
+			id: "15B9C06092AC0AE0"
+			tasks: [{
+				id: "41BB0C3C552FC581"
+				type: "item"
+				item: {
+					id: "twilightforest:block_and_chain"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "永坠风暴星"
+			x: -10.0d
+			y: -11.0d
+			subtitle: "流星锤，拥有一点防御力很正常吧。"
+			invisible: true
+			id: "794A876060FB8E36"
+			tasks: [{
+				id: "55A830E975832899"
+				type: "item"
+				item: {
+					id: "twilightforest:block_and_chain"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:elusive\"},\"\",{\"translate\":\"affix.apotheosis:caustic.suffix\"}]}"
+							affixes: {
+								"apotheosis:elusive": 0.48393863f
+								"apotheosis:decimating": 0.82507914f
+								"apotheosis:giant_slaying": 0.94461316f
+								"apotheosis:shredding": 0.99017847f
+								"apotheosis:durable": 0.5f
+								"apotheosis:berserking": 0.63769525f
+								"apotheosis:socket": 3.0f
+								"apotheosis:caustic": 0.49042517f
+							}
+							rarity: "mythic"
+						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: 220.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									204560834
+									681722562
+									-2002625544
+									983109117
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: -0.15d
+								Slot: "mainhand"
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								UUID: [I;
+									512727679
+									-574799712
+									-2038082285
+									1174904394
+								]
+								Name: "generic.movement_speed"
+							}
+							{
+								Amount: 0.15d
+								Slot: "mainhand"
+								AttributeName: "generic.armor"
+								Operation: 1
+								UUID: [I;
+									-1410135448
+									1831291205
+									-1288288734
+									645944028
+								]
+								Name: "generic.armor"
+							}
+							{
+								Amount: -3.3d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									1053581582
+									-1757002725
+									-1942680769
+									-1622741837
+								]
+								Name: "generic.attack_speed"
+							}
+						]
+						display: {
+							Lore: ["{\"text\":\"\\u00A77没有石粒的人无法挥动这个流星锤。\"}"]
+							Name: "{\"text\":\"\\u00A71\\u00A7l永坠风暴星\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "23C0FC9CD406AD72"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			subtitle: "加强龙息伤害（可升级）"
+			id: "5CDFB87C4D90AE95"
+			tasks: [{
+				id: "7638CD4A5C3D7B12"
+				type: "item"
+				item: {
+					id: "iceandfire:stymphalian_bird_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "652873ADDCC5DA3E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: -11.0d
+			subtitle: "击晕敌人，并且自带16个空镶孔。"
+			id: "46EDC897CE978A1F"
+			tasks: [{
+				id: "44BE6A6AFA920178"
+				type: "item"
+				item: {
+					id: "useless_sword:guster_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C648855E6278DAD"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 6.0d
+			y: -11.0d
+			subtitle: "命中时，石化目标60秒"
+			id: "62D10C76273651E5"
+			tasks: [{
+				id: "4EF57F601AC9B452"
+				type: "item"
+				item: {
+					id: "useless_sword:fiery_fossilizer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			subtitle: "命中时，施加数秒的缓慢5（可升级）"
+			id: "2E5CF465235290C9"
+			tasks: [{
+				id: "3F23F7EDC7CD04BD"
+				type: "item"
+				item: {
+					id: "useless_sword:frosted_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "15087DB03DAFD47D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "命中时，施加数秒的缓慢5(可升级)"
+			id: "6F1FF42B6001A862"
+			tasks: [{
+				id: "0664649650AF46AB"
+				type: "item"
+				item: {
+					id: "useless_sword:frozen_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B257525B731FDC1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			subtitle: "命中时，熄灭目标身上的火焰，并且对怕水的生物造成额外10伤害；右键熄灭你身上的火焰 (可升级)"
+			id: "129C1F60637E2F25"
+			tasks: [{
+				id: "0CD4D6286C101A61"
+				type: "item"
+				item: {
+					id: "useless_sword:water_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7322E2B64751503F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			subtitle: "可升级"
+			id: "786EDE62FE417A0B"
+			tasks: [{
+				id: "49C07591EC318CC2"
+				type: "item"
+				item: {
+					id: "useless_sword:glass_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "65D17F3E2D4ADD16"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			subtitle: "命中时，熄灭目标身上的火焰，并且对怕水的生物造成额外10伤害；右键熄灭你身上的火焰"
+			description: [
+				"    “石椎先生，你和流水剑谁更强啊？”"
+				"    “那还用说？当然是我啦。”"
+				"    “那为什么是他选上了神铸武器呢？”"
+			]
+			id: "465A4DD3765DA4B1"
+			tasks: [{
+				id: "67457AA547396D0C"
+				type: "item"
+				item: {
+					id: "useless_sword:dripstone_rapier"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C5677A0DCB7FA3F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "维度斩裂剑"
+			x: -8.0d
+			y: -11.0d
+			subtitle: "右键选择[末地][主世界][下界]进行传送"
+			id: "570B7FD34B5CAEC7"
+			tasks: [{
+				id: "4DA2F91F42812FDE"
+				type: "item"
+				item: {
+					id: "useless_sword:dimensional_breacher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "74DFFFDCC2DF563A"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			subtitle: "命中时，施加数秒的凋零8，并让目标燃起永不熄灭的火；右键与熔炉剑一样；在主手时，给予防火，若是位于下界，额外给予力量(可升级)"
+			id: "49557D7F7F21A091"
+			tasks: [{
+				id: "6A2FE0607083C500"
+				type: "item"
+				item: {
+					id: "useless_sword:nether_catalyst_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0103A4D5B6B028C9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			subtitle: "命中时，点燃目标（可升级）"
+			id: "2998213E25E917E3"
+			tasks: [{
+				id: "040F4BD4B9B14BB8"
+				type: "item"
+				item: {
+					id: "useless_sword:magma_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C2C305C7BBF648A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.0d
+			y: -11.0d
+			subtitle: "命中时，施加数秒的凋零8，并让目标燃起永不熄灭的火；右键与熔炉剑一样；在主手时，给予防火，若是位于下界，额外给予力量"
+			id: "045C81EDDF18711B"
+			tasks: [{
+				id: "45743A2CCF09D327"
+				type: "item"
+				item: {
+					id: "useless_sword:nether_striker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "204F1CCE0953A4CE"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			subtitle: "（可升级）"
+			id: "64931ACC051B9845"
+			tasks: [{
+				id: "37F77A26F3E50BEB"
+				type: "item"
+				item: {
+					id: "useless_sword:netherrack_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "11C97D9150E42265"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			subtitle: "命中时，点燃目标（可升级）"
+			id: "39F475430C9F1DE3"
+			tasks: [{
+				id: "7DD4EA9BBC562160"
+				type: "item"
+				item: {
+					id: "useless_sword:pyro_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "29F1969C881544F1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			subtitle: "命中时，点燃目标（可升级）"
+			id: "75C1F86BF08BF32C"
+			tasks: [{
+				id: "57E3FAB31217C046"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "09973E536C06E8D6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			subtitle: "可升级"
+			id: "49A3D1E42CC46A39"
+			tasks: [{
+				id: "6D0BF218DC8E3764"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			subtitle: "命中时，把目标拉向你，并且对水生生物造成额外伤害（可升级）"
+			id: "01D902996DFFCCD8"
+			tasks: [{
+				id: "60D93A5F82886776"
+				type: "item"
+				item: {
+					id: "useless_sword:neptunium_grab_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4E9BA0666818CDEA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			subtitle: "命中时，施加30秒中毒1，并给你一条寄语"
+			id: "5AF5029ECE9DD957"
+			tasks: [{
+				id: "0DE84F3377935C44"
+				type: "item"
+				item: {
+					id: "useless_sword:message_in_a_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "17241A0F7118F316"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			subtitle: "概率反弹伤害（可升级）"
+			id: "7DFB9C16999958EB"
+			tasks: [{
+				id: "42544E5AED87FDE9"
+				type: "item"
+				item: {
+					id: "useless_sword:basalt_broadsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5415842F9FC2A997"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			subtitle: "命中时，施加数秒的凋零5；潜行右键给予10秒凋灵之怒2，并破坏周围方块，概率反弹伤害（可升级）"
+			description: ["凋灵之怒期间，发出凋灵的声音，并获得十数秒的力量和速度加成。"]
+			id: "3AE7F81E749BFF1B"
+			tasks: [{
+				id: "36AE137D18135A8D"
+				type: "item"
+				item: {
+					id: "useless_sword:wither_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "552AFFC5B3ECB4F6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: -11.0d
+			subtitle: "命中时，施加数秒的凋零5；潜行右键给予10秒凋灵之怒2，并破坏周围方块，概率反弹伤害"
+			id: "7EDF6CB167BA2880"
+			tasks: [{
+				id: "069037D9F8C439E2"
+				type: "item"
+				item: {
+					id: "useless_sword:soul_glaive"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E57DFAE3A6FE6B6"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 9.0d
+			y: -11.0d
+			id: "073A6D615AD7F293"
+			tasks: [{
+				id: "2826CE781D595F93"
+				type: "item"
+				item: {
+					id: "aquamirae:remnants_saber"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "218D2EE304DE1550"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: -1.5d
+			y: -19.5d
+			size: 3.0d
+			id: "6DF7A9F7C8A1A247"
+			tasks: [{
+				id: "1DCA8BA5A1566A0D"
+				type: "item"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_sword"
+			}]
+			rewards: [
+				{
+					id: "65747DF33DC0639C"
+					type: "xp_levels"
+					xp_levels: 1569325055
+				}
+				{
+					id: "4145EC67E3B9F81D"
+					type: "xp"
+					xp: 1569325055
+				}
+			]
+		}
+		{
+			title: "终极下界合金剑"
+			x: -11.0d
+			y: -11.0d
+			id: "54E032A9E87C9696"
+			tasks: [{
+				id: "353CBC358FB8B924"
+				type: "item"
+				item: {
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_sword"
+					Count: 1b
+					tag: {
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:elongated\"},\"\",{\"translate\":\"affix.apotheosis:elusive.suffix\"}]}"
+							affixes: {
+								"apotheosis:elusive": 0.51691544f
+								"apotheosis:elongated": 0.23210871f
+								"apotheosis:telepathic": 0.66571957f
+								"apotheosis:glacial": 0.2685414f
+								"apotheosis:vampiric": 0.27311498f
+								"apotheosis:durable": 0.55f
+								"apotheosis:violent": 0.6951452f
+							}
+							rarity: "mythic"
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3262327B29361B2C"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			title: "龙血合金剑"
+			x: 10.0d
+			y: -11.0d
+			id: "0CB8B1431C4B4C7E"
+			tasks: [{
+				id: "4CC1B4EF07CB8B2D"
+				type: "item"
+				item: {
+					id: "upgradednetherite:corrupt_upgraded_netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3744F5924D30DD3C"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			title: "龙钢剑"
+			x: 10.0d
+			y: -1.0d
+			subtitle: "可升级"
+			id: "441C4D5D8825699D"
+			tasks: [
+				{
+					id: "1B4435191D342FEE"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24D162A2A7F9FD19"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A3DB72ED87993E8"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6979CC2B64A6463B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "龙骨血剑"
+			x: 10.0d
+			y: 0.0d
+			subtitle: "可升级"
+			id: "2F4A90B694A71D0B"
+			tasks: [
+				{
+					id: "6DDC13FA47E6E49A"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonbone_sword_fire"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3B8C99A61BD4995C"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonbone_sword_ice"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A1D2BF582EC9C3F"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonbone_sword_lightning"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "727E85A36DF08315"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			subtitle: "可升级"
+			id: "67B365443A19076C"
+			tasks: [{
+				id: "7FD51A554AC1F9EE"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D968CCF37937F40"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.0d
+			y: -1.0d
+			subtitle: "攻击不误格挡工（可升级）"
+			id: "4C0CD146CF28AF81"
+			tasks: [{
+				id: "247459C86DC9352D"
+				type: "item"
+				item: {
+					id: "alexsmobs:skelewag_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1283FD62A519F7E3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: 0.0d
+			subtitle: "可升级"
+			id: "72A2860A927A4C55"
+			tasks: [{
+				id: "6A52F18F09413479"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E424DB0E40970E0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: 1.0d
+			subtitle: "可升级"
+			id: "7C894E3D84AEF11A"
+			tasks: [{
+				id: "2D48B6871E2932B5"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "27B3A9277C05F59E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "022BE2C47E980627"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1379160654919710476L
+				}
+			]
+		}
+		{
+			title: "升级下界合金剑"
+			x: -11.0d
+			y: -1.0d
+			subtitle: "可升级"
+			id: "16C7E34CD3753BB9"
+			tasks: [{
+				id: "4EBF2766F3494566"
+				type: "item"
+				title: "下界合金剑"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "upgradednetherite:upgraded_netherite_sword"
+					}
+				}
+			}]
+			rewards: [{
+				id: "21DA3E6CCF7DD652"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "DNA切割刀"
+			x: 0.0d
+			y: -11.0d
+			subtitle: "命中时，清除目标的所有药水效果，并且无视护甲(每有1%额外的护甲穿透属性，就增加1%的最大伤害）。"
+			id: "55D6508F16CF38AA"
+			tasks: [{
+				id: "3DAD37ACED47CB32"
+				type: "item"
+				item: {
+					id: "useless_sword:dna_cutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "16C38EB07E35AF18"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: -13.0d
+			y: 0.0d
+			subtitle: "使用时，产生范围斩击（可升级）"
+			id: "406E9FF6224E858A"
+			tasks: [{
+				id: "032D5D4A7D65C619"
+				type: "item"
+				item: {
+					id: "useless_sword:tooth_glaive"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 32
+						display: {
+							Lore: [
+								"{\"text\":\"\\u00A77挥砍时，如果自己与被攻击者距离极近，则造成4点范围伤害\"}"
+								"{\"text\":\"\\u00A77挖掘时，每个游戏刻造成一次范围伤害\"}"
+							]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C2C36718F767BCC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -14.0d
+			y: -11.0d
+			subtitle: "攻击减少敌方最大生命值"
+			id: "0EA53B86CD5BB3F2"
+			tasks: [{
+				id: "15174D0C47CD1D76"
+				type: "item"
+				item: {
+					id: "aquamirae:divider"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "118210C13F4D42D4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "右键掷一个骰子"
+			id: "7FA7053382F75122"
+			tasks: [{
+				id: "0A4E6E30CB707C4D"
+				type: "item"
+				item: {
+					id: "useless_sword:sword_of_fate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "57574DE621FD738E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "命中时，80%概率强制脱下目标的盔甲(可升级)"
+			id: "3BB2B643BBB53FF6"
+			tasks: [{
+				id: "2525EA6308247BCF"
+				type: "item"
+				item: {
+					id: "useless_sword:elven_stripper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "226BC940FB353E84"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			subtitle: "可升级"
+			id: "31A61A3BDD20BA91"
+			tasks: [{
+				id: "6DD7C473B3EFCE39"
+				type: "item"
+				item: {
+					id: "iceandfire:ghost_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2C54B80DDADC6739"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "770688F7D00FE4CE"
+					type: "choice"
+					icon: {
+						id: "endrem:magical_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					exclude_from_claim_all: true
+					table_id: 3830862753437701160L
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -11.0d
+			subtitle: "默认情况下远程伤害大约为一千左右。"
+			id: "44DD98DBE0C8DF89"
+			tasks: [{
+				id: "1724ED7311507807"
+				type: "item"
+				item: {
+					id: "dreadsteel:dreadsteel_scythe"
+					Count: 1b
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 250.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									-1211201661
+									-1823718631
+									-1799441549
+									-26522992
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: 2.5d
+								Slot: "mainhand"
+								AttributeName: "celestial_artifacts:arrow_strength"
+								Operation: 1
+								UUID: [I;
+									546798429
+									576995349
+									-1953912305
+									-976469663
+								]
+								Name: "generic.attack_damage"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A7d追魂锁命\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "2788F602A95F20FF"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.0d
+			subtitle: "可升级"
+			id: "13274C003AC541CB"
+			tasks: [{
+				id: "6A522B132B3E6F51"
+				type: "item"
+				item: "dreadsteel:dreadsteel_scythe"
+			}]
+			rewards: [{
+				id: "783E51C306047ABD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "终极分形者"
+			x: -14.0d
+			y: -1.0d
+			subtitle: "(可升级)"
+			id: "284971F8AEF82437"
+			tasks: [{
+				id: "0EC44AB115DCDAAA"
+				type: "item"
+				item: {
+					id: "cataclysm:final_fractal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4295F804EDFEC2A6"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			subtitle: "可升级"
+			id: "29A734D1E0BBC79B"
+			tasks: [{
+				id: "19F71B560BF9A291"
+				type: "item"
+				item: {
+					id: "aquamirae:poisoned_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F9BF151FA843874"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "可升级"
+			id: "238CD78ED7E46A2C"
+			tasks: [{
+				id: "2312647A86A86CF4"
+				type: "item"
+				item: {
+					id: "aquamirae:whisper_of_the_abyss"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6765B677A7A0441D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -15.0d
+			y: -1.0d
+			subtitle: "增强海狼系列3种套装的能力。（可升级）"
+			id: "25F3A62C5F60FCDD"
+			tasks: [{
+				id: "47EB8D4EED40EB10"
+				type: "item"
+				item: {
+					id: "aquamirae:coral_lance"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 4s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1AC94BE1C2162211"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -16.0d
+			y: -1.0d
+			subtitle: "打造他的铁匠永远想不到第一个被其背刺的家伙是自己（可升级）"
+			id: "175DC8B3A7CE4408"
+			tasks: [{
+				id: "4FF595D55B663F97"
+				type: "item"
+				item: {
+					id: "aquamirae:dagger_of_greed"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "38AF130218F3A535"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5B509852EE7C11F7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1379160654919710476L
+				}
+			]
+		}
+		{
+			title: "末影双手剑"
+			x: -16.0d
+			y: -11.0d
+			invisible: true
+			id: "22C547A0196763D6"
+			tasks: [{
+				id: "5A703AA95CD22D02"
+				type: "item"
+				item: {
+					id: "cataclysm:zweiender"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "32E9514E5AC96E20"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: -13.0d
+			y: -1.0d
+			subtitle: "命中时，产生范围伤害(可升级)"
+			id: "56E27DE8EF9A313D"
+			tasks: [{
+				id: "25947C50E9885F91"
+				type: "item"
+				item: {
+					id: "useless_sword:amethyst_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B0F63B5113252F4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "龙胆亮银枪"
+			x: -15.0d
+			y: -11.0d
+			id: "3CD59B0B159D2CBB"
+			tasks: [{
+				id: "039922D5AF5286C8"
+				type: "item"
+				item: {
+					id: "aquamirae:coral_lance"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:sophisticated\"},\"\",{\"translate\":\"affix.apotheosis:elusive.suffix\"}]}"
+							affixes: {
+								"apotheosis:elusive": 0.34834063f
+								"apotheosis:elongated": 0.5885653f
+								"apotheosis:sophisticated": 0.69121265f
+								"apotheosis:glacial": 0.09476262f
+								"apotheosis:intricate": 0.10356647f
+								"apotheosis:vampiric": 0.69552535f
+								"apotheosis:durable": 0.44f
+								"apotheosis:socket": 1.0f
+								"apotheosis:weakening": 0.68243384f
+							}
+							rarity: "mythic"
+						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: 200.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									-689455861
+									-1927918674
+									-1371684901
+									-575170525
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: 7.0d
+								Slot: "mainhand"
+								AttributeName: "generic.luck"
+								Operation: 0
+								UUID: [I;
+									876002614
+									269764372
+									-1111698426
+									-95848034
+								]
+								Name: "generic.luck"
+							}
+							{
+								Amount: 7.0d
+								Slot: "mainhand"
+								AttributeName: "generic.knockback_resistance"
+								Operation: 0
+								UUID: [I;
+									1575418751
+									-191805593
+									-1832542768
+									1348014783
+								]
+								Name: "generic.knockback_resistance"
+							}
+							{
+								Amount: 7.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									-560580399
+									-1908849257
+									-1109233390
+									-1214185224
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: 7.0d
+								Slot: "mainhand"
+								AttributeName: "generic.armor"
+								Operation: 0
+								UUID: [I;
+									1350353674
+									7163773
+									-1176649660
+									-795016480
+								]
+								Name: "generic.armor"
+							}
+							{
+								Amount: 7.0d
+								Slot: "mainhand"
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								UUID: [I;
+									1308452926
+									-1318763050
+									-1623166824
+									-1785776697
+								]
+								Name: "generic.armor_toughness"
+							}
+							{
+								Amount: 3.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									-1256679178
+									-1357298125
+									-1466126300
+									457584215
+								]
+								Name: "generic.attack_speed"
+							}
+							{
+								Amount: 0.7d
+								Slot: "mainhand"
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								UUID: [I;
+									458054573
+									-783530661
+									-1848123840
+									1602663639
+								]
+								Name: "generic.movement_speed"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A7c\\u00A7l龙胆亮银枪\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "613B60B179941D85"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			title: "疾风双刃剑"
+			x: -17.0d
+			y: -11.0d
+			subtitle: "暴击造成324%基础伤害，并且暴击率全包第一。"
+			id: "2265A762D5E7A87C"
+			tasks: [{
+				id: "5657FEABDB4BB3D5"
+				type: "item"
+				item: {
+					id: "aquamirae:terrible_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E92026CAE8F4B84"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			id: "4412800F936DFE1A"
+			tasks: [{
+				id: "6BDCD1D0E8050982"
+				type: "item"
+				item: {
+					id: "aquamirae:maze_rose"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			id: "745E42819B00EEE3"
+			tasks: [{
+				id: "45C53A40248F8CE6"
+				type: "item"
+				item: {
+					id: "aquamirae:poisoned_chakra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "女皇魔剑"
+			x: -17.0d
+			y: -1.0d
+			subtitle: "击败冰雪女王获得"
+			id: "177913DFE31A66A5"
+			tasks: [{
+				id: "13BF9CBC7C76DA19"
+				type: "item"
+				item: {
+					id: "iceandfire:dread_queen_sword"
+					Count: 1b
+					tag: {
+						affix_data: {
+							name: "{\"color\":\"#BB00BB\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:graceful\"},\"\",{\"translate\":\"affix.apotheosis:intricate.suffix\"}]}"
+							affixes: {
+								"apotheosis:graceful": 0.8685729f
+								"apotheosis:glacial": 0.77088434f
+								"apotheosis:lacerating": 0.42337096f
+								"apotheosis:intricate": 0.2303294f
+								"apotheosis:durable": 0.29000002f
+								"apotheosis:socket": 1.0f
+								"apotheosis:festive": 0.5537944f
+							}
+							rarity: "epic"
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6960B440B915926B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5B1752A55184E811"
+					type: "random"
+					title: "龙币"
+					icon: "hanew_village_mod:hanewcoin"
+					table_id: 1379160654919710476L
+				}
+			]
+		}
+		{
+			title: "基岩合金镰"
+			x: -13.0d
+			y: -11.0d
+			subtitle: "基础伤害实际为230，攻击会造成100%伤害的aoe效果，会攻击到玩家自己。"
+			invisible: true
+			id: "555AFFF1456ACD8D"
+			tasks: [{
+				id: "493781CD8EFBE2BE"
+				type: "item"
+				item: {
+					id: "tinkers_ingenuity:bigsickle"
+					Count: 1b
+					tag: {
+						tic_persistent: {
+							"tconstruct:creative": {
+								abilities: 4
+								souls: 1
+								upgrades: 12
+							}
+							"tconstruct:swiftstrike": 72
+							upgrades: -5
+						}
+						tic_multipliers: {
+							"tconstruct:attack_speed": 0.85f
+							"tconstruct:attack_damage": 1.25f
+							"tconstruct:durability": 1.7f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2271875f
+							"tconstruct:mining_speed": 0.56f
+							"tconstruct:attack_damage": 6.1256256f
+							"tconstruct:harvest_tier": "minecraft:wood"
+							"tconstruct:durability": 1.7f
+						}
+						tic_broken: 0b
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:intricate\"},\"\",{\"translate\":\"affix.apotheosis:glacial.suffix\"}]}"
+							affixes: {
+								"apotheosis:sophisticated": 0.70033246f
+								"apotheosis:glacial": 0.46351093f
+								"apotheosis:thunderstruck": 0.7783576f
+								"apotheosis:lacerating": 0.18674284f
+								"apotheosis:intricate": 0.1008805f
+								"apotheosis:infernal": 0.89210075f
+								"apotheosis:durable": 0.44f
+								"apotheosis:socket": 2.0f
+							}
+							rarity: "mythic"
+						}
+						tic_modifiers: [
+							{
+								name: "tconstruct:creative_slot"
+								level: 1s
+							}
+							{
+								name: "tconstruct:swiftstrike"
+								level: 5s
+							}
+							{
+								name: "tinkers_ingenuity:reaper"
+								level: 1s
+							}
+							{
+								name: "tinkers_ingenuity:horrible"
+								level: 2s
+							}
+							{
+								name: "tconstruct:harvest"
+								level: 1s
+							}
+						]
+						tic_upgrades: [
+							{
+								name: "tconstruct:creative_slot"
+								level: 1s
+							}
+							{
+								name: "tconstruct:swiftstrike"
+								level: 5s
+							}
+						]
+						tic_materials: [
+							"tinkers_ingenuity:bedrock_alloy_ingot"
+							"tinkers_ingenuity:anglers_fang"
+							"tinkers_ingenuity:bedrock_alloy_ingot"
+							"tinkers_ingenuity:anglers_fang"
+						]
+						Damage: 0
+						tic_volatile_data: {
+							abilities: 5
+							souls: 1
+							upgrades: 14
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "4CCA25A5DF499D18"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			title: "基岩合金迅捷剑"
+			x: -12.0d
+			y: -11.0d
+			subtitle: "基础伤害为200，取消被命中对象的受伤无敌时间，大幅度限制其回血效果。如果使用者佩戴七咒之戒，则攻击伤害翻倍。"
+			invisible: true
+			id: "7A8632246AD660D1"
+			tasks: [{
+				id: "6E3A526BFC12A5A3"
+				type: "item"
+				item: {
+					id: "tinker_rapier:rapier_tic"
+					Count: 1b
+					tag: {
+						tic_persistent: {
+							"tconstruct:creative": {
+								upgrades: 7
+							}
+							"tconstruct:swiftstrike": 72
+							upgrades: -6
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 3.609375f
+							"tconstruct:mining_speed": 1.4875f
+							"tconstruct:attack_damage": 2.7625f
+							"tconstruct:harvest_tier": "minecraft:wood"
+							"tconstruct:durability": 2.0f
+						}
+						tic_broken: 0b
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:graceful\"},\"\",{\"translate\":\"affix.apotheosis:glacial.suffix\"}]}"
+							affixes: {
+								"apotheosis:elusive": 0.20856243f
+								"apotheosis:graceful": 0.62347215f
+								"apotheosis:glacial": 0.812845f
+								"apotheosis:infernal": 0.6265571f
+								"apotheosis:vampiric": 0.4470861f
+								"apotheosis:durable": 0.57f
+								"apotheosis:socket": 1.0f
+								"apotheosis:festive": 0.5859226f
+							}
+							rarity: "mythic"
+						}
+						tic_modifiers: [
+							{
+								name: "tinkers_ingenuity:born_with_evil"
+								level: 1s
+							}
+							{
+								name: "tconstruct:creative_slot"
+								level: 1s
+							}
+							{
+								name: "tconstruct:swiftstrike"
+								level: 5s
+							}
+							{
+								name: "tinkers_ingenuity:horrible"
+								level: 1s
+							}
+							{
+								name: "tconstruct:silky_shears"
+								level: 1s
+							}
+						]
+						tic_upgrades: [
+							{
+								name: "tinkers_ingenuity:born_with_evil"
+								level: 1s
+							}
+							{
+								name: "tconstruct:creative_slot"
+								level: 1s
+							}
+							{
+								name: "tconstruct:swiftstrike"
+								level: 5s
+							}
+						]
+						tic_materials: [
+							"tinkers_ingenuity:bedrock_alloy_ingot"
+							"tinkers_ingenuity:bedrock_alloy_ingot"
+							"tinkers_ingenuity:labolas_ingot"
+							"tinkers_ingenuity:anglers_fang"
+						]
+						Damage: 0
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 9
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "018D9D7A9889CD09"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			subtitle: "用以合成神铸武器"
+			description: [
+				"    在龙境中，各式各样的锤子可以帮助玩家合成物品，而烈狱锻锤则是其中佼佼者。"
+				"    下界合金巨兽掉落。"
+			]
+			id: "693F659A13D8D236"
+			tasks: [{
+				id: "528C02609DA1C320"
+				type: "item"
+				item: {
+					id: "cataclysm:infernal_forge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			id: "3E0E37366E6E838C"
+			tasks: [{
+				id: "61821C148D498406"
+				type: "item"
+				item: "cataclysm:gauntlet_of_guard"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.0d
+			id: "3226172FDCD95CC0"
+			tasks: [{
+				id: "55AE65F3109D34DA"
+				type: "item"
+				item: "cataclysm:the_incinerator"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 0.0d
+			subtitle: "在主手时，给予急迫1"
+			id: "7199A75CA14FCFFA"
+			tasks: [{
+				id: "368DA4EDB208C8B6"
+				type: "item"
+				item: {
+					id: "useless_sword:netherite_slash_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "28D9EB34A9A3E480"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.0d
+			subtitle: "命中时，20%概率秒杀目标，同时此剑转变为普通钻石剑。(可升级)"
+			id: "2799071D74FC51B0"
+			tasks: [{
+				id: "2029F1645FA29E4B"
+				type: "item"
+				item: {
+					id: "useless_sword:bugged_diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "773152C233C85F2B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "不灭臂铠"
+			x: 12.0d
+			y: -11.0d
+			invisible: true
+			id: "5E5359BB1E0ECA29"
+			tasks: [{
+				id: "61F6D9764C88FC28"
+				type: "item"
+				item: {
+					id: "cataclysm:gauntlet_of_guard"
+					Count: 1b
+					tag: {
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:berserking\"},\"\",{\"translate\":\"affix.apotheosis:executing.suffix\"}]}"
+							affixes: {
+								"apotheosis:executing": 0.87477505f
+								"apotheosis:elusive": 0.11935395f
+								"apotheosis:forceful": 0.8595711f
+								"apotheosis:giant_slaying": 0.4880641f
+								"apotheosis:annihilating": 0.9772759f
+								"apotheosis:durable": 0.53f
+								"apotheosis:berserking": 0.44497365f
+								"apotheosis:socket": 3.0f
+								"apotheosis:caustic": 0.89100814f
+							}
+							rarity: "mythic"
+						}
+						AttributeModifiers: [
+							{
+								Amount: 200.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									2129872704
+									-954316324
+									-2039952685
+									296643067
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: 20.0d
+								Slot: "mainhand"
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								UUID: [I;
+									1775441962
+									-1492106280
+									-1487179153
+									198479604
+								]
+								Name: "generic.armor_toughness"
+							}
+							{
+								Amount: 200.0d
+								Slot: "mainhand"
+								AttributeName: "generic.armor"
+								Operation: 0
+								UUID: [I;
+									1118889430
+									-785235962
+									-2115163129
+									-273594888
+								]
+								Name: "generic.armor"
+							}
+							{
+								Amount: 2.0d
+								Slot: "mainhand"
+								AttributeName: "generic.luck"
+								Operation: 0
+								UUID: [I;
+									-1110593532
+									262031653
+									-2002490360
+									-1974003230
+								]
+								Name: "generic.luck"
+							}
+							{
+								Amount: -2.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									488063130
+									634669474
+									-1548212597
+									1454978221
+								]
+								Name: "generic.attack_speed"
+							}
+							{
+								Amount: 0.5d
+								Slot: "offhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 2
+								UUID: [I;
+									1780067980
+									969428710
+									-1389704119
+									1206548520
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: 0.5d
+								Slot: "offhand"
+								AttributeName: "generic.armor"
+								Operation: 2
+								UUID: [I;
+									119692430
+									-852211539
+									-2127626656
+									-303636523
+								]
+								Name: "generic.armor"
+							}
+							{
+								Amount: 0.5d
+								Slot: "offhand"
+								AttributeName: "generic.luck"
+								Operation: 2
+								UUID: [I;
+									-1136804584
+									279398998
+									-2137298929
+									1203883689
+								]
+								Name: "generic.luck"
+							}
+							{
+								Amount: 0.5d
+								Slot: "offhand"
+								AttributeName: "generic.armor_toughness"
+								Operation: 2
+								UUID: [I;
+									-1383003832
+									-2090906768
+									-1926634183
+									-1687942111
+								]
+								Name: "generic.armor_toughness"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A7d\\u00A7l不灭臂铠\"}"
+						}
+						tic_persistent_data: { }
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "7E1F3357B0C364A6"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			title: "炎爆大葬"
+			x: 13.0d
+			y: -11.0d
+			invisible: true
+			id: "030083547391F09E"
+			tasks: [{
+				id: "431BBD20D61D7783"
+				type: "item"
+				item: {
+					id: "cataclysm:the_incinerator"
+					Count: 1b
+					tag: {
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:murderous\"},\"\",{\"translate\":\"affix.apotheosis:caustic.suffix\"}]}"
+							affixes: {
+								"apotheosis:murderous": 0.6320146f
+								"apotheosis:cleaving": 0.9714478f
+								"apotheosis:decimating": 0.0058585405f
+								"apotheosis:annihilating": 0.07513493f
+								"apotheosis:durable": 0.5f
+								"apotheosis:berserking": 0.8408864f
+								"apotheosis:socket": 2.0f
+								"apotheosis:weakening": 0.0758608f
+								"apotheosis:caustic": 0.5384536f
+							}
+							rarity: "mythic"
+						}
+						AttributeModifiers: [
+							{
+								Amount: 250.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									16274309
+									-760920464
+									-1192344206
+									1655985327
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: -2.6d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									-326614824
+									-809418006
+									-2119355926
+									284418001
+								]
+								Name: "generic.attack_speed"
+							}
+							{
+								Amount: 0.3d
+								Slot: "mainhand"
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								UUID: [I;
+									470347277
+									310724353
+									-1646923056
+									-918172903
+								]
+								Name: "generic.movement_speed"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A7d\\u00A7l爆炎大葬\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "3DD583D4ABC9D2B1"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			title: "故障下界合金剑"
+			x: 14.0d
+			y: -11.0d
+			subtitle: "命中时，10%概率秒杀目标，同时此剑转变为普通下界合金剑"
+			id: "20FBAC83CA83C595"
+			tasks: [{
+				id: "6E143B3593EF0826"
+				type: "item"
+				item: {
+					id: "useless_sword:bugged_netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "020FA5A1DDD76121"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: -13.0d
+			y: 1.0d
+			subtitle: "命中时，对自己造成伤害"
+			description: ["    打人的同时打中自己，这也是一种aoe"]
+			id: "6386A567C63492F7"
+			tasks: [{
+				id: "4F5434B47C91B69C"
+				type: "item"
+				item: {
+					id: "useless_sword:cactus_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "342731CC81FC5483"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.0d
+			id: "28F540F5816B17C0"
+			tasks: [{
+				id: "4610B147614EF38D"
+				type: "item"
+				item: {
+					id: "useless_sword:bamboo_saber"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "400C81656D68F64B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.0d
+			y: 1.0d
+			subtitle: "命中时，施加短暂的飘浮10；在主手时，潜行给予缓降"
+			id: "0C4AA3B0B232AE23"
+			tasks: [{
+				id: "712B112A61CDCE47"
+				type: "item"
+				item: {
+					id: "useless_sword:valhalla_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 32
+						display: {
+							Lore: [
+								"{\"text\":\"\\u00A77命中时，施加短暂的飘浮10；\"}"
+								"{\"text\":\"\\u00A77在主手时，潜行给予缓降\"}"
+							]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "43B2B79F0BA6F0AD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			subtitle: "命中时，施加数秒的漂浮2；右键打开一个潜影盒(就像背包)；在主手时，造成8攻击伤害"
+			id: "424117B8FABADD4D"
+			tasks: [{
+				id: "5C6425AAFE7349FD"
+				type: "item"
+				item: {
+					id: "useless_sword:shulker_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 27
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "18BDD3C596B75234"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.0d
+			subtitle: "命中时依据损失生命值造成额外伤害（可升级）"
+			id: "72D128FAB036D3B9"
+			tasks: [{
+				id: "29F26CF04CAC5286"
+				type: "item"
+				item: {
+					id: "aquamirae:fin_cutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7D0C0F5D3CEEA962"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			subtitle: "满血时造成更高伤害"
+			id: "53923BFDBFFF2471"
+			tasks: [{
+				id: "0DB65E01936C98CD"
+				type: "item"
+				item: "useless_sword:gaia_claymore"
+			}]
+			rewards: [{
+				id: "13530FB099C8A862"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			subtitle: "命中时，施加数秒的中毒3或是蛛缚3"
+			id: "617ED7232836ADF9"
+			tasks: [{
+				id: "50E59D6776DD53C6"
+				type: "item"
+				item: {
+					id: "useless_sword:spider_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "68F0E7B390329CE2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			subtitle: "命中时，施加数秒的中毒2"
+			id: "3F78CE1BCB6FB96F"
+			tasks: [{
+				id: "2914BF89874B9E2B"
+				type: "item"
+				item: {
+					id: "useless_sword:chitin_stinger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "05F857A2B817411C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			subtitle: "在主手时，给予急迫1；命中时，施加数秒的中毒2"
+			id: "2D4271ADF6F287F6"
+			tasks: [{
+				id: "70DC795C5CADE76E"
+				type: "item"
+				item: {
+					id: "useless_sword:terra_bladed_chakram"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F28D5F5D92BA3EE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			subtitle: "We are 伐木累！！！"
+			description: [
+				"它是斧子"
+				""
+				"\"我对植物很感兴趣，尤其是树，我最大的爱好就是欣赏树木的年轮，有一回，我居然见到了有史以来最完美的𰻝字型年轮，真想裱起来好好观赏，真是大自然的鬼斧神工口牙！\"切割机先生总喜欢吹嘘他见到的年轮如何美丽，实际上他不是什么植物学家，就是个单纯的伐木狂"
+			]
+			id: "5DCB66AE45DE9BC7"
+			tasks: [{
+				id: "0A518492D176EE3D"
+				type: "item"
+				item: {
+					id: "useless_sword:copper_jigsaw_slicer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2F5F0E2809F8F069"
+				type: "item"
+				auto: "enabled"
+				item: "prefab:item_ton_of_timber"
+				random_bonus: 8192
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			subtitle: "命中时，高高击飞目标"
+			id: "6A913E9D90A735F1"
+			tasks: [{
+				id: "5815C8FF3F9E3BE6"
+				type: "item"
+				item: {
+					id: "useless_sword:ravager_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6294A24BC4EACFD7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.0d
+			subtitle: "打晕敌人。（可升级）"
+			id: "00F6B8EDF725EC01"
+			tasks: [{
+				id: "4850B42165DFC80E"
+				type: "item"
+				item: {
+					id: "useless_sword:brass_head_turner"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "47861CF9EFF4D2D2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			subtitle: "命中时，造成摔落伤害"
+			id: "10D0F02FE4E2A921"
+			tasks: [{
+				id: "4BB1C5248297F987"
+				type: "item"
+				item: {
+					id: "useless_sword:hemolymph_broadsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "39F55CBBA13BC63C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -14.0d
+			y: 0.0d
+			subtitle: "命中时，施加数秒的缓降1、缓慢3、挖掘疲劳2"
+			id: "27706224075A99CD"
+			tasks: [{
+				id: "30C253C7C1091E55"
+				type: "item"
+				item: {
+					id: "useless_sword:honneycomb_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 32
+						display: {
+							Lore: ["{\"text\":\"\\u00A77命中时，施加数秒的缓降1、缓慢3、挖掘疲劳2\"}"]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C4D72526EB6B3C0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "超速螺旋驱动装置"
+			x: 16.0d
+			y: -11.0d
+			invisible: true
+			id: "122340776E60553A"
+			tasks: [{
+				id: "5EF68815FFA35123"
+				type: "item"
+				item: {
+					id: "useless_sword:brass_head_turner"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:telepathic\"},\"\",{\"translate\":\"affix.apotheosis:glacial.suffix\"}]}"
+							affixes: {
+								"apotheosis:graceful": 0.6191205f
+								"apotheosis:telepathic": 0.13286549f
+								"apotheosis:glacial": 0.7688098f
+								"apotheosis:lacerating": 0.22516185f
+								"apotheosis:intricate": 0.0985291f
+								"apotheosis:durable": 0.49f
+								"apotheosis:socket": 1.0f
+								"apotheosis:festive": 0.16010952f
+							}
+							rarity: "mythic"
+						}
+						display: {
+							Name: "{\"text\":\"\\u00A7b\\u00A7l超速螺旋驱动装置\"}"
+						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: 114514.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_knockback"
+								Operation: 0
+								UUID: [I;
+									1454509401
+									-10074046
+									-1657633083
+									-1795427127
+								]
+								Name: "generic.attack_knockback"
+							}
+							{
+								Amount: 200.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									-1333374139
+									1652443456
+									-1353440726
+									-900962371
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: -3.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									-1108846997
+									-828750469
+									-1455500626
+									815686754
+								]
+								Name: "generic.attack_speed"
+							}
+						]
+						tic_persistent_data: { }
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "7600773CBD713852"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 17.0d
+			y: -11.0d
+			subtitle: "环境越亮伤害越高"
+			description: [
+				"    \"神铸？词缀？哦不，相信你也看过我的成长环境，我对这些魔法兮兮的东西可是一窍不通，至于为什么我的力量能随着光亮变强？嗯...这就涉及到一些化学反应...或者物理现象什么的，你懂的，我也不是这方面的专家，我更喜欢研究微生物。\""
+				"    光辉石阔剑对他的特殊性没什么不满，即使没有词缀，也不影响他发挥强大实力."
+			]
+			id: "7C1E5228B650CB65"
+			tasks: [{
+				id: "23862C94855ED6C3"
+				type: "item"
+				item: {
+					id: "useless_sword:refined_radiance_glaive"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F80DF854CF33B16"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 17.0d
+			y: -1.0d
+			subtitle: "命中时，施加数秒的发光1；在主手时，潜行照亮周围"
+			description: ["    区区荧火，不敢争辉。"]
+			id: "2D0292282A873546"
+			tasks: [{
+				id: "7167A2DA42FC70E4"
+				type: "item"
+				item: {
+					id: "useless_sword:glowstone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "760A64181CDB856E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -14.0d
+			y: 1.0d
+			subtitle: "右键给予随机药水效果,前提是身上携带信标的可接受矿物(铁,金,钻石,绿宝石)。"
+			id: "694BE3D11AB49D51"
+			tasks: [{
+				id: "4DC09BDFD8ADD207"
+				type: "item"
+				item: {
+					id: "useless_sword:beacon_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 32
+						display: {
+							Lore: ["{\"text\":\"\\u00A77右键:给予随机药水效果,前提是身上携带信标的可接受矿物(铁,金,钻石,绿宝石)。\"}"]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1420C9AE600A8364"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "77EAC2BB34DA5DC3"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "589037EB3880EB03"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "1CA837FF8CDBD3DC"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 0.0d
+			subtitle: "右键抛射一个爆炸火球"
+			id: "0791F4D80D5FB4F5"
+			tasks: [{
+				id: "72BD764394CA5FA2"
+				type: "item"
+				item: {
+					id: "useless_sword:ghast_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 32
+						display: {
+							Lore: ["{\"text\":\"\\u00A77右键:发射一个火焰弹\"}"]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A1387F955ACCFDD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -15.0d
+			y: 1.0d
+			subtitle: "右键催熟作物"
+			id: "0ED53913D86426C0"
+			tasks: [{
+				id: "6E31BF40295D6111"
+				type: "item"
+				item: {
+					id: "useless_sword:weed_foil"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 32
+						display: {
+							Lore: ["{\"text\":\"\\u00A77右键:催熟作物\"}"]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "55A02D23A061084B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			subtitle: "命中时。施加60秒反胃1"
+			id: "06FAB9BC37340C3C"
+			tasks: [{
+				id: "58A66E6B635D061A"
+				type: "item"
+				item: {
+					id: "useless_sword:rotten_fish_rapier"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "22540B88839FFC2D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			subtitle: "命中时，你骑上目标"
+			id: "333C238E67F9DA37"
+			tasks: [{
+				id: "7EF28F30C6CC3488"
+				type: "item"
+				item: {
+					id: "useless_sword:tamed_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 32
+						display: {
+							Lore: ["{\"text\":\"\\u00A77命中时，命中时，你骑上目标\"}"]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "09A1D85E45DB359C"
+				type: "item"
+				item: {
+					id: "apotheosis:gem"
+					Count: 1b
+					tag: {
+						variant: 6
+						purity: 0.75f
+						modifier: {
+							Operation: 2
+							attribute: "minecraft:generic.attack_speed"
+							UUID: [I;
+								980490976
+								-376812635
+								-1109256098
+								1973126649
+							]
+							Amount: 0.30000001192092896d
+							Name: "GemBonus_apotheosis:attack_speed"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "血钻晶鳍"
+			x: 15.0d
+			y: -11.0d
+			subtitle: "命中时依据损失生命值造成额外伤害"
+			description: [
+				"            玩家越弱扣血越多，"
+				"            扣血越多伤害越高，"
+				"            伤害越高玩家越强。"
+				"            所以，"
+				"            玩家越弱玩家越强！"
+			]
+			invisible: true
+			id: "48034BB4CD5437E2"
+			tasks: [{
+				id: "4EE728C153FDB800"
+				type: "item"
+				item: {
+					id: "aquamirae:fin_cutter"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:violent\"},\"\",{\"translate\":\"affix.apotheosis:intricate.suffix\"}]}"
+							affixes: {
+								"apotheosis:elongated": 0.013092339f
+								"apotheosis:sophisticated": 0.63612175f
+								"apotheosis:telepathic": 0.3646456f
+								"apotheosis:intricate": 0.04128295f
+								"apotheosis:infernal": 0.36888015f
+								"apotheosis:durable": 0.47f
+								"apotheosis:socket": 2.0f
+								"apotheosis:violent": 0.65401804f
+							}
+							rarity: "mythic"
+						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: 200.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									-97712276
+									-1845869437
+									-1696854079
+									1874195841
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: -2.4d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									676422145
+									-270971649
+									-2055788478
+									14463165
+								]
+								Name: "generic.attack_speed"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A7b\\u00A7l血钻晶鳍\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "2CB846C42108C48B"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			title: "扣掉闪避剑"
+			x: -9.0d
+			y: -11.0d
+			subtitle: "命中恼鬼时，吸收它们以恢复耐久度；右键给予隐身；潜行右键给予10秒观察者模式"
+			description: [
+				"    虚空领主死后，没有人可以攻击到发动能力的我。"
+				"    所以你为什么还需要闪避键？"
+			]
+			invisible: true
+			id: "7AD2574D6701FC11"
+			tasks: [{
+				id: "7FB3E2ECE02BFEF9"
+				type: "item"
+				item: {
+					id: "useless_sword:vex_sword"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:violent\"},\"\",{\"translate\":\"affix.apotheosis:vampiric.suffix\"}]}"
+							affixes: {
+								"apotheosis:graceful": 0.0034577847f
+								"apotheosis:sophisticated": 0.5199225f
+								"apotheosis:thunderstruck": 0.6440633f
+								"apotheosis:infernal": 0.9244216f
+								"apotheosis:durable": 0.45f
+								"apotheosis:socket": 3.0f
+								"apotheosis:vampiric": 0.9459042f
+								"apotheosis:violent": 0.2096402f
+							}
+							rarity: "mythic"
+						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: -1.2d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									-1326435839
+									-1411364466
+									-1467678399
+									-895413383
+								]
+								Name: "generic.attack_speed"
+							}
+							{
+								Amount: 149.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									1920494405
+									-1503837585
+									-1313036324
+									-1664623016
+								]
+								Name: "generic.attack_damage"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A7f\\u00A7l扣掉闪避剑\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "4E8DA97F253E9044"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			title: "蚀骸凌魄锋"
+			x: -1.0d
+			y: -11.0d
+			invisible: true
+			id: "0DB62DF085B80581"
+			tasks: [{
+				id: "6A7D31CCB0DA2D07"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:soul_cutlass"
+					Count: 1b
+					tag: {
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:elongated\"},\"\",{\"translate\":\"affix.apotheosis:elusive.suffix\"}]}"
+							affixes: {
+								"apotheosis:elusive": 0.8967284f
+								"apotheosis:elongated": 0.09030545f
+								"apotheosis:sophisticated": 0.76290894f
+								"apotheosis:graceful": 0.870717f
+								"apotheosis:glacial": 0.93097353f
+								"apotheosis:thunderstruck": 0.079187036f
+								"apotheosis:intricate": 0.25143462f
+								"apotheosis:durable": 0.51f
+								"apotheosis:socket": 2.0f
+							}
+							rarity: "mythic"
+						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: 200.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									-940886927
+									439962291
+									-1560128022
+									-1018055762
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: -1.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									1073193742
+									-1188149323
+									-1320640355
+									-1176595805
+								]
+								Name: "generic.attack_speed"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A7c\\u00A7l蚀骸凌魄锋\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "13203396D2057782"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			title: "幽冥暗绝斩"
+			x: -7.0d
+			y: -11.0d
+			invisible: true
+			id: "7BC9359F03D2278A"
+			tasks: [{
+				id: "0A33C8D57F83CEA8"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:nightmare_scythe"
+					Count: 1b
+					tag: {
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:thunderstruck\"},\"\",{\"translate\":\"affix.apotheosis:elongated.suffix\"}]}"
+							affixes: {
+								"apotheosis:elongated": 0.4974563f
+								"apotheosis:thunderstruck": 0.29396433f
+								"apotheosis:intricate": 0.36302906f
+								"apotheosis:infernal": 0.55768067f
+								"apotheosis:vampiric": 0.4340924f
+								"apotheosis:durable": 0.44f
+								"apotheosis:socket": 3.0f
+								"apotheosis:weakening": 0.41411632f
+							}
+							rarity: "mythic"
+						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: 200.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									13951588
+									-1150662776
+									-1142469174
+									978174826
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: -1.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									-1217075040
+									1515930209
+									-1346288050
+									52064461
+								]
+								Name: "generic.attack_speed"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A7c\\u00A7l幽冥暗绝斩\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "2F74FD3A2FC6751F"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			id: "4F11BC4DB979711C"
+			tasks: [{
+				id: "758CB0BA94CA1715"
+				type: "item"
+				item: {
+					id: "rainbowcompound:rainbow_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "734A296ED7242CC4"
+				type: "xp_levels"
+				xp_levels: 500
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.0d
+			id: "235A75C54F19B040"
+			tasks: [{
+				id: "1F77086CF5F8ACF4"
+				type: "item"
+				item: {
+					id: "rainbowcompound:obsidianite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "08D8E44600A8A32F"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.0d
+			id: "2E49EF34B90B696B"
+			tasks: [{
+				id: "5CD469681CBA90E1"
+				type: "item"
+				item: {
+					id: "rainbowcompound:refined_radiance_scythes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "330A75FCD94ABAB6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			id: "45F56F0605C53DBB"
+			tasks: [{
+				id: "778D214B09F25251"
+				type: "item"
+				item: {
+					id: "rainbowcompound:shadow_steel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C92BABE2EEEAAC2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "猩红碎魂"
+			x: -4.0d
+			y: -11.0d
+			subtitle: "没有幽灵能抵抗这把剑，无头骑士也不例外。"
+			invisible: true
+			id: "14FB307C127322D0"
+			tasks: [{
+				id: "1658F559CBCC973F"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:spiritual_sword"
+					Count: 1b
+					tag: {
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:violent\"},\"\",{\"translate\":\"affix.apotheosis:thunderstruck.suffix\"}]}"
+							affixes: {
+								"apotheosis:elongated": 0.88054466f
+								"apotheosis:graceful": 0.0058113337f
+								"apotheosis:thunderstruck": 0.512443f
+								"apotheosis:vampiric": 0.23753339f
+								"apotheosis:durable": 0.55f
+								"apotheosis:socket": 1.0f
+								"apotheosis:violent": 0.76607114f
+								"apotheosis:weakening": 0.4922138f
+							}
+							rarity: "mythic"
+						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: 219.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									289908179
+									-998290167
+									-1269207172
+									-1827590747
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: -2.2d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									-1761359436
+									1640581883
+									-1945033130
+									-1071626581
+								]
+								Name: "generic.attack_speed"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A76\\u00A7l猩红碎魂\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "261EC12005B69671"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			title: "恶灵屠戮"
+			x: -5.0d
+			y: -11.0d
+			invisible: true
+			id: "257A021644D55F25"
+			tasks: [{
+				id: "63B4DEAF4E4B99DB"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+					Count: 1b
+					tag: {
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:glacial\"},\"\",{\"translate\":\"affix.apotheosis:lacerating.suffix\"}]}"
+							affixes: {
+								"apotheosis:elongated": 0.12053764f
+								"apotheosis:telepathic": 0.61784756f
+								"apotheosis:glacial": 0.7314584f
+								"apotheosis:lacerating": 0.37585032f
+								"apotheosis:durable": 0.45f
+								"apotheosis:socket": 1.0f
+								"apotheosis:violent": 0.19056964f
+								"apotheosis:weakening": 0.60807115f
+							}
+							rarity: "mythic"
+						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: -2.3d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									-1262364003
+									1638613630
+									-1604009494
+									-2084750239
+								]
+								Name: "generic.attack_speed"
+							}
+							{
+								Amount: 223.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									2090754905
+									1791116710
+									-1616733818
+									1617006730
+								]
+								Name: "generic.attack_damage"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A76\\u00A7l恶灵屠戮\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "010DB17CA144E751"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			title: "Dark♂巨贱"
+			x: -6.0d
+			y: -11.0d
+			invisible: true
+			id: "0B3A8A7FAE4A02BC"
+			tasks: [{
+				id: "39FC6D5F300EC199"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:darkwarblade"
+					Count: 1b
+					tag: {
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:sophisticated\"},\"\",{\"translate\":\"affix.apotheosis:intricate.suffix\"}]}"
+							affixes: {
+								"apotheosis:elongated": 0.64654404f
+								"apotheosis:sophisticated": 0.71595514f
+								"apotheosis:glacial": 0.20699883f
+								"apotheosis:thunderstruck": 0.7041308f
+								"apotheosis:lacerating": 0.25656885f
+								"apotheosis:intricate": 0.4457463f
+								"apotheosis:durable": 0.53f
+								"apotheosis:socket": 1.0f
+								"apotheosis:festive": 0.8768166f
+							}
+							rarity: "mythic"
+						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: -3.3d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									-1107812633
+									-129743308
+									-1183000060
+									1762214167
+								]
+								Name: "generic.attack_speed"
+							}
+							{
+								Amount: 299.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									-549917306
+									810371806
+									-1905027746
+									-780061796
+								]
+								Name: "generic.attack_damage"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A76Dark♂巨贱\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "1234E8F39CBA26A7"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			title: "永怒亡噬"
+			x: -2.0d
+			y: -11.0d
+			invisible: true
+			id: "5B8FDF9F840E570A"
+			tasks: [{
+				id: "7280CC4B928FB1FC"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:great_reaper_axe"
+					Count: 1b
+					tag: {
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:elusive\"},\"\",{\"translate\":\"affix.apotheosis:berserking.suffix\"}]}"
+							affixes: {
+								"apotheosis:murderous": 0.07442373f
+								"apotheosis:elusive": 0.6314852f
+								"apotheosis:cleaving": 0.7154007f
+								"apotheosis:forceful": 0.22993392f
+								"apotheosis:annihilating": 0.010194302f
+								"apotheosis:durable": 0.49f
+								"apotheosis:berserking": 0.9079209f
+								"apotheosis:socket": 3.0f
+								"apotheosis:caustic": 0.92317784f
+							}
+							rarity: "mythic"
+						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: 233.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									2039755886
+									-286241878
+									-1907264966
+									-387568097
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: -3.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									1921120691
+									787301582
+									-1240266807
+									1260305461
+								]
+								Name: "generic.attack_speed"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A76\\u00A7l永怒亡噬\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "4F009AE23609ED52"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			title: "魔骸破骨"
+			x: -3.0d
+			y: -11.0d
+			invisible: true
+			id: "490627F893D35E0A"
+			tasks: [{
+				id: "00D7D4CF36A285DE"
+				type: "item"
+				item: {
+					id: "born_in_chaos_v1:skullbreaker_hammer"
+					Count: 1b
+					tag: {
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:elusive\"},\"\",{\"translate\":\"affix.apotheosis:vampiric.suffix\"}]}"
+							affixes: {
+								"apotheosis:elusive": 0.5380104f
+								"apotheosis:elongated": 0.5137469f
+								"apotheosis:sophisticated": 0.4146269f
+								"apotheosis:lacerating": 0.3124926f
+								"apotheosis:intricate": 0.5203067f
+								"apotheosis:vampiric": 0.38246077f
+								"apotheosis:durable": 0.49f
+								"apotheosis:socket": 1.0f
+								"apotheosis:festive": 0.8764342f
+							}
+							rarity: "mythic"
+						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: 233.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									632233712
+									622084749
+									-1817144619
+									-709379516
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: -3.1d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									1759998128
+									1854359070
+									-1901108883
+									-611902724
+								]
+								Name: "generic.attack_speed"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A76\\u00A7l魔骸破骨\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "5E67FA166B560720"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 18.0d
+			y: -11.0d
+			subtitle: "每次击杀可以永久提升伤害"
+			description: ["    并不是使用圣剑的人被称为勇者，而是勇者使用的武器被称为圣剑。"]
+			id: "3766DDC4E8CDD9A6"
+			tasks: [{
+				id: "5A2190F0710F58C5"
+				type: "item"
+				item: {
+					id: "tconstruct:sword"
+					Count: 1b
+					tag: {
+						tic_persistent: { }
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.5f
+							"tconstruct:durability": 1.1f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.6880001f
+							"tconstruct:mining_speed": 1.4375f
+							"tconstruct:attack_damage": 12.27f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 268.4f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tinkers_ingenuity:fractured"
+								level: 1s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+							{
+								name: "tinkers_ingenuity:soul_devouring"
+								level: 1s
+							}
+							{
+								name: "tinkers_ingenuity:sharing_pain"
+								level: 1s
+							}
+							{
+								name: "tinkers_ingenuity:rebirth"
+								level: 1s
+							}
+							{
+								name: "tconstruct:silky_shears"
+								level: 1s
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A7f无名之剑\"}"
+						}
+						Damage: 0
+						tic_materials: [
+							"tinkers_ingenuity:dragon_bone"
+							"tinkers_ingenuity:gleiter_material"
+							"tinkers_ingenuity:xuan_ming_material"
+						]
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "45FA22F7A0F0028F"
+				type: "xp_levels"
+				auto: "disabled"
+				exclude_from_claim_all: true
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.0d
+			subtitle: "对七宗罪们造成额外伤害。"
+			id: "3D5554F019358FF0"
+			tasks: [{
+				id: "3821EEB63C95D4FA"
+				type: "item"
+				item: {
+					id: "sons_of_sins:bloody_bone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "189AAF54F5655525"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.0d
+			id: "4E849A2A26B60FB2"
+			tasks: [{
+				id: "4A5B135970390409"
+				type: "item"
+				item: {
+					id: "dragone_aventure:demoniquesword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "40665CC221E77BE0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.0d
+			id: "32CB3C185AB7B879"
+			tasks: [{
+				id: "5A3CE7B415844967"
+				type: "item"
+				item: {
+					id: "dragone_aventure:dragonitesword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "66AC95D8F16DADFE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			dependencies: ["4A53FAB5B4329692"]
+			id: "29FF75D8CB6DD8C3"
+			tasks: [{
+				id: "2102A30C1280244B"
+				type: "item"
+				item: {
+					id: "iceandfire:dread_queen_staff"
+					Count: 1b
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 7.0d
+								Slot: "offhand"
+								AttributeName: "generic.max_health"
+								Operation: 2
+								UUID: [I;
+									-1059784756
+									-848802966
+									-1531228530
+									1683189295
+								]
+								Name: "generic.max_health"
+							}
+							{
+								Amount: -0.5d
+								Slot: "offhand"
+								AttributeName: "generic.armor"
+								Operation: 1
+								UUID: [I;
+									-970282387
+									-367309171
+									-1411647824
+									985098144
+								]
+								Name: "generic.armor"
+							}
+							{
+								Amount: 0.3d
+								Slot: "offhand"
+								AttributeName: "generic.armor_toughness"
+								Operation: 2
+								UUID: [I;
+									1570538797
+									-141406363
+									-1260677189
+									-285096642
+								]
+								Name: "generic.armor_toughness"
+							}
+							{
+								Amount: -0.3d
+								Slot: "offhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 2
+								UUID: [I;
+									-1209095657
+									1034830561
+									-1522140500
+									-1955332638
+								]
+								Name: "generic.attack_damage"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3D7BB0BE58874C21"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1379160654919710476L
+				}
+				{
+					id: "4A51E3F5D1187810"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "幻灵"
+			x: -4.5d
+			y: -5.0d
+			id: "4A53FAB5B4329692"
+			tasks: [
+				{
+					id: "3AA12F558ABF6452"
+					type: "item"
+					item: "upgradednetherite:phantom_upgraded_netherite_ingot"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "230C2E125E45D084"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "429502597E4B3670"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "796F175B13DBD5EB"
+					type: "item"
+					item: "iceandfire:ghost_ingot"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "13368B88CD107213"
+				type: "item"
+				item: {
+					id: "iceandfire:dread_queen_staff"
+					Count: 1b
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 7.0d
+								Slot: "offhand"
+								AttributeName: "generic.max_health"
+								Operation: 2
+								UUID: [I;
+									-1059784756
+									-848802966
+									-1531228530
+									1683189295
+								]
+								Name: "generic.max_health"
+							}
+							{
+								Amount: -0.5d
+								Slot: "offhand"
+								AttributeName: "generic.armor"
+								Operation: 1
+								UUID: [I;
+									-970282387
+									-367309171
+									-1411647824
+									985098144
+								]
+								Name: "generic.armor"
+							}
+							{
+								Amount: 0.3d
+								Slot: "offhand"
+								AttributeName: "generic.armor_toughness"
+								Operation: 2
+								UUID: [I;
+									1570538797
+									-141406363
+									-1260677189
+									-285096642
+								]
+								Name: "generic.armor_toughness"
+							}
+							{
+								Amount: -0.3d
+								Slot: "offhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 2
+								UUID: [I;
+									-1209095657
+									1034830561
+									-1522140500
+									-1955332638
+								]
+								Name: "generic.attack_damage"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: -3.0d
+			subtitle: "基础寻龙权需要用两个下界合金锭和一个龙头骨合成，右键会发出声音，当探测到 150 格方块内有龙时，音调会略微提高。"
+			description: ["随着升级变强"]
+			id: "156B5C4824FF6B4E"
+			tasks: [{
+				id: "168A831CACFCE9DF"
+				type: "item"
+				item: "dragonseeker:godly_dragonseeker"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

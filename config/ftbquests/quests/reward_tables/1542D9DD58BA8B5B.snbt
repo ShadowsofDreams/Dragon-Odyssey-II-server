@@ -1,0 +1,52 @@
+{
+	id: "1542D9DD58BA8B5B"
+	order_index: 12
+	title: "星宿"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "ulterlands:arcane_horn"
+				Count: 1b
+				tag: {
+					display: {
+						Name: "{\"text\":\"\\u00A7e东官苍龙\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "ulterlands:arcane_horn"
+				Count: 1b
+				tag: {
+					display: {
+						Name: "{\"text\":\"\\u00A7e北宫玄武\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "ulterlands:arcane_horn"
+				Count: 1b
+				tag: {
+					display: {
+						Name: "{\"text\":\"\\u00A7e西宫白虎\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "ulterlands:arcane_horn"
+				Count: 1b
+				tag: {
+					display: {
+						Name: "{\"text\":\"\\u00A7e南宫朱雀\"}"
+					}
+				}
+			}
+		}
+	]
+}

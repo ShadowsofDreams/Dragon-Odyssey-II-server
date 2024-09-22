@@ -1,0 +1,14 @@
+{
+	id: "2355B8C1B92F80EF"
+	order_index: 14
+	title: "奖励袋"
+	icon: "hardcorequesting:basic_bag"
+	loot_size: 1
+	rewards: [
+		{ item: "hardcorequesting:basic_bag", random_bonus: 24, weight: 10000 }
+		{ item: "hardcorequesting:good_bag", random_bonus: 9, weight: 10000 }
+		{ item: "hardcorequesting:greater_bag", random_bonus: 3, weight: 10000 }
+		{ item: "hardcorequesting:epic_bag", weight: 100 }
+		{ item: "hardcorequesting:legendary_bag" }
+	]
+}

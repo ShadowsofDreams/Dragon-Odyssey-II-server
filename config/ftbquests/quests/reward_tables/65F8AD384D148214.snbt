@@ -1,0 +1,125 @@
+{
+	id: "65F8AD384D148214"
+	order_index: 9
+	title: "小型传送门"
+	icon: {
+		id: "gateways:gate_pearl"
+		Count: 1b
+		tag: {
+			gateway: "gateways:shulker_gate_small"
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:skeleton_gate_small"
+				}
+			}
+			weight: 1000
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:witch_gate_small"
+				}
+			}
+			weight: 1000
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:enderman_gate_small"
+				}
+			}
+			weight: 1000
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:creeper_gate_small"
+				}
+			}
+			weight: 1000
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:zombie_gate_small"
+				}
+			}
+			weight: 1000
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:ghast_gate_small"
+				}
+			}
+			weight: 1000
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:magma_cube_gate_small"
+				}
+			}
+			weight: 1000
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:slime_gate_small"
+				}
+			}
+			weight: 1000
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:blaze_gate_small"
+				}
+			}
+			weight: 1000
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:spider_gate_small"
+				}
+			}
+			weight: 1000
+		}
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:shulker_gate_small"
+				}
+			}
+			weight: 1000
+		}
+	]
+}

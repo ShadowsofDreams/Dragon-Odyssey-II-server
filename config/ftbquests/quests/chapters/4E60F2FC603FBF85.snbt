@@ -1,0 +1,432 @@
+{
+	id: "4E60F2FC603FBF85"
+	group: ""
+	order_index: 0
+	filename: "4E60F2FC603FBF85"
+	title: "灵兽降世"
+	icon: "isleofberk:skrill_egg"
+	subtitle: ["整合包游玩须知"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 4.0d
+			y: -6.5d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "blackaures_paintings:textures/p10.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.5d
+			y: 0.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "rainbowcompound:textures/item/radiance_ring.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: -10.5d
+			width: 25.6d
+			height: 2.9d
+			rotation: 0.0d
+			image: "rainbowcompound:textures/models/armor/rainbow_layer_1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "嘿！看这儿！"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "先别急着丢掉这本书。他和你以往的任务书可不只是材质上的区别。"
+			description: [
+				"    实际上，在龙境中，ftb任务(也就是你现在打开的界面）只是作为新手引导和商店。开启主线以及后续的主线任务必须通过这本日志。"
+				"    值得高兴的是，这本书很便宜，而且你随时可以在应急物品中领取新的日志。"
+				"    如果你执意不想做这本书上的主线任务，你可能会被困在某个维度。"
+				""
+				"    如果你拿到某个物品却不知道他有什么用，去图鉴看看吧。"
+				"    而如果新道具上有不能理解的新属性，可以去“晦涩之书”上观看解释。"
+			]
+			size: 2.0d
+			id: "460C5F280526E29D"
+			tasks: [{
+				id: "7C1F83B0F87B62C6"
+				type: "item"
+				item: "hardcorequesting:quest_book"
+			}]
+			rewards: [
+				{
+					id: "0FE86531E4B89C41"
+					type: "item"
+					auto: "disabled"
+					exclude_from_claim_all: true
+					item: "hardcorequesting:good_bag"
+				}
+				{
+					id: "5E8EE23939721417"
+					type: "choice"
+					icon: "waystones:mossy_waystone"
+					auto: "disabled"
+					exclude_from_claim_all: true
+					table_id: 5393402956681604123L
+				}
+				{
+					id: "6FF001E91AF2E164"
+					type: "item"
+					auto: "disabled"
+					item: {
+						id: "apotheosis:potion_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Potion: "minecraft:slow_falling"
+						}
+					}
+				}
+				{
+					id: "1F395E35CB7281ED"
+					type: "item"
+					auto: "disabled"
+					item: "obscure_api:obscure_book"
+				}
+				{
+					id: "60DF94E57CE1B895"
+					type: "loot"
+					title: "新手武器"
+					auto: "disabled"
+					exclude_from_claim_all: true
+					table_id: 1094562030945515290L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			subtitle: "它在你爪中快速闪动，似乎要发生什么变化……"
+			description: [
+				"    你可以在这里再次领取新手武器。"
+				"    后续获得的万象质料可以在商店转变为各种物品。"
+			]
+			dependencies: ["460C5F280526E29D"]
+			id: "675F6513CC3A9111"
+			tasks: [{
+				id: "659B9E16C74FD820"
+				type: "item"
+				item: {
+					id: "tinkerscalibration:mangobberslime_ingot"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+							Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "494AB79B6C16369A"
+					type: "random"
+					icon: "apotheosis:weapon_tome"
+					table_id: 1094562030945515290L
+				}
+				{
+					id: "53F6CAD014E951B3"
+					type: "item"
+					item: "enigmaticlegacy:unwitnessed_amulet"
+				}
+			]
+		}
+		{
+			title: "龙之爪牙"
+			icon: "gothic:lurker_claw"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "三种龙都拥有与人类不同的爪子和牙齿，这会增加他们的攻击伤害，并提升空手时针对某种特定方块的挖掘等级。"
+			description: [
+				"    例如洞穴龙成年时空手伤害会增加3，空手挖掘时相当于用石镐挖掘。"
+				"    同时，龙可以在爪与牙装备栏中分别放入斧/铲/镐/剑类装备，这将赋予他们这些工具的挖掘等级，并赋予他们剑类装备的伤害。放在爪与牙装备栏里的工具的耐久会随着龙玩家使用自己的爪与牙挖掘对应方块/战斗而损耗。"
+				""
+			]
+			dependencies: ["460C5F280526E29D"]
+			id: "6B20849218D286F8"
+			tasks: [{
+				id: "63B18E936720F227"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1962DDAC2AB0C694"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+		}
+		{
+			title: "经验与技能"
+			icon: "storagenetwork:speed_upgrade"
+			x: -2.5d
+			y: -4.0d
+			subtitle: "介绍龙的技能、使用方法、升级方式。"
+			description: [
+				"    技能和魔法是龙的被动能力和主动技能，包括攻击性技能，各种增加buff的技能。每种龙各自有四种主动技能，四种被动技能，和四种先天特性。"
+				"   你必须有足够的法力或者经验值才能使用魔法。被动技能的等级随着所投入经验的增加而增加，主动技能的等级随着所经验等级的增加而增加，当经验等级下降时等级也会下降。"
+				"    默认情况下，使用\"[\" \"]\"或者小键盘\"1、2、3、4\"来切换技能。长按R释放技能。"
+				"    你可以在物品栏上方的某个选项卡中查看技能效果或为被动技能加点。"
+				"    通常，法力值恢复十分缓慢，除了进食特殊的食物以外，你可以使用相应的“魔法之源”来快速恢复法力。"
+				"    所有伤害性技能都受到“魔法伤害”和“元素伤害”属性加成。"
+			]
+			dependencies: ["460C5F280526E29D"]
+			id: "57399AE3E330B60A"
+			tasks: [{
+				id: "6145A12038EE5238"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "5CA1C3022C31CB31"
+					type: "item"
+					item: "create:experience_nugget"
+				}
+				{
+					id: "223D4DBB3671204D"
+					type: "choice"
+					title: "魔法源泉"
+					icon: "the_cataclysm:annihilation_mana"
+					exclude_from_claim_all: true
+					table_id: 5514599150093312187L
+				}
+			]
+		}
+		{
+			title: "飞行与横滚"
+			icon: "dragonsurvival:wing_grant"
+			x: -5.5d
+			y: -2.0d
+			subtitle: "与末影龙对话获得翅膀。"
+			description: [
+				"    通过切换翅膀状态按键(默认为G）来开启飞行状态，空格键以升空，Shift键以下降，wasd键以左右移动，从空中坠落时会自动张开翅膀缓冲。"
+				"    在飞行状态下，按疾跑键/双击W键会使龙玩家进入滑翔状态，此时操作方式默认类似穿戴鞘翅时的操作方式，龙玩家的速度将大大加快，但在这个状态下会和鞘翅一样会因为高速着陆或者高速碰壁而受伤。与鞘翅不同的是，滑翔状态下的龙玩家可以不损失速度地向上拔升。"
+				"    飞行状态默认会高速消耗龙玩家的饥饿值。"
+				""
+				"这个任务的任务奖励并不能让你学会飞行，如果想要飞行，你必须和末影龙对话，对话方式是在聊天栏回答末影龙的问题。"
+			]
+			dependencies: [
+				"57399AE3E330B60A"
+				"6B20849218D286F8"
+			]
+			id: "4AC40FD1567E0ED5"
+			tasks: [
+				{
+					id: "4D91C7BE6123EBEE"
+					type: "dimension"
+					dimension: "minecraft:the_end"
+				}
+				{
+					id: "1A289CD4AF357139"
+					type: "checkmark"
+					title: "我确定我和末影龙对过话了"
+				}
+			]
+			rewards: [
+				{
+					id: "5B47454DCA429437"
+					type: "item"
+					item: "dragonsurvival:wing_grant"
+					count: 2
+				}
+				{
+					id: "7FA16DD708D4DF2B"
+					type: "item"
+					item: "dragonsurvival:spin_grant"
+					count: 2
+					only_one: true
+				}
+			]
+		}
+		{
+			icon: "dragonsurvival:sleeper_small_dragon_door"
+			x: -2.5d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "随时来此修改你的形象"
+			description: [
+				"    界面上有许多有用的信息，每个选项都会有介绍。"
+				"    不过，值得注意的是，龙在不同年龄有不同形象，捏脸的时候可别忘记。"
+			]
+			dependencies: ["460C5F280526E29D"]
+			can_repeat: true
+			id: "1D1671AD34EB6D2F"
+			tasks: [{
+				id: "18F28761007FB189"
+				type: "checkmark"
+				title: "捏脸系统"
+			}]
+			rewards: [{
+				id: "14026CA7B32FFE77"
+				type: "command"
+				title: "编辑形象"
+				icon: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "upgrades"
+					}
+				}
+				command: "/dragon-editor"
+				player_command: true
+			}]
+		}
+		{
+			title: "珍宝材料"
+			icon: "apotheosis:common_material"
+			x: 1.5d
+			y: 0.5d
+			subtitle: "用于修改装备词缀、制作奖励袋、回收金币。"
+			description: [
+				"来源：怪物掉落、回收台"
+				"{image:apotheosis:textures/items/common_material.png width:100 height:100 align:1}"
+				"{image:apotheosis:textures/items/uncommon_material.png width:100 height:100 align:1}"
+				"{image:apotheosis:textures/items/rare_material.png width:100 height:100 align:1}"
+				"{image:apotheosis:textures/items/epic_material.png width:100 height:100 align:1}"
+			]
+			dependencies: ["460C5F280526E29D"]
+			id: "7401C5F6C7A3813E"
+			tasks: [{
+				id: "5F79C2B6BE91EB87"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "17EBDAA69CB45435"
+					type: "item"
+					item: "apotheosis:common_material"
+				}
+				{
+					id: "7678BA8D711D8C87"
+					type: "random"
+					table_id: 1379160654919710476L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			subtitle: "介绍一些规则的变动"
+			description: [
+				"整合包自动开启死亡不掉落。"
+				"第一次进入某些维度时会生成安全屋。"
+				"暮色各群系的结界虽然仍在，但不会对你产生视觉效果以外的影响。"
+				"龙背包自带的合成栏无法使用多态合成。"
+				"整合包自带连锁采掘，长按~号时触发。"
+				"饰品栏使用p打开。"
+			]
+			dependencies: ["460C5F280526E29D"]
+			id: "2E094ACF43742F7D"
+			tasks: [{
+				id: "51D819D99E7F6771"
+				type: "checkmark"
+				title: "游戏设置"
+			}]
+			rewards: [
+				{
+					id: "3836DB344F22E9C8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2868164CC151AAB2"
+					type: "item"
+					item: "solcarrot:food_book"
+				}
+			]
+		}
+		{
+			title: "开启七咒"
+			x: 0.0d
+			y: -5.0d
+			subtitle: "七咒之戒会在进入你背包的瞬间生效。"
+			description: [
+				"    由于诸神的敌视，七咒之戒会极大降低游戏性,生存变得极端困难乃至恶心！"
+				"    出于“等价”交换，玩家会获得“救世者”的称号，并且可以在3种强力饰品内选择一种。"
+				"    请在jei里查看3种饰品的具体属性，好好思考，再具体选择。"
+			]
+			id: "666225C0631508AA"
+			tasks: [
+				{
+					id: "680D2E8DAC5A132C"
+					type: "checkmark"
+					title: "我确认知晓七咒之戒的强度和困难。"
+				}
+				{
+					id: "58730304C788FE77"
+					type: "checkmark"
+					title: "再次确认"
+				}
+				{
+					id: "6171A896DE4F8915"
+					type: "checkmark"
+					title: "事不过三？"
+				}
+				{
+					id: "13E3C98BA957CBC8"
+					type: "checkmark"
+					title: "四面楚歌"
+				}
+				{
+					id: "44EBFF9E29B91DB8"
+					type: "checkmark"
+					title: "五体投地"
+				}
+				{
+					id: "05E27DA3E0900DD8"
+					type: "checkmark"
+					title: "六六大顺"
+				}
+				{
+					id: "53E31DD38335CB77"
+					type: "checkmark"
+					title: "最后一次确认，你确实知晓七咒之戒的强度和困难。"
+				}
+			]
+			rewards: [
+				{
+					id: "715AAF8581968462"
+					type: "item"
+					auto: "enabled"
+					item: "enigmaticlegacy:cursed_ring"
+				}
+				{
+					id: "67E4A18B0062521F"
+					type: "item"
+					item: "celestial_artifacts:salvation_badge"
+				}
+				{
+					id: "42D4399D848A6416"
+					type: "item"
+					item: "artifacts:antidote_vessel"
+				}
+				{
+					id: "3FAF721221CBA677"
+					type: "choice"
+					icon: "celestial_artifacts:angel_heart"
+					exclude_from_claim_all: true
+					table_id: 9201230792949543475L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

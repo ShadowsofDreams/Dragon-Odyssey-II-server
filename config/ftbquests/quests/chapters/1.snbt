@@ -1,0 +1,3635 @@
+{
+	id: "4C2DAB322096099E"
+	group: ""
+	order_index: 2
+	filename: "1"
+	title: "1"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			invisible: true
+			id: "7B391F230237DCDA"
+			tasks: [{
+				id: "11F0692CC436748F"
+				type: "dimension"
+				dimension: "twilightforest:twilight_forest"
+			}]
+			rewards: [
+				{
+					id: "06C7414748AAE240"
+					type: "command"
+					title: "0"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-2 ~-2 ~-2 ~2 ~-2 ~2 twilightforest:twilight_oak_planks replace minecraft:air"
+					player_command: false
+				}
+				{
+					id: "030951D29BF2E7D5"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-1 ~-2 ~-1 ~1 ~-2 ~1 tconstruct:clear_glass replace twilightforest:twilight_oak_planks"
+					player_command: false
+				}
+				{
+					id: "2ABA91C34829CBF0"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-2 ~-1 ~-2 ~-2 ~1 ~-2 cataclysm:chorus_fence replace"
+					player_command: false
+				}
+				{
+					id: "5EC6B636A1923E33"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~2 ~-1 ~2 ~2 ~1 ~2 twilightforest:mining_fence replace"
+					player_command: false
+				}
+				{
+					id: "370D2DDCDF480F38"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-2 ~-1 ~2 ~-2 ~1 ~2 the_forgotten_dimensions:froslog_fence replace"
+					player_command: false
+				}
+				{
+					id: "642E2D78C10ECD8A"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~2 ~-1 ~-2 ~2 ~1 ~-2 unusualend:chorus_nest_mosaic_fence replace"
+					player_command: false
+				}
+				{
+					id: "2D14E1862C4612CB"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-2 ~2 ~-2 ~2 ~2 ~2 twilightforest:twilight_oak_slab[waterlogged=false] replace"
+					player_command: false
+				}
+				{
+					id: "76A98617473B0F76"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-1 ~2 ~-1 ~1 ~2 ~1 twilightforest:twilight_oak_slab[type=top] replace"
+					player_command: false
+				}
+				{
+					id: "53647AFEF498C3B0"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~ ~3 ~ ~ ~3 ~ twilightforest:twilight_oak_slab[waterlogged=false] replace"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			invisible: true
+			id: "015DA4AE57C9015B"
+			tasks: [{
+				id: "7481450E497C1F0D"
+				type: "dimension"
+				dimension: "undergarden:undergarden"
+			}]
+			rewards: [
+				{
+					id: "78C72300A31518C3"
+					type: "command"
+					auto: "no_toast"
+					command: "/gamerule keepInventory true"
+					player_command: false
+				}
+				{
+					id: "3B7FE0C5C1D678D3"
+					type: "command"
+					auto: "no_toast"
+					command: "/gamerule tfEnforcedProgression false"
+					player_command: false
+				}
+				{
+					id: "0F5DFF78C136AEEE"
+					type: "command"
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback false"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			invisible: true
+			id: "576944409AD604C9"
+			tasks: [{
+				id: "07A61D4B2D93B536"
+				type: "advancement"
+				advancement: "twilightforest:experiment_115_self_replenishing"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2DD4DA07C739A4D4"
+				type: "item"
+				auto: "no_toast"
+				item: {
+					id: "apotheosis:inert_trident"
+					Count: 1b
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 2.0d
+								Slot: "offhand"
+								AttributeName: "obscure_api:regeneration"
+								Operation: 0
+								UUID: [I;
+									1927482743
+									230182248
+									-1761474624
+									1740552166
+								]
+								Name: "generic.max_health"
+							}
+							{
+								Amount: 30.0d
+								Slot: "offhand"
+								AttributeName: "generic.max_health"
+								Operation: 0
+								UUID: [I;
+									1277670474
+									1702054377
+									-1284123713
+									-2108072931
+								]
+								Name: "generic.max_health"
+							}
+							{
+								Slot: "offhand"
+								AttributeName: "celestial_artifacts:reply_effect"
+								Operation: 2
+								UUID: [I;
+									204513798
+									-2064563953
+									-2037486020
+									1817776856
+								]
+								Amount: 0.05d
+							}
+						]
+						display: {
+							Name: "{\"text\":\"\\u00A7d没那么神奇的餐叉\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			can_repeat: true
+			invisible: true
+			hide_details_until_startable: true
+			id: "5B34FED23DEB2D8F"
+			tasks: [{
+				id: "32EB3902296FAECD"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "41EE8DE621DE7E1C"
+					type: "command"
+					auto: "no_toast"
+					command: "/clear @a patchouli:guide_book"
+					player_command: false
+				}
+				{
+					id: "650E13A8B5517EA9"
+					type: "command"
+					command: "/clear @a born_in_chaos_v1:spawn_structures_firewell"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			can_repeat: true
+			invisible: true
+			id: "1F3D9A5A191AC557"
+			tasks: [{
+				id: "68F540A899D0778D"
+				type: "kill"
+				entity: "twilightforest:deer"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "50805ED6A018CF32"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon whisperwoods:hirschgeist ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "5354497BDD322A3B"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"<鹿之精魄> 林中凶徒，屠我同族，逆天而行，必死无疑！\",\"color\":\"gold\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -7.5d
+			dependencies: ["70A53B53F2EEDE26"]
+			id: "3816E8098E40D6B0"
+			tasks: [{
+				id: "1E7D4C86BB67DDE1"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+			rewards: [
+				{
+					id: "7D08E7147891F9D2"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon graveyard:lich ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "0B298A479BAB63F7"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"<巫妖>  你以为亡灵之火能被扑灭，死亡之躯能被终结？我们，亡灵们，岂能被轻易束缚？\",\"color\":\"dark_red\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			invisible: true
+			id: "14A79DDA1301000E"
+			tasks: [{
+				id: "43F15320D70096B9"
+				type: "advancement"
+				advancement: "twilightforest:lich_scepters"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3F513A5509F34AEC"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon born_in_chaos_v1:supreme_bonescaller ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "2E43C2D0AA197B63"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"<亡灵至尊> 他们齐聚黑暗高塔，试图探寻另一维度的究极知识，最终引火焚身。\",\"color\":\"red\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "大型矿山"
+			x: 4.5d
+			y: -5.0d
+			invisible: true
+			hide_details_until_startable: true
+			id: "0FDE96A2E39B69CE"
+			tasks: [{
+				id: "6BBF7C3C1754DFA9"
+				type: "structure"
+				title: "大型矿山"
+				structure: "twilightforest:large_hollow_hill"
+			}]
+			rewards: [{
+				id: "249882DA3B8A49E5"
+				type: "item"
+				auto: "enabled"
+				item: "twilightforest:uncrafting_table"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			invisible: true
+			hide_details_until_startable: true
+			id: "6F2C6610F2509C0D"
+			tasks: [{
+				id: "0853FAB9E6B39C18"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+			rewards: [
+				{
+					id: "3BEB250C96D1F050"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"<九头蛇> 他们或许以为我九头龙是叛徒，而龙族真正的叛徒此刻正拿着我的头颅 \",\"color\":\"red\"}"
+					player_command: false
+				}
+				{
+					id: "6E3797EE4C2C2EE0"
+					type: "item"
+					team_reward: true
+					auto: "no_toast"
+					item: "iceandfire:hydra_heart"
+				}
+				{
+					id: "6B1313AC5AA0B824"
+					type: "item"
+					auto: "no_toast"
+					item: "twilightforest:hydra_chop"
+					random_bonus: 127
+				}
+				{
+					id: "40ABD7483942881A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1094562030945515290L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			invisible: true
+			id: "1A18A8E4FD76D670"
+			tasks: [{
+				id: "5015BE40FC8C5455"
+				type: "dimension"
+				dimension: "ulterlands:ulterlands_dimension"
+			}]
+			rewards: [
+				{
+					id: "6542C533AF3C83B2"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-2 ~-2 ~-2 ~2 ~-2 ~2 ulterlands:cedar_planks replace minecraft:air"
+					player_command: false
+				}
+				{
+					id: "7B4A303DAA0AF948"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run craid add craid:test ~ 75~"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			invisible: true
+			id: "2D60F23343AD768F"
+			tasks: [
+				{
+					id: "4DEADCF39196A190"
+					type: "item"
+					item: "twilightforest:lich_trophy"
+					count: 2L
+				}
+				{
+					id: "7B2B9084AFEB07EE"
+					type: "item"
+					item: "twilightforest:minoshroom_trophy"
+				}
+			]
+			rewards: [
+				{
+					id: "070E8B115289A6B0"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon graveyard:lich ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "67340BFB1BAFB58F"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"<巫妖>  亡者不会再次死去。\",\"color\":\"dark_red\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			invisible: true
+			id: "312665E314F1660F"
+			tasks: [
+				{
+					id: "2A5E368FF2E2C99E"
+					type: "item"
+					item: "twilightforest:knight_phantom_trophy"
+				}
+				{
+					id: "46BD5E941AACEA22"
+					type: "item"
+					item: "twilightforest:lich_trophy"
+					count: 3L
+				}
+				{
+					id: "0DAB67C98AA06379"
+					type: "item"
+					item: "twilightforest:alpha_yeti_trophy"
+				}
+			]
+			rewards: [
+				{
+					id: "269B0A01B3BBD802"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon graveyard:lich ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "5379E9DC0C1E0D43"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run tellraw @a {\"text\":\"<巫妖>  加入我们！你总会加入我们。\",\"color\":\"dark_red\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			invisible: true
+			id: "77B9DF0BBF4A15DF"
+			tasks: [{
+				id: "031EC44085B94FEB"
+				type: "dimension"
+				dimension: "panthalassa:panthalassa"
+			}]
+			rewards: [{
+				id: "30592B1ABFE0ACFF"
+				type: "command"
+				team_reward: true
+				auto: "no_toast"
+				command: "/execute as @p at @p run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:water replace"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			invisible: true
+			id: "40D1F771B662C112"
+			tasks: [{
+				id: "10D5D97D6BA330D3"
+				type: "biome"
+				biome: "twilightforest:spooky_forest"
+			}]
+			rewards: [{
+				id: "57BC7DA09BD1E076"
+				type: "command"
+				team_reward: true
+				auto: "no_toast"
+				command: "/execute as @p at @p run craid add craid:test ~ ~ ~"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			invisible: true
+			hide_details_until_startable: true
+			id: "4361E9F03E729CB3"
+			tasks: [{
+				id: "73057E1415D890E7"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "龙村"
+			x: -3.0d
+			y: -2.0d
+			invisible: true
+			hide_details_until_startable: true
+			id: "7740AA47EAE2B0A0"
+			tasks: [{
+				id: "467462D45CD7753B"
+				type: "dimension"
+				dimension: "hanew_village_mod:another"
+			}]
+			rewards: [
+				{
+					id: "4F787168E03BC88C"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-1 ~-2 ~-1 ~1 ~2 ~1 minecraft:air replace"
+					player_command: false
+				}
+				{
+					id: "527219159539EDDD"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-2 ~-3 ~-2 ~2 ~-3 ~2 hanew_village_mod:aged_tree_planks replace minecraft:air"
+					player_command: false
+				}
+				{
+					id: "0B164DBF116E8D52"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run setblock ~2 ~-2 ~2 waystones:waystone replace"
+					player_command: false
+				}
+				{
+					id: "611E622DB3DF70AE"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run setblock ~2 ~-1 ~2 waystones:waystone[ half= upper ] replace"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			invisible: true
+			id: "66918CCAD6FA9459"
+			tasks: [{
+				id: "18CB27512ACF604E"
+				type: "observation"
+				timer: 0L
+				observe_type: 0
+				to_observe: "hanew_village_mod:dragonlocker"
+			}]
+			rewards: [
+				{
+					id: "7FA4F65E09F3F73F"
+					type: "random"
+					team_reward: true
+					auto: "no_toast"
+					table_id: 5393402956681604123L
+				}
+				{
+					id: "7CC1A237D4C0AA9C"
+					type: "random"
+					team_reward: true
+					auto: "no_toast"
+					table_id: 1094562030945515290L
+				}
+				{
+					id: "4808FB673CBAFA46"
+					type: "random"
+					team_reward: true
+					auto: "no_toast"
+					table_id: 4197713482067246620L
+				}
+				{
+					id: "39C2867FE7780EF5"
+					type: "item"
+					auto: "no_toast"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "_"
+						}
+					}
+					random_bonus: 5
+				}
+				{
+					id: "07FB1952D0F6EE57"
+					type: "item"
+					auto: "no_toast"
+					item: {
+						id: "hanew_village_mod:another"
+						Count: 1b
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"\\u00A77太好了，\\u00A7k小崽子。\"}"
+									"{\"text\":\"\\u00A77你终于找到我了，\"}"
+									"{\"text\":\"\\u00A77你会获得奖励。\"}"
+									"{\"text\":\"\\u00A77来吧，右击这个封印，\"}"
+									"{\"text\":\"\\u00A7e放我自由！\"}"
+								]
+								Name: "{\"text\":\"\\u00A7f穿越时空的留言条2\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "4D7D5773A97E34A4"
+					type: "command"
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"<神龙>  你还在等什么呢？\",\"color\":\"white\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			invisible: true
+			id: "0200B1D8F58BA514"
+			tasks: [{
+				id: "37D5FD201EF10C8D"
+				type: "advancement"
+				advancement: "hanew_village_mod:thecauseofwar"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0A9E1FF0540F2257"
+					type: "item"
+					auto: "no_toast"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "_"
+						}
+					}
+					random_bonus: 9
+				}
+				{
+					id: "0B409E0C77F6EAF9"
+					type: "item"
+					team_reward: true
+					auto: "no_toast"
+					item: "minecraft:deepslate_diamond_ore"
+					random_bonus: 31
+				}
+				{
+					id: "572448D7832DD856"
+					type: "item"
+					team_reward: true
+					auto: "no_toast"
+					item: "born_in_chaos_v1:potion_of_rampage"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "6DF61F22AE4786BF"
+					type: "item"
+					team_reward: true
+					auto: "no_toast"
+					item: "born_in_chaos_v1:spiritinabottle"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "4E8059D73F54A7EC"
+					type: "item"
+					auto: "no_toast"
+					item: "born_in_chaos_v1:intoxicating_decoction"
+					count: 4
+					random_bonus: 10
+				}
+				{
+					id: "257E0795DDA29C85"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"<陈· 旧的岁月· 巨龙>  年轻人不讲武德，偷袭我几万岁的老同志。\",\"color\":\"green\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			invisible: true
+			id: "5AB018F966FE348F"
+			tasks: [{
+				id: "732FF66C5F9F3BE8"
+				type: "item"
+				item: "hanew_village_mod:unknow_diary"
+			}]
+			rewards: [
+				{
+					id: "17B1A3C4701006B7"
+					type: "command"
+					auto: "no_toast"
+					command: "/execute as @p at @p run time set midnight"
+					player_command: false
+				}
+				{
+					id: "4D0BC75EE4C8AA7E"
+					type: "command"
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon born_in_chaos_v1:nightmare_stalker ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "79C488EE9678C314"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"<噩梦追猎者> 这不是你该染指的！ \",\"color\":\"dark_gray\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "福尔女爵1"
+			x: 6.5d
+			y: -3.5d
+			dependencies: ["0200B1D8F58BA514"]
+			id: "0117F62FCFAFF545"
+			tasks: [{
+				id: "1DDF84974CF6275E"
+				type: "questsadditions:time"
+				elapsedTime: 4L
+			}]
+			rewards: [{
+				id: "601D7D7B5C9D29C2"
+				type: "command"
+				team_reward: true
+				auto: "no_toast"
+				command: "/tellraw @a {\"text\":\"<福尔图娜>  明明是你把人叫来的。\",\"color\":\"red\"}"
+				player_command: false
+			}]
+		}
+		{
+			title: "岁月巨龙1"
+			x: 8.0d
+			y: -3.5d
+			dependencies: ["0117F62FCFAFF545"]
+			id: "6440280D08B5995E"
+			tasks: [{
+				id: "57738D3CAC326F3F"
+				type: "questsadditions:time"
+				elapsedTime: 5L
+			}]
+			rewards: [{
+				id: "5C5E5689F14C7B9B"
+				type: "command"
+				team_reward: true
+				auto: "no_toast"
+				command: "/tellraw @a {\"text\":\"<陈· 旧的岁月· 巨龙>  在做森林龙这件事上，我好歹也是前辈。\",\"color\":\"green\"}"
+				player_command: false
+			}]
+		}
+		{
+			title: "岁月巨龙2"
+			x: 9.0d
+			y: -3.5d
+			dependencies: ["6440280D08B5995E"]
+			id: "7A60216710DC00CD"
+			tasks: [{
+				id: "589E51066A6059AD"
+				type: "questsadditions:time"
+				elapsedTime: 2L
+			}]
+			rewards: [{
+				id: "209A03F9912D6F54"
+				type: "command"
+				team_reward: true
+				auto: "no_toast"
+				command: "/tellraw @a {\"text\":\"<陈· 旧的岁月· 巨龙>  能不能给点面子。\",\"color\":\"green\"}"
+				player_command: false
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			invisible: true
+			id: "6EB1E99788DA2646"
+			tasks: [{
+				id: "41B92A3B97B2E9E5"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+			rewards: [
+				{
+					id: "5DCAA5DE0CDFE1DB"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon born_in_chaos_v1:skeleton_thrasher_not_despawn ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "350A7CAA9F92FDBC"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run tellraw @a {\"text\":\"<重击者>  止步！我这是为你好。\",\"color\":\"dark_red\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "巫妖复活赛"
+			x: 2.0d
+			y: -7.0d
+			invisible: true
+			id: "70A53B53F2EEDE26"
+			tasks: [{
+				id: "0E57C2C040767E3B"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+			rewards: [
+				{
+					id: "172ECAC4041D8702"
+					type: "random"
+					team_reward: true
+					auto: "no_toast"
+					table_id: 1094562030945515290L
+				}
+				{
+					id: "069CC950CB9088CF"
+					type: "command"
+					auto: "no_toast"
+					command: "/title @a title {\"text\":\"小心！他没死透!\",\"color\":\"dark_red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			invisible: true
+			hide_details_until_startable: true
+			id: "6221FD6AA36B8448"
+			tasks: [{
+				id: "0B778FBB02EBB61B"
+				type: "advancement"
+				advancement: "ulterlands:diabolic_science"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2D6E5593F5E8286D"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon aquamirae:captain_cornelia ~ ~10 ~"
+					player_command: false
+				}
+				{
+					id: "2592E55892521CDA"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"<柯妮莉亚船长> 你不该进入这里！ \",\"color\":\"blue\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			invisible: true
+			id: "23BB3107D9E8D013"
+			tasks: [{
+				id: "05CEBA2003AE393B"
+				type: "advancement"
+				advancement: "hanew_village_mod:thelittledragon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "57929A2CE367BE2C"
+				type: "command"
+				team_reward: true
+				auto: "no_toast"
+				command: "/execute as @p at @p run craid add craid:test ~ ~ ~"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			invisible: true
+			id: "38752858A414CFCA"
+			tasks: [{
+				id: "6A71BE27B4D39A60"
+				type: "item"
+				item: "iceandfire:stymphalian_skull"
+			}]
+			rewards: [{
+				id: "34CE9DF35747FAE1"
+				type: "command"
+				team_reward: true
+				auto: "no_toast"
+				command: "/execute as @p at @p run summon born_in_chaos_v1:dire_hound_leader ~3 ~10 ~3"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			invisible: true
+			id: "04EC43D3EF149586"
+			tasks: [{
+				id: "7FA4E5A5E006A33A"
+				type: "item"
+				item: "iceandfire:deathworm_tounge"
+			}]
+			rewards: [{
+				id: "07EFCD1C1A8E89D7"
+				type: "command"
+				team_reward: true
+				auto: "no_toast"
+				command: "/execute as @p at @p run summon born_in_chaos_v1:dire_hound_leader ~3 ~10 ~3"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			invisible: true
+			id: "3E93FDC529ACD723"
+			tasks: [{
+				id: "2206B41AD7855C89"
+				type: "item"
+				item: "iceandfire:myrmex_jungle_swarm"
+			}]
+			rewards: [{
+				id: "652459333AE886CB"
+				type: "command"
+				team_reward: true
+				auto: "no_toast"
+				command: "/execute as @p at @p run summon born_in_chaos_v1:dire_hound_leader ~3 ~10 ~3"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.5d
+			y: -7.0d
+			invisible: true
+			id: "593A0E2D06EB79B4"
+			tasks: [
+				{
+					id: "6769363897EA5873"
+					type: "item"
+					item: "mutantmonsters:mutant_skeleton_shoulder_pad"
+				}
+				{
+					id: "478221D1AFBE97D6"
+					type: "item"
+					item: "mutantmonsters:mutant_skeleton_pelvis"
+				}
+				{
+					id: "3137A01EF5A461C6"
+					type: "item"
+					item: "mutantmonsters:mutant_skeleton_limb"
+				}
+				{
+					id: "10C10C106FC70BE6"
+					type: "item"
+					item: "mutantmonsters:mutant_skeleton_rib"
+				}
+				{
+					id: "037449912E0ABC9D"
+					type: "item"
+					item: {
+						id: "mutantmonsters:mutant_skeleton_skull"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6A8E84156ED0A7B0"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					command: "/execute as @p at @p run summon born_in_chaos_v1:supreme_bonescaller ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "504AF0C6039EF5EC"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"<亡灵至尊> 你猜，一名巫妖什么时候才会真正死去？。\",\"color\":\"red\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			invisible: true
+			id: "0558BE96D2227CDD"
+			tasks: [{
+				id: "2EA5B84A22D20ECC"
+				type: "advancement"
+				advancement: "idas:dread_citadel"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "133B6C7328B2BA67"
+				type: "item"
+				auto: "no_toast"
+				item: {
+					id: "iceandfire:manuscript"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"你成功的找到了悚陵\"}"]
+							Name: "{\"text\":\"惊悚凭证\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			invisible: true
+			hide_details_until_startable: true
+			id: "7688556ABCE82E75"
+			tasks: [{
+				id: "1773DECC9C3188EE"
+				type: "biome"
+				biome: "twilightforest:final_plateau"
+			}]
+			rewards: [
+				{
+					id: "39E9C7DD01152AE1"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon born_in_chaos_v1:sir_pumpkinhead ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "6EA1E1AC028955C5"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run tellraw @a {\"text\":\"<无头骑士> 离开这里，我最后警告一次！\",\"color\":\"dark_red\"}"
+					player_command: false
+				}
+				{
+					id: "7FB548CC439C7873"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon minecraft:tnt ~ ~1 ~"
+					player_command: false
+				}
+				{
+					id: "20A5DA734E2F3F36"
+					type: "command"
+					auto: "no_toast"
+					command: "/title @a title {\"text\":\"无头骑士已出现，他就在你身边\",\"color\":\"dark_red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -6.0d
+			invisible: true
+			id: "2005AA516F25B262"
+			tasks: [
+				{
+					id: "01258BB3FF9B2112"
+					type: "item"
+					item: "twilightforest:naga_trophy"
+				}
+				{
+					id: "733CE1F7B05D33EA"
+					type: "item"
+					item: "twilightforest:knight_phantom_trophy"
+				}
+				{
+					id: "7812863D1D49325F"
+					type: "item"
+					item: "twilightforest:ur_ghast_trophy"
+				}
+				{
+					id: "7359E9A8A3298478"
+					type: "item"
+					item: "twilightforest:alpha_yeti_trophy"
+				}
+				{
+					id: "2126665F6E4F6ABB"
+					type: "item"
+					item: "twilightforest:snow_queen_trophy"
+				}
+				{
+					id: "203A350DCA788494"
+					type: "item"
+					item: "twilightforest:quest_ram_trophy"
+				}
+				{
+					id: "30F0290D3888A26D"
+					type: "item"
+					item: "twilightforest:minoshroom_trophy"
+				}
+				{
+					id: "5FAD576A2502161D"
+					type: "item"
+					item: "twilightforest:lich_trophy"
+				}
+				{
+					id: "1745BCDF64492D56"
+					type: "item"
+					item: "twilightforest:hydra_trophy"
+				}
+			]
+			rewards: [{
+				id: "12E6B0F2A753ABEA"
+				type: "command"
+				team_reward: true
+				auto: "no_toast"
+				command: "/execute as @p at @p run summon born_in_chaos_v1:sir_pumpkinhead ~ ~3 ~"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["7740AA47EAE2B0A0"]
+			id: "0448A74ED126FF4E"
+			tasks: [{
+				id: "134527D1DDBEA2FC"
+				type: "questsadditions:time"
+				elapsedTime: 10L
+			}]
+			rewards: [
+				{
+					id: "3684E6815FE56060"
+					type: "item"
+					auto: "no_toast"
+					item: {
+						id: "hanew_village_mod:another"
+						Count: 1b
+						tag: {
+							Unbreakable: 1b
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"\\u00A77抱歉，小朋友。\"}"
+									"{\"text\":\"\\u00A77当法阵检测到有森林龙在传送时，\"}"
+									"{\"text\":\"\\u00A77会改变目的地的时间坐标。\"}"
+									"{\"text\":\"\\u00A77你依旧会传送到你想去的森林，\"}"
+									"{\"text\":\"\\u00A77只不过早了几万年。\"}"
+								]
+								Name: "{\"text\":\"\\u00A7f穿越时空的留言条\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "616C5629B479C84F"
+					type: "command"
+					command: "/tellraw @a {\"text\":\"<神秘之音>  不要惊慌，看看你手上的字条。\",\"color\":\"white\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			invisible: true
+			id: "18AD025A1057A01F"
+			tasks: [{
+				id: "53939861FDD40123"
+				type: "observation"
+				timer: 3L
+				observe_type: 0
+				to_observe: "ulterlands:starglyph_block"
+			}]
+			rewards: [{
+				id: "01DACEC1C1C432D7"
+				type: "item"
+				auto: "no_toast"
+				item: "ulterlands:arcane_horn"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			can_repeat: true
+			invisible: true
+			id: "0C02A82D061795C0"
+			tasks: [{
+				id: "678A910E561A5987"
+				type: "questsadditions:time"
+				elapsedTime: 900L
+			}]
+			rewards: [
+				{
+					id: "76840DCA24C9B234"
+					type: "command"
+					auto: "no_toast"
+					command: "/kill @e[type=item]"
+					player_command: false
+				}
+				{
+					id: "2C25B5941820EAE6"
+					type: "command"
+					auto: "no_toast"
+					command: "/tellraw @p {\"text\":\"<天昭奕> 掉落物已清除！\",\"color\":\"yellow\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -5.0d
+			can_repeat: true
+			invisible: true
+			id: "6ADF3742F2F10708"
+			tasks: [{
+				id: "592F9EF2EA11DF02"
+				type: "questsadditions:time"
+				elapsedTime: 890L
+			}]
+			rewards: [{
+				id: "71D9B23012E52892"
+				type: "command"
+				auto: "enabled"
+				command: "/tellraw @p {\"text\":\"<天昭奕> 十喵钟后会清除掉落物喵！\",\"color\":\"yellow\"}"
+				player_command: false
+			}]
+		}
+		{
+			title: "him"
+			x: -4.0d
+			y: -8.5d
+			invisible: true
+			id: "54ACCA78B8A3BC53"
+			tasks: [{
+				id: "5E446726DC68798A"
+				type: "questsadditions:time"
+				elapsedTime: 600L
+			}]
+			rewards: [{
+				id: "295D27EC377844FD"
+				type: "command"
+				command: "/execute as @p at @p run tellraw @a {\"text\":\"Herobrine加入了游戏\",\"color\":\"yellow\"}"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			can_repeat: true
+			invisible: true
+			id: "6C2E81D784415515"
+			tasks: [{
+				id: "3A6A08D03816D93C"
+				type: "item"
+				item: "twilightforest:thorn_rose"
+				count: 18L
+			}]
+			rewards: [
+				{
+					id: "715F6072187AA540"
+					type: "command"
+					team_reward: true
+					auto: "enabled"
+					command: "/execute as @p at @p run summon born_in_chaos_v1:sir_pumpkinhead ~ ~3 ~"
+					player_command: false
+				}
+				{
+					id: "05D05A0E7C860878"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/clear @a twilightforest:thorn_rose"
+					player_command: false
+				}
+				{
+					id: "703488D8A9E63865"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon minecraft:tnt ~ ~1 ~"
+					player_command: false
+				}
+				{
+					id: "014847E74A7DAE0A"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run tellraw @a {\"text\":\"<无头骑士> 你就这么想被我亲手杀死？\",\"color\":\"dark_red\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -10.0d
+			invisible: true
+			hide_details_until_startable: true
+			id: "4C74CFAE1592B1BB"
+			tasks: [{
+				id: "05A6A5CB17E904A2"
+				type: "item"
+				item: "cataclysm:gauntlet_of_guard"
+			}]
+			rewards: [
+				{
+					id: "60F41C1F6F77B682"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon unusualend:dragling ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "731A8346499BAC19"
+					type: "command"
+					team_reward: true
+					auto: "enabled"
+					command: "/execute as @p at @p run summon unusualend:dragling ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "2E0A2CD036162CFF"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon unusualend:dragling ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "58E73F1548905722"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon unusualend:dragling ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "5F357B167283695E"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon unusualend:dragling ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "11657D5FA0E6B8CD"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run tellraw @a {\"text\":\"<末影守卫>  初号机损坏程度99%。\",\"color\":\"dark_purple\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "倒计时"
+			x: 1.0d
+			y: -10.0d
+			dependencies: ["4C74CFAE1592B1BB"]
+			id: "382D50724E8702F6"
+			tasks: [{
+				id: "01B9FF4ECCF804F2"
+				type: "questsadditions:time"
+				elapsedTime: 10L
+			}]
+			rewards: [
+				{
+					id: "0DDB2569B3F83D2E"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon unusualend:dragling ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "79A553A3131459E2"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run tellraw @a {\"text\":\"<末影守卫>  启动终极机甲,进度50%\",\"color\":\"dark_purple\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "召唤末地石傀儡"
+			x: 3.0d
+			y: -10.0d
+			dependencies: ["382D50724E8702F6"]
+			id: "46A83CED8B51A5A5"
+			tasks: [{
+				id: "6306ECD3B9989AF4"
+				type: "questsadditions:time"
+				elapsedTime: 10L
+			}]
+			rewards: [
+				{
+					id: "36CE7DAE022EB3DD"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon minecraft:tnt ~ ~1 ~"
+					player_command: false
+				}
+				{
+					id: "4D148C200D1FA0F5"
+					type: "command"
+					command: "/execute as @p at @p run summon unusualend:endstone_golem ~ ~1 ~"
+					player_command: false
+				}
+				{
+					id: "47ACDD74662D6AE9"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 cataclysm:polished_end_stone"
+					player_command: false
+				}
+				{
+					id: "1BC4B61D5583B291"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run tellraw @a {\"text\":\"<末地石傀儡>  检测到恶龙，启动抓捕程序。\",\"color\":\"dark_purple\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -10.0d
+			dependencies: ["46A83CED8B51A5A5"]
+			id: "2BA3E845DFCEB267"
+			tasks: [{
+				id: "538167BB7BDB6F9F"
+				type: "questsadditions:time"
+				elapsedTime: 40L
+			}]
+			rewards: [
+				{
+					id: "11B712CAFD7ED9B7"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon minecraft:tnt ~ ~1 ~"
+					player_command: false
+				}
+				{
+					id: "75FEBF41F289AF42"
+					type: "command"
+					team_reward: true
+					auto: "no_toast"
+					command: "/execute as @p at @p run summon minecraft:end_crystal ~ ~ ~"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			can_repeat: true
+			invisible: true
+			id: "7F64E0E9E6C9DFAA"
+			tasks: [
+				{
+					id: "6F1AAD2B4B4F79C9"
+					type: "questsadditions:time"
+					elapsedTime: 1L
+				}
+				{
+					id: "7EA145B5B99EDD34"
+					type: "checkmark"
+				}
+			]
+			rewards: [{
+				id: "4DCD4097EE74510C"
+				type: "command"
+				auto: "no_toast"
+				command: "/kill @e[type=item]"
+				player_command: false
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			can_repeat: true
+			invisible: true
+			id: "05743BD0CD288BD0"
+			tasks: [
+				{
+					id: "475E4FEDFE6FA9A1"
+					type: "questsadditions:time"
+					elapsedTime: 1L
+				}
+				{
+					id: "54C2D7A66E05F7FA"
+					type: "checkmark"
+				}
+			]
+			rewards: [{
+				id: "560D1CC96704841C"
+				type: "command"
+				auto: "no_toast"
+				command: "/kill @e[type=item]"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -13.5d
+			invisible: true
+			id: "2206F2A401D29400"
+			tasks: [{
+				id: "0BD67957F3557D1A"
+				type: "item"
+				item: "kubejs:rainbow_alloy_block"
+			}]
+			rewards: [{
+				id: "2C451306EFBD3FC3"
+				type: "random"
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				table_id: 7970247709585845576L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -13.5d
+			invisible: true
+			id: "1783C318F6718576"
+			tasks: [{
+				id: "67672D3BA1201CEE"
+				type: "item"
+				item: "rainbowcompound:radiance_resonant_assembly"
+			}]
+			rewards: [{
+				id: "4358C74C895E82B3"
+				type: "random"
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				table_id: 7970247709585845576L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -14.5d
+			invisible: true
+			id: "56BA3E60CDFB498B"
+			tasks: [{
+				id: "6D13C364C386D201"
+				type: "item"
+				item: "rainbowcompound:shadow_resonant_assembly"
+			}]
+			rewards: [{
+				id: "771100B6A0AE6BA4"
+				type: "random"
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				table_id: 7970247709585845576L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -14.5d
+			invisible: true
+			id: "56AFF016B6C6FB49"
+			tasks: [{
+				id: "6E0BA31448653CE8"
+				type: "item"
+				item: "rainbowcompound:overcharged_alloy"
+			}]
+			rewards: [{
+				id: "20C73A1CDF2FAB5A"
+				type: "random"
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				table_id: 7970247709585845576L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -13.5d
+			invisible: true
+			id: "6721E9BF609D3857"
+			tasks: [{
+				id: "0ECE97DB068DACCB"
+				type: "item"
+				item: "rainbowcompound:overcharged_casing"
+			}]
+			rewards: [{
+				id: "7654FCF4996FEBDE"
+				type: "random"
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				table_id: 7970247709585845576L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.0d
+			dependencies: ["6F2C6610F2509C0D"]
+			hide: true
+			invisible: true
+			id: "073E8E174FD767FB"
+			tasks: [{
+				id: "35C3A093A1D2980D"
+				type: "questsadditions:time"
+				elapsedTime: 5L
+			}]
+			rewards: [
+				{
+					id: "2604116CF0CC3A31"
+					type: "command"
+					title: " "
+					team_reward: true
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"<九头蛇> 可别以为这样就完了！\",\"color\":\"red\"}"
+					player_command: false
+				}
+				{
+					id: "6F1CA5846C8AB1C9"
+					type: "command"
+					team_reward: true
+					auto: "disabled"
+					command: "/execute as @p at @p run summon iceandfire:hydra ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "4F2598519F93A4ED"
+					type: "command"
+					title: "1"
+					team_reward: true
+					auto: "disabled"
+					command: "/title @a title {\"text\":\"我建议你跑开!\",\"color\":\"dark_red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+					player_command: false
+				}
+				{
+					id: "71AD1F6B5262578A"
+					type: "item"
+					team_reward: true
+					auto: "no_toast"
+					item: "twilightforest:charm_of_life_2"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -8.5d
+			dependencies: ["54ACCA78B8A3BC53"]
+			invisible: true
+			id: "417D6C6D48DF4988"
+			tasks: [{
+				id: "36E6161106629683"
+				type: "questsadditions:time"
+				elapsedTime: 800L
+			}]
+			rewards: [
+				{
+					id: "0ABAFC394A8A18CB"
+					type: "command"
+					command: "/execute as @p at @p run tellraw @a {\"text\":\"Herobrine退出了游戏\",\"color\":\"yellow\"}"
+					player_command: false
+				}
+				{
+					id: "58E09661C3C2D4D3"
+					type: "command"
+					command: "/execute as @p at @p run tellraw @a {\"text\":\"Notch退出了游戏\",\"color\":\"yellow\"}"
+					player_command: false
+				}
+				{
+					id: "167AD57A12E91CC2"
+					type: "command"
+					command: "/execute as @p at @p run tellraw @a {\"text\":\"303加入了游戏\",\"color\":\"yellow\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -11.5d
+			id: "433578779FC76F34"
+			tasks: [{
+				id: "5BC641BA2BE84229"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "461F784BCB72CB3C"
+					type: "item"
+					item: {
+						id: "create:minecart_contraption"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							Contraption: {
+								Blocks: {
+									Palette: [
+										{
+											Properties: {
+												type: "top"
+												waterlogged: "false"
+											}
+											Name: "born_in_chaos_v1:black_argillite_brick_slab"
+										}
+										{
+											Properties: {
+												axis: "z"
+											}
+											Name: "create:minecart_anchor"
+										}
+										{
+											Properties: {
+												type: "bottom"
+												waterlogged: "false"
+											}
+											Name: "born_in_chaos_v1:black_argillite_column_slab"
+										}
+										{
+											Name: "born_in_chaos_v1:fired_black_argillite"
+										}
+										{
+											Properties: {
+												facing: "north"
+												half: "bottom"
+												waterlogged: "false"
+												shape: "straight"
+											}
+											Name: "born_in_chaos_v1:black_argillite_brick_stairs"
+										}
+										{
+											Properties: {
+												facing: "west"
+												face: "floor"
+												powered: "false"
+											}
+											Name: "born_in_chaos_v1:black_argillite_button"
+										}
+										{
+											Properties: {
+												west: "false"
+												east: "false"
+												waterlogged: "false"
+												south: "true"
+												north: "false"
+											}
+											Name: "the_forgotten_dimensions:snowy_fence"
+										}
+										{
+											Properties: {
+												type: "bottom"
+												waterlogged: "false"
+											}
+											Name: "born_in_chaos_v1:black_argillite_brick_slab"
+										}
+										{
+											Name: "minecraft:coarse_dirt"
+										}
+										{
+											Properties: {
+												east: "none"
+												waterlogged: "false"
+												south: "none"
+												north: "low"
+												west: "none"
+												up: "true"
+											}
+											Name: "born_in_chaos_v1:black_argillite_wall"
+										}
+										{
+											Name: "born_in_chaos_v1:black_argillite"
+										}
+										{
+											Properties: {
+												facing: "south"
+												face: "wall"
+												powered: "false"
+											}
+											Name: "born_in_chaos_v1:black_argillite_button"
+										}
+										{
+											Name: "born_in_chaos_v1:dark_metal_deposit"
+										}
+										{
+											Name: "minecraft:dirt"
+										}
+										{
+											Properties: {
+												snowy: "false"
+											}
+											Name: "minecraft:grass_block"
+										}
+										{
+											Properties: {
+												powered: "false"
+											}
+											Name: "born_in_chaos_v1:black_argillitepressureplate"
+										}
+										{
+											Name: "born_in_chaos_v1:black_argillite_brick"
+										}
+										{
+											Properties: {
+												east: "low"
+												waterlogged: "false"
+												south: "none"
+												north: "none"
+												west: "none"
+												up: "true"
+											}
+											Name: "born_in_chaos_v1:black_argillite_wall"
+										}
+										{
+											Properties: {
+												axis: "y"
+											}
+											Name: "born_in_chaos_v1:black_argillite_column"
+										}
+										{
+											Properties: {
+												type: "double"
+												waterlogged: "false"
+											}
+											Name: "born_in_chaos_v1:black_argillite_brick_slab"
+										}
+										{
+											Name: "born_in_chaos_v1:chipped_black_argillite_brick"
+										}
+										{
+											Properties: {
+												east: "none"
+												waterlogged: "false"
+												south: "none"
+												north: "none"
+												west: "low"
+												up: "true"
+											}
+											Name: "born_in_chaos_v1:black_argillite_wall"
+										}
+										{
+											Name: "born_in_chaos_v1:carved_black_argillite"
+										}
+										{
+											Properties: {
+												facing: "west"
+												half: "top"
+												waterlogged: "false"
+												shape: "straight"
+											}
+											Name: "born_in_chaos_v1:black_argillite_brick_stairs"
+										}
+										{
+											Properties: {
+												facing: "east"
+												half: "bottom"
+												waterlogged: "false"
+												shape: "straight"
+											}
+											Name: "born_in_chaos_v1:black_argillite_brick_stairs"
+										}
+										{
+											Name: "minecraft:magma_block"
+										}
+										{
+											Properties: {
+												facing: "east"
+												half: "top"
+												waterlogged: "false"
+												shape: "straight"
+											}
+											Name: "born_in_chaos_v1:black_argillite_brick_stairs"
+										}
+										{
+											Properties: {
+												axis: "y"
+											}
+											Name: "infernalexp:basaltic_magma"
+										}
+										{
+											Properties: {
+												facing: "west"
+												waterlogged: "false"
+												type: "single"
+											}
+											Name: "lootr:lootr_chest"
+										}
+										{
+											Properties: {
+												facing: "west"
+												half: "bottom"
+												waterlogged: "false"
+												shape: "straight"
+											}
+											Name: "born_in_chaos_v1:black_argillite_brick_stairs"
+										}
+										{
+											Properties: {
+												facing: "west"
+												face: "wall"
+												powered: "false"
+											}
+											Name: "born_in_chaos_v1:black_argillite_button"
+										}
+										{
+											Properties: {
+												facing: "east"
+												face: "wall"
+												powered: "false"
+											}
+											Name: "born_in_chaos_v1:black_argillite_button"
+										}
+										{
+											Properties: {
+												facing: "south"
+												half: "top"
+												waterlogged: "false"
+												shape: "straight"
+											}
+											Name: "born_in_chaos_v1:black_argillite_brick_stairs"
+										}
+										{
+											Properties: {
+												axis: "y"
+												waterlogged: "false"
+											}
+											Name: "minecraft:chain"
+										}
+										{
+											Properties: {
+												type: "double"
+												waterlogged: "false"
+											}
+											Name: "born_in_chaos_v1:black_argillite_column_slab"
+										}
+										{
+											Properties: {
+												type: "top"
+												waterlogged: "false"
+											}
+											Name: "born_in_chaos_v1:black_argillite_column_slab"
+										}
+										{
+											Properties: {
+												facing: "south"
+												half: "bottom"
+												waterlogged: "false"
+												shape: "straight"
+											}
+											Name: "born_in_chaos_v1:black_argillite_brick_stairs"
+										}
+										{
+											Properties: {
+												east: "none"
+												waterlogged: "false"
+												south: "low"
+												north: "none"
+												west: "none"
+												up: "true"
+											}
+											Name: "born_in_chaos_v1:black_argillite_wall"
+										}
+										{
+											Properties: {
+												facing: "north"
+												face: "wall"
+												powered: "false"
+											}
+											Name: "born_in_chaos_v1:black_argillite_button"
+										}
+										{
+											Properties: {
+												facing: "north"
+												half: "top"
+												waterlogged: "false"
+												shape: "straight"
+											}
+											Name: "born_in_chaos_v1:black_argillite_brick_stairs"
+										}
+										{
+											Properties: {
+												west: "false"
+												east: "false"
+												waterlogged: "false"
+												south: "false"
+												north: "false"
+											}
+											Name: "the_forgotten_dimensions:snowy_fence"
+										}
+										{
+											Properties: {
+												west: "false"
+												east: "false"
+												waterlogged: "false"
+												south: "false"
+												north: "true"
+											}
+											Name: "the_forgotten_dimensions:snowy_fence"
+										}
+										{
+											Properties: {
+												west: "false"
+												east: "false"
+												waterlogged: "false"
+												south: "true"
+												north: "true"
+											}
+											Name: "the_forgotten_dimensions:snowy_fence"
+										}
+									]
+									BlockList: [
+										{
+											Pos: 549755822084L
+											State: 0
+										}
+										{
+											Pos: 0L
+											State: 1
+										}
+										{
+											Pos: 1374389542916L
+											State: 0
+										}
+										{
+											Pos: 1649267449860L
+											State: 0
+										}
+										{
+											Pos: 1924145356804L
+											State: 0
+										}
+										{
+											Pos: 274877939712L
+											State: 2
+										}
+										{
+											Pos: 549755846656L
+											State: 3
+										}
+										{
+											Pos: 824633753600L
+											State: 4
+										}
+										{
+											Pos: 1099511660544L
+											State: 4
+										}
+										{
+											Pos: 1374389567488L
+											State: 3
+										}
+										{
+											Pos: 1649267474432L
+											State: 2
+										}
+										{
+											Pos: 8197L
+											State: 5
+										}
+										{
+											Pos: 1L
+											State: 6
+										}
+										{
+											Pos: 549755822085L
+											State: 2
+										}
+										{
+											Pos: 824633729029L
+											State: 7
+										}
+										{
+											Pos: 1099511635973L
+											State: 7
+										}
+										{
+											Pos: 1374389542917L
+											State: 2
+										}
+										{
+											Pos: 1924145356805L
+											State: 5
+										}
+										{
+											Pos: 32767L
+											State: 8
+										}
+										{
+											Pos: 274877939711L
+											State: 8
+										}
+										{
+											Pos: 549755846657L
+											State: 9
+										}
+										{
+											Pos: 549755846655L
+											State: 10
+										}
+										{
+											Pos: 824633753601L
+											State: 11
+										}
+										{
+											Pos: 824633753599L
+											State: 10
+										}
+										{
+											Pos: 1099511660545L
+											State: 11
+										}
+										{
+											Pos: 1099511660543L
+											State: 12
+										}
+										{
+											Pos: 1374389567489L
+											State: 9
+										}
+										{
+											Pos: 1374389567487L
+											State: 10
+										}
+										{
+											Pos: 1649267474431L
+											State: 13
+										}
+										{
+											Pos: 1924145381375L
+											State: 14
+										}
+										{
+											Pos: 36868L
+											State: 0
+										}
+										{
+											Pos: 274877943812L
+											State: 0
+										}
+										{
+											Pos: 549755850756L
+											State: 0
+										}
+										{
+											Pos: 274877935616L
+											State: 3
+										}
+										{
+											Pos: 549755846658L
+											State: 15
+										}
+										{
+											Pos: 549755842560L
+											State: 16
+										}
+										{
+											Pos: 824633749504L
+											State: 16
+										}
+										{
+											Pos: 1374389571588L
+											State: 0
+										}
+										{
+											Pos: 1099511656448L
+											State: 16
+										}
+										{
+											Pos: 1374389567490L
+											State: 15
+										}
+										{
+											Pos: 1649267478532L
+											State: 0
+										}
+										{
+											Pos: 1374389563392L
+											State: 16
+										}
+										{
+											Pos: 1924145385476L
+											State: 0
+										}
+										{
+											Pos: 1649267470336L
+											State: 3
+										}
+										{
+											Pos: 36869L
+											State: 5
+										}
+										{
+											Pos: 549755850757L
+											State: 2
+										}
+										{
+											Pos: 28671L
+											State: 8
+										}
+										{
+											Pos: 274877935617L
+											State: 17
+										}
+										{
+											Pos: 824633757701L
+											State: 7
+										}
+										{
+											Pos: 274877935615L
+											State: 8
+										}
+										{
+											Pos: 549755842561L
+											State: 18
+										}
+										{
+											Pos: 1099511664645L
+											State: 7
+										}
+										{
+											Pos: 549755842559L
+											State: 10
+										}
+										{
+											Pos: 824633749505L
+											State: 19
+										}
+										{
+											Pos: 1374389571589L
+											State: 2
+										}
+										{
+											Pos: 824633749503L
+											State: 10
+										}
+										{
+											Pos: 1099511656449L
+											State: 20
+										}
+										{
+											Pos: 1099511656447L
+											State: 10
+										}
+										{
+											Pos: 1374389563393L
+											State: 18
+										}
+										{
+											Pos: 1924145385477L
+											State: 5
+										}
+										{
+											Pos: 1374389563391L
+											State: 10
+										}
+										{
+											Pos: 1649267470337L
+											State: 21
+										}
+										{
+											Pos: 1649267470335L
+											State: 13
+										}
+										{
+											Pos: 1924145377279L
+											State: 14
+										}
+										{
+											Pos: 32772L
+											State: 0
+										}
+										{
+											Pos: 274877939716L
+											State: 22
+										}
+										{
+											Pos: 274877935618L
+											State: 15
+										}
+										{
+											Pos: 549755846660L
+											State: 23
+										}
+										{
+											Pos: 274877931520L
+											State: 24
+										}
+										{
+											Pos: 549755842562L
+											State: 18
+										}
+										{
+											Pos: 549755838464L
+											State: 16
+										}
+										{
+											Pos: 824633745408L
+											State: 25
+										}
+										{
+											Pos: 1374389567492L
+											State: 26
+										}
+										{
+											Pos: 1099511652352L
+											State: 27
+										}
+										{
+											Pos: 1374389563394L
+											State: 18
+										}
+										{
+											Pos: 1649267474436L
+											State: 22
+										}
+										{
+											Data: {
+												LootTable: "minecraft:chests/firewell_d"
+												specialLootChest_table: "minecraft:chests/firewell_d"
+												specialLootChest_seed: 2916737515240129036L
+												tileId: [I;
+													-793939806
+													106974091
+													-1417604816
+													1964389331
+												]
+												LootrOpeners: [ ]
+												id: "lootr:special_loot_chest"
+												LootTableSeed: 2916737515240129036L
+											}
+											Pos: 1374389559296L
+											State: 28
+										}
+										{
+											Pos: 1649267470338L
+											State: 15
+										}
+										{
+											Pos: 1924145381380L
+											State: 0
+										}
+										{
+											Pos: 1649267466240L
+											State: 29
+										}
+										{
+											Pos: 274877939717L
+											State: 2
+										}
+										{
+											Pos: 549755846661L
+											State: 2
+										}
+										{
+											Pos: 24575L
+											State: 14
+										}
+										{
+											Pos: 274877931521L
+											State: 30
+										}
+										{
+											Pos: 549755842563L
+											State: 18
+										}
+										{
+											Pos: 824633753605L
+											State: 0
+										}
+										{
+											Pos: 274877931519L
+											State: 13
+										}
+										{
+											Pos: 549755838465L
+											State: 20
+										}
+										{
+											Pos: 1099511660549L
+											State: 0
+										}
+										{
+											Pos: 549755838463L
+											State: 10
+										}
+										{
+											Pos: 824633745409L
+											State: 25
+										}
+										{
+											Pos: 1374389567493L
+											State: 2
+										}
+										{
+											Pos: 824633745407L
+											State: 12
+										}
+										{
+											Pos: 1099511652353L
+											State: 27
+										}
+										{
+											Pos: 1374389563395L
+											State: 18
+										}
+										{
+											Pos: 1649267474437L
+											State: 2
+										}
+										{
+											Pos: 1099511652351L
+											State: 10
+										}
+										{
+											Pos: 1374389559297L
+											State: 20
+										}
+										{
+											Pos: 1374389559295L
+											State: 10
+										}
+										{
+											Pos: 1649267466241L
+											State: 31
+										}
+										{
+											Pos: 1649267466239L
+											State: 13
+										}
+										{
+											Pos: 1924145373183L
+											State: 14
+										}
+										{
+											Pos: 28676L
+											State: 0
+										}
+										{
+											Pos: 274877935620L
+											State: 32
+										}
+										{
+											Pos: 549755842564L
+											State: 18
+										}
+										{
+											Pos: 274877927424L
+											State: 24
+										}
+										{
+											Pos: 549755834368L
+											State: 16
+										}
+										{
+											Pos: 824633741312L
+											State: 27
+										}
+										{
+											Pos: 1374389563396L
+											State: 18
+										}
+										{
+											Pos: 1099511648256L
+											State: 27
+										}
+										{
+											Pos: 1649267470340L
+											State: 32
+										}
+										{
+											Pos: 1374389555200L
+											State: 16
+										}
+										{
+											Pos: 1924145377284L
+											State: 0
+										}
+										{
+											Pos: 1649267462144L
+											State: 29
+										}
+										{
+											Pos: 28677L
+											State: 15
+										}
+										{
+											Pos: 274877935621L
+											State: 7
+										}
+										{
+											Pos: 549755842565L
+											State: 19
+										}
+										{
+											Pos: 20479L
+											State: 14
+										}
+										{
+											Pos: 274877927425L
+											State: 30
+										}
+										{
+											Pos: 824633749509L
+											State: 19
+										}
+										{
+											Pos: 274877927423L
+											State: 13
+										}
+										{
+											Pos: 549755834369L
+											State: 19
+										}
+										{
+											Pos: 1099511656453L
+											State: 19
+										}
+										{
+											Pos: 549755834367L
+											State: 10
+										}
+										{
+											Pos: 824633741313L
+											State: 25
+										}
+										{
+											Pos: 1374389563397L
+											State: 19
+										}
+										{
+											Pos: 824633741311L
+											State: 10
+										}
+										{
+											Pos: 1099511648257L
+											State: 25
+										}
+										{
+											Pos: 1649267470341L
+											State: 7
+										}
+										{
+											Pos: 1099511648255L
+											State: 12
+										}
+										{
+											Pos: 1374389555201L
+											State: 19
+										}
+										{
+											Pos: 1924145377285L
+											State: 15
+										}
+										{
+											Pos: 1374389555199L
+											State: 10
+										}
+										{
+											Pos: 1649267462145L
+											State: 31
+										}
+										{
+											Pos: 1649267462143L
+											State: 13
+										}
+										{
+											Pos: 1924145369087L
+											State: 14
+										}
+										{
+											Pos: 549755842566L
+											State: 15
+										}
+										{
+											Pos: 824633749510L
+											State: 2
+										}
+										{
+											Pos: 274877923328L
+											State: 3
+										}
+										{
+											Pos: 1099511656454L
+											State: 2
+										}
+										{
+											Pos: 549755830272L
+											State: 16
+										}
+										{
+											Pos: 1374389563398L
+											State: 15
+										}
+										{
+											Pos: 824633737216L
+											State: 16
+										}
+										{
+											Pos: 1374389559300L
+											State: 33
+										}
+										{
+											Pos: 1099511644160L
+											State: 16
+										}
+										{
+											Pos: 1374389551104L
+											State: 16
+										}
+										{
+											Pos: 1649267458048L
+											State: 3
+										}
+										{
+											Pos: 24581L
+											State: 7
+										}
+										{
+											Pos: 274877931525L
+											State: 34
+										}
+										{
+											Pos: 549755838469L
+											State: 19
+										}
+										{
+											Pos: 16383L
+											State: 14
+										}
+										{
+											Pos: 274877923329L
+											State: 17
+										}
+										{
+											Pos: 824633745413L
+											State: 35
+										}
+										{
+											Pos: 274877923327L
+											State: 13
+										}
+										{
+											Pos: 549755830273L
+											State: 18
+										}
+										{
+											Pos: 1099511652357L
+											State: 35
+										}
+										{
+											Pos: 549755830271L
+											State: 13
+										}
+										{
+											Pos: 824633737217L
+											State: 20
+										}
+										{
+											Pos: 1374389559301L
+											State: 19
+										}
+										{
+											Pos: 824633737215L
+											State: 13
+										}
+										{
+											Pos: 1099511644161L
+											State: 19
+										}
+										{
+											Pos: 1649267466245L
+											State: 34
+										}
+										{
+											Pos: 1099511644159L
+											State: 13
+										}
+										{
+											Pos: 1374389551105L
+											State: 18
+										}
+										{
+											Pos: 1924145373189L
+											State: 7
+										}
+										{
+											Pos: 1374389551103L
+											State: 13
+										}
+										{
+											Pos: 1649267458049L
+											State: 21
+										}
+										{
+											Pos: 1649267458047L
+											State: 13
+										}
+										{
+											Pos: 1924145364991L
+											State: 8
+										}
+										{
+											Pos: 549755838470L
+											State: 7
+										}
+										{
+											Pos: 274877923330L
+											State: 15
+										}
+										{
+											Pos: 824633745414L
+											State: 22
+										}
+										{
+											Pos: 274877919232L
+											State: 2
+										}
+										{
+											Pos: 549755830274L
+											State: 18
+										}
+										{
+											Pos: 1099511652358L
+											State: 22
+										}
+										{
+											Pos: 549755826176L
+											State: 3
+										}
+										{
+											Pos: 1374389559302L
+											State: 7
+										}
+										{
+											Pos: 824633733120L
+											State: 36
+										}
+										{
+											Pos: 1099511640064L
+											State: 36
+										}
+										{
+											Pos: 1374389551106L
+											State: 18
+										}
+										{
+											Pos: 1374389547008L
+											State: 3
+										}
+										{
+											Pos: 1649267458050L
+											State: 15
+										}
+										{
+											Pos: 1649267453952L
+											State: 2
+										}
+										{
+											Pos: 20485L
+											State: 7
+										}
+										{
+											Pos: 274877927429L
+											State: 34
+										}
+										{
+											Pos: 549755834373L
+											State: 19
+										}
+										{
+											Pos: 12287L
+											State: 8
+										}
+										{
+											Pos: 549755830275L
+											State: 18
+										}
+										{
+											Pos: 824633741317L
+											State: 35
+										}
+										{
+											Pos: 274877919231L
+											State: 14
+										}
+										{
+											Pos: 549755826177L
+											State: 37
+										}
+										{
+											Pos: 1099511648261L
+											State: 35
+										}
+										{
+											Pos: 549755826175L
+											State: 14
+										}
+										{
+											Pos: 824633733121L
+											State: 38
+										}
+										{
+											Pos: 1374389555205L
+											State: 19
+										}
+										{
+											Pos: 824633733119L
+											State: 14
+										}
+										{
+											Pos: 1099511640065L
+											State: 38
+										}
+										{
+											Pos: 1374389551107L
+											State: 18
+										}
+										{
+											Pos: 1649267462149L
+											State: 34
+										}
+										{
+											Pos: 1099511640063L
+											State: 8
+										}
+										{
+											Pos: 1374389547009L
+											State: 37
+										}
+										{
+											Pos: 1924145369093L
+											State: 7
+										}
+										{
+											Pos: 1374389547007L
+											State: 8
+										}
+										{
+											Pos: 1649267453951L
+											State: 14
+										}
+										{
+											Pos: 1924145360895L
+											State: 14
+										}
+										{
+											Pos: 16388L
+											State: 0
+										}
+										{
+											Pos: 274877923332L
+											State: 39
+										}
+										{
+											Pos: 549755834374L
+											State: 7
+										}
+										{
+											Pos: 8192L
+											State: 40
+										}
+										{
+											Pos: 549755830276L
+											State: 18
+										}
+										{
+											Pos: 824633741318L
+											State: 22
+										}
+										{
+											Pos: 549755826178L
+											State: 15
+										}
+										{
+											Pos: 1099511648262L
+											State: 22
+										}
+										{
+											Pos: 1374389555206L
+											State: 7
+										}
+										{
+											Pos: 1374389551108L
+											State: 18
+										}
+										{
+											Pos: 1374389547010L
+											State: 15
+										}
+										{
+											Pos: 1649267458052L
+											State: 39
+										}
+										{
+											Pos: 1924145364996L
+											State: 0
+										}
+										{
+											Pos: 16389L
+											State: 15
+										}
+										{
+											Pos: 274877923333L
+											State: 7
+										}
+										{
+											Pos: 8193L
+											State: 41
+										}
+										{
+											Pos: 549755830277L
+											State: 19
+										}
+										{
+											Pos: 824633737221L
+											State: 19
+										}
+										{
+											Pos: 1099511644165L
+											State: 19
+										}
+										{
+											Pos: 1374389551109L
+											State: 19
+										}
+										{
+											Pos: 1649267458053L
+											State: 7
+										}
+										{
+											Pos: 1924145364997L
+											State: 15
+										}
+										{
+											Pos: 40959L
+											State: 14
+										}
+										{
+											Pos: 274877947903L
+											State: 14
+										}
+										{
+											Pos: 549755854847L
+											State: 14
+										}
+										{
+											Pos: 824633761791L
+											State: 8
+										}
+										{
+											Pos: 1099511668735L
+											State: 14
+										}
+										{
+											Pos: 1374389575679L
+											State: 8
+										}
+										{
+											Pos: 1649267482623L
+											State: 8
+										}
+										{
+											Pos: 1924145389567L
+											State: 14
+										}
+										{
+											Pos: 12292L
+											State: 0
+										}
+										{
+											Pos: 274877919236L
+											State: 22
+										}
+										{
+											Pos: 549755826180L
+											State: 23
+										}
+										{
+											Pos: 824633737222L
+											State: 2
+										}
+										{
+											Pos: 1099511644166L
+											State: 2
+										}
+										{
+											Pos: 1374389551110L
+											State: 15
+										}
+										{
+											Pos: 1374389547012L
+											State: 26
+										}
+										{
+											Pos: 1649267453956L
+											State: 22
+										}
+										{
+											Pos: 1924145360900L
+											State: 0
+										}
+										{
+											Pos: 274877919237L
+											State: 2
+										}
+										{
+											Pos: 4097L
+											State: 42
+										}
+										{
+											Pos: 549755826181L
+											State: 2
+										}
+										{
+											Pos: 824633733125L
+											State: 0
+										}
+										{
+											Pos: 1099511640069L
+											State: 0
+										}
+										{
+											Pos: 1374389547013L
+											State: 2
+										}
+										{
+											Pos: 1649267453957L
+											State: 2
+										}
+										{
+											Pos: 36863L
+											State: 14
+										}
+										{
+											Pos: 274877943807L
+											State: 13
+										}
+										{
+											Pos: 549755850751L
+											State: 13
+										}
+										{
+											Pos: 824633757695L
+											State: 13
+										}
+										{
+											Pos: 1099511664639L
+											State: 13
+										}
+										{
+											Pos: 1374389571583L
+											State: 13
+										}
+										{
+											Pos: 1649267478527L
+											State: 13
+										}
+										{
+											Pos: 1924145385471L
+											State: 8
+										}
+										{
+											Pos: 8196L
+											State: 0
+										}
+										{
+											Pos: 274877915140L
+											State: 0
+										}
+									]
+								}
+								BoundsFront: [
+									-13.0f
+									-1.0f
+									-13.0f
+									14.0f
+									7.0f
+									14.0f
+								]
+								SubContraptions: [ ]
+								DisabledActors: [ ]
+								BottomlessSupply: 0b
+								Actors: [ ]
+								Interactors: [ ]
+								InitialOrientation: "NORTH"
+								Seats: [ ]
+								Type: "mounted"
+								Anchor: {
+									X: -73
+									Y: 70
+									Z: -32
+								}
+								Storage: [ ]
+								Superglue: [
+									{
+										From: [
+											0.0d
+											0.0d
+											2.0d
+										]
+										To: [
+											1.0d
+											2.0d
+											3.0d
+										]
+									}
+									{
+										From: [
+											0.0d
+											4.0d
+											2.0d
+										]
+										To: [
+											8.0d
+											6.0d
+											10.0d
+										]
+									}
+									{
+										From: [
+											2.0d
+											5.0d
+											7.0d
+										]
+										To: [
+											4.0d
+											7.0d
+											8.0d
+										]
+									}
+									{
+										From: [
+											0.0d
+											1.0d
+											0.0d
+										]
+										To: [
+											1.0d
+											2.0d
+											3.0d
+										]
+									}
+									{
+										From: [
+											0.0d
+											-1.0d
+											2.0d
+										]
+										To: [
+											8.0d
+											5.0d
+											10.0d
+										]
+									}
+									{
+										From: [
+											5.0d
+											5.0d
+											4.0d
+										]
+										To: [
+											6.0d
+											7.0d
+											8.0d
+										]
+									}
+									{
+										From: [
+											2.0d
+											5.0d
+											4.0d
+										]
+										To: [
+											5.0d
+											7.0d
+											7.0d
+										]
+									}
+									{
+										From: [
+											3.0d
+											5.0d
+											7.0d
+										]
+										To: [
+											6.0d
+											7.0d
+											8.0d
+										]
+									}
+								]
+								Passengers: [ ]
+								RotationMode: "ROTATE"
+								FluidStorage: [ ]
+								Stalled: 0b
+							}
+							display: {
+								Name: "{\"text\":\"生成建筑：火焰井\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "2D9FAB19335D7905"
+					type: "item"
+					item: {
+						id: "minecraft:written_book"
+						Count: 1b
+						tag: {
+							generation: 3
+							Unbreakable: 1b
+							pages: [
+								"[{\"text\":\"“在一个大城市里，有一个男孩叫加伊，一个女孩叫格尔达，他们的家连在一起，是非常要好的朋友，在冬天雪花飞舞时的一个晚上，加伊忽然看见窗外有一片很大的雪花飘落在桥上，越变越大，最后竟变成了一个女人，她披着白雪披纱，身体发出闪耀的光亮，两眼也闪闪发光，她向加伊招手，加伊赶紧低下头，心里很害怕，这时，她就飞走了，待冬天过去后，\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+								"[{\"text\":\"某天加伊去找格尔达，两个人一起看画册时，外面的钟声响起来，加伊就把头伸出窗口，随风飞扬的镜子碎片就掉进他的眼里，钻到他的心里，善良的加伊立刻变成了无情的人，他的心变成冰块了，从此他再也不跟格尔达好了，而且还常常欺负讥笑她。”\\n\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+								"[{\"text\":\"“又一个下着雪的冬天到来了，可怜的格尔达因为加伊不理她而在家里伤心的哭泣，而加伊则是背着雪橇去广场上滑雪，这时，一架大雪橇滑过加伊的身边，大雪橇上的人对加伊笑，原来她就是那晚全身闪着白光，非常有名的冰雪皇后。\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+								"[{\"text\":\"她的皮帽皮靴全是用白雪做的，冰雪皇后对加伊说：‘来吧！到我的皮衣里暖和暖和。’加伊钻进了冰雪皇后的皮大衣里，她在加伊的头上吻了一下说：‘现在你不冷了吧？’他感到冰雪皇后的吻像一块冰放在他的心里，于是他就把所有事情都忘记了。冰雪皇后让他坐在大雪橇上，带着他一起飞向天空。”\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+							]
+							author: "汉斯·克里斯蒂安·安徒生"
+							title: "白雪皇后"
+							AttributeModifiers: [
+								{
+									Amount: 1.0d
+									Slot: "offhand"
+									AttributeName: "generic.max_health"
+									Operation: 1
+									UUID: [I;
+										1753547243
+										-1738587691
+										-1288120875
+										1091703692
+									]
+									Name: "generic.max_health"
+								}
+								{
+									Amount: 0.5d
+									Slot: "offhand"
+									AttributeName: "generic.attack_damage"
+									Operation: 1
+									UUID: [I;
+										-1554433597
+										-1118092575
+										-1250987393
+										1891797442
+									]
+									Name: "generic.attack_damage"
+								}
+								{
+									Amount: 1.0d
+									Slot: "offhand"
+									AttributeName: "generic.luck"
+									Operation: 2
+									UUID: [I;
+										1879648404
+										-1570355869
+										-1456853201
+										1244782528
+									]
+									Name: "generic.luck"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "6823AF2E8FF22065"
+					type: "item"
+					item: {
+						id: "minecraft:written_book"
+						Count: 1b
+						tag: {
+							filtered_title: "无限:你这小队正不正常啊"
+							pages: [
+								"{\"text\":\"    当知名金牌调查员顾知惜被问起他所率领的小队有没有正常人的时候，心理医生只是懒懒一抬眼皮，然后反问：\\n“你要怎么定义「 正常人」这个概念？”\\n    手上拿着“市精神病中心康复纪念”的袋子，顾知惜前脚刚出院门，后脚就被某些大意志用不知名大算法选上当苦力。\\n    对此，顾知惜只会冷笑：找人都找到精神身上来\"}"
+								"{\"text\":\"了是吧？\\n    当然，他不是精神病，绝对不是。\\n    看见那张心理医生营业执照了吗？他只是个能听到其他人说话的失聪心理医生而已。\\n    至于他听到的是些什么？那就要问问他的队友了：\\n    冷色系青年双身背靠背伫立星空之下，示意顾知惜抬头：“这里的每一颗星辰就是一个人的人生。”\"}"
+								"{\"text\":\"    侦探打扮的男人笑得温和，有细碎的金光落入他焦糖色的眼中散开：“我看好你。”\\n    黑发少年手中魂火摇曳，承托着属于死亡的重量：“死亡眷顾你”\\n    魔族之帝一身血衣，傲然抬首：“应邀而来，借汝魔刀，以此、斩天。”\\n\\n\\n\\n\"}"
+								"{\"text\":\"【 偏传统无限流+团队+群像+轻微直播+无系统无CP+召唤流】\\n\\n          番茄免费小说连载\"}"
+							]
+							title: "无限:你这小队正不正常啊"
+							author: "只是豌豆猫猫"
+						}
+					}
+				}
+				{
+					id: "5E27001BD60F4D42"
+					type: "item"
+					item: {
+						id: "minecraft:written_book"
+						Count: 1b
+						tag: {
+							filtered_title: "无限:你这小队正不正常啊"
+							pages: [
+								"{\"text\":\"    当知名金牌调查员顾知惜被问起他所率领的小队有没有正常人的时候，心理医生只是懒懒一抬眼皮，然后反问：\\n“你要怎么定义「 正常人」这个概念？”\\n    手上拿着“市精神病中心康复纪念”的袋子，顾知惜前脚刚出院门，后脚就被某些大意志用不知名大算法选上当苦力。\\n    对此，顾知惜只会冷笑：找人都找到精神身上来\"}"
+								"{\"text\":\"了是吧？\\n    当然，他不是精神病，绝对不是。\\n    看见那张心理医生营业执照了吗？他只是个能听到其他人说话的失聪心理医生而已。\\n    至于他听到的是些什么？那就要问问他的队友了：\\n    冷色系青年双身背靠背伫立星空之下，示意顾知惜抬头：“这里的每一颗星辰就是一个人的人生。”\"}"
+								"{\"text\":\"    侦探打扮的男人笑得温和，有细碎的金光落入他焦糖色的眼中散开：“我看好你。”\\n    黑发少年手中魂火摇曳，承托着属于死亡的重量：“死亡眷顾你”\\n    魔族之帝一身血衣，傲然抬首：“应邀而来，借汝魔刀，以此、斩天。”\\n\\n\\n\\n\"}"
+								"{\"text\":\"【 偏传统无限流+团队+群像+轻微直播+无系统无CP+召唤流】\\n\\n          番茄免费小说连载\"}"
+							]
+							title: "无限:你这小队正不正常啊"
+							author: "只是豌豆猫猫"
+							AttributeModifiers: [
+								{
+									Amount: 120.0d
+									Slot: "offhand"
+									AttributeName: "obscure_api:magic_damage"
+									Operation: 0
+									UUID: [I;
+										1753547243
+										-1738587691
+										-1288120875
+										1091703692
+									]
+									Name: "generic.max_health"
+								}
+								{
+									Amount: 0.5d
+									Slot: "offhand"
+									AttributeName: "biomemakeover:projectile_resistance"
+									Operation: 1
+									UUID: [I;
+										-1554433597
+										-1118092575
+										-1250987393
+										1891797442
+									]
+									Name: "generic.attack_damage"
+								}
+								{
+									Amount: 23.33d
+									Slot: "offhand"
+									AttributeName: "generic.luck"
+									Operation: 0
+									UUID: [I;
+										1879648404
+										-1570355869
+										-1456853201
+										1244782528
+									]
+									Name: "generic.luck"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "75966E9D5A3118FF"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 10s
+								id: "flowingagony:cutting_watermelon_dream"
+							}]
+						}
+					}
+				}
+				{
+					id: "77031618349836DC"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 50s
+								id: "minecraft:projectile_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "6DCC29A856A43A0A"
+					type: "item"
+					item: {
+						id: "apotheosis:gem"
+						Count: 1b
+						tag: {
+							variant: 0
+							purity: 857.1429f
+							modifier: {
+								Operation: 1
+								attribute: "biomemakeover:projectile_resistance"
+								UUID: [I;
+									1199487153
+									-1541126192
+									-1477038614
+									2005480822
+								]
+								Amount: 2.500000023841858d
+								Name: "GemBonus_apotheosis:draw_speed"
+							}
+						}
+					}
+				}
+				{
+					id: "1A800B07A0412E8B"
+					type: "item"
+					item: {
+						id: "bhc:heart_amulet"
+						Count: 1b
+						tag: {
+							heart_amount: [I;
+								2000
+								2000
+								2000
+								2000
+							]
+							bhc_itemlist: {
+								Size: 4
+								Items: [
+									{
+										Slot: 0
+										Count: "100b"
+										id: "bhc:red_heart_canister"
+									}
+									{
+										Slot: 1
+										Count: "100b"
+										id: "bhc:yellow_heart_canister"
+									}
+									{
+										Slot: 2
+										Count: "100b"
+										id: "bhc:green_heart_canister"
+									}
+									{
+										Slot: 3
+										Count: "100b"
+										id: "bhc:blue_heart_canister"
+									}
+								]
+							}
+						}
+					}
+				}
+				{
+					id: "0AB91D30BE63768B"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:netherite_backpack"
+						Count: 1b
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 1.0d
+									Slot: "offhand"
+									AttributeName: "generic.max_health"
+									Operation: 2
+									UUID: [I;
+										-1059784756
+										-848802966
+										-1531228530
+										1683189295
+									]
+									Name: "generic.max_health"
+								}
+								{
+									Amount: 2.0d
+									Slot: "offhand"
+									AttributeName: "generic.armor"
+									Operation: 2
+									UUID: [I;
+										-970282387
+										-367309171
+										-1411647824
+										985098144
+									]
+									Name: "generic.armor"
+								}
+								{
+									Amount: 3.0d
+									Slot: "offhand"
+									AttributeName: "generic.armor_toughness"
+									Operation: 2
+									UUID: [I;
+										1570538797
+										-141406363
+										-1260677189
+										-285096642
+									]
+									Name: "generic.armor_toughness"
+								}
+								{
+									Amount: 4.0d
+									Slot: "offhand"
+									AttributeName: "generic.attack_damage"
+									Operation: 2
+									UUID: [I;
+										-1209095657
+										1034830561
+										-1522140500
+										-1955332638
+									]
+									Name: "generic.attack_damage"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "7FE66FA19E8209BC"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:netherite_backpack"
+						Count: 1b
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 1.0d
+									Slot: "offhand"
+									AttributeName: "generic.max_health"
+									Operation: 2
+									UUID: [I;
+										-1059784756
+										-848802966
+										-1531228530
+										1683189295
+									]
+									Name: "generic.max_health"
+								}
+								{
+									Amount: 2.0d
+									Slot: "offhand"
+									AttributeName: "generic.armor"
+									Operation: 2
+									UUID: [I;
+										-970282387
+										-367309171
+										-1411647824
+										985098144
+									]
+									Name: "generic.armor"
+								}
+								{
+									Amount: 3.0d
+									Slot: "offhand"
+									AttributeName: "generic.armor_toughness"
+									Operation: 2
+									UUID: [I;
+										1570538797
+										-141406363
+										-1260677189
+										-285096642
+									]
+									Name: "generic.armor_toughness"
+								}
+								{
+									Amount: 4.0d
+									Slot: "offhand"
+									AttributeName: "generic.attack_damage"
+									Operation: 2
+									UUID: [I;
+										-1209095657
+										1034830561
+										-1522140500
+										-1955332638
+									]
+									Name: "generic.attack_damage"
+								}
+							]
+							display: {
+								Name: "{\"text\":\"基岩合金背包\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

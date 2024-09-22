@@ -1,0 +1,11 @@
+{
+	id: "7FB156A7EE24B233"
+	order_index: 37
+	title: "对抗七咒"
+	loot_size: 1
+	rewards: [
+		{ item: "celestial_artifacts:angel_heart" }
+		{ item: "celestial_artifacts:bearing_stamen" }
+		{ item: "celestial_artifacts:holy_sword" }
+	]
+}

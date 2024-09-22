@@ -1,0 +1,11 @@
+{
+	id: "117A29B9D4425426"
+	group: "6012FF85FF3686AC"
+	order_index: 4
+	filename: "117A29B9D4425426"
+	title: "南宫朱雀"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

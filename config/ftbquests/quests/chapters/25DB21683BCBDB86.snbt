@@ -1,0 +1,11 @@
+{
+	id: "25DB21683BCBDB86"
+	group: "6012FF85FF3686AC"
+	order_index: 2
+	filename: "25DB21683BCBDB86"
+	title: "北宫玄武"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

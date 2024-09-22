@@ -1,0 +1,11 @@
+{
+	id: "545ACEA867BC59EE"
+	order_index: 18
+	title: "玄奥沙"
+	icon: "apotheosis:epic_material"
+	loot_size: 1
+	rewards: [
+		{ item: "apotheosis:rare_material", count: 640, random_bonus: 320 }
+		{ item: "apotheosis:mythic_material" }
+	]
+}

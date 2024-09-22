@@ -1,0 +1,2559 @@
+{
+  "name": "森林上层",
+  "quests": [
+    {
+      "uuid": "1e847b46-f8fd-4983-a9db-c2c289927677",
+      "name": {
+        "text": "克里特之殇",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "“深入迷宫时发现的那些巨型蘑菇，我最初还以为是迷宫里的蘑菇自然长大的。”\n\n“然而越是深入，巨型蘑菇就越多，甚至于有的地方干脆就长满了一堆蘑菇”\n\n“我越发怀疑这些蘑菇的来头，直到我找到了一间布满各种蘑菇的房间，在那里，我清楚看见一个半人半哞菇的怪物。”\n\n——《暮色森林行记》守护者Novic",
+        "isTranslationKey": false
+      },
+      "x": 84,
+      "y": 61,
+      "icon": {
+        "id": "the_forgotten_dimensions:mush_cap",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:minoshroom_trophy",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2117e36f-8ad8-4778-8c49-cb828491292e",
+        "bd39692b-a74b-479f-a226-f217ea27bd55"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "twilightforest:steeleaf_block",
+          "Count": 2
+        },
+        {
+          "id": "twilightforest:ironwood_block",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "00f2298d-ed79-4c47-b5bf-29618ab4206a",
+      "name": {
+        "text": "幽魂森林",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "逝者，枯木，蛛网，沉寂\n“安葬着逝者的森林，弥漫着诡异的迷雾。”\n“很多魔物会在此出没，不幸丢掉小命的冒险家也不止一个两个，墓地自然也有无数的幽灵游荡。”\n                                   \n———《次元行商地点探索提要· 暮色》",
+        "isTranslationKey": false
+      },
+      "x": 85,
+      "y": 12,
+      "icon": {
+        "id": "graveyard:mossy_cobblestone_gravestone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "blocks": [
+            {
+              "item": {
+                "id": "minecraft:jack_o_lantern",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "twilightforest:fallen_leaves",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b7d271de-318e-4579-859e-a64aa7e34eba"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "iceandfire:dragonbone_sword",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "iceandfire:dragonbone_bow",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "iceandfire:dragonbone_pickaxe",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "iceandfire:dragonbone_axe",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0c50933f-f1ba-4419-bcd0-f3fce1983779",
+      "name": {
+        "text": "告一段落（支线）",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "尊敬的表兄：\n\n    自从上次托兄之德，得以借贷资财，表妹日夜努力，终于得以脱离家族事务所带来的艰困。今日当为我们之间的账目抚平而归。微躬斗志，虽无如意之现钞，但愿以一件传奇之道具，名曰“祛魔编辑台”，作为抵债，以偿还先前的借款。\n    “祛魔编辑台”乃非同凡响之珍品，相信其价值不言而喻，足以抵偿我欠下的一切。\n    望兄能批示结算事宜，妾将永怀感激之情，感谢兄在我最困难之际的慷慨相助。\n    愿表兄安康，期待回音。\n\n妾身，\n火龙·鹤言 敬上",
+        "isTranslationKey": false
+      },
+      "x": 131,
+      "y": 43,
+      "icon": {
+        "id": "editenchanting:enchantment_edit_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "enigmaticlegacy:golem_heart",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d6dc29f3-4a56-4f05-8596-870746504b00",
+        "3c88a62a-bc5a-4fb4-b936-a1472cc2f7b8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "editenchanting:enchantment_edit_table",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "46f8702c-4676-41e8-a85a-483eef5a0675",
+      "name": {
+        "text": "龙之歌",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "要怎么获得呢？",
+        "isTranslationKey": false
+      },
+      "x": 257,
+      "y": 64,
+      "icon": {
+        "id": "hanew_village_mod:hanewvillagesongvernight",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:hanewvillagesongvernight",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "hanew_village_mod:hanews_villagessongdayver",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d1772490-bdad-43e5-a347-e140b6b841bd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 15
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:ender_slime_sapling",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:earth_slime_sapling",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:sky_slime_sapling",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:blood_slime_sapling",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "56db8210-9e67-485c-8be9-2f4b6c529581",
+      "name": {
+        "text": "魔法亡魂",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "“传说中，贤者之石能够点石成金，能够炼制长生不老药，能够化腐朽为神奇”\n“但当漫漫长夜降临时，高塔中的某位法师明显没靠它撑过去，甚至在死后产生了副作用”\n“现在，即使没有太阳，这具尸体仍仅敢在塔中游荡”\n“但是如果谁踏足这片领地，大概率会成为他亡灵大军的其中一员”\n“有趣的是，当你把利剑插入他的胸膛时，你还会发现他貌似少了几根肋骨”\n                                                                                                           ————被咒波沾染了封面的笔记",
+        "isTranslationKey": false
+      },
+      "x": 212,
+      "y": 114,
+      "icon": {
+        "id": "twilightforest:lich_tower_miniature_structure",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:lich_trophy",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6c9b769b-fe65-4bc8-9658-0641450c429a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "enigmaticlegacy:enchantment_transposer",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "twilightforest:time_sapling",
+          "Count": 1
+        },
+        {
+          "id": "twilightforest:transformation_sapling",
+          "Count": 1
+        },
+        {
+          "id": "twilightforest:mining_sapling",
+          "Count": 1
+        },
+        {
+          "id": "twilightforest:sorting_sapling",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e4749ff8-7255-4f76-884b-341233c36af7",
+      "name": {
+        "text": "改变生态的魔法（支线）",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "亲爱的森林龙大人，\n\n    噢！天呐，看看你都干了些什么好事！我可怜的孩子，愿上帝保佑您的家人，他们都知道了吗？哦，上帝会原谅你的。是的，是的，是这样的！\n    这封信希望能够传达至阁下眷顾之地。您身负着流放的皇族称号，可怜的小龙，哦，我是说，看在上帝的份上，你的时间就像老奶奶的牙一样少，真是可怜，难道不是吗；正巧你是能够找到并且栽植「 变化树」的最佳人选。我略知一二，传说中，皇室的血脉中代代相传着一项改变群系的古老魔法，能够创造出引人入胜的「魔法森林」环境。遗憾的是，在这一代中，皇室传人没有一人能够融会贯通此项奇妙技艺。\n    老伙计，作为一位研究者，天哪，天哪，瞧瞧伙计们我，发现了什么，噢，我的上帝，这就像地狱里恶魔的低语，我稍稍领悟到关于改变群系的玄机。然而，要完全理解此技艺，我还需一个真实的实验场所，因此急需您的协助。噢该死的老伙计，真想用我这沉甸甸的靴子狠狠踢你的屁股。你让我等了好久，知道吗，没错，一个人，很久，等了！\n    亲爱的森林龙大人，噢，该死，我发誓我....呃，并不想这么做但是,嗯.....您必须寻找并亲手播种「 变化树」。这颗树最为重要的是其核心，一经启动，它将放出能够改变周遭群系的魔法力量，呈现出「 魔法森林」的壮丽景象。然而，为了对此核心的内部构造作更深入的观察，我们迟早需要破坏此核心。\n    哦，我的上帝啊，我深知此任务不寻常，但您却是唯一的合适人选。作为一位森林龙，您与森林环境有着特殊的联系能力，这将使您能够更好地理解并善用「 变化树」的力量。\n    小家伙，我相信，通过此一实验，我们能够领悟到如何改变群系的方法。而这一技艺的掌握是多么的有趣，我必须承认这比克里斯蒂安的健身教练还要吸引我，可惜老国王头上长的草都比琼斯太太的小儿子还高了。\n    我将静候佳音，并期待与您共同突破现有局限。祝您好运！\n\n致以真挚的问候，\n乡野法师 韩",
+        "isTranslationKey": false
+      },
+      "x": 277,
+      "y": 114,
+      "icon": {
+        "id": "twilightforest:transformation_sapling",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "description": {
+            "text": "种植变化树",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:transformation_sapling",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "BLOCK_BREAK",
+          "blocks": [
+            {
+              "item": {
+                "id": "twilightforest:transformation_log_core",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "56db8210-9e67-485c-8be9-2f4b6c529581"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "biomesinjars:empty_biome_jar",
+          "Count": 3
+        },
+        {
+          "id": "biomesinjars:filled_biome_jar",
+          "Count": 1,
+          "tag": "{biome:\"twilightforest:enchanted_forest\"}"
+        },
+        {
+          "id": "minecraft:written_book",
+          "Count": 1,
+          "tag": "{author:\"000\",filtered_title:\"群系指导手册\",pages:[\u0027{\"text\":\"    控制群系是森林龙皇室代代相传的能力，是生命魔法登峰造极的体现。\\\\n    通常来说，修改群系需要两步：\\\\n   1.将空的群系罐子右键放于地上,几秒钟后，罐子变会开始震动，并提取当地群系。完毕后，捡起地上的罐子，便得到了一个装有对应群系的罐子。\\\\n   2.手持装有对应群系的罐子，右击地面，便可把当地群系改为手持群系。\"}\u0027,\u0027{\"text\":\"    改变群系不是没有代价的，被提取过群系的地块会失去所有生机，变成死地。\\\\n    即使再次使用群系罐子也无法恢复。\\\\n    唯一的治疗办法是启动变化树的心脏，将当地转变为魔法森林。\"}\u0027],title:\"群系指导手册\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc720606-ed8b-43fd-b34b-3a94a561bfbe",
+      "name": {
+        "text": "穴居“人”可不是傻瓜！",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "“雪怪巢穴，十分寒冷的洞窟。”\n“在洞穴四周数百只雪怪正在进行它们永无休止的竞争，而那位雪怪之王正居于中间的蓝冰之上。”\n“它笨拙的躯体却有强大的力量，巨大冰块总是裹挟着恶风砸向旅行者。”\n“倒霉的雪怪常被它们首领的攻击打中。通常，随着一声怒吼，这些小型雪怪竟直向它们的首领冲锋。”\n“随着抛掷声和冰层被重物砸碎的声音，那头强壮的雪怪被一众普通雪怪抛起然后砸到地上。”\n“完整的毛皮可是能卖个好价钱的，遑论是首领的高级毛皮。”\n“或许该爬到冰川上看看了，那里应该也有神秘的遗迹，毕竟那缕极光做不得假。”\n                                                                      ——————《行商手札·三》",
+        "isTranslationKey": false
+      },
+      "x": 62,
+      "y": 99,
+      "icon": {
+        "id": "relics:ice_skates",
+        "Count": 1,
+        "tag": "{Damage:0,abilities:{ram:{points:0,stats:{damage:0.144d}},skating:{points:0,stats:{duration:39.43d,speed:0.019d}}}}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:alpha_yeti_trophy",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b7d271de-318e-4579-859e-a64aa7e34eba",
+        "bd39692b-a74b-479f-a226-f217ea27bd55"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "twilightforest:ice_bomb",
+          "Count": 4
+        },
+        {
+          "id": "born_in_chaos_v1:intoxicatind_bomb",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "twilightforest:yeti_helmet",
+          "Count": 1,
+          "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:3s}],Unbreakable:1b}"
+        },
+        {
+          "id": "twilightforest:yeti_chestplate",
+          "Count": 1,
+          "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:3s}],Unbreakable:1b}"
+        },
+        {
+          "id": "twilightforest:yeti_leggings",
+          "Count": 1,
+          "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:3s}],Unbreakable:1b}"
+        },
+        {
+          "id": "twilightforest:yeti_boots",
+          "Count": 1,
+          "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:3s},{id:\"feather_falling\",lvl:5s}],Unbreakable:1b}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bd39692b-a74b-479f-a226-f217ea27bd55",
+      "name": {
+        "text": "魔法亡魂",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "“传说中，贤者之石能够点石成金，能够炼制长生不老药，能够化腐朽为神奇”\n“但当漫漫长夜降临时，高塔中的某位法师明显没靠它撑过去，甚至在死后产生了副作用”\n“现在，即使没有太阳，这具尸体仍仅敢在塔中游荡”\n“但是如果谁踏足这片领地，大概率会成为他亡灵大军的其中一员”\n“有趣的是，当你把利剑插入他的胸膛时，你还会发现他貌似少了几根肋骨”\n                                                                                                           ————被咒波沾染了封面的笔记",
+        "isTranslationKey": false
+      },
+      "x": 74,
+      "y": 80,
+      "icon": {
+        "id": "twilightforest:lich_tower_miniature_structure",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": {
+            "text": "作为魔法大师，巫妖会掉落世界上所有的魔杖。",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:lich_trophy",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "32e5a8ea-35a6-436f-8282-79c0f47f0b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "enigmaticlegacy:enchantment_transposer",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "born_in_chaos_v1:pumpkin_staff",
+          "Count": 1,
+          "tag": "{Damage:0,Unbreakable:1b}"
+        },
+        {
+          "id": "the_cataclysm:scepter_of_the_flames",
+          "Count": 1,
+          "tag": "{Damage:0,Unbreakable:1b}"
+        },
+        {
+          "id": "twilightforest:fortification_scepter",
+          "Count": 1,
+          "tag": "{Damage:0,Unbreakable:1b}"
+        },
+        {
+          "id": "twilightforest:lifedrain_scepter",
+          "Count": 1,
+          "tag": "{Damage:0,Unbreakable:1b}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3c88a62a-bc5a-4fb4-b936-a1472cc2f7b8",
+      "name": {
+        "text": "表妹的回信（支线）",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "尊敬之表兄鹤言：\n\n    再度借兄庇佑，表妹敬自内心函谢。家族事务纷争，资财匮乏，亟需贯巨款，愿再次托兄大德，求借资财。特将刚拍得之护符，以为抵质，以凑家族资财之缺失。若获兄再度相助，表妹誓将速筹资财，并连同先前借之龙铠一并偿还。\n    护符为近日得于拍卖场，珍稀非常，实之价值过人，必足以填补所需之财。\n    望兄能审慎思虑，示下法规；无论决断如何，妾当永怀谢忱，充实兄在关键之时的鼎力支持。\n    愿兄康德，惟待回音。\n\n愚妹，\n\n火龙·鹤言 执笔于此。",
+        "isTranslationKey": false
+      },
+      "x": 31,
+      "y": 43,
+      "icon": {
+        "id": "celestial_artifacts:knight_shelter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:cinder_wood",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "hanew_village_mod:hanewcoin",
+                "Count": 1
+              },
+              "required": 64,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "10b6ef78-b3d5-41e9-bf99-89cd818d9818",
+        "2117e36f-8ad8-4778-8c49-cb828491292e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "celestial_artifacts:knight_shelter",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "enchantwithmob:mob_enchant_book",
+          "Count": 1,
+          "tag": "{Damage:0,StoredMobEnchants:[{EnchantLevel:4,MobEnchant:\"enchantwithmob:protection\"}]}"
+        },
+        {
+          "id": "enchantwithmob:enchanters_book",
+          "Count": 1,
+          "tag": "{Damage:0,StoredMobEnchants:[{EnchantLevel:4,MobEnchant:\"enchantwithmob:protection\"}]}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "81c34b77-77cc-4074-8f7e-952f0213c5de",
+      "name": {
+        "text": "对抗袭击",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "你可以随时以稻草人为诱饵召唤袭击",
+        "isTranslationKey": false
+      },
+      "x": 243,
+      "y": 11,
+      "icon": {
+        "id": "hanew_village_mod:hanewscarecrow",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:hanewscarecrow",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5f50c79d-3d8a-44c6-9ce0-a43b145958de"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/execute as @p at @p run craid add craid:test ~ ~ ~"
+      ]
+    },
+    {
+      "uuid": "438ef41a-a2f7-4d2d-b06a-77c2aef50783",
+      "name": {
+        "text": "余烬之灯",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "“挖开洞穴内的小块黑曜石，获取魔豆。”\n“魔豆被种植于沃土后便可带玩家冲上云霄。”\n“巨人之镐方可挖掘巨型黑曜石。”\n“其中藏有的余烬之灯变可摧毁荆棘。”",
+        "isTranslationKey": false
+      },
+      "x": 89,
+      "y": 137,
+      "icon": {
+        "id": "twilightforest:lamp_of_cinders",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:lamp_of_cinders",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ff7d6f33-b91b-4b08-ad31-30348b8ce9c0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ftbquests:lootcrate",
+          "Count": 1,
+          "tag": "{type:\"_\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "333bcbbc-14fe-473d-8a74-6a3ece1ce281",
+      "name": {
+        "text": "附件：贸易",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "尊敬之鹤言兄长：\n\n    特呈附属文，约于余愿以\"生物附魔书\"及\"生物祛魔书\"二种書，可遂随时以商易于眷族中，以換取金钱。\n    彼二部义典，蕴含丰富之生物学智慧，以及清除邪术之技艺，价值颇巨，足可偿兄与余之间之商負。冀兄能详审裁决，俾我等或早解此务。\n    兄以慷慨大义，信得多谢，敬祈早得回音。\n\n此致，\n鹤言 敬上",
+        "isTranslationKey": false
+      },
+      "x": 152,
+      "y": 43,
+      "icon": {
+        "id": "hanew_village_mod:hanewcoin",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:hanewcoin",
+                "Count": 1
+              },
+              "required": 64,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0c50933f-f1ba-4419-bcd0-f3fce1983779"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "enchantwithmob:mob_unenchant_book",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "enchantwithmob:enchanters_book",
+          "Count": 1,
+          "tag": "{Damage:0,StoredMobEnchants:[{EnchantLevel:3,MobEnchant:\"enchantwithmob:strong\"}]}"
+        },
+        {
+          "id": "enchantwithmob:mob_enchant_book",
+          "Count": 1,
+          "tag": "{Damage:0,StoredMobEnchants:[{EnchantLevel:2,MobEnchant:\"enchantwithmob:huge\"}]}"
+        },
+        {
+          "id": "enchantwithmob:mob_enchant_book",
+          "Count": 1,
+          "tag": "{Damage:0,StoredMobEnchants:[{EnchantLevel:2,MobEnchant:\"enchantwithmob:tough\"}]}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cf45d2f7-71b4-4c58-8338-814ca727011e",
+      "name": {
+        "text": "福尔图娜女爵",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "制作恶魔赌注召唤并击杀女爵。",
+        "isTranslationKey": false
+      },
+      "x": 201,
+      "y": 11,
+      "icon": {
+        "id": "meetyourfight:devils_ante",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "meetyourfight:devils_ante",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "meetyourfight:fortunes_favor",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "81c34b77-77cc-4074-8f7e-952f0213c5de"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "twilightforest:charm_of_life_2",
+          "Count": 1
+        },
+        {
+          "id": "endrem:undead_eye",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "born_in_chaos_v1:death_totem",
+          "Count": 1
+        },
+        {
+          "id": "upgradednetherite_items:corrupt_upgraded_netherite_totem",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9e42af46-79ab-46db-9e20-f75bcfece6f0",
+      "name": {
+        "text": "好客的主人",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    “为了寻找我此行要去消灭的强大存在，我登上了高塔。”\n    “在突破了层层机关、突破云层之后，我终于看到了天空。”\n    “温热的雨水从天而降，是它的泪。”\n    “该战斗了。”\n——《暮色森林行记》守护者Novic",
+        "isTranslationKey": false
+      },
+      "x": 247,
+      "y": 155,
+      "icon": {
+        "id": "twilightforest:tower_key",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:ur_ghast_trophy",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5f56b30f-d7dd-403a-b2e0-c0657b45c95a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 10
+        },
+        {
+          "id": "celestial_artifacts:thunder_ring",
+          "Count": 1
+        },
+        {
+          "id": "biomesinjars:empty_biome_jar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ff7d6f33-b91b-4b08-ad31-30348b8ce9c0",
+      "name": {
+        "text": "《白雪皇后》",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "“在一个大城市里，有一个男孩叫加伊，一个女孩叫格尔达，他们的家连在一起，是非常要好的朋友，在冬天雪花飞舞时的一个晚上，加伊忽然看见窗外有一片很大的雪花飘落在桥上，越变越大，最后竟变成了一个女人，她披着白雪披纱，身体发出闪耀的光亮，两眼也闪闪发光，她向加伊招手，加伊赶紧低下头，心里很害怕，这时，她就飞走了，待冬天过去后，某天加伊去找格尔达，两个人一起看画册时，外面的钟声响起来，加伊就把头伸出窗口，随风飞扬的镜子碎片就掉进他的眼里，钻到他的心里，善良的加伊立刻变成了无情的人，他的心变成冰块了，从此他再也不跟格尔达好了，而且还常常欺负讥笑她。”\n\n“又一个下着雪的冬天到来了，可怜的格尔达因为加伊不理她而在家里伤心的哭泣，而加伊则是背着雪橇去广场上滑雪，这时，一架大雪橇滑过加伊的身边，大雪橇上的人对加伊笑，原来她就是那晚全身闪着白光，非常有名的冰雪皇后。她的皮帽皮靴全是用白雪做的，冰雪皇后对加伊说：‘来吧！到我的皮衣里暖和暖和。’加伊钻进了冰雪皇后的皮大衣里，她在加伊的头上吻了一下说：‘现在你不冷了吧？’他感到冰雪皇后的吻像一块冰放在他的心里，于是他就把所有事情都忘记了。冰雪皇后让他坐在大雪橇上，带着他一起飞向天空。”",
+        "isTranslationKey": false
+      },
+      "x": 62,
+      "y": 137,
+      "icon": {
+        "id": "the_forgotten_dimensions:structure_fixer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": {
+            "text": "她曾是白雪公主",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": " ",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:snow_queen_trophy",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cc720606-ed8b-43fd-b34b-3a94a561bfbe"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 3
+        },
+        {
+          "id": "hanew_village_mod:hanewcoin",
+          "Count": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "endrem:cold_eye",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "celestial_artifacts:freeze_ring",
+          "Count": 1
+        },
+        {
+          "id": "twilightforest:ice_bow",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d1bea96f-f543-457b-b688-ce50e4c608e3",
+      "name": {
+        "text": "暮色传送门",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "你可以随时消耗传送石建立暮色传送门",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 117,
+      "icon": {
+        "id": "undergarden:catalyst",
+        "Count": 1
+      },
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "waystones:warp_stone",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d45c6d82-8940-42e3-8379-3886532e23d6",
+        "cf46f279-830b-474e-bf39-8cf8ccd9614a"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/setblock ~3 ~-1 ~3 twilightforest:twilight_portal"
+      ]
+    },
+    {
+      "uuid": "40767a97-3122-41ff-97b7-42af1cc53237",
+      "name": {
+        "text": "祝福或诅咒",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "那只龙在濒死之际遁入虚空，还给你留下了个不知是诅咒还是祝福的东西。\n好在你可以用星梅取消他的影响，并随时把它拉过来再打一顿。",
+        "isTranslationKey": false
+      },
+      "x": 300,
+      "y": 95,
+      "icon": {
+        "id": "hanew_village_mod:starberry",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:starberry",
+                "Count": 1
+              },
+              "required": 10,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "46675cf8-743f-44e6-b8d1-1fbb5a9cdde9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hanew_village_mod:dragonlocker",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/effect clear @p"
+      ]
+    },
+    {
+      "uuid": "8fa29ed3-5ae2-4692-a112-b9a607a313c1",
+      "name": {
+        "text": "小小大洞穴",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "“人们时至今日也难以理解这些生活在洞穴中的怪人跟云之岛上的那些巨人有什么关联”\n“或许……不知道，唯独这些不知道”\n“灰烬烧灯，或者洞穴龙的龙息，可以烧掉那些仿佛永远都不会灭绝的藤蔓”\n\n——《暮色森林行记》守护者Novic",
+        "isTranslationKey": false
+      },
+      "x": 120,
+      "y": 97,
+      "icon": {
+        "id": "twilightforest:magic_beans",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:magic_beans",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d6dc29f3-4a56-4f05-8596-870746504b00"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "46675cf8-743f-44e6-b8d1-1fbb5a9cdde9",
+      "name": {
+        "text": "神龙封印",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    在森林深处，有一座完全以石砖构筑的建筑。\n    在其正中心有个奇怪的方块。他以包裹着玻璃的基岩为底座，上方供奉者一个水晶立方，内部存在一个灵魂。\n    其名为“龙之封印”，你的传送之所以会出问题，估计和被封印者脱不了干系。",
+        "isTranslationKey": false
+      },
+      "x": 300,
+      "y": 64,
+      "icon": {
+        "id": "hanew_village_mod:dragonlocker",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:another",
+                "Count": 1,
+                "tag": "{Damage:0,display:{Lore:[\u0027{\"text\":\"\\\\u00A77太好了，\\\\u00A7k小崽子。\"}\u0027,\u0027{\"text\":\"\\\\u00A77你终于找到我了，\"}\u0027,\u0027{\"text\":\"\\\\u00A77你会获得奖励。\"}\u0027,\u0027{\"text\":\"\\\\u00A77来吧，右击这个封印，\"}\u0027,\u0027{\"text\":\"\\\\u00A7e放我自由！\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7f穿越时空的留言条2\"}\u0027}}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5f50c79d-3d8a-44c6-9ce0-a43b145958de"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hanew_village_mod:dragonlocker",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6e975483-0a3c-4cf2-a7ce-fbaf862e698e",
+      "name": {
+        "text": "星梅制品",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "星梅可以制作成多种食物，请与原住民“琪龙”交易、合成、开箱以获得。\n注意，与琪龙交易时请不要试图进行交易外的对话；交易时，请尽量困住琪龙，如果让他跑出交易范围，存档可能崩溃。",
+        "isTranslationKey": false
+      },
+      "x": 246,
+      "y": 43,
+      "icon": {
+        "id": "hanew_village_mod:full_starberrycake",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:full_starberrycake",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "hanew_village_mod:starberry_cake",
+                "Count": 1
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "hanew_village_mod:starberrycookie",
+                "Count": 1
+              },
+              "required": 4,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d1772490-bdad-43e5-a347-e140b6b841bd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:basic_bag",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 4
+        },
+        {
+          "id": "twilightforest:mining_sapling",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5f50c79d-3d8a-44c6-9ce0-a43b145958de",
+      "name": {
+        "text": "远古密林",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "时空乱流使你偏离了原定航线。\n\n真的是这样吗？",
+        "isTranslationKey": false
+      },
+      "x": 300,
+      "y": 11,
+      "icon": {
+        "id": "hanew_village_mod:another",
+        "Count": 1,
+        "tag": "{Damage:0,Unbreakable:1b,display:{Lore:[\u0027{\"text\":\"\\\\u00A77抱歉，小朋友。\"}\u0027,\u0027{\"text\":\"\\\\u00A77当法阵检测到有森林龙在传送时，\"}\u0027,\u0027{\"text\":\"\\\\u00A77会改变目的地的时间坐标。\"}\u0027,\u0027{\"text\":\"\\\\u00A77你依旧会传送到你想去的森林，\"}\u0027,\u0027{\"text\":\"\\\\u00A77只不过早了几万年。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7f穿越时空的留言条\"}\u0027}}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": {
+            "text": "这个字条会在你进入当前维度的同时出现在你的物品栏，如果没找到，请检查背包是否没有空位、物品是否掉落、字条是否被自己不小心丢弃。",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:another",
+                "Count": 1,
+                "tag": "{Damage:0,Unbreakable:1b,display:{Lore:[\u0027{\"text\":\"\\\\u00A77抱歉，小朋友。\"}\u0027,\u0027{\"text\":\"\\\\u00A77当法阵检测到有森林龙在传送时，\"}\u0027,\u0027{\"text\":\"\\\\u00A77会改变目的地的时间坐标。\"}\u0027,\u0027{\"text\":\"\\\\u00A77你依旧会传送到你想去的森林，\"}\u0027,\u0027{\"text\":\"\\\\u00A77只不过早了几万年。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7f穿越时空的留言条\"}\u0027}}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "daa3a31d-d44e-41c7-ac4a-ed541a585e60"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ftbquests:lootcrate",
+          "Count": 1,
+          "tag": "{type:\"_\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "isleofberk:speed_stinger_egg",
+          "Count": 1
+        },
+        {
+          "id": "isleofberk:speed_stinger_egg_floutscout",
+          "Count": 1
+        },
+        {
+          "id": "isleofberk:speed_stinger_egg_ice_breaker",
+          "Count": 1
+        },
+        {
+          "id": "isleofberk:speed_stinger_egg_sweet_sting",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6c9b769b-fe65-4bc8-9658-0641450c429a",
+      "name": {
+        "text": "回归正轨",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "是时候回到正确的时间线了。\n（通过合成获取任务道具）",
+        "isTranslationKey": false
+      },
+      "x": 201,
+      "y": 95,
+      "icon": {
+        "id": "hanew_village_mod:another",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "parentrequirement": 2,
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:another",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "40767a97-3122-41ff-97b7-42af1cc53237",
+        "cf45d2f7-71b4-4c58-8338-814ca727011e",
+        "86d26fe0-73ca-4c0c-a112-2a87291e2650"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "twilightforest:magic_map",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/execute in twilightforest:twilight_forest run tp ~ 150 ~"
+      ]
+    },
+    {
+      "uuid": "32e5a8ea-35a6-436f-8282-79c0f47f0b58",
+      "name": {
+        "text": "犁庭扫穴",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "“在林子中闲逛的探险家们有时望见一座宁静的庭院，但大多数人都会调转头去，只有少数人，一部分是勇士，一部分是莽夫，会接近那座庭院”\n\n“一条绿色的巨蟒在其中游荡，它的身上有一层鳞次栉比的鳞片，上面闪耀着特殊的光辉”\n\n“几乎没有东西能穿透那层盔甲，但幸运的是这条蟒蛇忘记武装它的脸”\n\n“随着战斗的推进，这条名为‘娜迦’的怪物的体力逐渐不支，最终肝肠寸断。那些奇特的鳞片也会脱落，上面蕴含着点点星光”\n                                                                                                                                                    ————略显生疏的笔记",
+        "isTranslationKey": false
+      },
+      "x": 62,
+      "y": 61,
+      "icon": {
+        "id": "twilightforest:naga_courtyard_miniature_structure",
+        "Count": 1
+      },
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:naga_trophy",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b7d271de-318e-4579-859e-a64aa7e34eba",
+        "2117e36f-8ad8-4778-8c49-cb828491292e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cataclysm:void_core",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "waystones:sandy_waystone",
+          "Count": 1
+        },
+        {
+          "id": "waystones:waystone",
+          "Count": 1
+        },
+        {
+          "id": "waystones:mossy_waystone",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c12edb06-7c9a-4dff-b522-f5b68abd6a87",
+      "name": {
+        "text": "矿石自由达成",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "在魔法地图上，共有3种矿山，最小的矿山像个白色的点，中型矿山则像个小像素三角形，最大的大型矿山，图标更为巨大，不过还是像三角形。\n大型矿山里可以找到拆解台；听说点亮拆解台上的骷髅之眼可以获取奖励。",
+        "isTranslationKey": false
+      },
+      "x": 19,
+      "y": 98,
+      "icon": {
+        "id": "twilightforest:uncrafting_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:uncrafting_table",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2117e36f-8ad8-4778-8c49-cb828491292e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 4
+        },
+        {
+          "id": "artifacts:universal_attractor",
+          "Count": 1
+        },
+        {
+          "id": "twilightforest:ore_magnet",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5f56b30f-d7dd-403a-b2e0-c0657b45c95a",
+      "name": {
+        "text": "死者的影子",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    “这些骑士曾以封臣的身份向大巫师宣誓效忠，发誓永不背叛黑暗高塔的主人。”\n    “誓言饱含着魔力，以至于大巫师被死于自己造物爆炸的如今，骑士们的灵魂仍被束缚。“\n    “他们披着甲胄游荡在空无一人的要塞中，向闯入者盲目地倾泻着怒火。”",
+        "isTranslationKey": false
+      },
+      "x": 247,
+      "y": 129,
+      "icon": {
+        "id": "twilightforest:block_and_chain",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:knight_phantom_trophy",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "56db8210-9e67-485c-8be9-2f4b6c529581"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cf46f279-830b-474e-bf39-8cf8ccd9614a",
+      "name": {
+        "text": "终焉城堡",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "\"终焉城堡的魔力浓度远远高于森林的其他区域。外墙上的符文很有研究价值。\"\n\"至于这座白色巨城有如何令人屏息的宏伟，前人之述备矣。\"\n\"我只是在凝望暮色下荆棘侵蚀的废塔楼时，在飘扬的淡白雪花之间，感受到一缕直击心底的悲哀。\"\n\"龙族的典籍记载此处曾属于终焉飞龙，可现在城堡顶端只徘徊着一个黑色的骑士。\"\n\n——未署名的笔记",
+        "isTranslationKey": false
+      },
+      "x": 205,
+      "y": 152,
+      "bigicon": true,
+      "icon": {
+        "id": "twilightforest:encased_castle_brick_tile",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": {
+            "text": "任务物品由终焉城堡的BOSS，无头骑士(的头）掉落",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "born_in_chaos_v1:soul_cutlass",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "born_in_chaos_v1:pumpkin_staff",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9e42af46-79ab-46db-9e20-f75bcfece6f0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hanew_village_mod:hanewcoin",
+          "Count": 127
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 24
+        },
+        {
+          "id": "born_in_chaos_v1:spiritinabottle",
+          "Count": 16
+        },
+        {
+          "id": "twilightforest:keepsake_casket",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "born_in_chaos_v1:darkwarblade",
+          "Count": 1,
+          "tag": "{Damage:0,affix_data:{affixes:{\"apotheosis:durable\":0.04f,\"apotheosis:elongated\":0.47443467f,\"apotheosis:elusive\":0.9123376f,\"apotheosis:socket\":1.0f,\"apotheosis:vampiric\":0.05229491f,\"apotheosis:violent\":0.98638207f,\"apotheosis:weakening\":0.2025783f},name:\u0027{\"color\":\"#5555FF\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:elongated\"},\"\",{\"translate\":\"affix.apotheosis:elusive.suffix\"}]}\u0027,rarity:\"rare\"}}"
+        },
+        {
+          "id": "born_in_chaos_v1:skullbreaker_hammer",
+          "Count": 1,
+          "tag": "{Damage:0,affix_data:{affixes:{\"apotheosis:durable\":0.16f,\"apotheosis:graceful\":0.76778936f,\"apotheosis:intricate\":0.8765408f,\"apotheosis:thunderstruck\":0.9986461f,\"apotheosis:vampiric\":0.8231366f},name:\u0027{\"color\":\"#5555FF\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:vampiric\"},\"\",{\"translate\":\"affix.apotheosis:thunderstruck.suffix\"}]}\u0027,rarity:\"rare\"}}"
+        },
+        {
+          "id": "born_in_chaos_v1:great_reaper_axe",
+          "Count": 1,
+          "tag": "{Damage:0,affix_data:{affixes:{\"apotheosis:cleaving\":0.5667255f,\"apotheosis:decimating\":0.9451675f,\"apotheosis:durable\":0.04f,\"apotheosis:murderous\":0.92436f,\"apotheosis:shredding\":0.19798762f,\"apotheosis:weakening\":0.9185996f},name:\u0027{\"color\":\"#5555FF\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:cleaving\"},\"\",{\"translate\":\"affix.apotheosis:shredding.suffix\"}]}\u0027,rarity:\"rare\"}}"
+        },
+        {
+          "id": "born_in_chaos_v1:nightmare_scythe",
+          "Count": 1,
+          "tag": "{Damage:0,affix_data:{affixes:{\"apotheosis:durable\":0.13f,\"apotheosis:elusive\":0.179384f,\"apotheosis:glacial\":0.8824114f,\"apotheosis:graceful\":0.381913f,\"apotheosis:lacerating\":0.28656185f},name:\u0027{\"color\":\"#5555FF\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:lacerating\"},\"\",{\"translate\":\"affix.apotheosis:graceful.suffix\"}]}\u0027,rarity:\"rare\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a33f1037-62a0-4844-9058-5a7a12222245",
+      "name": {
+        "text": "让钻石无所遁形",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "在我拿迷宫地图的时候，我发现地图似乎和一些矿物发生了奇妙的反应——在地图上出现了一些矿物的位置!看来关于暮色森林的研究需要延时了\n\n\n\n——《暮色研究报告》",
+        "isTranslationKey": false
+      },
+      "x": 19,
+      "y": 137,
+      "icon": {
+        "id": "twilightforest:ore_map",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:ore_map",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c12edb06-7c9a-4dff-b522-f5b68abd6a87"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "twilightforest:mining_sapling",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 5
+        },
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 2,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d5da8040-d34c-463f-84e3-163930b4606e",
+      "name": {
+        "text": "前往：深渊（支线）",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "咱兄弟海洋龙，\n    俺家老爷武陌轩子爵最近在这曼斯菲尔德州立感化院待得火冒三丈，整个身子都冻得跟冰块似的。想着呢，得找点保暖的家伙来护着他老人家。所以，俺老爷想买一套“极地皮衣”，你那有没有货？\n    俺老爷决心可是大的很，准备拿出一些银子来买，当然，也不会亏待兄弟，还会附赠一些渔具，比如钓具箱、鱼饵鱼钩等等，让你在水里也能有个快活。另外，俺老爷还特意给你找来了一张前往一个神神叨叨的水之维度的单程车票。\n    兄弟，这笔买卖可是相当的划算啊！你得赶紧回俺个信，告诉俺可行不可行。俺老爷的话，一言为定。\n    等你的消息！\n\n武陌轩子爵敬上！",
+        "isTranslationKey": false
+      },
+      "x": 62,
+      "y": 163,
+      "icon": {
+        "id": "twilightforest:arctic_helmet",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:arctic_helmet",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "twilightforest:arctic_chestplate",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "twilightforest:arctic_leggings",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "twilightforest:arctic_boots",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d383b15d-867b-483f-8f63-41fbb39a3c16",
+        "ff7d6f33-b91b-4b08-ad31-30348b8ce9c0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "aquaculture:tackle_box",
+          "Count": 1
+        },
+        {
+          "id": "aquaculture:bobber",
+          "Count": 4
+        },
+        {
+          "id": "aquaculture:worm",
+          "Count": 10,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "aquaculture:fishing_line",
+          "Count": 15
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "aquaculture:gold_hook",
+          "Count": 1
+        },
+        {
+          "id": "aquaculture:iron_hook",
+          "Count": 1
+        },
+        {
+          "id": "aquaculture:light_hook",
+          "Count": 1
+        },
+        {
+          "id": "aquaculture:double_hook",
+          "Count": 1
+        }
+      ],
+      "commandrewards": [
+        "/execute in panthalassa:panthalassa run tp ~ 60 ~"
+      ]
+    },
+    {
+      "uuid": "5236fa8a-41b9-4062-9413-65d5cb6333ab",
+      "name": {
+        "text": "谜题羊",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    “象征着魔法与谜题的高大盘羊，对羊毛有着极大的兴趣，并且会将这些羊毛用来延展自己的身体。”\n    “当我用越来也多的颜色来填充迷题羊的身体时，我忽然意识到这也许是古人的造物；而当我成功地将一切色彩都赋予给迷题羊时，牠给我了宝藏，还额外送了我一件牠身上的东西。”\n    “或许迷题羊是古人创造出来，用于藏匿宝藏的魔法生物，如果有人想要获得宝藏，就必须收集各色羊毛来作为‘谜底’，否则永远得不到宝藏。”\n    “很有创意，但也很奇怪。”\n\n——《暮色森林行记》守护者Novic",
+        "isTranslationKey": false
+      },
+      "x": 188,
+      "y": 75,
+      "icon": {
+        "id": "twilightforest:quest_ram_trophy",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:quest_ram_trophy",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6c9b769b-fe65-4bc8-9658-0641450c429a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "twilightforest:transformation_sapling",
+          "Count": 1
+        },
+        {
+          "id": "twilightforest:rainbow_oak_sapling",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "apotheosis:potion_charm",
+          "Count": 1,
+          "tag": "{Damage:0,Potion:\"minecraft:strong_regeneration\"}"
+        },
+        {
+          "id": "apotheosis:potion_charm",
+          "Count": 1,
+          "tag": "{Damage:0,Potion:\"minecraft:strong_strength\"}"
+        },
+        {
+          "id": "apotheosis:potion_charm",
+          "Count": 1,
+          "tag": "{Damage:0,Potion:\"apotheosis:strong_absorption\"}"
+        },
+        {
+          "id": "apotheosis:potion_charm",
+          "Count": 1,
+          "tag": "{Damage:0,Potion:\"apotheosis:strong_knowledge\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2117e36f-8ad8-4778-8c49-cb828491292e",
+      "name": {
+        "text": "魔法地图",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "以火炬浆果汁液绘制的地图，通过与魔力共鸣来感应到远方的存在。\n\n“所有来暮色森林淘金的人手中都必须有这玩意”\n“不管你是买来的，抢来的，还是自己猎杀乌鸦采摘浆果制作的”\n“这玩意必不可少，既可以避开危险的地带也能指示出宝藏的埋藏”\n“我也不免俗地制作了一张”\n“在我展开它的那一瞬间，我被澎湃的魔力晃到了眼睛”\n“那个广大的，神秘的，充满魅力的暮光之地”                                                 ——————《 行商手札· 三》\n\n",
+        "isTranslationKey": false
+      },
+      "x": 19,
+      "y": 61,
+      "icon": {
+        "id": "upgradednetherite:feather_upgraded_netherite_pickaxe",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": {
+            "text": "魔力粉尘",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "在这片森林，许多生物会掉落萤石粉，如盘踞在矿山的幽灵、喷火甲虫，又或是在林间草甸游荡的野猪（？）和萤火虫。\n最简单的获取方法是，用深邃弹弓发射萤火虫，如果萤火虫被射到无法附着的方块上，就会碎成萤石粉(也可以使用弹射物攻击树上的萤火虫）。",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glowstone_dust",
+                "Count": 1
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": {
+            "text": "火炬浆果",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "在暮色森林里阴暗的地方生长的一种植物，是许多暮色森林生物的主食，最常见的是挂在洞穴上顶的小型火炬手浆果植株，但在巨魔洞穴中存在一种大型火炬浆果植株，产量更高，似乎是靠吸收巨魔的血液才长的如此之大的。火炬浆果味苦，但拥有发光的物质，可以把其抹于木棒上来作火把的替代品。\n\n火炬浆果也是一种魔法原料，但因其魔力不强，只能用来充当魔法墨水一类的原料。\n\n—《博物志-三卷四章》",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:torchberries",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": {
+            "text": "点亮暮光",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "将火炬浆果捣破，用其汁液与荧石粉混合，做成了一种很浓稠的墨汁\n以乌鸦尾羽为笔，这应该就是魔法师们绘制地图的方式了！\n                                                                    ————《暮光日记》冒险者gree",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:magic_map_focus",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f7d307d1-a421-4071-abc2-bd64826d994b",
+        "55fc2da4-f678-4b9d-b5d3-c6593fabcfe9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "enigmaticlegacy:enchantment_transposer",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"minecraft:fortune\",lvl:7s}]}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d1772490-bdad-43e5-a347-e140b6b841bd",
+      "name": {
+        "text": "星梅",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    星梅这种生长缓慢的植物在现代早已灭绝，其唯一的痕迹只留存与龙币之上。\n    不过，其营养价值极高，且富有观赏价值，稍微加工后能在商店卖出个好价钱。",
+        "isTranslationKey": false
+      },
+      "x": 270,
+      "y": 43,
+      "icon": {
+        "id": "hanew_village_mod:raw_starberry",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:raw_starberry",
+                "Count": 1
+              },
+              "required": 10,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "hanew_village_mod:starberry",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5f50c79d-3d8a-44c6-9ce0-a43b145958de"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:encyclopedia",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:materials_and_you",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:puny_smelting",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:mighty_smelting",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:tinkers_gadgetry",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:fantastic_foundry",
+          "Count": 1,
+          "tag": "{mantle:{book:{current_page:\"\"}}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "born_in_chaos_v1:spawn_structures_farm",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "86d26fe0-73ca-4c0c-a112-2a87291e2650",
+      "name": {
+        "text": "神秘的日记",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "这本日记可能记载了被封印者的来历。",
+        "isTranslationKey": false
+      },
+      "x": 232,
+      "y": 64,
+      "icon": {
+        "id": "hanew_village_mod:unknow_diary",
+        "Count": 1
+      },
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:unknow_diary",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "46f8702c-4676-41e8-a85a-483eef5a0675",
+        "6e975483-0a3c-4cf2-a7ce-fbaf862e698e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "celestial_artifacts:life_bracelet",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ad8461e8-40c7-433b-b6e6-a8ed969baf73",
+      "name": {
+        "text": "敲钟人",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "矿山里的幽灵会掉落合成灵魂沙的材料。\n使用灵魂沙制作缠魂铃铛以召唤敲钟人。",
+        "isTranslationKey": false
+      },
+      "x": 120,
+      "y": 12,
+      "icon": {
+        "id": "born_in_chaos_v1:ethereal_spirit",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "meetyourfight:phantoplasm",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "00f2298d-ed79-4c47-b5bf-29618ab4206a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "hanew_village_mod:hanewcoin",
+          "Count": 32
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"apotheosis:life_mending\",lvl:2s}]}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "55fc2da4-f678-4b9d-b5d3-c6593fabcfe9",
+      "name": {
+        "text": "森林",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    你成功的到达了森林的上层，得以重见天日。\n    这下离逃出牢笼更近了一步。",
+        "isTranslationKey": false
+      },
+      "x": 19,
+      "y": 12,
+      "icon": {
+        "id": "twilightforest:twilight_portal_miniature_structure",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "longDescription": {
+            "text": "这两种树是这儿最常见的，砍几颗试试？\n听说配合这儿的其他树，可以制作更强的武器。\n(记得，要直接用原木来制作，经过加工的木板和木棍已经失去了森林的魔力",
+            "isTranslationKey": true
+          },
+          "blocks": [
+            {
+              "item": {
+                "id": "twilightforest:canopy_log",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "twilightforest:twilight_oak_log",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "62a42e3d-ea12-4987-a946-d7defb9a9321"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "twilightforest:raven_feather",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "dragonsurvival:quartz_explosive_copper",
+          "Count": 4
+        },
+        {
+          "id": "dragonsurvival:golden_turtle_egg",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b7d271de-318e-4579-859e-a64aa7e34eba",
+      "name": {
+        "text": "魔法地图",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "以火炬浆果汁液绘制的地图，通过与魔力共鸣来感应到远方的存在。\n\n“所有来暮色森林淘金的人手中都必须有这玩意”\n“不管你是买来的，抢来的，还是自己猎杀乌鸦采摘浆果制作的”\n“这玩意必不可少，既可以避开危险的地带也能指示出宝藏的埋藏”\n“我也不免俗地制作了一张”\n“在我展开它的那一瞬间，我被澎湃的魔力晃到了眼睛”\n“那个广大的，神秘的，充满魅力的暮光之地”                                                 ——————《 行商手札· 三》\n\n",
+        "isTranslationKey": false
+      },
+      "x": 62,
+      "y": 12,
+      "icon": {
+        "id": "graveyard:skull_with_rib_cage",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": {
+            "text": "火炬浆果",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "骷髅德鲁伊会掉落各种各样的浆果。\n\n“在仔细研究了一番这些可怜的骷髅之后，我认为它们是这个暮色世界以前的死者，受到邪恶的诅咒被封印于刷怪笼中，看守它们生前的住所。”\n“黄金锄头或许是它们生前施法用的工具，自然的力量能够直接将方块扭曲改变。”\n“不过好在我有备而来，它们都不是我的对手。”\n\n——《暮色森林行记》守护者Novic",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:torchberries",
+                "Count": 1
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": {
+            "text": "萤火虫罐",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "在树上抓取萤火虫，装入罐子。\n这闪亮的罐子不光能囊萤映雪，也能在工作台上磨成萤石粉。",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glowstone_dust",
+                "Count": 1
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": {
+            "text": "点亮暮光",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "将火炬浆果捣破，用其汁液与荧石粉混合，做成了一种很浓稠的墨汁\n以乌鸦尾羽为笔，这应该就是魔法师们绘制地图的方式了！\n                                                                    ————《暮光日记》冒险者gree",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:magic_map_focus",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "613d65d2-8088-41d0-9e6f-a9738104fac1",
+        "55fc2da4-f678-4b9d-b5d3-c6593fabcfe9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "apotheosis:scrap_tome",
+          "Count": 1
+        },
+        {
+          "id": "aquamirae:frozen_chest",
+          "Count": 1
+        },
+        {
+          "id": "aquamirae:frozen_key",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6adf15e2-b775-4ef9-9e11-28ed2bb06d44",
+      "name": {
+        "text": "叙旧",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "“我其实认识你，”你看这眼前这条大蛇，“不过你为什么不是黄色的？”",
+        "isTranslationKey": false
+      },
+      "x": 179,
+      "y": 95,
+      "icon": {
+        "id": "twilightforest:naga_courtyard_miniature_structure",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:naga_trophy",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6c9b769b-fe65-4bc8-9658-0641450c429a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "prefab:item_magic_temple",
+          "Count": 1
+        },
+        {
+          "id": "cataclysm:void_core",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "prefab:item_advanced_aqua_base",
+          "Count": 1
+        },
+        {
+          "id": "prefab:item_advanced_warehouse",
+          "Count": 1
+        },
+        {
+          "id": "prefab:item_advanced_modern_buildings",
+          "Count": 1
+        },
+        {
+          "id": "prefab:item_advanced_farm",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d45c6d82-8940-42e3-8379-3886532e23d6",
+      "name": {
+        "text": "终焉城堡",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "\"终焉城堡的魔力浓度远远高于森林的其他区域。外墙上的符文很有研究价值。\"\n\"至于这座白色巨城有如何令人屏息的宏伟，前人之述备矣。\"\n\"我只是在凝望暮色下荆棘侵蚀的废塔楼时，在飘扬的淡白雪花之间，感受到一缕直击心底的悲哀。\"\n\"龙族的典籍记载此处曾属于终焉飞龙，可现在城堡顶端只徘徊着一个黑色的骑士。\"\n\n——未署名的笔记",
+        "isTranslationKey": false
+      },
+      "x": 117,
+      "y": 134,
+      "bigicon": true,
+      "icon": {
+        "id": "twilightforest:encased_castle_brick_tile",
+        "Count": 1
+      },
+      "parentrequirement": 2,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": {
+            "text": "任务物品由终焉城堡的BOSS，无头骑士(的头）掉落",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "born_in_chaos_v1:soul_cutlass",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "born_in_chaos_v1:pumpkin_staff",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d6dc29f3-4a56-4f05-8596-870746504b00",
+        "a33f1037-62a0-4844-9058-5a7a12222245",
+        "ff7d6f33-b91b-4b08-ad31-30348b8ce9c0",
+        "ad8461e8-40c7-433b-b6e6-a8ed969baf73"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "hardcorequesting:greater_bag",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 10
+        },
+        {
+          "id": "create:experience_block",
+          "Count": 10
+        },
+        {
+          "id": "born_in_chaos_v1:death_totem",
+          "Count": 1
+        },
+        {
+          "id": "twilightforest:keepsake_casket",
+          "Count": 1,
+          "tag": "{}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "born_in_chaos_v1:darkwarblade",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "born_in_chaos_v1:sharpened_dark_metal_sword",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "born_in_chaos_v1:great_reaper_axe",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "born_in_chaos_v1:nightmare_scythe",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "91a87fe7-48fc-4baa-951f-6f901bfde750",
+      "name": {
+        "text": "再次深入",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "主世界与这流放之地的链接早已断开，想要回到故土，必须先通过维度裂隙来中转。",
+        "isTranslationKey": false
+      },
+      "x": 154,
+      "y": 170,
+      "bigicon": true,
+      "icon": {
+        "id": "ulterlands:ulterlands_dimension",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "ulterlands:ulterlands_dimension",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d45c6d82-8940-42e3-8379-3886532e23d6",
+        "cf46f279-830b-474e-bf39-8cf8ccd9614a"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/execute in ulterlands:ulterlands_dimension run tp ~ 150 ~"
+      ]
+    },
+    {
+      "uuid": "d6dc29f3-4a56-4f05-8596-870746504b00",
+      "name": {
+        "text": "龙族的叛徒",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "“人类才需要借助牛头人的力量来躲避火焰结界”\n显然，这点小火苗伤不了你。\n那么是时候向那个躲在矿山下的叛徒讨要利息了。\n",
+        "isTranslationKey": false
+      },
+      "x": 120,
+      "y": 61,
+      "icon": {
+        "id": "endrem:witch_eye",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "twilightforest:hydra_trophy",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1e847b46-f8fd-4983-a9db-c2c289927677"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "create:minecart_contraption",
+          "Count": 1,
+          "tag": "{Contraption:{Actors:[],Anchor:{X:-73,Y:70,Z:-32},Blocks:{BlockList:[{Pos:549755822084L,State:0},{Pos:0L,State:1},{Pos:1374389542916L,State:0},{Pos:1649267449860L,State:0},{Pos:1924145356804L,State:0},{Pos:274877939712L,State:2},{Pos:549755846656L,State:3},{Pos:824633753600L,State:4},{Pos:1099511660544L,State:4},{Pos:1374389567488L,State:3},{Pos:1649267474432L,State:2},{Pos:8197L,State:5},{Pos:1L,State:6},{Pos:549755822085L,State:2},{Pos:824633729029L,State:7},{Pos:1099511635973L,State:7},{Pos:1374389542917L,State:2},{Pos:1924145356805L,State:5},{Pos:32767L,State:8},{Pos:274877939711L,State:8},{Pos:549755846657L,State:9},{Pos:549755846655L,State:10},{Pos:824633753601L,State:11},{Pos:824633753599L,State:10},{Pos:1099511660545L,State:11},{Pos:1099511660543L,State:12},{Pos:1374389567489L,State:9},{Pos:1374389567487L,State:10},{Pos:1649267474431L,State:13},{Pos:1924145381375L,State:14},{Pos:36868L,State:0},{Pos:274877943812L,State:0},{Pos:549755850756L,State:0},{Pos:274877935616L,State:3},{Pos:549755846658L,State:15},{Pos:549755842560L,State:16},{Pos:824633749504L,State:16},{Pos:1374389571588L,State:0},{Pos:1099511656448L,State:16},{Pos:1374389567490L,State:15},{Pos:1649267478532L,State:0},{Pos:1374389563392L,State:16},{Pos:1924145385476L,State:0},{Pos:1649267470336L,State:3},{Pos:36869L,State:5},{Pos:549755850757L,State:2},{Pos:28671L,State:8},{Pos:274877935617L,State:17},{Pos:824633757701L,State:7},{Pos:274877935615L,State:8},{Pos:549755842561L,State:18},{Pos:1099511664645L,State:7},{Pos:549755842559L,State:10},{Pos:824633749505L,State:19},{Pos:1374389571589L,State:2},{Pos:824633749503L,State:10},{Pos:1099511656449L,State:20},{Pos:1099511656447L,State:10},{Pos:1374389563393L,State:18},{Pos:1924145385477L,State:5},{Pos:1374389563391L,State:10},{Pos:1649267470337L,State:21},{Pos:1649267470335L,State:13},{Pos:1924145377279L,State:14},{Pos:32772L,State:0},{Pos:274877939716L,State:22},{Pos:274877935618L,State:15},{Pos:549755846660L,State:23},{Pos:274877931520L,State:24},{Pos:549755842562L,State:18},{Pos:549755838464L,State:16},{Pos:824633745408L,State:25},{Pos:1374389567492L,State:26},{Pos:1099511652352L,State:27},{Pos:1374389563394L,State:18},{Pos:1649267474436L,State:22},{Data:{LootTable:\"minecraft:chests/firewell_d\",LootTableSeed:2916737515240129036L,LootrOpeners:[],id:\"lootr:special_loot_chest\",specialLootChest_seed:2916737515240129036L,specialLootChest_table:\"minecraft:chests/firewell_d\",tileId:[I;-793939806,106974091,-1417604816,1964389331]},Pos:1374389559296L,State:28},{Pos:1649267470338L,State:15},{Pos:1924145381380L,State:0},{Pos:1649267466240L,State:29},{Pos:274877939717L,State:2},{Pos:549755846661L,State:2},{Pos:24575L,State:14},{Pos:274877931521L,State:30},{Pos:549755842563L,State:18},{Pos:824633753605L,State:0},{Pos:274877931519L,State:13},{Pos:549755838465L,State:20},{Pos:1099511660549L,State:0},{Pos:549755838463L,State:10},{Pos:824633745409L,State:25},{Pos:1374389567493L,State:2},{Pos:824633745407L,State:12},{Pos:1099511652353L,State:27},{Pos:1374389563395L,State:18},{Pos:1649267474437L,State:2},{Pos:1099511652351L,State:10},{Pos:1374389559297L,State:20},{Pos:1374389559295L,State:10},{Pos:1649267466241L,State:31},{Pos:1649267466239L,State:13},{Pos:1924145373183L,State:14},{Pos:28676L,State:0},{Pos:274877935620L,State:32},{Pos:549755842564L,State:18},{Pos:274877927424L,State:24},{Pos:549755834368L,State:16},{Pos:824633741312L,State:27},{Pos:1374389563396L,State:18},{Pos:1099511648256L,State:27},{Pos:1649267470340L,State:32},{Pos:1374389555200L,State:16},{Pos:1924145377284L,State:0},{Pos:1649267462144L,State:29},{Pos:28677L,State:15},{Pos:274877935621L,State:7},{Pos:549755842565L,State:19},{Pos:20479L,State:14},{Pos:274877927425L,State:30},{Pos:824633749509L,State:19},{Pos:274877927423L,State:13},{Pos:549755834369L,State:19},{Pos:1099511656453L,State:19},{Pos:549755834367L,State:10},{Pos:824633741313L,State:25},{Pos:1374389563397L,State:19},{Pos:824633741311L,State:10},{Pos:1099511648257L,State:25},{Pos:1649267470341L,State:7},{Pos:1099511648255L,State:12},{Pos:1374389555201L,State:19},{Pos:1924145377285L,State:15},{Pos:1374389555199L,State:10},{Pos:1649267462145L,State:31},{Pos:1649267462143L,State:13},{Pos:1924145369087L,State:14},{Pos:549755842566L,State:15},{Pos:824633749510L,State:2},{Pos:274877923328L,State:3},{Pos:1099511656454L,State:2},{Pos:549755830272L,State:16},{Pos:1374389563398L,State:15},{Pos:824633737216L,State:16},{Pos:1374389559300L,State:33},{Pos:1099511644160L,State:16},{Pos:1374389551104L,State:16},{Pos:1649267458048L,State:3},{Pos:24581L,State:7},{Pos:274877931525L,State:34},{Pos:549755838469L,State:19},{Pos:16383L,State:14},{Pos:274877923329L,State:17},{Pos:824633745413L,State:35},{Pos:274877923327L,State:13},{Pos:549755830273L,State:18},{Pos:1099511652357L,State:35},{Pos:549755830271L,State:13},{Pos:824633737217L,State:20},{Pos:1374389559301L,State:19},{Pos:824633737215L,State:13},{Pos:1099511644161L,State:19},{Pos:1649267466245L,State:34},{Pos:1099511644159L,State:13},{Pos:1374389551105L,State:18},{Pos:1924145373189L,State:7},{Pos:1374389551103L,State:13},{Pos:1649267458049L,State:21},{Pos:1649267458047L,State:13},{Pos:1924145364991L,State:8},{Pos:549755838470L,State:7},{Pos:274877923330L,State:15},{Pos:824633745414L,State:22},{Pos:274877919232L,State:2},{Pos:549755830274L,State:18},{Pos:1099511652358L,State:22},{Pos:549755826176L,State:3},{Pos:1374389559302L,State:7},{Pos:824633733120L,State:36},{Pos:1099511640064L,State:36},{Pos:1374389551106L,State:18},{Pos:1374389547008L,State:3},{Pos:1649267458050L,State:15},{Pos:1649267453952L,State:2},{Pos:20485L,State:7},{Pos:274877927429L,State:34},{Pos:549755834373L,State:19},{Pos:12287L,State:8},{Pos:549755830275L,State:18},{Pos:824633741317L,State:35},{Pos:274877919231L,State:14},{Pos:549755826177L,State:37},{Pos:1099511648261L,State:35},{Pos:549755826175L,State:14},{Pos:824633733121L,State:38},{Pos:1374389555205L,State:19},{Pos:824633733119L,State:14},{Pos:1099511640065L,State:38},{Pos:1374389551107L,State:18},{Pos:1649267462149L,State:34},{Pos:1099511640063L,State:8},{Pos:1374389547009L,State:37},{Pos:1924145369093L,State:7},{Pos:1374389547007L,State:8},{Pos:1649267453951L,State:14},{Pos:1924145360895L,State:14},{Pos:16388L,State:0},{Pos:274877923332L,State:39},{Pos:549755834374L,State:7},{Pos:8192L,State:40},{Pos:549755830276L,State:18},{Pos:824633741318L,State:22},{Pos:549755826178L,State:15},{Pos:1099511648262L,State:22},{Pos:1374389555206L,State:7},{Pos:1374389551108L,State:18},{Pos:1374389547010L,State:15},{Pos:1649267458052L,State:39},{Pos:1924145364996L,State:0},{Pos:16389L,State:15},{Pos:274877923333L,State:7},{Pos:8193L,State:41},{Pos:549755830277L,State:19},{Pos:824633737221L,State:19},{Pos:1099511644165L,State:19},{Pos:1374389551109L,State:19},{Pos:1649267458053L,State:7},{Pos:1924145364997L,State:15},{Pos:40959L,State:14},{Pos:274877947903L,State:14},{Pos:549755854847L,State:14},{Pos:824633761791L,State:8},{Pos:1099511668735L,State:14},{Pos:1374389575679L,State:8},{Pos:1649267482623L,State:8},{Pos:1924145389567L,State:14},{Pos:12292L,State:0},{Pos:274877919236L,State:22},{Pos:549755826180L,State:23},{Pos:824633737222L,State:2},{Pos:1099511644166L,State:2},{Pos:1374389551110L,State:15},{Pos:1374389547012L,State:26},{Pos:1649267453956L,State:22},{Pos:1924145360900L,State:0},{Pos:274877919237L,State:2},{Pos:4097L,State:42},{Pos:549755826181L,State:2},{Pos:824633733125L,State:0},{Pos:1099511640069L,State:0},{Pos:1374389547013L,State:2},{Pos:1649267453957L,State:2},{Pos:36863L,State:14},{Pos:274877943807L,State:13},{Pos:549755850751L,State:13},{Pos:824633757695L,State:13},{Pos:1099511664639L,State:13},{Pos:1374389571583L,State:13},{Pos:1649267478527L,State:13},{Pos:1924145385471L,State:8},{Pos:8196L,State:0},{Pos:274877915140L,State:0}],Palette:[{Name:\"born_in_chaos_v1:black_argillite_brick_slab\",Properties:{type:\"top\",waterlogged:\"false\"}},{Name:\"create:minecart_anchor\",Properties:{axis:\"z\"}},{Name:\"born_in_chaos_v1:black_argillite_column_slab\",Properties:{type:\"bottom\",waterlogged:\"false\"}},{Name:\"born_in_chaos_v1:fired_black_argillite\"},{Name:\"born_in_chaos_v1:black_argillite_brick_stairs\",Properties:{facing:\"north\",half:\"bottom\",shape:\"straight\",waterlogged:\"false\"}},{Name:\"born_in_chaos_v1:black_argillite_button\",Properties:{face:\"floor\",facing:\"west\",powered:\"false\"}},{Name:\"the_forgotten_dimensions:snowy_fence\",Properties:{east:\"false\",north:\"false\",south:\"true\",waterlogged:\"false\",west:\"false\"}},{Name:\"born_in_chaos_v1:black_argillite_brick_slab\",Properties:{type:\"bottom\",waterlogged:\"false\"}},{Name:\"minecraft:coarse_dirt\"},{Name:\"born_in_chaos_v1:black_argillite_wall\",Properties:{east:\"none\",north:\"low\",south:\"none\",up:\"true\",waterlogged:\"false\",west:\"none\"}},{Name:\"born_in_chaos_v1:black_argillite\"},{Name:\"born_in_chaos_v1:black_argillite_button\",Properties:{face:\"wall\",facing:\"south\",powered:\"false\"}},{Name:\"born_in_chaos_v1:dark_metal_deposit\"},{Name:\"minecraft:dirt\"},{Name:\"minecraft:grass_block\",Properties:{snowy:\"false\"}},{Name:\"born_in_chaos_v1:black_argillitepressureplate\",Properties:{powered:\"false\"}},{Name:\"born_in_chaos_v1:black_argillite_brick\"},{Name:\"born_in_chaos_v1:black_argillite_wall\",Properties:{east:\"low\",north:\"none\",south:\"none\",up:\"true\",waterlogged:\"false\",west:\"none\"}},{Name:\"born_in_chaos_v1:black_argillite_column\",Properties:{axis:\"y\"}},{Name:\"born_in_chaos_v1:black_argillite_brick_slab\",Properties:{type:\"double\",waterlogged:\"false\"}},{Name:\"born_in_chaos_v1:chipped_black_argillite_brick\"},{Name:\"born_in_chaos_v1:black_argillite_wall\",Properties:{east:\"none\",north:\"none\",south:\"none\",up:\"true\",waterlogged:\"false\",west:\"low\"}},{Name:\"born_in_chaos_v1:carved_black_argillite\"},{Name:\"born_in_chaos_v1:black_argillite_brick_stairs\",Properties:{facing:\"west\",half:\"top\",shape:\"straight\",waterlogged:\"false\"}},{Name:\"born_in_chaos_v1:black_argillite_brick_stairs\",Properties:{facing:\"east\",half:\"bottom\",shape:\"straight\",waterlogged:\"false\"}},{Name:\"minecraft:magma_block\"},{Name:\"born_in_chaos_v1:black_argillite_brick_stairs\",Properties:{facing:\"east\",half:\"top\",shape:\"straight\",waterlogged:\"false\"}},{Name:\"infernalexp:basaltic_magma\",Properties:{axis:\"y\"}},{Name:\"lootr:lootr_chest\",Properties:{facing:\"west\",type:\"single\",waterlogged:\"false\"}},{Name:\"born_in_chaos_v1:black_argillite_brick_stairs\",Properties:{facing:\"west\",half:\"bottom\",shape:\"straight\",waterlogged:\"false\"}},{Name:\"born_in_chaos_v1:black_argillite_button\",Properties:{face:\"wall\",facing:\"west\",powered:\"false\"}},{Name:\"born_in_chaos_v1:black_argillite_button\",Properties:{face:\"wall\",facing:\"east\",powered:\"false\"}},{Name:\"born_in_chaos_v1:black_argillite_brick_stairs\",Properties:{facing:\"south\",half:\"top\",shape:\"straight\",waterlogged:\"false\"}},{Name:\"minecraft:chain\",Properties:{axis:\"y\",waterlogged:\"false\"}},{Name:\"born_in_chaos_v1:black_argillite_column_slab\",Properties:{type:\"double\",waterlogged:\"false\"}},{Name:\"born_in_chaos_v1:black_argillite_column_slab\",Properties:{type:\"top\",waterlogged:\"false\"}},{Name:\"born_in_chaos_v1:black_argillite_brick_stairs\",Properties:{facing:\"south\",half:\"bottom\",shape:\"straight\",waterlogged:\"false\"}},{Name:\"born_in_chaos_v1:black_argillite_wall\",Properties:{east:\"none\",north:\"none\",south:\"low\",up:\"true\",waterlogged:\"false\",west:\"none\"}},{Name:\"born_in_chaos_v1:black_argillite_button\",Properties:{face:\"wall\",facing:\"north\",powered:\"false\"}},{Name:\"born_in_chaos_v1:black_argillite_brick_stairs\",Properties:{facing:\"north\",half:\"top\",shape:\"straight\",waterlogged:\"false\"}},{Name:\"the_forgotten_dimensions:snowy_fence\",Properties:{east:\"false\",north:\"false\",south:\"false\",waterlogged:\"false\",west:\"false\"}},{Name:\"the_forgotten_dimensions:snowy_fence\",Properties:{east:\"false\",north:\"true\",south:\"false\",waterlogged:\"false\",west:\"false\"}},{Name:\"the_forgotten_dimensions:snowy_fence\",Properties:{east:\"false\",north:\"true\",south:\"true\",waterlogged:\"false\",west:\"false\"}}]},BottomlessSupply:0b,BoundsFront:[-13.0f,-1.0f,-13.0f,14.0f,7.0f,14.0f],DisabledActors:[],FluidStorage:[],InitialOrientation:\"NORTH\",Interactors:[],Passengers:[],RotationMode:\"ROTATE\",Seats:[],Stalled:0b,Storage:[],SubContraptions:[],Superglue:[{From:[0.0d,0.0d,2.0d],To:[1.0d,2.0d,3.0d]},{From:[0.0d,4.0d,2.0d],To:[8.0d,6.0d,10.0d]},{From:[2.0d,5.0d,7.0d],To:[4.0d,7.0d,8.0d]},{From:[0.0d,1.0d,0.0d],To:[1.0d,2.0d,3.0d]},{From:[0.0d,-1.0d,2.0d],To:[8.0d,5.0d,10.0d]},{From:[5.0d,5.0d,4.0d],To:[6.0d,7.0d,8.0d]},{From:[2.0d,5.0d,4.0d],To:[5.0d,7.0d,7.0d]},{From:[3.0d,5.0d,7.0d],To:[6.0d,7.0d,8.0d]}],Type:\"mounted\"},RepairCost:0,display:{Name:\u0027{\"text\":\"生成建筑：火焰井\"}\u0027}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "endrem:witch_eye",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "endrem:old_eye",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "endrem:corrupted_eye",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "endrem:undead_eye",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9fad0cdf-e4f0-4bcd-a1f8-7c053114465b",
+      "name": {
+        "text": "自由装配（支线）",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "这个包含有“匠魂”和“机械动力”，幸运的是，你完全不需要接触这两个模组，甚至当他们不存在，也可以通关本整合包。\n不过，如果你想要使用，这两个模组互相配合之下，是你变强的捷径。\n",
+        "isTranslationKey": false
+      },
+      "x": 61,
+      "y": 42,
+      "icon": {
+        "id": "tconstruct:pickaxe",
+        "Count": 1,
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:copper\",\"tinkers_thinking:cactus\",\"tinkers_thinking:netherrack\"],tic_modifiers:[{level:1s,name:\"tconstruct:pierce\"},{level:1s,name:\"tinkers_thinking:prickly\"},{level:1s,name:\"tinkers_thinking:hellish\"},{level:1s,name:\"tconstruct:dwarven\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":2.6f,\"tconstruct:attack_speed\":1.14f,\"tconstruct:durability\":213.40001f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":4.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:book",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "55fc2da4-f678-4b9d-b5d3-c6593fabcfe9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:materials_and_you",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:puny_smelting",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:mighty_smelting",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:tinkers_gadgetry",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:fantastic_foundry",
+          "Count": 1,
+          "tag": "{mantle:{book:{current_page:\"\"}}}"
+        },
+        {
+          "id": "tconstruct:encyclopedia",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

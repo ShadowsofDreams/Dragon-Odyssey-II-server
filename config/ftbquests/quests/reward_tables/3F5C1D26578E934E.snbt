@@ -1,0 +1,13 @@
+{
+	id: "3F5C1D26578E934E"
+	order_index: 7
+	title: "子弹"
+	loot_size: 1
+	rewards: [
+		{ item: "gunswithoutroses:flint_bullet", count: 128, random_bonus: 128, weight: 10 }
+		{ item: "gunswithoutroses:iron_bullet", count: 64, random_bonus: 64, weight: 7 }
+		{ item: "gunswithoutrosesadditions:utherium_bullet", count: 32, random_bonus: 32, weight: 5 }
+		{ item: "gunswithoutrosesadditions:froststeel_bullet", count: 32, random_bonus: 32, weight: 5 }
+		{ item: "gunswithoutroses:blaze_bullet", count: 16, random_bonus: 16 }
+	]
+}

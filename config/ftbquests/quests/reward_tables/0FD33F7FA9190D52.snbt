@@ -1,0 +1,15 @@
+{
+	id: "0FD33F7FA9190D52"
+	order_index: 20
+	title: "羽毛"
+	icon: "twilightforest:raven_feather"
+	loot_size: 1
+	rewards: [
+		{ item: "alexsmobs:emu_feather", count: 12, random_bonus: 8 }
+		{ item: "iceandfire:amphithere_feather", count: 11, random_bonus: 9 }
+		{ item: "alexsmobs:roadrunner_feather", count: 7, random_bonus: 13 }
+		{ item: "minecraft:feather", count: 10, random_bonus: 54 }
+		{ item: "twilightforest:raven_feather", random_bonus: 19 }
+		{ item: "iceandfire:stymphalian_bird_feather", count: 8, random_bonus: 12 }
+	]
+}

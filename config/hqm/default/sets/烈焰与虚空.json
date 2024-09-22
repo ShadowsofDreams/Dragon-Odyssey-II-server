@@ -1,0 +1,730 @@
+{
+  "name": "烈焰与虚空",
+  "quests": [
+    {
+      "uuid": "460a0d8d-0321-42a6-adb1-8025010fd97b",
+      "name": {
+        "text": "召唤城堡",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "这个任务可以在任何地点召唤灾变城堡。\n除此之外没有任何作用。",
+        "isTranslationKey": false
+      },
+      "x": 200,
+      "y": 43,
+      "icon": {
+        "id": "minecraft:blaze_rod",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "the_cataclysm:the_cataclysm",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "30dc06e9-27e7-4eb7-9ad9-ff5b3c0de15c"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/summon the_cataclysm:castle_creator ~ ~ ~"
+      ]
+    },
+    {
+      "uuid": "58941c87-2373-4e8a-8ab6-55d243105efb",
+      "name": {
+        "text": "搭建传送门",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "使用框架搭建传送门，并使用传送门催化剂点亮。",
+        "isTranslationKey": false
+      },
+      "x": 159,
+      "y": 12,
+      "icon": {
+        "id": "the_cataclysm:essense_of_the_cataclysm",
+        "Count": 1
+      },
+      "prerequisites": [
+        "77dbc3b2-b943-451c-80fa-009be47fdd05"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 20
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6b67d36c-65b5-4478-9d83-2bc378345cb4",
+      "name": {
+        "text": "末影傀儡",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "末影傀儡和末影守卫一起待在他们的工厂里，",
+        "isTranslationKey": false
+      },
+      "x": 218,
+      "y": 94,
+      "icon": {
+        "id": "cataclysm:void_core",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "cataclysm:void_core",
+                "Count": 1
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0ead7c9b-549b-45e6-9045-c03961153bdc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 2,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2341a2f8-d4c0-443d-a452-c808309bbbcc",
+      "name": {
+        "text": "末影守卫",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "多年未见，不知道他有无长进？",
+        "isTranslationKey": false
+      },
+      "x": 201,
+      "y": 123,
+      "icon": {
+        "id": "cataclysm:gauntlet_of_guard",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "cataclysm:gauntlet_of_guard",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0ead7c9b-549b-45e6-9045-c03961153bdc",
+        "6b67d36c-65b5-4478-9d83-2bc378345cb4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 16
+        },
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "06e1b8a3-c270-40ed-9409-2b3af864ba25",
+      "name": {
+        "text": "寻找悚陵",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "悚陵是一群强大的亡灵生物入侵前哨站。\n或许你脑中想起了某个小小的黑色火柴盒。\n那太小了，存不了多少兵。\n在你的探险家指南针里搜索\niceandfire/dread citadel\n以找到真正的悚陵吧.",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 157,
+      "icon": {
+        "id": "iceandfire:dread_portal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "iceandfire:manuscript",
+                "Count": 1,
+                "tag": "{display:{Lore:[\u0027{\"text\":\"你成功的找到了悚陵\"}\u0027],Name:\u0027{\"text\":\"惊悚凭证\"}\u0027}}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2b12e348-472e-42bd-9fa0-46bf9d0dc20a",
+        "2341a2f8-d4c0-443d-a452-c808309bbbcc",
+        "0e0ee1bf-365c-459c-b9dc-38de04385f58",
+        "81888905-d160-4588-82ae-37a1da94dde4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "iceandfire:dread_key",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:epic_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "679775df-38f4-4956-9910-7a56fa634f21",
+      "name": {
+        "text": "惊骇恶魂",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "在惊骇恶魂地牢，找到惊骇恶魂祭坛并对之使用下界之星即可召唤惊骇恶魂。",
+        "isTranslationKey": false
+      },
+      "x": 85,
+      "y": 95,
+      "icon": {
+        "id": "stalwart_dungeons:awful_dungeon_spawner",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "stalwart_dungeons:awful_gun",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "174e0fba-16bc-4b29-beda-ab66aff4f73e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "stalwart_dungeons:awful_dungeon_spawner",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 10
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2b12e348-472e-42bd-9fa0-46bf9d0dc20a",
+      "name": {
+        "text": "下界合金巨兽",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "在灵魂锻造厂找到下界合金巨兽",
+        "isTranslationKey": false
+      },
+      "x": 113,
+      "y": 121,
+      "icon": {
+        "id": "cataclysm:infernal_forge",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "cataclysm:infernal_forge",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "679775df-38f4-4956-9910-7a56fa634f21"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 10
+        },
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 10,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "endrem:evil_eye",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "endrem:lost_eye",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "endrem:rogue_eye",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "endrem:cursed_eye",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2213e08c-b5cd-4ac6-99bb-172e92173d65",
+      "name": {
+        "text": "纨绔子弟",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "这条龙是族长次子，但因养尊处优早已失去战斗能力。\n可能正是因为这肥胖的傻龙太过废材，洞穴龙被灭族时他逃过一劫。\n不过逃亡时他身上带着大量钱财，是时候找他打打秋风了。",
+        "isTranslationKey": false
+      },
+      "x": 58,
+      "y": 61,
+      "icon": {
+        "id": "dragone_aventure:ecaillededragon",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "unsheathe_r:netheritestairs",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "useless_sword:gold_iron_alloy_ingot",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "unsheathe_r:luminous_gold_block",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "174e0fba-16bc-4b29-beda-ab66aff4f73e"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/summon dragone_aventure:dragon ~ ~ ~"
+      ]
+    },
+    {
+      "uuid": "0e0ee1bf-365c-459c-b9dc-38de04385f58",
+      "name": {
+        "text": "焰魔",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "通过用燃烧的灰烬右键点击烈焰竞技场顶层中心的烈焰祭坛召唤。",
+        "isTranslationKey": false
+      },
+      "x": 81,
+      "y": 132,
+      "icon": {
+        "id": "cataclysm:ignitium_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "cataclysm:ignitium_ingot",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "174e0fba-16bc-4b29-beda-ab66aff4f73e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 64
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "30dc06e9-27e7-4eb7-9ad9-ff5b3c0de15c",
+      "name": {
+        "text": "灾变之地",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "使用符文右击城堡顶部的法阵召唤国王",
+        "isTranslationKey": false
+      },
+      "x": 159,
+      "y": 43,
+      "icon": {
+        "id": "the_cataclysm:cursed_rune",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "the_cataclysm:cursed_rune",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "58941c87-2373-4e8a-8ab6-55d243105efb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 30
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "174e0fba-16bc-4b29-beda-ab66aff4f73e",
+      "name": {
+        "text": "凋灵",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "终于见到这个家伙的本尊了",
+        "isTranslationKey": false
+      },
+      "x": 34,
+      "y": 93,
+      "icon": {
+        "id": "endrem:wither_eye",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "endrem:wither_eye",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aa2076ca-6f54-43e9-ae25-2b37f72db147"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:greater_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "81888905-d160-4588-82ae-37a1da94dde4",
+      "name": {
+        "text": "七罪",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "食用“龙肉佳肴”即可在一定时间后召唤七罪BOSS之一，而若连续食用，则立即召唤。",
+        "isTranslationKey": false
+      },
+      "x": 159,
+      "y": 78,
+      "icon": {
+        "id": "sons_of_sins:rotten_apple",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "sons_of_sins:rotten_apple",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "sons_of_sins:butcher_carcass",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "sons_of_sins:cursed_head",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "sons_of_sins:iron_motor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "sons_of_sins:prowler_s_hand",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "sons_of_sins:peaceful_bed",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "sons_of_sins:wistiver_jaws",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "sons_of_sins:bloody_puddle",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "30dc06e9-27e7-4eb7-9ad9-ff5b3c0de15c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:epic_bag",
+          "Count": 1
+        },
+        {
+          "id": "create:experience_block",
+          "Count": 127
+        },
+        {
+          "id": "create:experience_block",
+          "Count": 127
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0ead7c9b-549b-45e6-9045-c03961153bdc",
+      "name": {
+        "text": "末影龙",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "她已经疯了，不过只要你肯对话，她依旧会传授你飞行的能力。",
+        "isTranslationKey": false
+      },
+      "x": 259,
+      "y": 95,
+      "icon": {
+        "id": "minecraft:dragon_egg",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:dragon_egg",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5847f197-36ed-4d2a-b19a-199e45d0a296"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 32
+        },
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 2,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5343eff3-a788-4f02-8a36-f4be373dc6b1",
+      "name": {
+        "text": "傻龙",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "曾经有个挑战者天天找你单挑，于是你直接把它揍成了猪头，看看这么多年他的头有没有涨回来。\n他出没于下界各处。",
+        "isTranslationKey": false
+      },
+      "x": 54,
+      "y": 133,
+      "icon": {
+        "id": "nether_dragon:nether_dragon_breath",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "nether_dragon:nether_dragon_breath",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "nether_dragon:nether_dragon_horn",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "174e0fba-16bc-4b29-beda-ab66aff4f73e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "twilightforest:charm_of_life_2",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 10
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/summon nether_dragon:nether_dragon ~ ~ ~"
+      ]
+    }
+  ],
+  "reputationBar": []
+}

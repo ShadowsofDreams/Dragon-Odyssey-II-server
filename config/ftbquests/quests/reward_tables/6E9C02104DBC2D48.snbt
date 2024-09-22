@@ -1,0 +1,225 @@
+{
+	id: "6E9C02104DBC2D48"
+	order_index: 34
+	title: "基岩合金"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "tconstruct:bow_grip"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:bow_limb"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tinkers_ingenuity:mouthpiece"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:pick_head"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:round_plate"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:small_axe_head"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:small_blade"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:tough_handle"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tinkers_ingenuity:gscore"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:tool_binding"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:tool_handle"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{ item: "tinkers_ingenuity:bedrock_alloy_ingot", count: 2, random_bonus: 3 }
+		{
+			item: {
+				id: "tinkers_ingenuity:tube"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tinkers_thinking:narrow_blade"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tinkerscalibration:bent_blade"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:broad_blade"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:hammer_head"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:large_plate"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tinker_rapier:slender_blade"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tinkers_ingenuity:sign_plate"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tinkers_ingenuity:head_plate"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tinkers_ingenuity:legs_plate"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tinkers_ingenuity:body_plate"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tinkers_ingenuity:feet_plate"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:broad_axe_head"
+				Count: 1b
+				tag: {
+					Material: "tinkers_ingenuity:bedrock_alloy_material"
+				}
+			}
+		}
+	]
+}

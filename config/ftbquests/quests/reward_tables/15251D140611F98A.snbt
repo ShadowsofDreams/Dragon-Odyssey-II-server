@@ -1,0 +1,11 @@
+{
+	id: "15251D140611F98A"
+	order_index: 0
+	title: "终极"
+	loot_size: 1
+	rewards: [
+		{ item: "hardcorequesting:greater_bag", count: 64 }
+		{ item: "minecraft:enchanted_golden_apple", count: 5 }
+		{ item: "twilightforest:charm_of_life_2", count: 3 }
+	]
+}

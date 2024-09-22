@@ -1,0 +1,224 @@
+{
+	id: "2118D7BC890EB157"
+	order_index: 4
+	title: "吞咀"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:mending"
+					}]
+				}
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 9s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+			weight: 100
+		}
+		{ item: "hanew_village_mod:hanewcoin", random_bonus: 64, weight: 200 }
+		{ item: "twilightforest:charm_of_life_1", weight: 100 }
+		{ item: "enigmaticlegacy:mending_mixture", random_bonus: 4, weight: 100 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 10s
+						id: "enigmaticlegacy:wrath"
+					}]
+				}
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s
+						id: "minecraft:depth_strider"
+					}]
+				}
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 10s
+						id: "enigmaticlegacy:slayer"
+					}]
+				}
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "apotheosis:berserkers_fury"
+					}]
+				}
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 8s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			weight: 100
+		}
+		{ item: "undergarden:forgotten_ingot", random_bonus: 3, weight: 100 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:fire_protection"
+					}]
+				}
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 9s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+			weight: 100
+		}
+		{ item: "minecraft:enchanted_golden_apple", weight: 100 }
+		{ item: "upgradednetherite_items:enchanted_gold_upgraded_netherite_apple", weight: 100 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s
+						id: "enigmaticlegacy:slayer"
+					}]
+				}
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "enchantwithmob:mob_enchant_book"
+				Count: 1b
+				tag: {
+					Damage: 0
+					StoredMobEnchants: [{
+						MobEnchant: "enchantwithmob:protection"
+						EnchantLevel: 4
+					}]
+				}
+			}
+			weight: 100
+		}
+		{ item: "hardcorequesting:good_bag", random_bonus: 10, weight: 100 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "apotheosis:berserkers_fury"
+					}]
+				}
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "apotheosis:scavenger"
+					}]
+				}
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 10s
+						id: "the_forgotten_dimensions:ice_aspect"
+					}]
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 10s
+						id: "the_forgotten_dimensions:electric_aspect"
+					}]
+				}
+			}
+			weight: 10
+		}
+	]
+}

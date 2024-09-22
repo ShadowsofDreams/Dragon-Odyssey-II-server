@@ -1,0 +1,155 @@
+{
+	id: "67104B51CFBB895D"
+	order_index: 36
+	title: "护甲"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:yellow_shulker_box"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Slot: 0b
+								id: "minecraft:chainmail_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 1b
+								id: "minecraft:chainmail_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 2b
+								id: "minecraft:chainmail_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 3b
+								id: "minecraft:chainmail_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+						id: "minecraft:shulker_box"
+						CustomName: "{\"text\":\"轻甲\"}"
+					}
+					display: {
+						Name: "{\"text\":\"轻甲\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:shulker_box"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Slot: 0b
+								id: "minecraft:leather_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 1b
+								id: "minecraft:leather_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 2b
+								id: "minecraft:leather_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 3b
+								id: "minecraft:leather_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+						id: "minecraft:shulker_box"
+						CustomName: "{\"text\":\"布甲\"}"
+					}
+					display: {
+						Name: "{\"text\":\"布甲\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:pink_shulker_box"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Slot: 0b
+								id: "minecraft:iron_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 1b
+								id: "minecraft:iron_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 2b
+								id: "minecraft:iron_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 3b
+								id: "minecraft:iron_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+						id: "minecraft:shulker_box"
+						CustomName: "{\"text\":\"重甲\"}"
+					}
+					display: {
+						Name: "{\"text\":\"重甲\"}"
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,847 @@
+{
+	id: "451D5A690946A4D6"
+	order_index: 26
+	title: "低级饰品"
+	icon: "celestial_artifacts:heirloom_necklace"
+	loot_size: 1
+	rewards: [
+		{ item: "celestial_artifacts:titan_gloves", weight: 10 }
+		{ item: "celestial_artifacts:blood_knuckles" }
+		{ item: "celestial_artifacts:strange_knuckles", weight: 10 }
+		{ item: "celestial_artifacts:lucky_bracelet", weight: 10 }
+		{ item: "celestial_artifacts:life_bracelet", weight: 10 }
+		{ item: "celestial_artifacts:star_diamond_bracelet", weight: 10 }
+		{ item: "celestial_artifacts:red_ruby_bracelet", weight: 10 }
+		{ item: "celestial_artifacts:precious_bracelet", weight: 10 }
+		{ item: "celestial_artifacts:hidden_bracelet", weight: 10 }
+		{ item: "celestial_artifacts:gold_ring", weight: 10 }
+		{ item: "celestial_artifacts:amethyst_ring", weight: 10 }
+		{ item: "celestial_artifacts:diamond_ring", weight: 10 }
+		{ item: "celestial_artifacts:netherite_ring", weight: 10 }
+		{ item: "celestial_artifacts:thunder_ring", weight: 10 }
+		{ item: "celestial_artifacts:ring_of_life", weight: 10 }
+		{ item: "celestial_artifacts:freeze_ring", weight: 10 }
+		{ item: "celestial_artifacts:undead_charm", weight: 10 }
+		{ item: "celestial_artifacts:chaotic_brain", weight: 10 }
+		{ item: "celestial_artifacts:sands_seal", weight: 10 }
+		{ item: "celestial_artifacts:knight_shelter", weight: 10 }
+		{ item: "celestial_artifacts:twisted_badge", weight: 10 }
+		{ item: "celestial_artifacts:heart_of_revenge", weight: 10 }
+		{ item: "celestial_artifacts:twisted_heart", weight: 10 }
+		{ item: "celestial_artifacts:salvation_badge", weight: 10 }
+		{ item: "celestial_artifacts:gluttony_badge", weight: 10 }
+		{ item: "celestial_artifacts:destroyer_badge", weight: 10 }
+		{ item: "celestial_artifacts:greedy_heart", weight: 10 }
+		{ item: "celestial_artifacts:magic_horseshoe", weight: 10 }
+		{ item: "celestial_artifacts:sacrificial_object", weight: 10 }
+		{ item: "celestial_artifacts:cursed_talisman", weight: 10 }
+		{ item: "celestial_artifacts:cursed_protector", weight: 10 }
+		{ item: "celestial_artifacts:sea_god_covenant", weight: 10 }
+		{ item: "celestial_artifacts:traveler_scroll", weight: 10 }
+		{ item: "celestial_artifacts:power_gloves", weight: 10 }
+		{
+			item: {
+				id: "relics:drowned_belt"
+				Count: 1b
+				tag: {
+					abilities: {
+						slots: {
+							stats: {
+								talisman: 0.525d
+							}
+							points: 0
+						}
+						pressure: {
+							stats: {
+								damage: 1.331d
+							}
+							points: 0
+						}
+						riptide: {
+							stats: {
+								cooldown: 8.904d
+							}
+							points: 0
+						}
+						anchor: {
+							stats: {
+								sinking: 4.53d
+								slowness: 0.336d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "relics:aqua_walker"
+				Count: 1b
+				tag: {
+					abilities: {
+						walking: {
+							stats: {
+								time: 36.017d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "relics:midnight_robe"
+				Count: 1b
+				tag: {
+					abilities: {
+						backstab: {
+							stats: {
+								distance: 16.431d
+								damage: 1.475d
+							}
+							points: 0
+						}
+						vanish: {
+							stats: {
+								light: 1.201d
+								speed: 0.304d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "relics:chorus_inhibitor"
+				Count: 1b
+				tag: {
+					abilities: {
+						blink: {
+							stats: {
+								distance: 18.302d
+								cooldown: 9.468d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "relics:arrow_quiver"
+				Count: 1b
+				tag: {
+					abilities: {
+						receptacle: {
+							stats: {
+								slots: 2.682d
+							}
+							points: 0
+						}
+						agility: {
+							stats: {
+								modifier: 1.0d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "relics:holy_locket"
+				Count: 1b
+				tag: {
+					abilities: {
+						steal: {
+							stats: {
+								radius: 5.379d
+								amount: 0.185d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "relics:enders_hand"
+				Count: 1b
+				tag: {
+					abilities: {
+						swap: {
+							stats: {
+								distance: 24.925d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "relics:elytra_booster"
+				Count: 1b
+				tag: {
+					abilities: {
+						boost: {
+							stats: {
+								speed: 1.367d
+								capacity: 58.248d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "relics:magic_mirror"
+				Count: 1b
+				tag: {
+					abilities: {
+						teleport: {
+							stats: {
+								distance: 633.386d
+								cooldown: 82.591d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{ item: "celestial_artifacts:scarlet_bracelet" }
+		{ item: "celestial_artifacts:star_necklace", weight: 10 }
+		{ item: "celestial_artifacts:precious_diamond_necklace", weight: 10 }
+		{ item: "celestial_artifacts:fang_necklace", weight: 10 }
+		{ item: "celestial_artifacts:gallop_necklace", weight: 10 }
+		{ item: "celestial_artifacts:emerald_necklace", weight: 10 }
+		{ item: "celestial_artifacts:red_heart_necklace", weight: 10 }
+		{ item: "celestial_artifacts:ender_protector_necklace", weight: 10 }
+		{ item: "celestial_artifacts:evil_eye", weight: 10 }
+		{ item: "celestial_artifacts:magic_arrow_bag", weight: 10 }
+		{ item: "celestial_artifacts:flame_arrow_bag", weight: 10 }
+		{ item: "celestial_artifacts:iron_scabbard", weight: 10 }
+		{ item: "celestial_artifacts:leech_scabbard", weight: 10 }
+		{ item: "celestial_artifacts:twisted_scabbard", weight: 10 }
+		{ item: "celestial_artifacts:guardian_eye", weight: 10 }
+		{
+			item: {
+				id: "relics:reflection_necklace"
+				Count: 1b
+				tag: {
+					abilities: {
+						explode: {
+							stats: {
+								capacity: 28.899d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "relics:magma_walker"
+				Count: 1b
+				tag: {
+					abilities: {
+						pace: {
+							stats: {
+								heat: 25.742d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "relics:spatial_sign"
+				Count: 1b
+				tag: {
+					abilities: {
+						seal: {
+							stats: {
+								duration: 9.801d
+								speed: 1.428d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{ item: "celestial_artifacts:backtrack_mirror", weight: 10 }
+		{ item: "celestial_artifacts:purified_powder", weight: 10 }
+		{
+			item: {
+				id: "relics:bastion_ring"
+				Count: 1b
+				tag: {
+					abilities: {
+						trade: {
+							stats: {
+								rolls: 1.608d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "relics:ice_skates"
+				Count: 1b
+				tag: {
+					abilities: {
+						skating: {
+							stats: {
+								duration: 28.092d
+								speed: 0.025d
+							}
+							points: 0
+						}
+						ram: {
+							stats: {
+								damage: 0.159d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "relics:rage_glove"
+				Count: 1b
+				tag: {
+					abilities: {
+						rage: {
+							stats: {
+								attack_speed: 0.008d
+								incoming_damage: 0.02d
+								dealt_damage: 0.033d
+								movement_speed: 0.016d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "relics:hunter_belt"
+				Count: 1b
+				tag: {
+					abilities: {
+						slots: {
+							stats: {
+								talisman: 1.904d
+							}
+							points: 0
+						}
+						training: {
+							stats: {
+								damage: 1.843d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "relics:jellyfish_necklace"
+				Count: 1b
+				tag: {
+					abilities: {
+						paralysis: {
+							stats: {
+								duration: 0.709d
+							}
+							points: 0
+						}
+						shock: {
+							stats: {
+								damage: 1.344d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{ item: "enigmaticlegacy:unwitnessed_amulet", weight: 10 }
+		{ item: "enigmaticlegacy:magma_heart", weight: 10 }
+		{ item: "enigmaticlegacy:ocean_stone", weight: 10 }
+		{ item: "enigmaticlegacy:golem_heart", weight: 10 }
+		{ item: "twilightforest:charm_of_life_1", random_bonus: 6, weight: 10 }
+		{ item: "twilightforest:charm_of_life_2", random_bonus: 5, weight: 10 }
+		{ item: "meetyourfight:spectres_eye", weight: 10 }
+		{ item: "meetyourfight:spectres_grasp", weight: 10 }
+		{ item: "meetyourfight:bone_raker", weight: 10 }
+		{
+			item: {
+				id: "enigmaticlegacy:mining_charm"
+				Count: 1b
+				tag: { }
+			}
+			weight: 10
+		}
+		{ item: "enigmaticlegacy:monster_charm", weight: 10 }
+		{ item: "enigmaticlegacy:super_magnet_ring", weight: 10 }
+		{ item: "enigmaticlegacy:magnet_ring", weight: 10 }
+		{ item: "enigmaticlegacy:heaven_scroll", weight: 10 }
+		{ item: "enigmaticlegacy:escape_scroll", weight: 10 }
+		{
+			item: {
+				id: "enigmaticlegacy:xp_scroll"
+				Count: 1b
+				tag: { }
+			}
+			weight: 10
+		}
+		{ item: "enigmaticlegacy:iron_ring", weight: 10 }
+		{ item: "enigmaticlegacy:ender_ring", weight: 10 }
+		{
+			item: {
+				id: "enigmaticlegacy:insignia"
+				Count: 1b
+				tag: { }
+			}
+			weight: 10
+		}
+		{ item: "enigmaticlegacy:gem_ring", weight: 10 }
+		{ item: "enigmaticlegacy:heaven_scroll", weight: 10 }
+		{ item: "enigmaticlegacy:mega_sponge", weight: 10 }
+		{ item: "artifacts:aqua_dashers", weight: 10 }
+		{ item: "artifacts:whoopee_cushion", weight: 10 }
+		{ item: "artifacts:bunny_hoppers", weight: 10 }
+		{ item: "artifacts:kitty_slippers", weight: 10 }
+		{ item: "artifacts:running_shoes", weight: 10 }
+		{ item: "artifacts:steadfast_spikes", weight: 10 }
+		{ item: "artifacts:flippers", weight: 10 }
+		{ item: "potion_rings_rebooted:potion_ring_of_jump_boost", weight: 10 }
+		{ item: "potion_rings_rebooted:potion_ring_of_speed", weight: 10 }
+		{ item: "artifacts:plastic_drinking_hat", weight: 10 }
+		{ item: "artifacts:novelty_drinking_hat", weight: 10 }
+		{ item: "artifacts:snorkel", weight: 10 }
+		{ item: "artifacts:night_vision_goggles", weight: 10 }
+		{ item: "artifacts:villager_hat", weight: 10 }
+		{ item: "artifacts:superstitious_hat", weight: 10 }
+		{ item: "artifacts:lucky_scarf", weight: 10 }
+		{ item: "artifacts:scarf_of_invisibility", weight: 10 }
+		{ item: "artifacts:cross_necklace", weight: 10 }
+		{ item: "artifacts:universal_attractor", weight: 10 }
+		{ item: "artifacts:antidote_vessel", weight: 10 }
+		{ item: "artifacts:obsidian_skull", weight: 10 }
+		{ item: "artifacts:cloud_in_a_bottle", weight: 10 }
+		{ item: "artifacts:charm_of_sinking", weight: 10 }
+		{ item: "artifacts:flame_pendant", weight: 10 }
+		{ item: "artifacts:thorn_pendant", weight: 10 }
+		{ item: "artifacts:thorn_pendant", weight: 10 }
+		{ item: "artifacts:shock_pendant", weight: 10 }
+		{ item: "artifacts:panic_necklace", weight: 10 }
+		{ item: "artifacts:golden_hook", weight: 10 }
+		{ item: "artifacts:vampiric_glove", weight: 10 }
+		{ item: "artifacts:pocket_piston", weight: 10 }
+		{ item: "artifacts:fire_gauntlet", weight: 10 }
+		{ item: "artifacts:power_glove", weight: 10 }
+		{ item: "artifacts:feral_claws", weight: 10 }
+		{ item: "artifacts:digging_claws", weight: 10 }
+		{ item: "artifacts:helium_flamingo", weight: 10 }
+		{ item: "artifacts:crystal_heart", weight: 10 }
+		{ item: "potion_rings_rebooted:potion_ring_of_regeneration", weight: 10 }
+		{ item: "potion_rings_rebooted:potion_ring_of_strength", weight: 10 }
+		{ item: "potion_rings_rebooted:potion_ring_of_haste", weight: 10 }
+		{ item: "potion_rings_rebooted:potion_ring_of_resistance", weight: 10 }
+		{ item: "unusualend:wither_orb", weight: 10 }
+		{ item: "unusualend:shulker_orb", weight: 10 }
+		{ item: "unusualend:nether_orb", weight: 10 }
+		{ item: "unusualend:golem_orb", weight: 10 }
+		{
+			item: {
+				id: "copper_amulets:ocean_amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "copper_amulets:lucky_amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "copper_amulets:quartz_amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{ item: "copper_amulets:end_amulet", weight: 10 }
+		{
+			item: {
+				id: "copper_amulets:amethyst_amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "copper_amulets:netherite_amulety"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "copper_amulets:gold_amulet", weight: 10 }
+		{
+			item: {
+				id: "copper_amulets:iron_amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "copper_amulets:diamond_amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "copper_amulets:emerald_amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "copper_amulets:lapis_amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "copper_amulets:redstone_amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{ item: "enigmaticlegacy:angel_blessing" }
+		{ item: "upgradednetherite_items:netherite_totem" }
+		{ item: "upgradednetherite_items:corrupt_upgraded_netherite_totem" }
+		{ item: "upgradednetherite_items:ultimate_upgraded_netherite_totem" }
+		{ item: "upgradednetherite_items:gold_upgraded_netherite_totem" }
+		{ item: "upgradednetherite_items:fire_upgraded_netherite_totem" }
+		{ item: "upgradednetherite_items:ender_upgraded_netherite_totem" }
+		{ item: "upgradednetherite_items:water_upgraded_netherite_totem" }
+		{ item: "upgradednetherite_items:wither_upgraded_netherite_totem" }
+		{ item: "upgradednetherite_items:water_upgraded_netherite_totem" }
+		{ item: "upgradednetherite_items:poison_upgraded_netherite_totem" }
+		{ item: "upgradednetherite_items:feather_upgraded_netherite_totem" }
+		{ item: "upgradednetherite_items:phantom_upgraded_netherite_totem" }
+		{ item: "celestial_artifacts:sdftnw_fabric", weight: 8 }
+		{ item: "celestial_artifacts:titan_scabbard", weight: 8 }
+		{ item: "celestial_artifacts:nether_fire" }
+		{ item: "meetyourfight:ace_of_iron", weight: 8 }
+		{ item: "meetyourfight:caged_heart", weight: 8 }
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:long_night_vision"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:strong_leaping"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:long_leaping"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:long_fire_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:long_swiftness"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:strong_swiftness"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:long_water_breathing"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:strong_regeneration"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:strong_strength"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "apotheosis:long_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "apotheosis:strong_absorption"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "apotheosis:strong_haste"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "apotheosis:strong_knowledge"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "apotheosis:long_knowledge"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "unusualend:levitation"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "goblintraders:extended_night_vision"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "goblintraders:powerful_speed"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "goblintraders:extended_water_breathing"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "goblintraders:powerful_regeneration"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "goblintraders:powerful_strength"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "alexsmobs:long_poison_resistance"
+				}
+			}
+		}
+		{ item: "biomemakeover:enchanted_totem", weight: 10 }
+		{ item: "born_in_chaos_v1:death_totem", weight: 10 }
+		{ item: "enigmaticlegacy:eye_of_nebula" }
+		{ item: "enigmaticlegacy:angel_blessing" }
+	]
+}

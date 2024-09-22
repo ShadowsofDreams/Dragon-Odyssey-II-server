@@ -1,0 +1,25 @@
+{
+	id: "634E9112F70C0057"
+	order_index: 22
+	title: "健康餐"
+	loot_size: 1
+	rewards: [
+		{ item: "gothic:molerat_soup", count: 7, random_bonus: 7 }
+		{ item: "gothic:cheese", count: 5, random_bonus: 5 }
+		{ item: "gothic:blue_elder", count: 17, random_bonus: 17 }
+		{ item: "gothic:meadow_knotweed", count: 14, random_bonus: 14 }
+		{ item: "gothic:snapperweed", count: 9, random_bonus: 9 }
+		{ item: "gothic:bug_meat", count: 12, random_bonus: 12 }
+		{ item: "gothic:turnip", count: 14, random_bonus: 14 }
+		{ item: "gothic:meat", count: 12, random_bonus: 12 }
+		{ item: "gothic:lamb_sausage", count: 4, random_bonus: 4 }
+		{ item: "gothic:grape", count: 4, random_bonus: 4 }
+		{ item: "dragonsurvival:meat_wild_berries", count: 4, random_bonus: 4 }
+		{ item: "dragonsurvival:luminous_ointment", count: 4, random_bonus: 4 }
+		{ item: "dragonsurvival:smelly_meat_porridge", count: 6, random_bonus: 6 }
+		{ item: "dragonsurvival:sweet_sour_rabbit", count: 5, random_bonus: 5 }
+		{ item: "dragonsurvival:meat_chorus_mix", count: 4, random_bonus: 4 }
+		{ item: "dragonsurvival:diamond_chorus", count: 4, random_bonus: 4 }
+		{ item: "gothic:stew", count: 4, random_bonus: 4 }
+	]
+}

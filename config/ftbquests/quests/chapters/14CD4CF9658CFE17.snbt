@@ -1,0 +1,913 @@
+{
+	id: "14CD4CF9658CFE17"
+	group: ""
+	order_index: 1
+	filename: "14CD4CF9658CFE17"
+	title: "装点龙巢"
+	icon: "dragonsurvival:forest_source_of_magic"
+	subtitle: ["建筑、储存、附魔、以及一些有用的工作方块"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 13.5d
+			y: 0.0d
+			width: 10.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "blackaures_paintings:textures/p13.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 15.0d
+			y: 5.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "rainbowcompound:textures/item/shadow_ring.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "我们需要更多的箱子！"
+			x: 0.5d
+			y: -0.5d
+			subtitle: "一切储存升级由此开始"
+			description: ["    你会为你的仓库选择哪种路线呢，精妙存储？简单存储网络？还是简单粗暴板条箱？亦或者，你会把他们组合起来？（真的吗？）"]
+			id: "359A99F9E33ACE14"
+			tasks: [{
+				id: "37562774452FBA3B"
+				type: "item"
+				title: "任意箱子"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "quark:boatable_chests"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0BD74838099D12C2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6C764F31FE3C2335"
+					type: "item"
+					item: "minecraft:white_dye"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "怎么能少了背包"
+			x: 2.0d
+			y: -2.0d
+			subtitle: "谁会拒绝一个这么好用的背包呢"
+			hide_dependency_lines: false
+			dependencies: ["359A99F9E33ACE14"]
+			id: "120A26664ADEAB69"
+			tasks: [{
+				id: "3ACC8721396D3987"
+				type: "item"
+				title: "背包们"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "curios:back"
+					}
+				}
+			}]
+			rewards: [{
+				id: "318E7EDACA1BC9DE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "包装带"
+			x: -1.0d
+			y: -0.5d
+			subtitle: "举巢搬迁！"
+			description: ["    使用包装带，可以让你的箱子变得像潜影盒一样，搬运箱子将会十分安全，里面的库存不再会洒落一地。"]
+			id: "06EF2B138F460D24"
+			tasks: [{
+				id: "673C66346154C680"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:packing_tape"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C0F5D3F0320C857"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:packing_tape"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["120A26664ADEAB69"]
+			id: "4C93FCD1A0B1F263"
+			tasks: [{
+				id: "57D03B08A0E185A3"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [
+				{
+					id: "371E9AB09B8CB068"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:crafting_upgrade"
+						Count: 1b
+						ForgeCaps: {
+							"polymorph:stack_recipe_data": { }
+						}
+					}
+				}
+				{
+					id: "2EAC34AB41270539"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["4C93FCD1A0B1F263"]
+			id: "5BD0043DFC8BA945"
+			tasks: [{
+				id: "42278FEE38D48AC0"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [
+				{
+					id: "1F8DE20E295BC462"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "70A3FE33793D4A74"
+					type: "item"
+					item: "hardcorequesting:good_bag"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			dependencies: ["5BD0043DFC8BA945"]
+			id: "08809CC2EFB00D5B"
+			tasks: [{
+				id: "254622F3B2CB9889"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [
+				{
+					id: "6D983A8718D88CD0"
+					type: "item"
+					item: "hardcorequesting:good_bag"
+				}
+				{
+					id: "659FDCD0C5A7056E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			dependencies: ["08809CC2EFB00D5B"]
+			id: "6D6A1C584FAC6F59"
+			tasks: [{
+				id: "44DDFE25B8655F60"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [
+				{
+					id: "0779E96CE78016A4"
+					type: "item"
+					item: "hardcorequesting:greater_bag"
+				}
+				{
+					id: "6754B68A8D593FE3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			title: "升级"
+			x: 0.5d
+			y: -2.0d
+			subtitle: "在精妙箱子和精妙背包的右边卡槽，可以放置这些有用的升级卡"
+			description: ["背包使用皮质，而箱子使用木质的"]
+			dependencies: ["120A26664ADEAB69"]
+			id: "1226F60C5BC53BDE"
+			tasks: [
+				{
+					id: "38BE78047F58E168"
+					type: "item"
+					item: "sophisticatedbackpacks:upgrade_base"
+				}
+				{
+					id: "30FBC5412DCC6305"
+					type: "item"
+					item: "sophisticatedstorage:upgrade_base"
+				}
+			]
+			rewards: [{
+				id: "19B8292B9505CACF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1045750679067165262L
+			}]
+		}
+		{
+			title: "精妙存储"
+			x: 2.0d
+			y: -0.5d
+			subtitle: "“更多箱子”的替代品？不，是升级款！"
+			description: [
+				"    将普通箱子与红石火把合成，即可得到对应材质的精妙箱子，也可以用木棍与红石火把合成一个升级器，用升级器右键普通箱子即可，但是精妙箱子不能合并为大箱子。精妙箱子可以用矿物进行升级(就像\"更多箱子\")，并且提升容量的同时还能增加升级卡槽位，可以在JEI中搜索“升级”来浏览各种升级卡。精妙箱子也可以在工作台中染色，将染料放置在箱子左侧格子时，改变箱子的[面板色]，右侧则改变[边框色]，上面则同时改变[面板色][边框色]，可以重复染色以达到混色效果。"
+				"    当然,要完成这个任务的话，需要用白色。"
+			]
+			dependencies: ["359A99F9E33ACE14"]
+			id: "31D7C069A932B81E"
+			tasks: [{
+				id: "5F8CA046277697B6"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:chest"
+					Count: 1b
+					tag: {
+						mainColor: 16383998
+						accentColor: 16383998
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1626EB0C4E8D37BC"
+					type: "item"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+				}
+				{
+					id: "41772ACD52DF8746"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			subtitle: "使用升级卡可以将普通的精妙储存箱子变为相应材质"
+			dependencies: ["31D7C069A932B81E"]
+			id: "3415DE70854DF062"
+			tasks: [{
+				id: "14FCCB3E5A0030C6"
+				type: "item"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+			}]
+			rewards: [{
+				id: "6E7D7DA71FF7874C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["3415DE70854DF062"]
+			id: "4CF31B13EF8472E8"
+			tasks: [{
+				id: "6B7A28B579AB7A68"
+				type: "item"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+			}]
+			rewards: [
+				{
+					id: "4FA172B7498E0DEA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3020F4DF778134FF"
+					type: "item"
+					item: "hardcorequesting:good_bag"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["4CF31B13EF8472E8"]
+			id: "4E9508A544B4151A"
+			tasks: [{
+				id: "13EEF1C97F933069"
+				type: "item"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+			}]
+			rewards: [
+				{
+					id: "15F08E1BF7D6EFD1"
+					type: "item"
+					item: "hardcorequesting:good_bag"
+				}
+				{
+					id: "56DDBBE2516FA472"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			dependencies: ["4E9508A544B4151A"]
+			id: "23B4DD174F1BD881"
+			tasks: [{
+				id: "276AD2749E255C53"
+				type: "item"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+			}]
+			rewards: [
+				{
+					id: "397078B4E4C5A304"
+					type: "item"
+					item: "hardcorequesting:greater_bag"
+				}
+				{
+					id: "340C4083A70969D2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "这是？抽屉"
+			x: -0.5d
+			y: -2.0d
+			subtitle: "不完全是，它比抽屉更强！"
+			description: ["    限类木桶可以像其他模组的抽屉一样使用，格子少，堆叠倍数高。存取物品的方法为，准星指着木桶正面时，左键拿取1个，shift左键拿取1组，右键存放1组，双击右键则会把背包内所有的[准星所指的物品]存放进这个格子。限类木桶可以点击侧面来打开(就像普通的木桶)，并且和精妙存储的其他方块一样可升级。"]
+			dependencies: ["359A99F9E33ACE14"]
+			id: "4AE54D73EF2C975F"
+			tasks: [{
+				id: "69F717A75F61E28F"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:limited_barrel_1"
+					Count: 1b
+					tag: {
+						mainColor: 16383998
+						accentColor: 16383998
+					}
+				}
+			}]
+			rewards: [{
+				id: "633DA4E30148A4D8"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:limited_netherite_barrel_4"
+					Count: 1b
+					tag: {
+						mainColor: 16701501
+						accentColor: 8439583
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			subtitle: "搭建你的抽屉墙！"
+			description: ["    你可以制作一个[存储工具]，然后使用右键，让[存储控制器]与[精妙存储的其他方块]产生链接，链接长度不能超过16(也就是说控制器与箱子之间的空格最多为14)，存储控制器会监视所有被链接的箱子(或木桶)中的库存。类似于限类木桶，你可以右键它存放整组物品，双击右键存放身上所有物品，但是这种快速存放只针对那些[在仓库中尚有存货的物品]，并且存储控制器会帮你把他们存放在[相同的物品]那里。[存储连接]也同样可以与存储控制器产生链接，它可以把自己所依附着的箱子纳入存储控制器的管辖（但这有什么用呢？）。"]
+			dependencies: ["4AE54D73EF2C975F"]
+			id: "5331BACEE2D14BD5"
+			tasks: [
+				{
+					id: "1E1C1A0DC3F0EDC8"
+					type: "item"
+					item: "sophisticatedstorage:controller"
+				}
+				{
+					id: "07702F7D4DC6B284"
+					type: "item"
+					item: "sophisticatedstorage:storage_link"
+				}
+			]
+			rewards: [{
+				id: "0C73AF5EB3B961E8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			subtitle: "就像人不能没有大脑！"
+			description: ["    具体请看[存储网络指导手册]！在你的存储网络中，接入一个存储网络控制器，这是必须的，否则网络无法运作。接入一个存储终端，你就可以访问你的网络了，所有接入此网络的库存都将一览无余。"]
+			dependencies: ["3C2086F7EE978FA4"]
+			id: "796F0EA8E82F0AFF"
+			tasks: [
+				{
+					id: "09509B416EE2E798"
+					type: "item"
+					item: "storagenetwork:master"
+				}
+				{
+					id: "75036ADC7BB6B54D"
+					type: "item"
+					item: "storagenetwork:inventory"
+				}
+			]
+			rewards: [{
+				id: "43121FA8F7002A4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			subtitle: "网络线缆"
+			description: ["    具体请看[存储网络指导手册]！这是基础款的线缆，可以用于最基本的连接，比高级线缆更便宜，但没有任何特殊功能(不能输入或输出)，一般把它作为高级线缆的延伸，连接各个高级线缆。"]
+			dependencies: ["359A99F9E33ACE14"]
+			id: "3C2086F7EE978FA4"
+			tasks: [{
+				id: "75CC2DA211FB1525"
+				type: "item"
+				item: "storagenetwork:kabel"
+			}]
+			rewards: [
+				{
+					id: "307A18FD94A777B3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6FBC38E2FD76698B"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "storagenetwork:network_book"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			subtitle: "工作台？很有用吧？"
+			description: ["和存储终端一样，但是它附带一个工作台！"]
+			dependencies: ["796F0EA8E82F0AFF"]
+			id: "32916781757E5E2D"
+			tasks: [{
+				id: "442138F6E7758562"
+				type: "item"
+				item: "storagenetwork:request"
+			}]
+			rewards: [{
+				id: "298F958C6B8C09CC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			subtitle: "我的容量，超乎你想象！"
+			description: ["    还在为仓库太小而烦恼吗？还在为东西太多而发愁吗？不用担心了！我们现在有超级板条箱！超高的性价比！简约的界面！还自带整理功能！试着把它加入你的储存网络，享受无穷无尽的存储空间吧！"]
+			size: 3.0d
+			id: "5379C6D8A82E47D7"
+			tasks: [{
+				id: "747344EEEC0B3A0C"
+				type: "item"
+				item: "quark:crate"
+			}]
+			rewards: [{
+				id: "510ABF251001013C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			subtitle: "超越极限！"
+			description: [
+				"    神化模组设计了一套新的附魔系统，附魔中有五个附魔属性，而原版游戏中只有一个附魔属性“附魔等级”。位阶与原版游戏中的附魔等级类似，量子化、阿卡那、校准与魔咒线索则是新增的。"
+				"●位阶（0~50）：决定附魔台能够附魔的最大附魔等级，最大附魔等级=位阶×2。"
+				"●量子化（15%~100%）：波动你的最终附魔等级，使最终附魔等级在 [2e(1-q), 2e(1+q)]（e 为位阶值，q 为量子化值）区间，如附魔台位阶为 50，量子化为 90% 时，使用第三行等级对任意可附魔物品进行附魔，最终附魔等级区间为 [10, 190]（级）。"
+				"●阿卡那（0%~100%）：决定罕见魔咒的出现概率，当阿卡那达到 100% 时，一些普通的魔咒（例如锋利）将变成“罕见魔咒”。"
+				"●校准（Rectification）：改变量子化波动影响的最终附魔等级最小值，等级的最小值为 1，修正后的量子化区间为“[-q(1-r), +q], 0<q≤1”（q 为量子化值，r 为校准值）。所以如果附魔台有 100% 的校准，最终量子化区间变成 [0, +q]。 "
+				"●魔咒线索（Enchanting Clue）：可以预览的魔咒数量，默认为 1。"
+				"▶当阿卡那达到 25% 必然出现 2 个以上魔咒，当阿卡那达到 75% 必然出现 3 个以上魔咒。"
+				"▶灌注附魔是玩家利用附魔台以附魔的形式制作新物品的方法，每次灌注附魔都要消耗 3 颗青金石和 3 级经验。玩家为了完成灌注附魔，除了需要正确的制作材料、足够的青金石和经验，位阶、量子化和阿卡那也要全部满足要求，缺一不可。"
+				"▶拆解宝典要在铁砧上用。"
+			]
+			id: "1C617F80CF88B3D9"
+			tasks: [{
+				id: "189EE124AFE58497"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+			rewards: [{
+				id: "4BBF4A264A85DB69"
+				type: "item"
+				item: "apotheosis:scrap_tome"
+			}]
+		}
+		{
+			title: "铁砧"
+			x: 0.5d
+			y: 3.0d
+			subtitle: "老朋友"
+			description: [
+				"    铁砧能干什么？给物品打上附魔、配合宝典拆下附魔、自身附魔后可以拆分和拆解附魔书。"
+				"    几乎全功能被祛魔编辑台覆盖了。"
+				"    用铁砧砸向宝石会变成一个宝石粉."
+			]
+			id: "201289EDF699D388"
+			tasks: [{
+				id: "4F3A6A8853824EEC"
+				type: "item"
+				title: "Any #minecraft:anvil"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:anvil"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D7282E83942657A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			subtitle: "史上最强大的祛魔台！"
+			description: [
+				"    此编辑台可以随意支配附魔，把你的装备或附魔书放进去后，它所有的附魔会显示在右边，然后你可以随意的把其中任何附魔取出或放入！此外，他还具备一些铁砧的功能，比如把多个相同附魔合并，但是和铁砧的规则不一样，比如铁砧上锋利2+锋利2=锋利3，在这里则是锋利2+锋利1=锋利3，2+1=3，很合理吧？"
+				"    当然，如果你把附魔书放在右边，则可以通过左边的格子来拆分或者拆解附魔。"
+			]
+			dependencies: [
+				"201289EDF699D388"
+				"1C617F80CF88B3D9"
+				"327D1AD0C12C500E"
+			]
+			id: "381004CF0B83EDC0"
+			tasks: [{
+				id: "75396B0E0D071026"
+				type: "item"
+				item: "editenchanting:enchantment_edit_table"
+			}]
+			rewards: [{
+				id: "6AF26C417E279EB6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			subtitle: "变废为宝！"
+			description: ["    把你的装备放入，右侧会显示其所有附魔，你可以选中一个进行升级，但是需要消耗[价值]，你可以把物品放在左下的格子里来提供[价值]，你可以用高价值的矿物，当然也可以用低价值的垃圾充数，任何东西都有价值！"]
+			dependencies: [
+				"1C617F80CF88B3D9"
+				"201289EDF699D388"
+				"327D1AD0C12C500E"
+			]
+			id: "544C7EC38B62564A"
+			tasks: [{
+				id: "7C644D6676BF1ADA"
+				type: "item"
+				item: "toolleveling:tool_leveling_table"
+			}]
+			rewards: [{
+				id: "69109FEC423B1269"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			subtitle: "重置你的命运！"
+			description: ["    类似于附魔台的用法，只不过把青金石换成了[宝石粉]，在右侧选项栏中为你的装备选择一套全新的词缀！注意，你在左下角放入的[珍宝材料]的品质，决定了右侧选项栏的词缀品质，并且3个选项所消耗的宝石粉、珍宝材料、经验等级都是不一样的。"]
+			dependencies: [
+				"327D1AD0C12C500E"
+				"201289EDF699D388"
+				"1C617F80CF88B3D9"
+			]
+			id: "352AB4281ACFE31B"
+			tasks: [{
+				id: "360EE2C801736893"
+				type: "item"
+				item: "apotheosis:reforging_table"
+			}]
+			rewards: [{
+				id: "73EA04E49047E432"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			subtitle: "变废为宝？不！变废为废，变宝为宝！"
+			description: ["    你可以把任何带有神化词缀的装备放在这里回收，并根据装备品质，返还你相应品质的[珍宝材料]，注意，返还材料的数量与装备剩余耐久有关，最好拿着满耐久的装备来！"]
+			dependencies: [
+				"327D1AD0C12C500E"
+				"1C617F80CF88B3D9"
+				"201289EDF699D388"
+			]
+			id: "3901D5BDF70200DA"
+			tasks: [{
+				id: "7641F9124279B4E2"
+				type: "item"
+				item: "apotheosis:salvaging_table"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			subtitle: "依旧是升级装备"
+			description: [
+				"    将带有空镶孔的装备和宝石分别放入锻造台左侧和中间的格子，从右侧格子取出镶嵌了宝石的装备。"
+				"    使用奥术提取剂可以取下所有已镶嵌的宝石，但装备会消失；使用灼热驱逐剂会销毁所有已镶嵌的宝石，但装备会得到保留。"
+			]
+			id: "327D1AD0C12C500E"
+			tasks: [{
+				id: "641D9DEBB6B21361"
+				type: "item"
+				item: "minecraft:smithing_table"
+			}]
+			rewards: [
+				{
+					id: "0BA6DC45DE61C0D6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7367205825D9FF9F"
+					type: "choice"
+					icon: "apotheosis:vial_of_extraction"
+					exclude_from_claim_all: true
+					table_id: 5853975240023699897L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			subtitle: "早该这样了"
+			description: ["    使用附有精准采集魔咒的镐破坏可掉落,可以使用物品来修改属性，在jei中查看效果。"]
+			id: "4CFE64FF825B87D1"
+			tasks: [{
+				id: "6F0D38A41A342DEE"
+				type: "item"
+				item: "minecraft:spawner"
+			}]
+			rewards: [{
+				id: "39E5EE5751554187"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			subtitle: "不止是储备附魔"
+			description: ["    玩家可以将附魔书存入其中转化为对应附魔经验，附魔经验用于通过魔咒图书馆将一本高等级附魔书拆分为多本低等级附魔书，或者将多本低等级附魔书合并为一本高等级附魔书。取出附魔书需要消耗对应的附魔经验，且随着取出等级的提高消耗呈指数增长。可以利用它合并多个附魔书并避免原本附魔机制的修改次数过多，这意味着一个顶级装备可以仅有1次修改次数而不是4次或5次，大大节省玩家的附魔经验消耗。该方块徒手就可以采集，也可以使用任意材质镐以加速采集，其他工具效率与徒手一致。"]
+			id: "35E74E11E3724993"
+			tasks: [{
+				id: "0318A11A2DB483C4"
+				type: "item"
+				item: "apotheosis:library"
+			}]
+			rewards: [{
+				id: "424F8E9A259482F0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.5d
+			y: 4.0d
+			subtitle: "容量更大而已"
+			description: ["    在单纯合并附魔这件事上，图书馆可以做的不亚于编辑台。"]
+			dependencies: ["35E74E11E3724993"]
+			id: "32A5FADA912EAFEA"
+			tasks: [{
+				id: "2EE187088A5B4D2A"
+				type: "item"
+				item: "apotheosis:ender_library"
+			}]
+		}
+		{
+			title: "简易村民"
+			x: 6.5d
+			y: 6.0d
+			subtitle: "这有刷铁机吔"
+			description: ["这些工作方块们可不一般"]
+			id: "16DC0699AE03D441"
+			tasks: [
+				{
+					id: "08C442BEF3BC9F1A"
+					type: "item"
+					item: "easy_villagers:iron_farm"
+				}
+				{
+					id: "27D1FF7622CBFB54"
+					type: "item"
+					item: "easy_villagers:trader"
+				}
+				{
+					id: "1885048986DBE5CF"
+					type: "item"
+					item: "easy_villagers:auto_trader"
+				}
+				{
+					id: "7A6D5D8CF3FD5BE2"
+					type: "item"
+					item: "easy_villagers:farmer"
+				}
+				{
+					id: "06750833CCC184C2"
+					type: "item"
+					item: "easy_villagers:breeder"
+				}
+				{
+					id: "2EA8522664C4ED77"
+					type: "item"
+					item: "easy_villagers:converter"
+				}
+				{
+					id: "1DBB15023348BF84"
+					type: "item"
+					item: "easy_villagers:incubator"
+				}
+			]
+			rewards: [{
+				id: "7DE91F3609A499C5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.0d
+			subtitle: "用于制箭"
+			id: "32B299820DDDD274"
+			tasks: [{
+				id: "0464552554056450"
+				type: "item"
+				item: "minecraft:fletching_table"
+			}]
+			rewards: [{
+				id: "1B2636C9FDE6F149"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 11.5d
+			y: 6.0d
+			subtitle: "    不光指路石之间可以相互传送，传送石也可以传送到任意指路石。"
+			dependency_requirement: "one_completed"
+			progression_mode: "flexible"
+			id: "5D5C6B1C221A97C3"
+			tasks: [
+				{
+					id: "070A243F7D1C8EAA"
+					type: "item"
+					item: "waystones:waystone"
+				}
+				{
+					id: "76318CBABBCC1CDD"
+					type: "item"
+					item: "waystones:mossy_waystone"
+				}
+				{
+					id: "46AECBDC1837ABCE"
+					type: "item"
+					item: "waystones:sandy_waystone"
+				}
+			]
+			rewards: [
+				{
+					id: "01FC13B80C06F3CA"
+					type: "item"
+					item: {
+						id: "waystones:warp_stone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2CB35D0E32B4BA95"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			subtitle: "升级你的饰品"
+			description: [
+				"    部分遗物饰品的能力并不能直观的查看，你可以通过拿着相应遗物右键这个方块来鉴定他的能力。"
+				"    除了查看饰品的能力外，这个方块也能用来查看饰品改如何升级以及升级、解锁饰品的新能力。"
+			]
+			size: 1.3d
+			id: "31F960BB3F5B7142"
+			tasks: [{
+				id: "70CEC26875B0E199"
+				type: "item"
+				item: "relics:researching_table"
+			}]
+			rewards: [{
+				id: "1DEC9195E6BED33E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "龙之信标"
+			x: -3.5d
+			y: 5.0d
+			description: ["将龙之信标放于“回忆之块”上，范围内的相应龙玩家将会免疫其弱点。"]
+			size: 1.3d
+			id: "67DCA51887F3A3EA"
+			tasks: [
+				{
+					id: "10ABD6E06A9EFFB9"
+					type: "item"
+					item: "dragonsurvival:dragon_beacon_fire"
+				}
+				{
+					id: "443EF54D658CB672"
+					type: "item"
+					item: "dragonsurvival:dragon_beacon_magic"
+				}
+				{
+					id: "2EE0E416253EFE61"
+					type: "item"
+					item: "dragonsurvival:dragon_beacon_peace"
+				}
+			]
+			rewards: [
+				{
+					id: "6177501794C12D5E"
+					type: "item"
+					item: "hanew_village_mod:hanewcoin"
+					count: 64
+				}
+				{
+					id: "39B9DE0D28F61910"
+					type: "item"
+					item: "create:builders_tea"
+					count: 16
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

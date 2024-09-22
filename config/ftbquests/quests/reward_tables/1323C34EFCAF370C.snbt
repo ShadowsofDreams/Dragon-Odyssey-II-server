@@ -1,0 +1,594 @@
+{
+	id: "1323C34EFCAF370C"
+	order_index: 13
+	title: "战利品箱"
+	icon: "hanew_village_mod:hanewcoin"
+	loot_size: 1
+	rewards: [
+		{ item: "hanew_village_mod:hanewcoin", random_bonus: 200, weight: 8754321 }
+		{ item: "hardcorequesting:good_bag", random_bonus: 3, weight: 8456000 }
+		{ item: "hanew_village_mod:hanewcoin", count: 32, random_bonus: 64, weight: 8580000 }
+		{ item: "hardcorequesting:greater_bag", weight: 1790000 }
+		{ item: "hardcorequesting:basic_bag", random_bonus: 5, weight: 500000 }
+		{ item: "hardcorequesting:epic_bag", weight: 100 }
+		{ item: "hardcorequesting:legendary_bag" }
+		{
+			xp_levels: 10
+			type: "xp_levels"
+			weight: 800000
+		}
+		{
+			xp_levels: 100
+			type: "xp_levels"
+			weight: 100
+		}
+		{
+			xp_levels: 50
+			type: "xp_levels"
+			weight: 500
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 2
+					purity: 2.0f
+					modifier: {
+						Operation: 2
+						attribute: "celestial_artifacts:arrow_strength"
+						UUID: [I;
+							167
+							84759
+							-1914639
+							-1528718
+						]
+						Amount: 2.5d
+						Name: "GemBonus_apotheosis:luck"
+					}
+				}
+			}
+			weight: 1000000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 2
+					purity: 1.2f
+					modifier: {
+						Operation: 0
+						attribute: "minecraft:generic.luck"
+						UUID: [I;
+							167996
+							84703
+							-191639
+							-1528518
+						]
+						Amount: 21.0d
+						Name: "GemBonus_apotheosis:luck"
+					}
+				}
+			}
+			weight: 1000000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 2
+					purity: 1.2f
+					modifier: {
+						Operation: 1
+						attribute: "celestial_artifacts:reply_effect"
+						UUID: [I;
+							167996
+							84753
+							-191639
+							-1528
+						]
+						Amount: 3.5d
+						Name: "GemBonus_apotheosis:luck"
+					}
+				}
+			}
+			weight: 1000000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 2
+					purity: 1.5f
+					modifier: {
+						Operation: 0
+						attribute: "obscure_api:regeneration"
+						UUID: [I;
+							16796
+							847503
+							-1914639
+							-1527755518
+						]
+						Amount: 50.0d
+						Name: "GemBonus_apotheosis:luck"
+					}
+				}
+			}
+			weight: 1000000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 4
+					purity: 3.7f
+					modifier: {
+						Operation: 2
+						attribute: "minecraft:generic.armor"
+						UUID: [I;
+							-104008432
+							19582090
+							-14374611
+							10994990
+						]
+						Amount: 0.5d
+						Name: "GemBonus_apotheosis:armor"
+					}
+				}
+			}
+			weight: 1300000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 6
+					purity: 1.11f
+					modifier: {
+						Operation: 0
+						attribute: "obscure_api:magic_damage"
+						UUID: [I;
+							9804
+							-37685
+							-11092098
+							1973149
+						]
+						Amount: 45.0d
+						Name: "GemBonus_apotheosis:attack_speed"
+					}
+				}
+			}
+			weight: 1000000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 3
+					purity: 1145.14f
+					modifier: {
+						Operation: 0
+						attribute: "minecraft:generic.attack_damage"
+						UUID: [I;
+							19016
+							-20630
+							-18533
+							1857030
+						]
+						Amount: 120.0d
+						Name: "GemBonus_apotheosis:attack_damage"
+					}
+				}
+			}
+			weight: 10000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 8
+					purity: 1.5f
+					modifier: {
+						Operation: 1
+						attribute: "obscure_api:dodge"
+						UUID: [I;
+							16790
+							-5744
+							-189499
+							123104
+						]
+						Amount: 0.2d
+						Name: "GemBonus_apotheosis:step_height"
+					}
+				}
+			}
+			weight: 1000000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 3
+					purity: 77777.77f
+					modifier: {
+						Operation: 2
+						attribute: "minecraft:generic.attack_damage"
+						UUID: [I;
+							190
+							-2067
+							-18833
+							18530
+						]
+						Amount: 1.0d
+						Name: "GemBonus_apotheosis:attack_damage"
+					}
+				}
+			}
+			weight: 5000
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "_"
+				}
+			}
+			random_bonus: 4
+			weight: 500000
+		}
+		{
+			item: {
+				id: "tinkerscalibration:mangobberslime_ingot"
+				Count: 1b
+				tag: {
+					display: {
+						Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+						Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+					}
+				}
+			}
+			random_bonus: 5
+			weight: 2222212
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 3
+					purity: 1.5f
+					modifier: {
+						Operation: 2
+						attribute: "minecraft:generic.attack_damage"
+						UUID: [I;
+							-1163306
+							-999986
+							-2190740
+							-98
+						]
+						Amount: 0.45d
+						Name: "GemBonus_apotheosis:attack_damage"
+					}
+				}
+			}
+			weight: 1000000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 3
+					purity: 2.5f
+					modifier: {
+						Operation: 2
+						attribute: "minecraft:generic.attack_damage"
+						UUID: [I;
+							-1106
+							-9986
+							-214640
+							-95358
+						]
+						Amount: 0.75d
+						Name: "GemBonus_apotheosis:attack_damage"
+					}
+				}
+			}
+			weight: 800000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 6
+					purity: 1.4285715f
+					modifier: {
+						Operation: 0
+						attribute: "apotheosis:fire_damage"
+						UUID: [I;
+							-1310
+							755
+							-14350
+							5929
+						]
+						Amount: 45.0d
+						Name: "GemBonus_apotheosis:fire_damage"
+					}
+				}
+			}
+			weight: 1000000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 8
+					purity: 1.8f
+					modifier: {
+						Operation: 0
+						attribute: "celestial_artifacts:damage_lightning"
+						UUID: [I;
+							53
+							13
+							-1304580
+							-2922
+						]
+						Amount: 62.0d
+						Name: "GemBonus_apotheosis:attack_range"
+					}
+				}
+			}
+			weight: 1000000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 2
+					purity: 327.67f
+					modifier: {
+						Operation: 1
+						attribute: "apotheosis:current_hp_damage"
+						UUID: [I;
+							-9141
+							83177
+							-1554
+							-374
+						]
+						Amount: 0.8d
+						Name: "GemBonus_apotheosis:luck"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 1
+					purity: 2.8181818f
+					modifier: {
+						Operation: 0
+						attribute: "apotheosis:cold_damage"
+						UUID: [I;
+							1970
+							-45150
+							-158
+							1581
+						]
+						Amount: 45.0d
+						Name: "GemBonus_apotheosis:cold_damage"
+					}
+				}
+			}
+			weight: 1000000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 4
+					purity: 2.67f
+					modifier: {
+						Operation: 1
+						attribute: "apotheosis:overheal"
+						UUID: [I;
+							-1619823
+							-1238
+							-1956971
+							-117522
+						]
+						Amount: 1.999999523162842d
+						Name: "GemBonus_apotheosis:overheal"
+					}
+				}
+			}
+			weight: 1000000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 4
+					purity: 6.66667f
+					modifier: {
+						Operation: 1
+						attribute: "obscure_api:parry"
+						UUID: [I;
+							-16
+							-12088
+							-19971
+							-119960
+						]
+						Amount: 0.25d
+						Name: "GemBonus_apotheosis:overheal"
+					}
+				}
+			}
+			weight: 1000000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 4
+					purity: 3.21f
+					modifier: {
+						Operation: 2
+						attribute: "minecraft:generic.max_health"
+						UUID: [I;
+							-1613
+							-1288
+							-19571
+							-1360
+						]
+						Amount: 0.4d
+						Name: "GemBonus_apotheosis:overheal"
+					}
+				}
+			}
+			weight: 1300000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 1
+					purity: 1.181818f
+					modifier: {
+						Operation: 1
+						attribute: "apotheosis:life_steal"
+						UUID: [I;
+							1970
+							-45150
+							-1524
+							1580
+						]
+						Amount: 0.6d
+						Name: "GemBonus_apotheosis:cold_damage"
+					}
+				}
+			}
+			weight: 900000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 5
+					purity: 3.6f
+					modifier: {
+						Operation: 1
+						attribute: "apotheosis:piercing"
+						UUID: [I;
+							48391
+							27415
+							-1596
+							5893
+						]
+						Amount: 0.5d
+						Name: "GemBonus_apotheosis:crit_chance"
+					}
+				}
+			}
+			weight: 1000000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 0
+					purity: 857.1429f
+					modifier: {
+						Operation: 1
+						attribute: "biomemakeover:projectile_resistance"
+						UUID: [I;
+							1199487153
+							-1541126192
+							-1477038614
+							2005480822
+						]
+						Amount: 2.500000023841858d
+						Name: "GemBonus_apotheosis:draw_speed"
+					}
+				}
+			}
+			weight: 1000000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 0
+					purity: 57.1429f
+					modifier: {
+						Operation: 1
+						attribute: "apotheosis:arrow_damage"
+						UUID: [I;
+							11153
+							-15492
+							-147614
+							222
+						]
+						Amount: 3.700000023841858d
+						Name: "GemBonus_apotheosis:draw_speed"
+					}
+				}
+			}
+			weight: 900000
+		}
+		{
+			item: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 4
+					purity: 2.353f
+					modifier: {
+						Operation: 0
+						attribute: "minecraft:generic.max_health"
+						UUID: [I;
+							-163
+							-14288
+							-149571
+							-1360
+						]
+						Amount: 243.0d
+						Name: "GemBonus_apotheosis:overheal"
+					}
+				}
+			}
+			weight: 1000000
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 3
+			passive: 0
+			monster: 125
+		}
+		color: 16777215
+		item_name: "财宝箱"
+		string_id: "_"
+	}
+}

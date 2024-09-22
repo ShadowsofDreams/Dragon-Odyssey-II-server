@@ -1,0 +1,26 @@
+{
+	id: "3529F560A1EDD428"
+	order_index: 35
+	title: "魔力与弹射物"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "endrem:magical_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:black_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+}

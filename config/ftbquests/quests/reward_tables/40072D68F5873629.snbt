@@ -1,0 +1,11 @@
+{
+	id: "40072D68F5873629"
+	order_index: 17
+	title: "发光水晶碎片"
+	icon: "apotheosis:rare_material"
+	loot_size: 1
+	rewards: [
+		{ item: "apotheosis:uncommon_material", count: 640, random_bonus: 320 }
+		{ item: "apotheosis:epic_material" }
+	]
+}

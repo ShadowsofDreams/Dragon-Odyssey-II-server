@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "275E0E9B2A2CE638", title: "商店" }
+		{ id: "6FAF4D7A9C6A8763", title: "图鉴" }
+		{ id: "6012FF85FF3686AC", title: "夜观天象(未完成)" }
+	]
+}

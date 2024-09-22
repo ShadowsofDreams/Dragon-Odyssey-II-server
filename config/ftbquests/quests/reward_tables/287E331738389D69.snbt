@@ -1,0 +1,18 @@
+{
+	id: "287E331738389D69"
+	order_index: 5
+	title: "食物"
+	loot_size: 1
+	rewards: [
+		{ item: "dragonsurvival:sea_dragon_treat" }
+		{ item: "dragonsurvival:forest_dragon_treat" }
+		{ item: "dragonsurvival:cave_dragon_treat" }
+		{ item: "dragonsurvival:meat_wild_berries", count: 10, random_bonus: 22 }
+		{ item: "dragonsurvival:charred_meat", count: 10, random_bonus: 22 }
+		{ item: "dragonsurvival:seasoned_fish", count: 10, random_bonus: 22 }
+		{ item: "dragonsurvival:luminous_ointment", random_bonus: 3 }
+		{ item: "dragonsurvival:frozen_raw_fish", random_bonus: 3 }
+		{ item: "dragonsurvival:charged_soup", random_bonus: 3 }
+		{ item: "minecraft:milk_bucket" }
+	]
+}

@@ -1,0 +1,1317 @@
+{
+	id: "7E693F289FE6131B"
+	group: "275E0E9B2A2CE638"
+	order_index: 1
+	filename: "7E693F289FE6131B"
+	title: "出售"
+	icon: "useless_sword:gold_iron_alloy_ingot"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -3.5d
+		y: -8.5d
+		width: 16.0d
+		height: 8.0d
+		rotation: 0.0d
+		image: "blackaures_paintings:textures/p34.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "食物商店"
+			icon: "meetyourfight:marshy_delight"
+			disable_toast: true
+			x: -6.0d
+			y: -2.5d
+			can_repeat: true
+			id: "5ED2F8513331883C"
+			tasks: [{
+				id: "58B41C0A04CF7038"
+				type: "item"
+				item: "hanew_village_mod:hanewcoin"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1892F4962EDBE266"
+				type: "choice"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 2917825783403158889L
+			}]
+		}
+		{
+			title: "压缩建材"
+			icon: "prefab:item_ton_of_timber"
+			disable_toast: true
+			x: -6.5d
+			y: -3.5d
+			can_repeat: true
+			id: "13316A2FED0D5734"
+			tasks: [{
+				id: "45AFD8ACF775B3F2"
+				type: "item"
+				item: "hanew_village_mod:hanewcoin"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "18EC448094947DE0"
+				type: "choice"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 7683661205863811428L
+			}]
+		}
+		{
+			title: "万象质料"
+			disable_toast: true
+			x: -5.5d
+			y: -3.5d
+			can_repeat: true
+			id: "2BE21D981C16E0EB"
+			tasks: [
+				{
+					id: "18D50949D433FB8F"
+					type: "item"
+					item: "hanew_village_mod:hanewcoin"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "5D630CE9F73EE017"
+					type: "item"
+					item: "undergarden:froststeel_ingot"
+					consume_items: true
+				}
+				{
+					id: "7FCD8E71D6FDE4F6"
+					type: "item"
+					title: "紫水晶"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:gems/amethyst"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "10937D1BDD4D0E2C"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "tinkerscalibration:mangobberslime_ingot"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+							Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "子弹"
+			icon: { id: "gunswithoutroses:iron_bullet", Count: 64b }
+			disable_toast: true
+			x: -2.5d
+			y: -1.5d
+			can_repeat: true
+			id: "5E60A50AC43E764E"
+			tasks: [{
+				id: "45438FD36303A282"
+				type: "item"
+				item: "hanew_village_mod:hanewcoin"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "19E8F15839E28EC0"
+				type: "choice"
+				icon: "gunswithoutroses:flint_bullet"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 4565556172761764686L
+			}]
+		}
+		{
+			title: "随机子弹"
+			icon: { id: "gunswithoutroses:blaze_bullet", Count: 64b }
+			disable_toast: true
+			x: -2.5d
+			y: -2.5d
+			can_repeat: true
+			id: "3FCD11318A931156"
+			tasks: [{
+				id: "2BE8B29E5A5B5D3D"
+				type: "item"
+				item: "hanew_village_mod:hanewcoin"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3B6DF6CC0308143E"
+				type: "random"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 4565556172761764686L
+			}]
+		}
+		{
+			title: "小型怪物传送门"
+			icon: "oceanworld:black_pearl"
+			disable_toast: true
+			x: -0.5d
+			y: -3.5d
+			subtitle: "可以抽取小型怪物传送门"
+			description: ["传送门建立的空间链接随时可能关闭，越大型的传送门越容易故障。"]
+			can_repeat: true
+			id: "451C030769D2FDAF"
+			tasks: [
+				{
+					id: "638CE039A7C67578"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					consume_items: true
+				}
+				{
+					id: "697D15C04A74ECB6"
+					type: "item"
+					item: "hanew_village_mod:hanewcoin"
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "65D81B0FE5643FCB"
+				type: "random"
+				title: "小形传送门"
+				icon: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "apotheosis:boss_gate_small"
+					}
+				}
+				team_reward: true
+				table_id: 7347813249377927700L
+			}]
+		}
+		{
+			title: "怪物传送门"
+			icon: {
+				id: "upgradednetherite_items:ender_upgraded_netherite_pearl"
+				Count: 1b
+				tag: { }
+			}
+			disable_toast: true
+			x: -0.5d
+			y: -2.5d
+			subtitle: "可以抽取怪物传送门"
+			description: ["传送门建立的空间链接随时可能关闭，越大型的传送门越容易故障。"]
+			can_repeat: true
+			id: "3F742550CE7AD216"
+			tasks: [
+				{
+					id: "60C33F0C02182048"
+					type: "item"
+					item: "minecraft:ender_eye"
+					consume_items: true
+				}
+				{
+					id: "3A26345D803A6261"
+					type: "item"
+					item: "hanew_village_mod:hanewcoin"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "7D3F90313CF062FB"
+					type: "item"
+					item: {
+						id: "tinkerscalibration:mangobberslime_ingot"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+								Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5CB04D5DB749D33C"
+				type: "random"
+				title: "怪物传送门"
+				icon: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:enderman_gate"
+					}
+				}
+				team_reward: true
+				table_id: 3500126549084608104L
+			}]
+		}
+		{
+			title: "大型怪物传送门"
+			icon: "unusualend:gilded_pearl"
+			disable_toast: true
+			x: -0.5d
+			y: -1.5d
+			subtitle: "可以抽取大型怪物传送门"
+			description: ["传送门建立的空间链接随时可能关闭，越大型的传送门越容易故障。"]
+			can_repeat: true
+			id: "50296A758D3CD3A8"
+			tasks: [
+				{
+					id: "0E0EE10059E6B893"
+					type: "item"
+					item: "minecraft:nether_star"
+					consume_items: true
+				}
+				{
+					id: "40CA3FFE2ABC63DE"
+					type: "item"
+					item: "useless_sword:gold_iron_alloy_ingot"
+					consume_items: true
+				}
+				{
+					id: "14484CFBAEC57E80"
+					type: "item"
+					item: {
+						id: "tinkerscalibration:mangobberslime_ingot"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+								Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1959B22FD3C1C645"
+				type: "random"
+				icon: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:blaze_gate_large"
+					}
+				}
+				team_reward: true
+				table_id: 4197713482067246620L
+			}]
+		}
+		{
+			title: "初级饰品转化"
+			disable_toast: true
+			x: -8.5d
+			y: -3.5d
+			can_repeat: true
+			id: "055C10AD20FD8EF8"
+			tasks: [
+				{
+					id: "65A445F064D6B00D"
+					type: "item"
+					item: "enigmaticlegacy:iron_ring"
+					consume_items: true
+				}
+				{
+					id: "776B3F7588C5E063"
+					type: "item"
+					item: {
+						id: "tinkerscalibration:mangobberslime_ingot"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+								Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "14075797C6712E16"
+				type: "random"
+				icon: {
+					id: "copper_amulets:ocean_amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				team_reward: true
+				table_id: 4980236170115327190L
+			}]
+		}
+		{
+			title: "初级武器转化"
+			disable_toast: true
+			x: -9.5d
+			y: -3.5d
+			can_repeat: true
+			id: "648C9D9AECC04770"
+			tasks: [
+				{
+					id: "5B22F492D73CCC40"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "758600BBD216240B"
+					type: "item"
+					item: {
+						id: "tinkerscalibration:mangobberslime_ingot"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+								Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "51F1368A5ED7AECB"
+				type: "random"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 1094562030945515290L
+			}]
+		}
+		{
+			title: "森林龙的十元店"
+			icon: "gothic:meat"
+			disable_toast: true
+			x: -7.0d
+			y: -1.0d
+			shape: "octagon"
+			dependencies: ["5ED2F8513331883C"]
+			can_repeat: true
+			id: "7C4185BC94CCBBC6"
+			tasks: [{
+				id: "12B64EFC5A850B7E"
+				type: "item"
+				item: "hanew_village_mod:hanewcoin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6D89D738B1BC04A6"
+				type: "random"
+				title: "今日早餐"
+				icon: "gothic:grape"
+				team_reward: true
+				table_id: 7155816368578494551L
+			}]
+		}
+		{
+			title: "海洋龙的饮料铺子"
+			icon: "unusualend:chorus_juice"
+			disable_toast: true
+			x: -6.0d
+			y: -1.0d
+			shape: "heart"
+			subtitle: "除直接喝水外，各种饮料都能为你补充水分"
+			dependencies: ["5ED2F8513331883C"]
+			can_repeat: true
+			id: "6B41265858C487FC"
+			tasks: [{
+				id: "090CEA8D1B6AD604"
+				type: "item"
+				item: "hanew_village_mod:hanewcoin"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "19BC09D27046CEE8"
+				type: "random"
+				title: "今日茶饮"
+				icon: "unusualend:chorus_tea"
+				team_reward: true
+				table_id: 1532140311816312867L
+			}]
+		}
+		{
+			title: "洞穴龙的矿坑食堂"
+			disable_toast: true
+			x: -5.0d
+			y: -1.0d
+			shape: "gear"
+			dependencies: ["5ED2F8513331883C"]
+			can_repeat: true
+			id: "6CA9233FFD910C50"
+			tasks: [{
+				id: "5EF4421E3DD45862"
+				type: "item"
+				item: "hanew_village_mod:hanewcoin"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "485EF7F76050336F"
+				type: "random"
+				title: "大碗牢饭"
+				icon: "gothic:meatbug_ragout"
+				team_reward: true
+				table_id: 2032549632347863167L
+			}]
+		}
+		{
+			title: "普通袋子"
+			icon: "hardcorequesting:basic_bag"
+			disable_toast: true
+			x: 1.5d
+			y: -3.5d
+			can_repeat: true
+			id: "4406B8CAB35A7969"
+			tasks: [
+				{
+					id: "31878E112C9983EA"
+					type: "item"
+					item: "apotheosis:common_material"
+					consume_items: true
+				}
+				{
+					id: "709FE2D311E163CF"
+					type: "item"
+					item: "hanew_village_mod:hanewcoin"
+					count: 32L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "7EA0CA06F28FB3CE"
+				type: "item"
+				team_reward: true
+				item: "hardcorequesting:basic_bag"
+			}]
+		}
+		{
+			title: "良好袋子"
+			icon: "hardcorequesting:good_bag"
+			disable_toast: true
+			x: 1.5d
+			y: -2.5d
+			can_repeat: true
+			id: "3BA8A269071235D9"
+			tasks: [
+				{
+					id: "601A94661FB710DB"
+					type: "item"
+					item: "apotheosis:uncommon_material"
+					consume_items: true
+				}
+				{
+					id: "47714381D9D5D25F"
+					type: "item"
+					item: "hanew_village_mod:hanewcoin"
+					count: 100L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0327C101C4FC3491"
+				type: "item"
+				team_reward: true
+				item: "hardcorequesting:good_bag"
+			}]
+		}
+		{
+			title: "上好袋子"
+			icon: "hardcorequesting:greater_bag"
+			disable_toast: true
+			x: 1.5d
+			y: -1.5d
+			can_repeat: true
+			id: "2384708102CE1582"
+			tasks: [
+				{
+					id: "64F686F3B74863FD"
+					type: "item"
+					item: "apotheosis:rare_material"
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "787632FF48785797"
+					type: "item"
+					item: "useless_sword:gold_iron_alloy_ingot"
+					count: 3L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2042F8E636E31C0F"
+				type: "item"
+				team_reward: true
+				item: "hardcorequesting:greater_bag"
+			}]
+		}
+		{
+			title: "史诗袋子"
+			icon: "hardcorequesting:epic_bag"
+			disable_toast: true
+			x: 1.5d
+			y: -0.5d
+			can_repeat: true
+			id: "38670DC534699162"
+			tasks: [
+				{
+					id: "65AE6F3B2DE35E73"
+					type: "item"
+					item: "apotheosis:epic_material"
+					count: 320L
+					consume_items: true
+				}
+				{
+					id: "3AF1B56BBBCA6624"
+					type: "item"
+					item: "useless_sword:gold_iron_alloy_ingot"
+					count: 32L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0F1A5CFEB2971916"
+				type: "item"
+				team_reward: true
+				item: "hardcorequesting:epic_bag"
+			}]
+		}
+		{
+			title: "传说袋子"
+			icon: "hardcorequesting:legendary_bag"
+			disable_toast: true
+			x: 1.5d
+			y: 0.5d
+			can_repeat: true
+			id: "491D90B38A30C803"
+			tasks: [
+				{
+					id: "7B76AAD641987890"
+					type: "item"
+					item: "apotheosis:mythic_material"
+					count: 100000L
+					consume_items: true
+					weak_nbt_match: true
+				}
+				{
+					id: "66F0473D907F4E0F"
+					type: "item"
+					item: "useless_sword:gold_iron_alloy_ingot"
+					count: 640000L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "7F128C56292846BC"
+				type: "item"
+				team_reward: true
+				item: "hardcorequesting:legendary_bag"
+			}]
+		}
+		{
+			title: "随机袋子"
+			disable_toast: true
+			x: 3.5d
+			y: -1.5d
+			subtitle: "可以获取随机等级的奖励袋"
+			can_repeat: true
+			id: "202FC5F37A7F6F21"
+			tasks: [
+				{
+					id: "57063512A4F97E50"
+					type: "item"
+					item: "useless_sword:gold_iron_alloy_ingot"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "225D46B12C6486DD"
+					type: "item"
+					item: {
+						id: "tinkerscalibration:mangobberslime_ingot"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+								Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "566A1E98ED04EEEB"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:diamond_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "302560B2D9B85EEE"
+				type: "random"
+				title: "随机奖励袋"
+				icon: "hardcorequesting:basic_bag"
+				team_reward: true
+				table_id: 2546144306522980591L
+			}]
+		}
+		{
+			title: "高级会员"
+			disable_toast: true
+			x: -6.0d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "成为会员，便可定制饮品"
+			dependencies: ["6B41265858C487FC"]
+			can_repeat: true
+			id: "4E612D2E1EAB18CE"
+			tasks: [
+				{
+					id: "6F1CDF716EEA3B62"
+					type: "item"
+					item: "supplementaries:jar"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "1F11F17D69D89422"
+					type: "item"
+					item: "hanew_village_mod:hanewcoin"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2199CBEFDAB1309E"
+					type: "item"
+					title: "会员凭证"
+					item: "lootr:trophy"
+				}
+			]
+			rewards: [{
+				id: "2B89DE5F3FB90825"
+				type: "choice"
+				icon: "supplementaries:goblet"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 1532140311816312867L
+			}]
+		}
+		{
+			title: "羽毛商店"
+			icon: "minecraft:feather"
+			disable_toast: true
+			x: -3.5d
+			y: -2.5d
+			subtitle: "一位神秘的动物爱好者提供了来自世界各地不同鸟类的羽毛。"
+			can_repeat: true
+			id: "07336CB2C32EF31B"
+			tasks: [{
+				id: "5735B29252B27350"
+				type: "item"
+				item: "hanew_village_mod:hanewcoin"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "486F334AF28DA5A5"
+				type: "choice"
+				icon: "minecraft:feather"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 1140324948185255250L
+			}]
+		}
+		{
+			title: "购买指路石"
+			icon: "waystones:mossy_waystone"
+			disable_toast: true
+			x: -2.5d
+			y: -3.5d
+			can_repeat: true
+			id: "520559E58B437B39"
+			tasks: [{
+				id: "7F0314D8997154B7"
+				type: "item"
+				item: "hanew_village_mod:hanewcoin"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "363F6119F87A3895"
+				type: "choice"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 5393402956681604123L
+			}]
+		}
+		{
+			title: "高级会员"
+			x: -5.0d
+			y: 0.5d
+			shape: "rsquare"
+			dependencies: ["6CA9233FFD910C50"]
+			can_repeat: true
+			id: "3FDC25C6B1B8F469"
+			tasks: [
+				{
+					id: "754A1F8346100E3A"
+					type: "item"
+					item: "lootr:trophy"
+				}
+				{
+					id: "38A3B15B0DCC951F"
+					type: "item"
+					item: "hanew_village_mod:hanewcoin"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "4054B7BCAED2F24A"
+					type: "item"
+					item: "minecraft:diamond"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "71B07B4E9E439C20"
+				type: "choice"
+				icon: "dragonsurvival:charged_soup"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 2032549632347863167L
+			}]
+		}
+		{
+			title: "高级会员"
+			x: -7.0d
+			y: 0.5d
+			shape: "pentagon"
+			dependencies: ["7C4185BC94CCBBC6"]
+			can_repeat: true
+			id: "323FBD81FA82E8BF"
+			tasks: [
+				{
+					id: "74A8437B11192289"
+					type: "item"
+					item: "lootr:trophy"
+				}
+				{
+					id: "68696FF48F679FE8"
+					type: "item"
+					item: "hanew_village_mod:hanewcoin"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "22278B1BB4F6247F"
+					type: "item"
+					item: "twilightforest:ironwood_ingot"
+					count: 5L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "50CCE67CB94F97E7"
+				type: "choice"
+				icon: "solcarrot:food_book"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 7155816368578494551L
+			}]
+		}
+		{
+			title: "高级药水"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:night_vision"
+				}
+			}
+			x: -2.5d
+			y: -0.5d
+			can_repeat: true
+			id: "5E0C70AE3065375C"
+			tasks: [{
+				id: "14D2971BA7795F7A"
+				type: "item"
+				item: "useless_sword:gold_iron_alloy_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "491DB9BC08733663"
+				type: "choice"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 4866921336552703714L
+			}]
+		}
+		{
+			title: "升级卡转化"
+			x: -9.5d
+			y: -1.5d
+			can_repeat: true
+			id: "6CED95A786FEB839"
+			tasks: [
+				{
+					id: "3E5A92103F667154"
+					type: "item"
+					item: {
+						id: "tinkerscalibration:mangobberslime_ingot"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+								Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "20AEC7F68D1D9DA0"
+					type: "item"
+					title: "空白升级版"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "sophisticatedbackpacks:upgrade"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "07D1CFD63B5B4639"
+				type: "random"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 1045750679067165262L
+			}]
+		}
+		{
+			title: "眼球转化"
+			x: -8.5d
+			y: -0.5d
+			can_repeat: true
+			id: "5352F5071BA8580A"
+			tasks: [
+				{
+					id: "25AB14FE9D048AA6"
+					type: "item"
+					item: "useless_sword:gold_iron_alloy_ingot"
+					consume_items: true
+				}
+				{
+					id: "032A5ADCFFEBC75F"
+					type: "item"
+					item: "minecraft:ender_eye"
+					consume_items: true
+				}
+				{
+					id: "2C20543BA024ADC4"
+					type: "item"
+					item: {
+						id: "tinkerscalibration:mangobberslime_ingot"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+								Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "37BA7FF36FE98075"
+				type: "choice"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 5525637305784433075L
+			}]
+		}
+		{
+			title: "头颅转化"
+			x: -8.5d
+			y: -1.5d
+			can_repeat: true
+			id: "4F5E42F048AE13D7"
+			tasks: [
+				{
+					id: "1C1037CA82E3DFD5"
+					type: "item"
+					item: {
+						id: "tinkerscalibration:mangobberslime_ingot"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+								Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2669A3BCDBCA5149"
+					type: "item"
+					item: "useless_sword:gold_iron_alloy_ingot"
+					consume_items: true
+				}
+				{
+					id: "6FC0E6BEA69DE365"
+					type: "item"
+					title: "任意头颅"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:heads"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "57CA87F945CDCC07"
+				type: "choice"
+				icon: "minecraft:wither_skeleton_skull"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 8731627789490606476L
+			}]
+		}
+		{
+			title: "高级饰品转化"
+			x: -8.5d
+			y: 0.5d
+			can_repeat: true
+			id: "680336C5EA39AB07"
+			tasks: [
+				{
+					id: "5F180CBE0EAFEFF4"
+					type: "item"
+					item: {
+						id: "tinkerscalibration:mangobberslime_ingot"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+								Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+							}
+						}
+					}
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "07DB779ABD0EB7E7"
+					type: "item"
+					item: "twilightforest:cinder_wood"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "3645BE287155C326"
+					type: "item"
+					item: "apotheosis:mythic_material"
+					count: 10L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0EA06164DCB9C826"
+				type: "loot"
+				icon: "potion_rings_rebooted:potion_ring_of_configuration"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 8820305525151571784L
+			}]
+		}
+		{
+			title: "生物转化"
+			x: -8.5d
+			y: -2.5d
+			can_repeat: true
+			id: "34496EDA61C06ABE"
+			tasks: [
+				{
+					id: "44828DA0517CC7FB"
+					type: "item"
+					item: {
+						id: "tinkerscalibration:mangobberslime_ingot"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+								Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5A05481940C420CF"
+					type: "item"
+					title: "任意“心”"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:heart"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "64DF5D54D68C69EE"
+					type: "item"
+					item: "hanew_village_mod:hanewcoin"
+					count: 15L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5D8E63C0709698FE"
+				type: "choice"
+				icon: "undergarden:mog_spawn_egg"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 4584770314744642595L
+			}]
+		}
+		{
+			title: "匠魂升级槽位"
+			x: -9.5d
+			y: -0.5d
+			can_repeat: true
+			id: "0FCAE70CFCAC12B1"
+			tasks: [
+				{
+					id: "7D53D9C56A5EDC0A"
+					type: "item"
+					item: {
+						id: "tinkerscalibration:mangobberslime_ingot"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+								Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "55BCFE07056716BC"
+					type: "item"
+					item: "useless_sword:gold_iron_alloy_ingot"
+					consume_items: true
+				}
+				{
+					id: "2CED11B8FBC40442"
+					type: "item"
+					item: "prefab:item_warehouse_upgrade"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1C868152B1EA890C"
+				type: "choice"
+				icon: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "abilities"
+					}
+				}
+				exclude_from_claim_all: true
+				table_id: 9178200227736799592L
+			}]
+		}
+		{
+			title: "控制体型"
+			icon: "dragonsurvival:star_bone"
+			x: -3.5d
+			y: -3.5d
+			can_repeat: true
+			id: "541DAF60CF68AC3D"
+			tasks: [{
+				id: "576E1A3B4975BB40"
+				type: "item"
+				item: "hanew_village_mod:hanewcoin"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5D12835D24663E37"
+					type: "item"
+					item: "dragonsurvival:star_bone"
+				}
+				{
+					id: "5C00B79BA7F5AC20"
+					type: "item"
+					item: "dragonsurvival:star_heart"
+				}
+			]
+		}
+		{
+			title: "花朵转化"
+			x: -9.5d
+			y: -2.5d
+			can_repeat: true
+			id: "2D784DBF94B51108"
+			tasks: [
+				{
+					id: "4848DDF338FD9849"
+					type: "item"
+					item: {
+						id: "tinkerscalibration:mangobberslime_ingot"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+								Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "12A7E281E7AEEA7C"
+					type: "item"
+					title: "一朵花"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:flowers"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "50DC41F483FEB7B9"
+				type: "choice"
+				icon: "twilightforest:huge_water_lily"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 6467425967478534160L
+			}]
+		}
+		{
+			title: "灵魂水晶"
+			icon: "enigmaticlegacy:soul_crystal"
+			x: -3.5d
+			y: -0.5d
+			can_repeat: true
+			id: "1A06D785180643C0"
+			tasks: [{
+				id: "02003318CA3A5AF1"
+				type: "item"
+				item: "hanew_village_mod:hanewcoin"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "43DC97E7CAED8C0C"
+				type: "item"
+				item: "enigmaticlegacy:soul_crystal"
+			}]
+		}
+		{
+			title: "普通药水道具"
+			icon: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:leaping"
+				}
+			}
+			x: -3.5d
+			y: -1.5d
+			subtitle: "限时打折，买就送易碎、破甲药水套装"
+			can_repeat: true
+			id: "58C84BDAED3B26F3"
+			tasks: [{
+				id: "3F6F0F335425F1DC"
+				type: "item"
+				item: "hanew_village_mod:hanewcoin"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "28528253FA9D793F"
+					type: "choice"
+					icon: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_invisibility"
+						}
+					}
+					team_reward: true
+					exclude_from_claim_all: true
+					table_id: 1099963882538318830L
+				}
+				{
+					id: "08A1AE308B039BF4"
+					type: "random"
+					icon: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:strong_sundering"
+						}
+					}
+					team_reward: true
+					auto: "no_toast"
+					table_id: 1536492309049007690L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

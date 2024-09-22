@@ -1,0 +1,34 @@
+{
+  "name": "临时第二章",
+  "quests": [
+    {
+      "uuid": "43ae4433-511c-4b9d-bd68-83b67f06ff82",
+      "name": {
+        "text": "深园催化石",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "杀死暮色最终BOSS后，可以获得深园催化石。并开启主世界传送门（在深园），只要用石按照地狱门的格式搭建就行。",
+        "isTranslationKey": false
+      },
+      "x": 145,
+      "y": 79,
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "daa3a31d-d44e-41c7-ac4a-ed541a585e60",
+        "62a42e3d-ea12-4987-a946-d7defb9a9321"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,81 @@
+{
+	id: "7B260DD0EA25315D"
+	group: "6FAF4D7A9C6A8763"
+	order_index: 5
+	filename: "7B260DD0EA25315D"
+	title: "臭鱼烂虾"
+	icon: "alexsmobs:lobster_bucket"
+	subtitle: ["你在期待什么？"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.5d
+			y: -2.5d
+			id: "2F5A5CF4D6CD76AE"
+			tasks: [{
+				id: "415CEB3D3C86ACD1"
+				type: "item"
+				item: {
+					id: "useless_sword:dragon_breath_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 32
+						display: {
+							Lore: ["{\"text\":\"\\u00A77命中时，用龙息粒子装饰对方\"}"]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			subtitle: "我成功的让铁剑带上火元素了！但是这热量会损坏他自己。一定有哪里不对。"
+			id: "373050A8885B3190"
+			tasks: [{
+				id: "3F53DEEC4D8428BD"
+				type: "item"
+				item: {
+					id: "useless_sword:molten_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 32
+						display: {
+							Lore: [
+								"{\"text\":\"\\u00A77火焰附加\"}"
+								"{\"text\":\"\\u00A77在主手时，会随时间失去耐久\"}"
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			id: "22569B91BE256490"
+			tasks: [{
+				id: "2C13345BB29AD70A"
+				type: "item"
+				item: {
+					id: "useless_sword:turtle_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 32
+						display: {
+							Lore: [
+								"{\"text\":\"\\u00A77右键:像盾牌一样防御正面伤害\"}"
+								"{\"text\":\"\\u00A7b开始防御时会损失一些耐久，之后不因收到攻击而损失耐久\"}"
+							]
+						}
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

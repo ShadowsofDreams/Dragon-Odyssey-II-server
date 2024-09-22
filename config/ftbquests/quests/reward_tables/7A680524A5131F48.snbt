@@ -1,0 +1,24 @@
+{
+	id: "7A680524A5131F48"
+	order_index: 28
+	title: "高级饰品"
+	loot_size: 1
+	rewards: [
+		{ item: "copper_amulets:amulet_of_amulets", weight: 4 }
+		{ item: "enigmaticlegacy:fabulous_scroll", weight: 4 }
+		{
+			item: {
+				id: "enigmaticlegacy:ascension_amulet"
+				Count: 1b
+				tag: { }
+			}
+			weight: 4
+		}
+		{ item: "celestial_artifacts:angel_heart", weight: 4 }
+		{ item: "celestial_artifacts:soul_box", weight: 4 }
+		{ item: "celestial_artifacts:bearing_stamen", weight: 4 }
+		{ item: "celestial_artifacts:pure_seven_colors", weight: 4 }
+		{ item: "upgradednetherite_items:creative_upgraded_netherite_totem", weight: 2 }
+		{ item: "enigmaticlegacy:the_cube" }
+	]
+}

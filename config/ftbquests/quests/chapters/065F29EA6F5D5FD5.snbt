@@ -1,0 +1,110 @@
+{
+	id: "065F29EA6F5D5FD5"
+	group: "6012FF85FF3686AC"
+	order_index: 0
+	filename: "065F29EA6F5D5FD5"
+	title: "星宿"
+	icon: "ulterlands:pentagram"
+	subtitle: ["天之四灵，以正四方"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "观星者"
+			icon: "minecraft:spyglass"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "引星辰之力淬炼己身"
+			description: [
+				"    星宿是一系列特殊的“任务”，通过消耗每个主线章节获得的“异彩水晶”来点亮某个星宿的主星以开启星图。"
+				"    当然，异彩水晶并不是没有其他获取方式。"
+				"    由于水晶中蕴藏的魔法力量，每一个被点亮的星星都可以增强玩家的基础属性值。"
+			]
+			id: "64D7CAD3A0C5B228"
+			tasks: [{
+				id: "53E0B483F2F03B10"
+				type: "item"
+				icon: "tinkers_thinking:chromatic_crystal"
+				item: "tinkers_thinking:chromatic_crystal"
+			}]
+			rewards: [{
+				id: "4C09D7D46A4909FF"
+				type: "xp"
+				title: "寻找星座吧！！"
+				xp: 100
+			}]
+		}
+		{
+			title: "第一个星座"
+			x: 0.0d
+			y: -2.0d
+			shape: "pentagon"
+			subtitle: "消耗水晶来随机开启第一个星宿"
+			description: ["(目前只有东宫苍龙实装 )"]
+			dependencies: ["64D7CAD3A0C5B228"]
+			can_repeat: true
+			id: "1E5259913A3FFC53"
+			tasks: [{
+				id: "0201FD2EC7612114"
+				type: "item"
+				item: "tinkers_thinking:chromatic_crystal"
+				consume_items: true
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			shape: "octagon"
+			subtitle: "消耗水晶和其他材料稳定开启星宿"
+			dependencies: ["1E5259913A3FFC53"]
+			can_repeat: true
+			id: "4E339F86BD0510DB"
+			tasks: [
+				{
+					id: "0434A9BD66CFF912"
+					type: "item"
+					item: "tinkers_thinking:chromatic_crystal"
+					consume_items: true
+				}
+				{
+					id: "5656A3A003B5D84E"
+					type: "item"
+					item: "minecraft:nether_star"
+					consume_items: true
+				}
+				{
+					id: "41E83AEBD421651F"
+					type: "item"
+					item: {
+						id: "tinkerscalibration:mangobberslime_ingot"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+								Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "66F58A510749EC0C"
+				type: "choice"
+				title: "东方苍龙"
+				icon: {
+					id: "ulterlands:arcane_horn"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"\\u00A7e苍龙之角\"}"
+						}
+					}
+				}
+				exclude_from_claim_all: true
+				table_id: 1532026367959010139L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,3297 @@
+{
+  "name": "刚出生，事龙",
+  "quests": [
+    {
+      "uuid": "44432795-f39b-49e9-880c-df22a05eb595",
+      "name": {
+        "text": "吞咀者",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    你敏锐的察觉到及遗忆守卫并不是这里真正的首领。\n     在行走时，你发现在Y\u003d32以下任何亮度等级低于7的实体方块上都可能发现巨嘴兽的踪迹，搜集一些他们的掉落物，引出这里的真正掌控者。\n     任务商店正高价收购吞咀者的鳞片呢。",
+        "isTranslationKey": false
+      },
+      "x": 290,
+      "y": 141,
+      "icon": {
+        "id": "undergarden:rotbeast_spawn_egg",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "undergarden:cloggrum_nugget",
+                "Count": 1
+              },
+              "required": 10,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "undergarden:froststeel_nugget",
+                "Count": 1
+              },
+              "required": 10,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3088639c-3202-4c84-af56-47a1f692eb8b"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/summon undergarden:masticator ~3 ~4 ~2"
+      ]
+    },
+    {
+      "uuid": "a23ff0bb-0df9-4676-a79c-f8a6bbdf436c",
+      "name": {
+        "text": "空间之力",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    手持传送门右击一个方块就能将其唤出。（这需要相当大的空间才能正常工作，请不要在封闭区域使用!）\n    传送门出现后就会开始召唤相应的敌人，每一波的敌人数量和目前的波数都会在boss条上显示，消灭一波敌人后传送门会给予奖励并在短暂冷却却后开始下一波召唤。\n    完成最后一波召唤后会得到最终奖励并且关闭召唤门。\n    注意：因空间干扰，传送门随时可能关闭。\n",
+        "isTranslationKey": false
+      },
+      "x": 180,
+      "y": 118,
+      "icon": {
+        "id": "gateways:gate_pearl",
+        "Count": 1,
+        "tag": "{gateway:\"gateways:zombie_gate_small\"}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:string",
+                "Count": 1
+              },
+              "required": 64,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bb917f4e-0547-423b-a292-5d765b8e4b1c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "born_in_chaos_v1:death_totem",
+          "Count": 1
+        },
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "apotheosis:helmet_tome",
+          "Count": 4
+        },
+        {
+          "id": "apotheosis:chestplate_tome",
+          "Count": 4
+        },
+        {
+          "id": "apotheosis:leggings_tome",
+          "Count": 4
+        },
+        {
+          "id": "apotheosis:boots_tome",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "972cd708-b992-44ee-9fe4-00b140986797",
+      "name": {
+        "text": "武器升级！",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    你或许注意到了，在图鉴中列出了的大量武器中，不少备注着“可升级”，具体是怎么升级呢？\n    通常，武器可以通过工作台和锻造台来升级，一些特殊的武器有特殊的合成方式；每一把武器的升级方式和路线也不尽相同。\n    这个任务奖励可以让你挑选一把初始状态的武器，在选择之前，请在jei或图鉴里查阅升级路线和最终产物。",
+        "isTranslationKey": false
+      },
+      "x": 315,
+      "y": 87,
+      "icon": {
+        "id": "apotheosis:salvaging_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "apotheosis:salvaging_table",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "fa0b8e16-90de-482d-a60d-95373faf76a4"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "iceandfire:copper_sword",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "aquaculture:neptunium_sword",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "useless_sword:glass_sword",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "useless_sword:brain_coral_sword",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "245ff3d5-64c1-4901-afbf-0c1b71b0e6da",
+      "name": {
+        "text": "采蘑菇的小姑娘",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "这种阴暗潮湿的地方，非常适合真菌生长。\n而且他们特别有营养。",
+        "isTranslationKey": false
+      },
+      "x": 47,
+      "y": 99,
+      "icon": {
+        "id": "undergarden:blood_mushroom",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "undergarden:veiled_stew",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "undergarden:bloody_stew",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "undergarden:inky_stew",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "undergarden:indigo_stew",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1fee6a5-9895-418e-97f5-3e77cb91eecc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 2
+        },
+        {
+          "id": "enigmaticlegacy:ultimate_potion_splash",
+          "Count": 1,
+          "tag": "{EnigmaticPotion:\"ultimate_night_vision\"}"
+        },
+        {
+          "id": "infernalexp:infernal_painting",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "gothic:meatbug_ragout",
+          "Count": 4
+        },
+        {
+          "id": "gothic:stew",
+          "Count": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b3b2efde-0eb0-4501-872d-bfb7ad96d8d6",
+      "name": {
+        "text": "空间之力",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    手持传送门右击一个方块就能将其唤出。（这需要相当大的空间才能正常工作，请不要在封闭区域使用!）\n    传送门出现后就会开始召唤相应的敌人，每一波的敌人数量和目前的波数都会在boss条上显示，消灭一波敌人后传送门会给予奖励并在短暂冷却却后开始下一波召唤。\n    完成最后一波召唤后会得到最终奖励并且关闭召唤门。\n    注意：因空间干扰，传送门随时可能关闭。\n",
+        "isTranslationKey": false
+      },
+      "x": 268,
+      "y": 143,
+      "icon": {
+        "id": "gateways:gate_pearl",
+        "Count": 1,
+        "tag": "{gateway:\"gateways:blaze_gate_small\"}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:blaze_rod",
+                "Count": 1
+              },
+              "required": 32,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3088639c-3202-4c84-af56-47a1f692eb8b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "born_in_chaos_v1:death_totem",
+          "Count": 1
+        },
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c9ccf419-d2cf-417a-9d3d-e44327caead3",
+      "name": {
+        "text": "来点交易",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    石生体在这里到处都是，通过观察它们的行为，你发现他们更像是有一定战斗能力的“村民”。也就是说，你可以直接右键与其交易。\n    尝试通过交易得到“扼塞战斧”，这是一把无法合成的武器，但是可以升级为强大的“遗忆战斧”。\n    遗忆战斧是这个维度能提供给你的最强武器了，并且他可以通过进一步合成获取额外的属性加成。",
+        "isTranslationKey": false
+      },
+      "x": 180,
+      "y": 81,
+      "icon": {
+        "id": "undergarden:regalium_crystal",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "undergarden:cloggrum_battleaxe",
+                "Count": 1,
+                "tag": "{Damage:0,Enchantments:[{id:\"minecraft:knockback\",lvl:4s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7d1c1c85-4940-4728-b92c-75673eea4b27"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "dragonsurvival:luminous_ointment",
+          "Count": 5
+        },
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "hanew_village_mod:hanewcoin",
+          "Count": 50
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "603cf4d7-13da-4f02-84c0-0fdc782c008a",
+      "name": {
+        "text": "我事洞穴龙！",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "饮食：碳烤食物，红石与煤炭；\n技能：坚硬的皮肤、火息、强化的爪子；\n弱点：寒冷和水；\n爪子：镐子；\n■ 由于它们的炽热的体质，洞穴龙会受到水、雨和雪的伤害。因此，他们最好的居住地是沙漠、下界和山洞。使用火焰之洞穴的效果和炽热之浴技能，会让你在各种程度上摆脱对水的困扰。\n■ 洞穴龙是防火的，可以在岩浆里透视，还有特殊镐样的爪子。此外它们还会火焰魔法！",
+        "isTranslationKey": false
+      },
+      "x": 52,
+      "y": 16,
+      "bigicon": true,
+      "icon": {
+        "id": "dragonsurvival:cave_source_of_magic",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "提交这个物品，开启种族主线。",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "洞穴龙天生自带1点幸运，具有更高的护甲和生命值，并且会缓慢的自然回复生命(即使饱食度不满）。",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "dragone_aventure:joyauxdragonique",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [
+        "315086e6-4a81-4824-bbe5-eb816515b857",
+        "1bd944a7-f409-4945-913d-73c9d4343b55"
+      ],
+      "reward": [
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "dragonsurvival:quartz_explosive_copper",
+          "Count": 8
+        },
+        {
+          "id": "prefab:item_defense_bunker",
+          "Count": 1
+        },
+        {
+          "id": "enigmaticlegacy:architect_eye",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A76右键唤醒祂\"}\u0027]}}"
+        },
+        {
+          "id": "minecraft:lingering_potion",
+          "Count": 1,
+          "tag": "{Potion:\"useless_sword:vex_effect_potion_item\"}"
+        },
+        {
+          "id": "ftbquests:book",
+          "Count": 1,
+          "tag": "{display:{Name:\u0027{\"text\":\"商店与图鉴\"}\u0027}}"
+        },
+        {
+          "id": "minecraft:bundle",
+          "Count": 1,
+          "tag": "{Items:[{Count:16b,id:\"thermal:basalz_rod\"},{Count:4b,id:\"unsheathe_r:flame_energy_unit\"},{Count:16b,id:\"create:blaze_cake\"},{Count:4b,id:\"dragonsurvival:charred_seafood\"},{Count:4b,id:\"dragonsurvival:charred_mushroom\"},{Count:4b,id:\"dragonsurvival:charred_vegetable\"},{Count:4b,id:\"dragonsurvival:charred_meat\"}],RepairCost:0,display:{Name:\u0027{\"text\":\"一袋干粮\"}\u0027}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "dragonsurvival:treasure_iron",
+          "Count": 9
+        },
+        {
+          "id": "dragonsurvival:treasure_gold",
+          "Count": 9
+        },
+        {
+          "id": "dragonsurvival:treasure_copper",
+          "Count": 9
+        }
+      ],
+      "commandrewards": [
+        "/dragon cave 1 false @p",
+        "/give Roemon enigmaticlegacy:ascension_amulet{display:{Lore:[\u0027{\"text\":\"\\\\u00A75数码兽罗伊的鳞片，有着神秘护身符的全部功能。\"}\u0027]}}",
+        "/attribute @p minecraft:generic.armor base set 15",
+        "/give LiNg_MuYAn rainbowcompound:radiance_ring",
+        "/give LiNg_MuYAn rainbowcompound:shadow_ring",
+        "/give ETM_EnderDragon rainbowcompound:home_magic_mirror",
+        "/attribute @p forge:swim_speed base set 1.5",
+        "/attribute @p obscure_api:critical_hit base set 0.05",
+        "/give ziyinmy twilightforest:charm_of_life_2",
+        "/attribute @p obscure_api:regeneration base set 10",
+        "/attribute @p minecraft:generic.max_health base set 30"
+      ]
+    },
+    {
+      "uuid": "2af96d85-32c2-4ad2-8abd-8385156b75f6",
+      "name": {
+        "text": "后备保险",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "在某些平行世界，年轻的洞穴忘记了在新维度放置指路石，这导致维度成了一次性的。\n\n还好，这次你买了保险。\n\n(提交额外材料以更贵的价格购买指路石并且再次传送到采矿维度）",
+        "isTranslationKey": false
+      },
+      "x": 15,
+      "y": 47,
+      "icon": {
+        "id": "hanew_village_mod:hanewcoin",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:hanewcoin",
+                "Count": 1
+              },
+              "required": 50,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_ingot",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "49b24b8c-4071-49fb-9107-1657c6f358af"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "waystones:sandy_waystone",
+          "Count": 1
+        },
+        {
+          "id": "waystones:mossy_waystone",
+          "Count": 1
+        },
+        {
+          "id": "waystones:waystone",
+          "Count": 1
+        }
+      ],
+      "commandrewards": [
+        "/execute in mining_dimension:mining run tp ~ -20 ~"
+      ]
+    },
+    {
+      "uuid": "98afd9d1-924e-44ef-b746-e3155e9f7699",
+      "name": {
+        "text": "开始强化！",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "在锻造台使用镶孔符石可以为你的武器装备打上新的槽位。\n这些槽位可以放置一些强化宝石，通常，你可以从地牢的奖励箱、怪物掉落的白色宝箱中获宝石。\n\n更多提升你能力的工作方块请在物品栏左上角的书中查看，具体在“装点龙巢”章节。",
+        "isTranslationKey": false
+      },
+      "x": 77,
+      "y": 79,
+      "icon": {
+        "id": "minecraft:smithing_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:smithing_table",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f7d307d1-a421-4071-abc2-bd64826d994b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "apotheosis:sigil_of_socketing",
+          "Count": 4
+        },
+        {
+          "id": "apotheosis:vial_of_expulsion",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:deepslate_copper_ore",
+          "Count": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "apotheosis:gem",
+          "Count": 1,
+          "tag": "{modifier:{Amount:30.0d,Name:\"GemBonus_apotheosis:fire_damage\",Operation:0,UUID:[I;-1319999010,75253585,-1433937050,565247929],attribute:\"apotheosis:fire_damage\"},purity:1.4285715f,variant:6}"
+        },
+        {
+          "id": "apotheosis:gem",
+          "Count": 1,
+          "tag": "{modifier:{Amount:0.3d,Name:\"GemBonus_apotheosis:armor\",Operation:2,UUID:[I;-1040084682,1958232090,-1435514611,1099495390],attribute:\"minecraft:generic.armor\"},purity:3.7f,variant:4}"
+        },
+        {
+          "id": "apotheosis:gem",
+          "Count": 1,
+          "tag": "{modifier:{Amount:50.0d,Name:\"GemBonus_apotheosis:luck\",Operation:0,UUID:[I;1679780796,847595103,-1914900639,-1528527718],attribute:\"obscure_api:regeneration\"},purity:1.5f,variant:2}"
+        },
+        {
+          "id": "apotheosis:gem",
+          "Count": 1,
+          "tag": "{modifier:{Amount:0.4d,Name:\"GemBonus_apotheosis:cold_damage\",Operation:2,UUID:[I;1970815349,-45150,-1585173224,1581490420],attribute:\"minecraft:generic.max_health\"},purity:2.181818f,variant:1}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6cd24271-f68a-4c05-ac94-367fec1c6310",
+      "name": {
+        "text": "血祭血神",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "     刚刚的那个\"传送门\"看着十分诱人，但遗憾的是你完全无法进入。\n     或许可以试试更深入的利用时空的力量。\n     比如，找个末影人？\n     这帮整天在维度间飞来飞去的投机者。应该可以很容易的被纷争引诱出来。",
+        "isTranslationKey": false
+      },
+      "x": 280,
+      "y": 161,
+      "icon": {
+        "id": "twilightforest:charm_of_life_1",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "血祭血神",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "血腥味或许会引起他的注意，你收起魔法，用爪牙撕扯怪物们脆弱的肉体。",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "panthalassa:primal_shark_meat",
+                "Count": 1
+              },
+              "required": 5,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "gothic:meat",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b3b2efde-0eb0-4501-872d-bfb7ad96d8d6"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/summon meetyourfight:swampjaw",
+        "/tellraw @a {\"text\":\"\u003c韩小民\u003e 是谁吧这家伙招来的！\",\"color\":\"aqua\"}"
+      ]
+    },
+    {
+      "uuid": "9ce81f91-765e-4046-af83-832132396471",
+      "name": {
+        "text": "空间之力",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    手持传送门右击一个方块就能将其唤出。（这需要相当大的空间才能正常工作，请不要在封闭区域使用!）\n    传送门出现后就会开始召唤相应的敌人，每一波的敌人数量和目前的波数都会在boss条上显示，消灭一波敌人后传送门会给予奖励并在短暂冷却却后开始下一波召唤。\n    完成最后一波召唤后会得到最终奖励并且关闭召唤门。\n    注意：因空间干扰，传送门随时可能关闭。\n",
+        "isTranslationKey": false
+      },
+      "x": 24,
+      "y": 137,
+      "icon": {
+        "id": "gateways:gate_pearl",
+        "Count": 1,
+        "tag": "{gateway:\"gateways:skeleton_gate_small\"}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:slime_ball",
+                "Count": 1
+              },
+              "required": 64,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "87419130-1c5f-4446-bbf5-1e3581efdb93"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "born_in_chaos_v1:death_totem",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d383b15d-867b-483f-8f63-41fbb39a3c16",
+      "name": {
+        "text": "猎人委托（支线）",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "海龙男爵弟兄，\n\n    俺家老爷武陌轩子爵那，最近在那曼斯菲尔德州立感化院啥的呆的眼巴巴的，嘴巴里头都快淡成小鸟啦。俺老爷想咱们好歹也是贵族富商家的，俩鱼肉海带吃都不能少是吧？\n     你那边有人家闲食的鲨鱼肉和大海里面的海带不？希望你能帮个忙嘛，寄点来给老爷解解馋。俺老爷躲在这感化院里头，能吃上几口新鲜的海货，那也是种解闷儿呢。\n    行行好啊，兄弟，能不能帮帮俺老爷？如果你有这玩意儿，俺老爷会立马给你对银子，你给俺搞过来。\n    哥们，靠你啦！\n武陌轩子爵顿首！",
+        "isTranslationKey": false
+      },
+      "x": 287,
+      "y": 105,
+      "icon": {
+        "id": "panthalassa:megalodon_jaws",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "panthalassa:primal_shark_meat",
+                "Count": 1
+              },
+              "required": 10,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "undergarden:glitterkelp",
+                "Count": 1
+              },
+              "required": 10,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a947d84-659c-4189-a2a2-cef71bd441de"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hanew_village_mod:hanewcoin",
+          "Count": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "upgrade_aquatic:river_sapling",
+          "Count": 2,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7b我们都知道，果汁可以为海洋龙补充水分。\"}\u0027,\u0027{\"text\":\"\\\\u00A7b但老话说：授人与鱼不如授人与渔民。\"}\u0027]}}"
+        },
+        {
+          "id": "upgrade_aquatic:mulberry_jam_bottle",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:honey_bottle",
+          "Count": 16
+        },
+        {
+          "id": "create:builders_tea",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "875f4407-4887-4bc6-b452-bb9025c99d1d",
+      "name": {
+        "text": "狩猎采集",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    微深鱼是这里的一种原生鱼类，他们以海带为食。\n    不过对你来说，不管是鱼还是海带，都能填饱肚子。\n    （铁矿通常在高海拔地球容易被发现，而鱼们一般喜欢在低海拔出没。）",
+        "isTranslationKey": false
+      },
+      "x": 266,
+      "y": 66,
+      "icon": {
+        "id": "undergarden:raw_gwibling",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "undergarden:glitterkelp",
+                "Count": 1
+              },
+              "required": 4,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "613d65d2-8088-41d0-9e6f-a9738104fac1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "dragonsurvival:frozen_raw_fish",
+          "Count": 3
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "undergarden:raw_gwibling",
+          "Count": 10
+        },
+        {
+          "id": "enigmaticlegacy:ultimate_potion_splash",
+          "Count": 1,
+          "tag": "{EnigmaticPotion:\"ultimate_night_vision\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/summon goblintraders:goblin_trader"
+      ]
+    },
+    {
+      "uuid": "71ca691a-a2c4-4dc0-b56a-001005e4831a",
+      "name": {
+        "text": "疾刺龙群",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "来了一群龙？你在首领的身上感应到了不得了的宝物，找他“借”来看看。\n\n同族一场，他应该会借的吧？",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 156,
+      "icon": {
+        "id": "waystones:mossy_waystone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": {
+            "text": "杀死疾刺龙首领",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": " ",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "enigmaticlegacy:extradimensional_eye",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "dac0c971-650e-4341-ae9a-e73fc5ccb2f4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"apotheosis:life_mending\",lvl:1s}]}"
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 4
+        },
+        {
+          "id": "celestial_artifacts:traveler_scroll",
+          "Count": 1
+        },
+        {
+          "id": "waystones:mossy_waystone",
+          "Count": 1
+        },
+        {
+          "id": "celestial_artifacts:purified_powder",
+          "Count": 1
+        },
+        {
+          "id": "celestial_artifacts:bearing_stamen",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"flowingagony:exotic_healer\",lvl:50s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"flowingagony:morirs_deathwish\",lvl:5s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"flowingagony:guidens_regret\",lvl:5s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"flowingagony:morirs_lifebound\",lvl:5s}]}"
+        }
+      ],
+      "commandrewards": [
+        "/attribute @p minecraft:generic.armor_toughness base set 10",
+        "/attribute @p obscure_api:regeneration base set 1"
+      ]
+    },
+    {
+      "uuid": "17da9f22-59ab-4644-97f4-2bcccbb6ea49",
+      "name": {
+        "text": "先祖之力· 森林",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "你身上的枷锁会使得你的种族之力在每次死亡之后失去，\n完成这个任务以重新刷新种族之力。\n",
+        "isTranslationKey": false
+      },
+      "x": 143,
+      "y": 46,
+      "icon": {
+        "id": "hanew_village_mod:hanewcoin",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": {
+            "text": "森林龙种族特性：\n治疗能力+50%\n重力-50%\n盔甲韧性+5\n",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:hanewcoin",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "undergarden:underbeans",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "315086e6-4a81-4824-bbe5-eb816515b857"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "apotheosis:potion_charm",
+          "Count": 1,
+          "tag": "{Damage:0,Potion:\"minecraft:slow_falling\"}"
+        },
+        {
+          "id": "apotheosis:potion_charm",
+          "Count": 1,
+          "tag": "{Damage:0,Potion:\"goblintraders:powerful_speed\"}"
+        }
+      ],
+      "commandrewards": [
+        "/attribute @p minecraft:generic.armor_toughness base set 5",
+        "/attribute @p obscure_api:healing_power base set 0.5",
+        "/attribute @p obscure_api:critical_hit base set 0.05",
+        "/attribute @p forge:entity_gravity base set 0.04"
+      ]
+    },
+    {
+      "uuid": "daa3a31d-d44e-41c7-ac4a-ed541a585e60",
+      "name": {
+        "text": "进入森林上层",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "     他们的镇种之宝看着很像末影之眼。\n     所不定具有类似的功能。",
+        "isTranslationKey": false
+      },
+      "x": 180,
+      "y": 157,
+      "icon": {
+        "id": "alexsmobs:void_worm_eye",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "传送",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "超维之眼蕴含空间魔力，消耗之可以前往森林上层。\n注意：请确保在当前维度留有指路石或者其他跨维度方法，不然可能难以回归。\n\n",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "enigmaticlegacy:extradimensional_eye",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "71ca691a-a2c4-4dc0-b56a-001005e4831a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "waystones:mossy_waystone",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/execute in hanew_village_mod:another run tp ~ 100 ~"
+      ]
+    },
+    {
+      "uuid": "6036adfa-cccd-4cbd-a30e-bcc1fbdd8a3f",
+      "name": {
+        "text": "先祖之力· 海洋",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "你身上的枷锁会使得你的种族之力在每次死亡之后失去，\n完成这个任务以重新刷新种族之力。\n",
+        "isTranslationKey": false
+      },
+      "x": 245,
+      "y": 46,
+      "icon": {
+        "id": "hanew_village_mod:hanewcoin",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": {
+            "text": "海洋龙种族特性：\n攻击力+4\n游泳速度+100%\n暴击率+5%\n格挡+5%\n闪避+5%",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:hanewcoin",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "undergarden:glitterkelp",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1bd944a7-f409-4945-913d-73c9d4343b55"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "apotheosis:potion_charm",
+          "Count": 1,
+          "tag": "{Damage:0,Potion:\"minecraft:slow_falling\"}"
+        },
+        {
+          "id": "apotheosis:potion_charm",
+          "Count": 1,
+          "tag": "{Damage:0,Potion:\"goblintraders:powerful_speed\"}"
+        }
+      ],
+      "commandrewards": [
+        "/attribute @p minecraft:generic.attack_damage base set 5",
+        "/attribute @p forge:swim_speed base set 2",
+        "/attribute @p obscure_api:critical_hit base set 0.1",
+        "/attribute @p celestial_artifacts:crit_damage base set 2.0",
+        "/attribute @p obscure_api:parry base set 0.05",
+        "/attribute @p obscure_api:dodge base set 0.05"
+      ]
+    },
+    {
+      "uuid": "f7d307d1-a421-4071-abc2-bd64826d994b",
+      "name": {
+        "text": "石器时代",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    这个地方缺少日光，但同时也不会下雨，这对洞穴龙算是利好消息——这意味着自己只需要不进入水中就行，可谓如鱼得水。\n    所谓要致富，先撸树，然后使用只有3耐久的木镐（不过貌似你空手相当于木镐来着）去挖掘石头。\n    总之，来做一套石头工具开启你的流放生涯。",
+        "isTranslationKey": false
+      },
+      "x": 48,
+      "y": 59,
+      "icon": {
+        "id": "minecraft:stone_axe",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stone_axe",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_pickaxe",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_shovel",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "603cf4d7-13da-4f02-84c0-0fdc782c008a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hanew_village_mod:hanewcoin",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:basic_bag",
+          "Count": 1
+        },
+        {
+          "id": "dragonsurvival:charged_soup",
+          "Count": 4
+        },
+        {
+          "id": "naturescompass:naturescompass",
+          "Count": 1,
+          "tag": "{}"
+        },
+        {
+          "id": "explorerscompass:explorerscompass",
+          "Count": 1,
+          "tag": "{}"
+        },
+        {
+          "id": "supplementaries:sack",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:hand_axe",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_persistent_data:{abilities:1,upgrades:3}}"
+        },
+        {
+          "id": "tconstruct:pickaxe",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_persistent_data:{abilities:1,upgrades:3}}"
+        },
+        {
+          "id": "tinkers_things:shovel",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_persistent_data:{abilities:1,upgrades:5}}"
+        },
+        {
+          "id": "gunswithoutroses:iron_gun",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4c0ac012-60bd-4c30-915c-7972c3847fac",
+      "name": {
+        "text": "\"羊毛\"经济",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    苔藓是个好东西,产出于“青豕”，一种类似于绵羊的被动生物。\n    你可以使用剪刀为他修剪“毛发”，从而得到苔藓。由于人们特别喜爱这种新奇而又稀少的材料，故任务商店长期收购这种东西，当然，量要大。\n    通常，这种可爱的生物会在群系“遗忆之地”的高海拔地区出没（铁矿也偏好高海拔地区），它们特别喜爱食用渊邃卵石。",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 81,
+      "icon": {
+        "id": "undergarden:mogmoss",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "undergarden:mogmoss",
+                "Count": 1
+              },
+              "required": 4,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7d1c1c85-4940-4728-b92c-75673eea4b27"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "dragonsurvival:luminous_ointment",
+          "Count": 1
+        },
+        {
+          "id": "waystones:waystone",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "enigmaticlegacy:ultimate_potion_splash",
+          "Count": 1,
+          "tag": "{EnigmaticPotion:\"ultimate_night_vision\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/summon goblintraders:goblin_trader"
+      ]
+    },
+    {
+      "uuid": "1fdc899c-fc95-4c03-adb0-1b4a48b4f6cb",
+      "name": {
+        "text": "因地制宜",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "之前说这里除了熟悉的矿物之外，还有一些没见过的家伙。\n他们在性能上似乎不差前者多少。\n除了挖掘外，部分怪物会掉落相应矿物。\n（霜钢原产于“寒霜之地”，使用自然指南针直接输入“寒霜之地”以寻找）",
+        "isTranslationKey": false
+      },
+      "x": 26,
+      "y": 98,
+      "icon": {
+        "id": "undergarden:cloggrum_block",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "undergarden:utherium_block",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "undergarden:cloggrum_block",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "undergarden:froststeel_block",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_block",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond_block",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_block",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1fee6a5-9895-418e-97f5-3e77cb91eecc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "undergarden:cloggrum_block",
+          "Count": 1
+        },
+        {
+          "id": "undergarden:utherium_block",
+          "Count": 1
+        },
+        {
+          "id": "undergarden:froststeel_block",
+          "Count": 1
+        },
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "minecraft:gold_block",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:diamond_block",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:iron_block",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:diamond_block",
+          "Count": 1
+        },
+        {
+          "id": "undergarden:froststeel_block",
+          "Count": 1
+        },
+        {
+          "id": "undergarden:utherium_block",
+          "Count": 1
+        },
+        {
+          "id": "undergarden:cloggrum_block",
+          "Count": 1
+        }
+      ],
+      "commandrewards": [
+        "/summon goblintraders:vein_goblin_trader"
+      ]
+    },
+    {
+      "uuid": "87419130-1c5f-4446-bbf5-1e3581efdb93",
+      "name": {
+        "text": "遗忆守卫",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    遗忆守卫是你这流放之地的典狱长，不过随着岁月流逝他已经不复当年实力。是时候让他看看这里谁才是老大了。\n    他在主要由渊邃石装饰方块、粗糙邃土、邃草方块和扼塞栏杆组成的下僻巢穴等待你。\n    \n    下僻巢穴会在遗忆之地群系海拔较低处生成。",
+        "isTranslationKey": false
+      },
+      "x": 36,
+      "y": 118,
+      "icon": {
+        "id": "undergarden:forgotten_ingot",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "undergarden:forgotten_ingot",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1fdc899c-fc95-4c03-adb0-1b4a48b4f6cb",
+        "245ff3d5-64c1-4901-afbf-0c1b71b0e6da"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 2
+        },
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:slime_gate_small\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:spider_gate_small\"}"
+        },
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:slime_gate_small\"}"
+        },
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:blaze_gate_small\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bb917f4e-0547-423b-a292-5d765b8e4b1c",
+      "name": {
+        "text": "遗忆守卫",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    遗忆守卫是你这流放之地的典狱长，不过随着岁月流逝他已经不复当年实力。是时候让他看看这里谁才是老大了。\n    他在主要由渊邃石装饰方块、粗糙邃土、邃草方块和扼塞栏杆组成的下僻巢穴等待你。\n    \n    下僻巢穴会在遗忆之地群系海拔较低处生成。",
+        "isTranslationKey": false
+      },
+      "x": 170,
+      "y": 99,
+      "icon": {
+        "id": "undergarden:forgotten_ingot",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "undergarden:forgotten_ingot",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4c0ac012-60bd-4c30-915c-7972c3847fac",
+        "c9ccf419-d2cf-417a-9d3d-e44327caead3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:spider_gate_small\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:spider_gate_small\"}"
+        },
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:blaze_gate_small\"}"
+        },
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:slime_gate_small\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0a947d84-659c-4189-a2a2-cef71bd441de",
+      "name": {
+        "text": "冰川科考",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    \"寒霜之地\"是一个稀有的生物群系，哪里有着深园最独特的生物构成,还能产出大量霜钢。\n     试着利用自然指南针寻找这一秘境（直接输入中文）。\n\n     当你踩在拥有\"水分\"的方块上时，你会补充水分值，这当然包括“寒栗石”系列方块。",
+        "isTranslationKey": false
+      },
+      "x": 277,
+      "y": 85,
+      "icon": {
+        "id": "undergarden:frozen_deepturf_block",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "blocks": [
+            {
+              "item": {
+                "id": "undergarden:frozen_deepturf_block",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "undergarden:shiverstone",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:packed_ice",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "875f4407-4887-4bc6-b452-bb9025c99d1d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "aquamirae:frozen_key",
+          "Count": 1
+        },
+        {
+          "id": "aquamirae:frozen_chest",
+          "Count": 1
+        },
+        {
+          "id": "apotheosis:fishing_tome",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "prefab:item_ski_lodge",
+          "Count": 1
+        },
+        {
+          "id": "twilightforest:ice_sword",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b1fee6a5-9895-418e-97f5-3e77cb91eecc",
+      "name": {
+        "text": "挖矿",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "搞点想在这个地方生存下去，食物和矿物是不可缺少的。\n因为离地表太远，往日常见的金、铁矿物全部聚集在顶部（可以说是在天花板上），还把较低的地方只有一些不认识的东西。",
+        "isTranslationKey": false
+      },
+      "x": 37,
+      "y": 79,
+      "icon": {
+        "id": "minecraft:gold_ingot",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_ingot",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f7d307d1-a421-4071-abc2-bd64826d994b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:glow_berries",
+          "Count": 1
+        },
+        {
+          "id": "waystones:waystone",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "endlessocean:jetski",
+          "Count": 1,
+          "tag": "{color:\"white\"}"
+        },
+        {
+          "id": "endlessocean:jetski",
+          "Count": 1,
+          "tag": "{color:\"yellow\"}"
+        },
+        {
+          "id": "endlessocean:jetski",
+          "Count": 1,
+          "tag": "{color:\"black\"}"
+        },
+        {
+          "id": "endlessocean:jetski",
+          "Count": 1,
+          "tag": "{color:\"red\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1aea00fd-cf15-4814-922a-b6cea333321e",
+      "name": {
+        "text": "先祖之力· 洞穴",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "你身上的枷锁会使得你的种族之力在每次死亡之后失去，\n完成这个任务以重新刷新种族之力。\n",
+        "isTranslationKey": false
+      },
+      "x": 82,
+      "y": 49,
+      "icon": {
+        "id": "hanew_village_mod:hanewcoin",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": {
+            "text": "洞穴龙种族特性：\n生命值+10\n回复+10\n护甲值+15\n游泳速度+50%",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:hanewcoin",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:coal",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "603cf4d7-13da-4f02-84c0-0fdc782c008a"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "apotheosis:potion_charm",
+          "Count": 1,
+          "tag": "{Damage:0,Potion:\"minecraft:slow_falling\"}"
+        },
+        {
+          "id": "apotheosis:potion_charm",
+          "Count": 1,
+          "tag": "{Damage:0,Potion:\"goblintraders:powerful_speed\"}"
+        }
+      ],
+      "commandrewards": [
+        "/attribute @p minecraft:generic.armor base set 15",
+        "/attribute @p obscure_api:critical_hit base set 0.05",
+        "/attribute @p forge:swim_speed base set 1.5",
+        "/attribute @p minecraft:generic.max_health base set 30",
+        "/attribute @p obscure_api:regeneration base set 10"
+      ]
+    },
+    {
+      "uuid": "fa0b8e16-90de-482d-a60d-95373faf76a4",
+      "name": {
+        "text": "战力提升！",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "在锻造台使用镶孔符石可以为你的武器装备打上新的槽位。\n这些槽位可以放置一些强化宝石，通常，你可以从地牢的奖励箱、怪物掉落的白色宝箱中获宝石。\n\n更多提升你能力的工作方块请在物品栏左上角的书中查看，具体在“装点龙巢”章节。",
+        "isTranslationKey": false
+      },
+      "x": 307,
+      "y": 47,
+      "icon": {
+        "id": "minecraft:smithing_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:smithing_table",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "613d65d2-8088-41d0-9e6f-a9738104fac1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "apotheosis:sigil_of_socketing",
+          "Count": 2
+        },
+        {
+          "id": "apotheosis:vial_of_expulsion",
+          "Count": 1
+        },
+        {
+          "id": "apotheosis:vial_of_extraction",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:deepslate_copper_ore",
+          "Count": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "apotheosis:gem",
+          "Count": 1,
+          "tag": "{modifier:{Amount:52.0d,Name:\"GemBonus_apotheosis:attack_range\",Operation:0,UUID:[I;532068392,13846858,-1340104580,-295173422],attribute:\"celestial_artifacts:damage_lightning\"},purity:1.8f,variant:8}"
+        },
+        {
+          "id": "apotheosis:gem",
+          "Count": 1,
+          "tag": "{modifier:{Amount:0.25d,Name:\"GemBonus_apotheosis:attack_speed\",Operation:1,UUID:[I;980490976,-376812635,-1109256098,1973126649],attribute:\"obscure_api:parry\"},purity:1.11f,variant:6}"
+        },
+        {
+          "id": "apotheosis:gem",
+          "Count": 1,
+          "tag": "{modifier:{Amount:0.3d,Name:\"GemBonus_apotheosis:armor\",Operation:1,UUID:[I;-1040084682,1958232090,-1435514611,1099495390],attribute:\"obscure_api:dodge\"},purity:6.4f,variant:4}"
+        },
+        {
+          "id": "apotheosis:gem",
+          "Count": 1,
+          "tag": "{modifier:{Amount:45.0d,Name:\"GemBonus_apotheosis:cold_damage\",Operation:0,UUID:[I;1970815349,-45150,-1585173224,1581490420],attribute:\"apotheosis:cold_damage\"},purity:2.8181818f,variant:1}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "14f380da-dfe3-4482-9ca7-491d46f6d4a4",
+      "name": {
+        "text": "传送门兑换",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "可以在这里使用龙币来购买传送门",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 118,
+      "icon": {
+        "id": "hanew_village_mod:hanewcoin",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 0,
+        "hours": 4
+      },
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": {
+            "text": "这些矿物们一般在高海拔生成。",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "hanew_village_mod:hanewcoin",
+                "Count": 1
+              },
+              "required": 128,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond",
+                "Count": 1
+              },
+              "required": 9,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_ingot",
+                "Count": 1
+              },
+              "required": 8,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot",
+                "Count": 1
+              },
+              "required": 7,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "87419130-1c5f-4446-bbf5-1e3581efdb93",
+        "bb917f4e-0547-423b-a292-5d765b8e4b1c",
+        "3088639c-3202-4c84-af56-47a1f692eb8b"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:blaze_gate_small\"}"
+        },
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:spider_gate_small\"}"
+        },
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:slime_gate_small\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dac0c971-650e-4341-ae9a-e73fc5ccb2f4",
+      "name": {
+        "text": "鸿门宴",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "     刚刚的那个\"传送门\"看着十分诱人，但遗憾的是你完全无法进入。\n     或许可以试试更深入的利用时空的力量。\n     比如，找个末影人？\n     这帮整天在维度间飞来飞去的贪吃鬼应该可以很容易的被美食引诱出来。\n",
+        "isTranslationKey": false
+      },
+      "x": 170,
+      "y": 137,
+      "icon": {
+        "id": "undergarden:blisterberry",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "鸿门宴",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "    末影人其实喜欢水果，试试哪一个能引他出来。\n    ",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "undergarden:blisterberry",
+                "Count": 1
+              },
+              "required": 6,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "undergarden:rotten_blisterberry",
+                "Count": 1
+              },
+              "required": 6,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "undergarden:mogmoss",
+                "Count": 1
+              },
+              "required": 6,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "undergarden:droopvine_item",
+                "Count": 1
+              },
+              "required": 6,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a23ff0bb-0df9-4676-a79c-f8a6bbdf436c"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/summon isleofberk:speed_stinger_leader ~6 ~3 ~6",
+        "/tellraw @a {\"text\":\"\u003c韩小民\u003e 等等……引来的好像是别的什么东西……这是一场袭击！！\",\"color\":\"green\"}"
+      ]
+    },
+    {
+      "uuid": "1bd944a7-f409-4945-913d-73c9d4343b55",
+      "name": {
+        "text": "我事海洋龙！",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "饮食：各种海鲜；\n技能：电气吐息、经验加成、夜视、无视护甲；\n弱点：缺水和干燥；\n爪子：铲子；\n■ 游玩海洋龙的主要挑战就是在干燥的陆地上生存。生物群落温度、天气和时间对的速度有影响。你只有在水里才会感到舒适，但是有办法可以暂时避免那种减益效果：湿润的方块（比如雪块）、瓶装水、冰冻鱼、各种果汁饮料。获得海龙的信标可以在范围内免疫干燥。升级“水”属性的技能亦能在对抗缺水。\n\n■ 海龙可以通过站在冰（霜冰、蓝冰、浮冰、冰块）、玻璃、沙子（沙子、红沙）、珊瑚块（鹿角珊瑚块、火珊瑚块、管珊瑚块、脑纹珊瑚块、气泡珊瑚块）和水上能获得速度效果。需要学习被动技能“海洋健将”。\n\n■ 海龙有许多优势：无限水下呼吸、连锁闪电和用于挖掘松散方块的特殊爪子。",
+        "isTranslationKey": false
+      },
+      "x": 263,
+      "y": 16,
+      "bigicon": true,
+      "icon": {
+        "id": "dragonsurvival:sea_source_of_magic",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "提交这个物品，开启种族主线。",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "血脉中的狩猎经验让海洋龙天生具有更高的基础伤害和的额外暴击伤害，并且更容易成功暴击、闪避和格挡。",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "dragone_aventure:joyauxdragonique",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "dragonsurvival:golden_turtle_egg",
+          "Count": 8
+        },
+        {
+          "id": "prefab:item_moderate_house",
+          "Count": 1
+        },
+        {
+          "id": "enigmaticlegacy:architect_eye",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A76右键唤醒祂\"}\u0027]}}"
+        },
+        {
+          "id": "minecraft:lingering_potion",
+          "Count": 1,
+          "tag": "{Potion:\"useless_sword:vex_effect_potion_item\"}"
+        },
+        {
+          "id": "ftbquests:book",
+          "Count": 1,
+          "tag": "{display:{Name:\u0027{\"text\":\"商店与图鉴\"}\u0027}}"
+        },
+        {
+          "id": "minecraft:bundle",
+          "Count": 1,
+          "tag": "{Items:[{Count:4b,id:\"minecraft:honey_bottle\"},{Count:4b,id:\"unusualend:chorus_juice\"},{Count:4b,id:\"create:builders_tea\"},{Count:4b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}],RepairCost:0,display:{Name:\u0027{\"text\":\"一袋饮料（可以补充水分）\"}\u0027}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "dragonsurvival:treasure_iron",
+          "Count": 9
+        },
+        {
+          "id": "dragonsurvival:treasure_copper",
+          "Count": 9
+        },
+        {
+          "id": "dragonsurvival:treasure_gold",
+          "Count": 9
+        }
+      ],
+      "commandrewards": [
+        "/dragon sea 1 false @p",
+        "/give Roemon enigmaticlegacy:ascension_amulet{display:{Lore:[\u0027{\"text\":\"\\\\u00A75数码兽罗伊的鳞片，有着神秘护身符的全部功能。\"}\u0027]}}",
+        "/give LiNg_MuYAn rainbowcompound:radiance_ring",
+        "/attribute @p minecraft:generic.attack_damage base set 5",
+        "/give LiNg_MuYAn rainbowcompound:shadow_ring",
+        "/give ETM_EnderDragon rainbowcompound:home_magic_mirror",
+        "/attribute @p forge:swim_speed base set 2",
+        "/attribute @p obscure_api:critical_hit base set 0.1",
+        "/attribute @p celestial_artifacts:crit_damage base set 2.0",
+        "/give ziyinmy twilightforest:charm_of_life_2",
+        "/attribute @p obscure_api:parry base set 0.05",
+        "/attribute @p obscure_api:dodge base set 0.05"
+      ]
+    },
+    {
+      "uuid": "63b3b08d-9b1b-44e2-9b27-5d5f83c76ad1",
+      "name": {
+        "text": "开始强化！",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "在锻造台使用镶孔符石可以为你的武器装备打上新的槽位。\n这些槽位可以放置一些强化宝石，通常，你可以从地牢的奖励箱、怪物掉落的白色宝箱中获宝石。\n\n更多提升你能力的工作方块请在物品栏左上角的书中查看，具体在“装点龙巢”章节。",
+        "isTranslationKey": false
+      },
+      "x": 211,
+      "y": 62,
+      "icon": {
+        "id": "minecraft:smithing_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:smithing_table",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7d1c1c85-4940-4728-b92c-75673eea4b27"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "apotheosis:sigil_of_socketing",
+          "Count": 3
+        },
+        {
+          "id": "apotheosis:vial_of_extraction",
+          "Count": 2
+        },
+        {
+          "id": "minecraft:deepslate_copper_ore",
+          "Count": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "apotheosis:gem",
+          "Count": 1,
+          "tag": "{modifier:{Amount:0.2d,Name:\"GemBonus_apotheosis:step_height\",Operation:1,UUID:[I;1679519990,-578403844,-1899551499,123158804],attribute:\"obscure_api:dodge\"},purity:1.5f,variant:8}"
+        },
+        {
+          "id": "apotheosis:gem",
+          "Count": 1,
+          "tag": "{modifier:{Amount:35.0d,Name:\"GemBonus_apotheosis:attack_speed\",Operation:0,UUID:[I;980490976,-376812635,-1109256098,1973126649],attribute:\"obscure_api:magic_damage\"},purity:1.11f,variant:6}"
+        },
+        {
+          "id": "apotheosis:gem",
+          "Count": 1,
+          "tag": "{modifier:{Amount:0.6d,Name:\"GemBonus_apotheosis:cold_damage\",Operation:1,UUID:[I;1970815349,-45150,-1585173224,1581490420],attribute:\"apotheosis:life_steal\"},purity:1.181818f,variant:1}"
+        },
+        {
+          "id": "apotheosis:gem",
+          "Count": 1,
+          "tag": "{modifier:{Amount:1.5d,Name:\"GemBonus_apotheosis:luck\",Operation:1,UUID:[I;1679780796,847595103,-1914900639,-1528527718],attribute:\"celestial_artifacts:reply_effect\"},purity:1.2f,variant:2}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "32fcf05c-9d6a-49cf-a07d-4694309397d5",
+      "name": {
+        "text": "突变末影人",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "来的是突变末影人？不碍事，拿上他的末影之眼，获取末影之力。",
+        "isTranslationKey": false
+      },
+      "x": 47,
+      "y": 175,
+      "icon": {
+        "id": "waystones:waystone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": {
+            "text": "杀死突变末影人",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "   ",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_eye",
+                "Count": 1
+              },
+              "required": 4,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1da72a80-5aaf-4fc7-ba01-5cbf6447c54b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "enigmaticlegacy:mending_mixture",
+          "Count": 2
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 4
+        },
+        {
+          "id": "celestial_artifacts:life_bracelet",
+          "Count": 1
+        },
+        {
+          "id": "waystones:waystone",
+          "Count": 1
+        },
+        {
+          "id": "celestial_artifacts:red_heart_necklace",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"flowingagony:guidens_regret\",lvl:5s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"flowingagony:morirs_deathwish\",lvl:5s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"flowingagony:morirs_lifebound\",lvl:5s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"flowingagony:armor_up\",lvl:50s}]}"
+        }
+      ],
+      "commandrewards": [
+        "/attribute @p minecraft:generic.max_health base set 40",
+        "/attribute @p obscure_api:regeneration base set 20"
+      ]
+    },
+    {
+      "uuid": "613d65d2-8088-41d0-9e6f-a9738104fac1",
+      "name": {
+        "text": "初始套件",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    所谓要致富，先撸树，然后使用只有3耐久的木镐）去挖掘石头。\n    总之，来做一套石头工具开启你的流放生涯。",
+        "isTranslationKey": false
+      },
+      "x": 278,
+      "y": 47,
+      "icon": {
+        "id": "tconstruct:pickaxe",
+        "Count": 1,
+        "tag": "{Damage:0,tic_broken:0b,tic_persistent_data:{abilities:1,upgrades:3}}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stone_pickaxe",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_shovel",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_axe",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1bd944a7-f409-4945-913d-73c9d4343b55"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:basic_bag",
+          "Count": 1
+        },
+        {
+          "id": "hanew_village_mod:hanewcoin",
+          "Count": 1
+        },
+        {
+          "id": "dragonsurvival:frozen_raw_fish",
+          "Count": 4
+        },
+        {
+          "id": "naturescompass:naturescompass",
+          "Count": 1,
+          "tag": "{}"
+        },
+        {
+          "id": "explorerscompass:explorerscompass",
+          "Count": 1,
+          "tag": "{}"
+        },
+        {
+          "id": "supplementaries:sack",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tinkers_ingenuity:battleaxe",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_persistent_data:{abilities:1,upgrades:3}}"
+        },
+        {
+          "id": "tinkers_ingenuity:halberd",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_persistent_data:{abilities:1,upgrades:3}}"
+        },
+        {
+          "id": "tinkers_ingenuity:hammer",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_persistent_data:{abilities:1,upgrades:3}}"
+        },
+        {
+          "id": "gunswithoutroses:iron_gun",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c019d6d5-f14d-4d55-a03c-7bc15c007a47",
+      "name": {
+        "text": "沼泽巨颚",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "来的是为什么来的是这只大鱼？希望他会掉末影之眼。",
+        "isTranslationKey": false
+      },
+      "x": 292,
+      "y": 179,
+      "icon": {
+        "id": "waystones:sandy_waystone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": {
+            "text": "杀死沼泽巨颚",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": " ",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_eye",
+                "Count": 1
+              },
+              "required": 4,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cd24271-f68a-4c05-ac94-367fec1c6310"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 4
+        },
+        {
+          "id": "enigmaticlegacy:ocean_stone",
+          "Count": 1
+        },
+        {
+          "id": "waystones:sandy_waystone",
+          "Count": 1
+        },
+        {
+          "id": "celestial_artifacts:life_bracelet",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"flowingagony:morirs_deathwish\",lvl:5s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"flowingagony:guidens_regret\",lvl:5s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"flowingagony:morirs_lifebound\",lvl:5s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": "{StoredEnchantments:[{id:\"flowingagony:necessary_evil\",lvl:50s}]}"
+        }
+      ],
+      "commandrewards": [
+        "/attribute @p minecraft:generic.attack_damage base set 8",
+        "/attribute @p obscure_api:regeneration base set 1"
+      ]
+    },
+    {
+      "uuid": "62a42e3d-ea12-4987-a946-d7defb9a9321",
+      "name": {
+        "text": "进入森林上层",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "     他明明只有一双眼睛，怎么掉落了这么多末影之眼？\n     你摇摇头，只希望自己不会掉两个龙头。",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 190,
+      "icon": {
+        "id": "alexsmobs:void_worm_eye",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "传送",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "末影之眼蕴含空间魔力，消耗之可以前往森林上层。\n注意：请确保在当前维度留有指路石或者其他跨维度方法，不然可能难以回归。\n\n",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_eye",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "32fcf05c-9d6a-49cf-a07d-4694309397d5",
+        "c019d6d5-f14d-4d55-a03c-7bc15c007a47"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "waystones:waystone",
+          "Count": 1
+        },
+        {
+          "id": "waystones:mossy_waystone",
+          "Count": 1
+        },
+        {
+          "id": "waystones:sandy_waystone",
+          "Count": 1
+        }
+      ],
+      "commandrewards": [
+        "/execute in twilightforest:twilight_forest run tp ~ 150 ~"
+      ]
+    },
+    {
+      "uuid": "50c6ce32-79d5-4f14-bae9-07825e1c29ad",
+      "name": {
+        "text": "粗野兽",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    粗野兽是一种栖息在深暗之园的中立生物。\n    通常，你可以在茂密森林、油绿森林、烟梗森林和遗忆之地中发现他们的踪迹。",
+        "isTranslationKey": false
+      },
+      "x": 266,
+      "y": 103,
+      "icon": {
+        "id": "undergarden:brute_tusk",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "undergarden:brute_tusk",
+                "Count": 1
+              },
+              "required": 10,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a947d84-659c-4189-a2a2-cef71bd441de"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "hanew_village_mod:hanewcoin",
+          "Count": 32
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "10b6ef78-b3d5-41e9-bf99-89cd818d9818",
+      "name": {
+        "text": "表妹的求助（支线）",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "敬爱之表兄：\n\n    朝夕以念兹之辈，谨表妹向兄表谦遣此书函。表谦愚悉兄千里之遥，心甚豪壮，智慧出众。今欲借托表兄恩德一事，敢忝表妹身份，聊表一念之愿。\n    闻闻兄目前珍藏宝物，名曰「 钻石龙铠」，华美绝伦，非凡绝俗。表妹近来内心伸缩不定，忧虑如潮，因此怀望能蒙兄之赐，借用此龙铠，以供危急之辞。\n    表妹敢用世代相传之「 术石」作为抵质，瑰宝久贮，法力非凡。若获兄予之龙铠，当担重责，谨守护以彰其价之迄日。\n    然，妾知借取如此贵重之物，实乃大事，亦知兄对此钻石龙铠视若掌上明珠。若兄能垂纳妾之愿，妾将感激不尽，且愿奉献以报兄德之深厚。\n    请兄详思，回音娓娓；无论兄之裁决如何，妾将永怀感恩之心，感谢兄支持与理解。\n    妄愿兄安康！\n    顺颂兄安康！\n\n妹，\n火龙·鹤言",
+        "isTranslationKey": false
+      },
+      "x": 15,
+      "y": 119,
+      "icon": {
+        "id": "enigmaticlegacy:golem_heart",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "iceandfire:dragonarmor_diamond_head",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "iceandfire:dragonarmor_diamond_neck",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "iceandfire:dragonarmor_diamond_body",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "iceandfire:dragonarmor_diamond_tail",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "49b24b8c-4071-49fb-9107-1657c6f358af"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "enigmaticlegacy:golem_heart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "315086e6-4a81-4824-bbe5-eb816515b857",
+      "name": {
+        "text": "我事森林龙！",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "饮食：各种生肉、植物；\n技能：生命吐息、伤害增加、攻速加成、远射；\n弱点：黑暗；\n爪子：斧头；\n 当长时间暴露在黑暗中时，森林龙会获得压力减益，这会导致玩家的饥饿值和饱和度迅速流失。使用魔力之森林和光明长存技能，让你的暂时抵抗黑暗。\n\n森林龙可以通过站在木头（各种木材），树叶（各种树叶），木板（各种木板）和土壤（泥土，草，豆荚，粗泥，菌丝体）上获得速度II效果。\n\n森林龙天生就有爪斧。新生儿有木爪斧，而年轻人和成年人有石头爪斧。它们从跌落中受到的伤害也较小，并且不会被浆果灌木/仙人掌伤害。\n\n■森林龙挥舞着中毒和成长的魔法！",
+        "isTranslationKey": false
+      },
+      "x": 155,
+      "y": 16,
+      "bigicon": true,
+      "icon": {
+        "id": "dragonsurvival:forest_source_of_magic",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "提交这个物品，开启种族主线。",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "得益于其钻石构成的骨骼，森林龙具有比一般龙更高的韧性和更强的跳跃能力，并且在受到任意治疗时会有额外回复效果。",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "dragone_aventure:joyauxdragonique",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [
+        "1bd944a7-f409-4945-913d-73c9d4343b55"
+      ],
+      "reward": [
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "dragonsurvival:diamond_chorus",
+          "Count": 8
+        },
+        {
+          "id": "prefab:item_advanced_farm",
+          "Count": 1
+        },
+        {
+          "id": "enigmaticlegacy:architect_eye",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A76右键唤醒祂\"}\u0027]}}"
+        },
+        {
+          "id": "minecraft:lingering_potion",
+          "Count": 1,
+          "tag": "{Potion:\"useless_sword:vex_effect_potion_item\"}"
+        },
+        {
+          "id": "ftbquests:book",
+          "Count": 1,
+          "tag": "{display:{Name:\u0027{\"text\":\"商店与图鉴\"}\u0027}}"
+        },
+        {
+          "id": "minecraft:bundle",
+          "Count": 1,
+          "tag": "{Items:[{Count:16b,id:\"minecraft:carrot\"},{Count:16b,id:\"minecraft:sweet_berries\"},{Count:16b,id:\"minecraft:bamboo\"},{Count:16b,id:\"minecraft:potato\"}],RepairCost:0,display:{Name:\u0027{\"text\":\"一袋零食\"}\u0027}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "dragonsurvival:treasure_iron",
+          "Count": 9
+        },
+        {
+          "id": "dragonsurvival:treasure_copper",
+          "Count": 9
+        },
+        {
+          "id": "dragonsurvival:treasure_gold",
+          "Count": 9
+        }
+      ],
+      "commandrewards": [
+        "/dragon forest 1 false @p",
+        "/give Roemon enigmaticlegacy:ascension_amulet{display:{Lore:[\u0027{\"text\":\"\\\\u00A75数码兽罗伊的鳞片，有着神秘护身符的全部功能。\"}\u0027]}}",
+        "/give LiNg_MuYAn rainbowcompound:radiance_ring",
+        "/give LiNg_MuYAn rainbowcompound:shadow_ring",
+        "/attribute @p minecraft:generic.armor_toughness base set 5",
+        "/give ETM_EnderDragon rainbowcompound:home_magic_mirror",
+        "/attribute @p obscure_api:healing_power base set 0.5",
+        "/attribute @p obscure_api:critical_hit base set 0.05",
+        "/give ziyinmy twilightforest:charm_of_life_2",
+        "/attribute @p forge:entity_gravity base set 0.04"
+      ]
+    },
+    {
+      "uuid": "9cc61162-fb61-4eb4-98d3-8dd5a49cfd9e",
+      "name": {
+        "text": "观星",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "     维度窜梭的尝试让你离星空前所未有的近。\n     (打开ftb任务的\"星宿\"章节，开启星宿系统！)",
+        "isTranslationKey": false
+      },
+      "x": 217,
+      "y": 202,
+      "icon": {
+        "id": "tinkers_thinking:chromatic_crystal",
+        "Count": 1
+      },
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_eye",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "daa3a31d-d44e-41c7-ac4a-ed541a585e60",
+        "62a42e3d-ea12-4987-a946-d7defb9a9321"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tinkers_thinking:chromatic_crystal",
+          "Count": 1
+        },
+        {
+          "id": "celestial_artifacts:evil_eye",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7d1c1c85-4940-4728-b92c-75673eea4b27",
+      "name": {
+        "text": "简单工具",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    所谓要致富，先撸树，然后使用只有3耐久的木镐）去挖掘石头。\n    总之，来做一套石头工具开启你的流放生涯。",
+        "isTranslationKey": false
+      },
+      "x": 169,
+      "y": 62,
+      "icon": {
+        "id": "minecraft:stone_shovel",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stone_shovel",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_pickaxe",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_axe",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "315086e6-4a81-4824-bbe5-eb816515b857"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hanew_village_mod:hanewcoin",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:basic_bag",
+          "Count": 1
+        },
+        {
+          "id": "dragonsurvival:luminous_ointment",
+          "Count": 4
+        },
+        {
+          "id": "naturescompass:naturescompass",
+          "Count": 1,
+          "tag": "{}"
+        },
+        {
+          "id": "explorerscompass:explorerscompass",
+          "Count": 1,
+          "tag": "{}"
+        },
+        {
+          "id": "supplementaries:sack",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:mattock",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_persistent_data:{abilities:1,upgrades:3}}"
+        },
+        {
+          "id": "tinkers_thinking:paxel",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_persistent_data:{abilities:1,upgrades:3}}"
+        },
+        {
+          "id": "tconstruct:pickadze",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_persistent_data:{abilities:1,upgrades:3}}"
+        },
+        {
+          "id": "gunswithoutroses:gold_gun",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "49b24b8c-4071-49fb-9107-1657c6f358af",
+      "name": {
+        "text": "采矿维度",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    你可以消耗钻石前往采矿维度。记得在当前维度放置指路石。\n\n   由于采矿维度黑暗又复杂，你的亲戚给你寄来了一把生锈的恼鬼剑和一瓶精酿的夜视药水。\n    恼鬼剑的穿墙能力应该可以帮助你快速寻找遗迹和矿物。",
+        "isTranslationKey": false
+      },
+      "x": 15,
+      "y": 79,
+      "icon": {
+        "id": "waystones:waystone",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": {
+            "text": "采矿维度的矿物生成高度与机制和主世界原版一样。",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1fee6a5-9895-418e-97f5-3e77cb91eecc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "waystones:waystone",
+          "Count": 1
+        },
+        {
+          "id": "useless_sword:vex_sword",
+          "Count": 1,
+          "tag": "{AttributeModifiers:[{Amount:-2.4d,AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Operation:0,Slot:\"mainhand\",UUID:[I;-1164608543,1229343642,-1095425559,-2001040284]},{Amount:7.0d,AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Operation:0,Slot:\"mainhand\",UUID:[I;-1596045376,-1685829832,-1931859896,-957037622]}],Damage:0,HideFlags:32,display:{Lore:[\u0027{\"text\":\"\\\\u00A74右键：隐身2分钟\"}\u0027,\u0027{\"text\":\"\\\\u00A74shift+右键：进入观察者模式,持续10s。\"}\u0027,\u0027{\"text\":\"\\\\u00A7b释放技能会消耗大量耐久度\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d生锈恼鬼剑\"}\u0027}}"
+        },
+        {
+          "id": "minecraft:potion",
+          "Count": 1,
+          "tag": "{Potion:\"goblintraders:extended_night_vision\"}"
+        },
+        {
+          "id": "apotheosis:pickaxe_tome",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/execute in mining_dimension:mining run tp ~ 0 ~"
+      ]
+    },
+    {
+      "uuid": "8b4cea1c-b37e-4ce2-853e-c6bf2c123564",
+      "name": {
+        "text": "武器升级！",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    你或许注意到了，在图鉴中列出了的大量武器中，不少备注着“可升级”，具体是怎么升级呢？\n    通常，武器可以通过工作台和锻造台来升级，一些特殊的武器有特殊的合成方式；每一把武器的升级方式和路线也不尽相同。\n    这个任务奖励可以让你挑选一把初始状态的武器，在选择之前，请在jei或图鉴里查阅升级路线和最终产物。",
+        "isTranslationKey": false
+      },
+      "x": 93,
+      "y": 107,
+      "icon": {
+        "id": "useless_sword:elder_guardian_sword",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "apotheosis:salvaging_table",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "98afd9d1-924e-44ef-b746-e3155e9f7699"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "useless_sword:netherrack_sword",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "useless_sword:coal_sword",
+          "Count": 1,
+          "tag": "{Damage:0,affix_data:{affixes:{\"apotheosis:socket\":2.0f}}}"
+        },
+        {
+          "id": "iceandfire:dragonbone_sword",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "useless_sword:pesting_rapier",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f0ae7366-bd33-4901-a172-48161168668d",
+      "name": {
+        "text": "武器升级！",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    你或许注意到了，在图鉴中列出了的大量武器中，不少备注着“可升级”，具体是怎么升级呢？\n    通常，武器可以通过工作台和锻造台来升级，一些特殊的武器有特殊的合成方式；每一把武器的升级方式和路线也不尽相同。\n    这个任务奖励可以让你挑选一把初始状态的武器，在选择之前，请在jei或图鉴里查阅升级路线和最终产物。",
+        "isTranslationKey": false
+      },
+      "x": 217,
+      "y": 94,
+      "icon": {
+        "id": "apotheosis:salvaging_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "apotheosis:salvaging_table",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "63b3b08d-9b1b-44e2-9b27-5d5f83c76ad1"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "useless_sword:basalt_broadsword",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "useless_sword:pesting_rapier",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "useless_sword:clay_sword",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "useless_sword:endstone_sword",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3088639c-3202-4c84-af56-47a1f692eb8b",
+      "name": {
+        "text": "遗忆守卫",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    遗忆守卫是你这流放之地的典狱长，不过随着岁月流逝他已经不复当年实力。是时候让他看看这里谁才是老大了。\n    他在主要由渊邃石装饰方块、粗糙邃土、邃草方块和扼塞栏杆组成的下僻巢穴等待你。\n    \n    下僻巢穴会在遗忆之地群系海拔较低处生成。",
+        "isTranslationKey": false
+      },
+      "x": 278,
+      "y": 123,
+      "icon": {
+        "id": "undergarden:forgotten_ingot",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "undergarden:forgotten_ingot",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a947d84-659c-4189-a2a2-cef71bd441de",
+        "50c6ce32-79d5-4f14-bae9-07825e1c29ad"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 2
+        },
+        {
+          "id": "tinkerscalibration:mangobberslime_ingot",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"\\\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}\u0027],Name:\u0027{\"text\":\"\\\\u00A7d\\\\u00A7l万象质料\"}\u0027}}"
+        },
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:blaze_gate_small\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:blaze_gate_small\"}"
+        },
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:spider_gate_small\"}"
+        },
+        {
+          "id": "gateways:gate_pearl",
+          "Count": 1,
+          "tag": "{gateway:\"gateways:slime_gate_small\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1da72a80-5aaf-4fc7-ba01-5cbf6447c54b",
+      "name": {
+        "text": "以财诱人",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "     刚刚的那个\"传送门\"看着十分诱人，但遗憾的是你完全无法进入。\n     或许可以试试更深入的利用时空的力量。\n     比如，找个末影人？\n     这帮整天在维度间飞来飞去应该可以很容易的被珠宝引诱出来。",
+        "isTranslationKey": false
+      },
+      "x": 35,
+      "y": 156,
+      "icon": {
+        "id": "minecraft:gold_block",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "description": {
+            "text": "以财诱人",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "在地上放置钻石块、金块、贵豪块以完成该任务召唤末影人。",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_block",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond_block",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "undergarden:regalium_block",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9ce81f91-765e-4046-af83-832132396471"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/summon mutantmonsters:mutant_enderman",
+        "/tellraw @a {\"text\":\"\u003c韩小民\u003e 该死！是突变末影人！……我早该想到的。\",\"color\":\"red\"}"
+      ]
+    }
+  ],
+  "reputationBar": [],
+  "description": {
+    "text": "    你刚被流放至此，发现举目晦暗，不见天日。\n    但环顾四周，仍颇有生机。\n    看来传闻不错，曾经的沙漠已成了森林，而自己现在正处于森林下层——看起来像是没有尽头的洞穴一般。\n    似乎，比先辈的条件好些？",
+    "isTranslationKey": false
+  }
+}

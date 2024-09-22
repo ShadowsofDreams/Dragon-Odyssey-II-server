@@ -1,0 +1,20 @@
+{
+	id: "6AA1D9282DF64964"
+	order_index: 6
+	title: "大批货物"
+	loot_size: 1
+	rewards: [
+		{ item: "prefab:item_ton_of_timber" }
+		{ item: "prefab:block_double_compressed_quartz_crete" }
+		{ item: "prefab:block_double_compressed_obsidian" }
+		{ item: "prefab:block_double_compressed_glowstone" }
+		{ item: "prefab:block_triple_compressed_stone" }
+		{ item: "prefab:item_pallet_of_bricks" }
+		{ item: "prefab:block_double_compressed_dirt" }
+		{ item: "prefab:item_crate_of_potatoes" }
+		{ item: "prefab:item_carton_of_eggs" }
+		{ item: "prefab:item_coil_of_lanterns" }
+		{ item: "prefab:item_crate_of_beets" }
+		{ item: "prefab:item_crate_of_carrots" }
+	]
+}

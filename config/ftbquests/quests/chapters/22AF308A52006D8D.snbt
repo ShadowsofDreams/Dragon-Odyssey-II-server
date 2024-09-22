@@ -1,0 +1,491 @@
+{
+	id: "22AF308A52006D8D"
+	group: "6012FF85FF3686AC"
+	order_index: 1
+	filename: "22AF308A52006D8D"
+	title: "东官苍龙"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "dragonsurvival:textures/blank.png"
+		}
+	}
+	disable_toast: true
+	subtitle: ["青龙举步行千里,休道蓬莱归路长"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.5d
+		y: -37.0d
+		width: 64.0d
+		height: 44.6d
+		rotation: 0.0d
+		image: "rainbowcompound:textures/models/armor/rainbow_layer_2.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "天关"
+			disable_toast: true
+			x: -8.5d
+			y: -23.95d
+			subtitle: "『左角为天田，右角为天门，中间名天关 。』"
+			size: 1.44d
+			invisible: true
+			invisible_until_tasks: 1
+			id: "3FDFB6E6BEFAEF4C"
+			tasks: [{
+				id: "55895AE5357241E7"
+				type: "item"
+				item: {
+					id: "ulterlands:arcane_horn"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"\\u00A7e东官苍龙\"}"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F23E5C7DCA74219"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "天门"
+			disable_toast: true
+			x: -7.2d
+			y: -25.6d
+			subtitle: "『角二星为天门。』"
+			size: 0.8d
+			id: "1FABAC9027894936"
+			tasks: [{
+				id: "68A08CF35F156112"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -11.0d
+			y: -28.0d
+			size: 0.8d
+			id: "51330503515762FB"
+			tasks: [{
+				id: "56258CC209413E82"
+				type: "item"
+				item: {
+					id: "ulterlands:arcane_horn"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"\\u00A7e东官苍龙\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			disable_toast: true
+			x: -10.4d
+			y: -27.6d
+			size: 0.88d
+			id: "0D45495209882CA4"
+		}
+		{
+			disable_toast: true
+			x: -9.5d
+			y: -28.25d
+			size: 0.5d
+			id: "11CF8D9BE0D3A9FD"
+			tasks: [{
+				id: "25E52AF81271BD61"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -9.35d
+			y: -29.325d
+			size: 0.85d
+			id: "58588C54C44282F4"
+			tasks: [{
+				id: "30E495B86BC5A68F"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -12.0d
+			y: -30.5d
+			size: 0.85d
+			id: "11838D178758CD91"
+			tasks: [{
+				id: "7A06775D1C64F58C"
+				type: "item"
+				item: {
+					id: "ulterlands:arcane_horn"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"\\u00A7e东官苍龙\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			disable_toast: true
+			x: -13.3d
+			y: -32.35d
+			size: 0.88d
+			id: "50B3FD88D41DF401"
+			tasks: [{
+				id: "789575EA498C63DD"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -12.4d
+			y: -34.4d
+			size: 0.8d
+			id: "6836D8CD186F7A43"
+			tasks: [{
+				id: "1A1279BF43C462A7"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -11.2d
+			y: -32.9d
+			size: 0.7d
+			id: "3BA5E45FB4428F7A"
+			tasks: [{
+				id: "6C4B1EBAE218A465"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -15.35d
+			y: -36.35d
+			size: 0.55d
+			id: "69452B4E394526D1"
+			tasks: [{
+				id: "4F71D9E4875877C2"
+				type: "item"
+				item: {
+					id: "ulterlands:arcane_horn"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"\\u00A7e东官苍龙\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			disable_toast: true
+			x: -14.575000000000001d
+			y: -36.575d
+			size: 0.55d
+			id: "531186194F454E6D"
+			tasks: [{
+				id: "3F9E351DF21110CE"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -13.75d
+			y: -36.85d
+			size: 0.55d
+			id: "67DDCA233D23C637"
+			tasks: [{
+				id: "7B46D8E7D2E55401"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -13.200000000000001d
+			y: -37.125d
+			size: 0.55d
+			id: "123E9FE80D081F6A"
+			tasks: [{
+				id: "1B27FE1456D86D4C"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -14.1d
+			y: -38.85d
+			size: 0.7d
+			id: "2EFBFF0334643722"
+			tasks: [{
+				id: "47E2D6EC3FB377D4"
+				type: "item"
+				item: {
+					id: "ulterlands:arcane_horn"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"\\u00A7e东官苍龙\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			disable_toast: true
+			x: -14.0d
+			y: -39.65d
+			size: 0.79d
+			id: "47A4E633EA69EBEF"
+			tasks: [{
+				id: "51A0AAB896ED2DFD"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -14.3d
+			y: -40.5d
+			size: 0.7d
+			id: "37DCF4F41A080106"
+			tasks: [{
+				id: "1BE3DEFE4B8D0341"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -15.0d
+			y: -42.0d
+			size: 0.6d
+			id: "00AAC702FAF74E8E"
+			tasks: [{
+				id: "5C6E3FC438BF086A"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -15.6d
+			y: -42.6d
+			size: 0.6d
+			id: "22B6067B6C85460E"
+			tasks: [{
+				id: "563BB57E474D01D7"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -16.25d
+			y: -43.1d
+			size: 0.75d
+			id: "79F4EE7A81A9F8E9"
+			tasks: [{
+				id: "2158ED092115350B"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -15.6d
+			y: -45.15d
+			size: 0.78d
+			id: "2555280F9AED9999"
+			tasks: [{
+				id: "4DEB1E49C6D0EDB3"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -14.5d
+			y: -47.5d
+			size: 0.86d
+			id: "580F6A77BC513E90"
+			tasks: [{
+				id: "16A2D4F8386B60C2"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -13.2d
+			y: -48.3d
+			size: 0.6d
+			id: "661201F10081DF61"
+			tasks: [{
+				id: "3DE91619BA4C37FC"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -13.3d
+			y: -47.7d
+			size: 0.9d
+			id: "73D3530457BE4D97"
+			tasks: [{
+				id: "0481441CDD6B4E5D"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -14.0d
+			y: -46.35d
+			size: 0.7d
+			id: "5EB2AB0A261694E7"
+			tasks: [{
+				id: "199BD53FF7FB6D8F"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -13.2d
+			y: -46.8d
+			size: 0.6d
+			id: "4B7714F0FF44AAA4"
+			tasks: [{
+				id: "3B4AA75FF696D7EA"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -10.450000000000001d
+			y: -48.95d
+			size: 0.8d
+			id: "249FC9C062E3DF89"
+			tasks: [{
+				id: "32D12D9F5CAE447B"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -9.45d
+			y: -50.05d
+			size: 0.65d
+			id: "330687A8ECCA31B2"
+			tasks: [{
+				id: "7AC219C482888115"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -9.75d
+			y: -51.0d
+			size: 0.8d
+			id: "45DFFE056CA8586C"
+			tasks: [{
+				id: "0F8E1E22E0E1614D"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -10.65d
+			y: -50.75d
+			size: 0.6d
+			id: "2CB04511D1682FA3"
+			tasks: [{
+				id: "50FDFF6B05F006EA"
+				type: "item"
+			}]
+		}
+		{
+			title: "角宿"
+			disable_toast: true
+			x: -14.0d
+			y: -19.5d
+			subtitle: "『角二星为天关，苍龙角也， 一曰维首、天陈、天相、天田，金星也。』"
+			id: "335143C5FAC848B0"
+			tasks: [{
+				id: "7E925DA216C0E83E"
+				type: "item"
+			}]
+		}
+		{
+			title: "亢宿"
+			disable_toast: true
+			x: 2.0d
+			y: -26.5d
+			subtitle: "『  有星四，龙咽喉也。礼月令： 仲夏之月，昏、亢中』"
+			id: "20ED468937BF1029"
+			tasks: [{
+				id: "794302875BAB6DD3"
+				type: "item"
+			}]
+		}
+		{
+			title: "氐宿"
+			disable_toast: true
+			x: -2.5d
+			y: -34.5d
+			subtitle: "『角亢下系于氐，若木之有根，龙之前足』"
+			id: "2D1F72E3EC70C860"
+			tasks: [{
+				id: "4F41EA85A328B76D"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -9.5d
+			y: -40.0d
+			id: "062EC4DDAB45EEED"
+			tasks: [{
+				id: "70E4D65EF6C91DE1"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -21.5d
+			y: -40.5d
+			id: "751E231630F0BEA4"
+			tasks: [{
+				id: "63A414C2844CD2B5"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -22.0d
+			y: -52.0d
+			id: "01AADDF3550ECE5D"
+			tasks: [{
+				id: "1000446B0198501D"
+				type: "item"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -1.5d
+			y: -49.0d
+			id: "0F7663B2BFA15C78"
+			tasks: [{
+				id: "0616567514C6956E"
+				type: "item"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

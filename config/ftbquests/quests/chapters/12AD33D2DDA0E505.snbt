@@ -1,0 +1,597 @@
+{
+	id: "12AD33D2DDA0E505"
+	group: "275E0E9B2A2CE638"
+	order_index: 0
+	filename: "12AD33D2DDA0E505"
+	title: "收购"
+	icon: "hanew_village_mod:hanewcoin"
+	disable_toast: true
+	subtitle: ["使用龙币或其他东西来此交易"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -13.5d
+			y: -18.0d
+			width: 16.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "blackaures_paintings:textures/p14.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -15.5d
+			y: -11.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "twilightforest:textures/items/charm_of_life_2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			disable_toast: true
+			x: -8.5d
+			y: -11.5d
+			subtitle: "这个鳞片带有魔法之力，看看它能为你换来什么。"
+			size: 1.5d
+			can_repeat: true
+			id: "6E3E9AF1BDDF2361"
+			tasks: [{
+				id: "155905B5549890CF"
+				type: "item"
+				item: "undergarden:masticator_scales"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5FEF0898DF9D0E67"
+				type: "random"
+				title: "来碰碰运气吧"
+				icon: "meetyourfight:slicers_dice"
+				team_reward: true
+				table_id: 2384893207445942615L
+			}]
+		}
+		{
+			disable_toast: true
+			x: -17.5d
+			y: -13.5d
+			can_repeat: true
+			id: "7B304D4BAA361155"
+			tasks: [{
+				id: "750F89A5398C3C21"
+				type: "item"
+				item: "undergarden:depthrock_pebble"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "66F961CF58048185"
+				type: "item"
+				item: "hanew_village_mod:hanewcoin"
+				count: 5
+				random_bonus: 10
+			}]
+		}
+		{
+			disable_toast: true
+			x: -17.5d
+			y: -12.5d
+			can_repeat: true
+			id: "037098CB2FD77383"
+			tasks: [{
+				id: "448942384AC830CE"
+				type: "item"
+				item: "undergarden:regalium_crystal"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5C607D8D370D0538"
+				type: "item"
+				team_reward: true
+				item: "hanew_village_mod:hanewcoin"
+				count: 27
+				random_bonus: 108
+			}]
+		}
+		{
+			disable_toast: true
+			x: -17.5d
+			y: -10.5d
+			can_repeat: true
+			id: "1B3F8FAA74B3F1E9"
+			tasks: [{
+				id: "0731AC6E89EF2A29"
+				type: "item"
+				item: "undergarden:gloomgourd_pie"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "62D871ED4E20EABD"
+				type: "item"
+				team_reward: true
+				item: "hanew_village_mod:hanewcoin"
+				count: 10
+				random_bonus: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: -17.5d
+			y: -11.5d
+			can_repeat: true
+			id: "05262EE1E34459DD"
+			tasks: [{
+				id: "6B5360BB2BBA4EE2"
+				type: "item"
+				item: "undergarden:forgotten_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "20A57D9F81B4FCF5"
+				type: "item"
+				team_reward: true
+				item: "hanew_village_mod:hanewcoin"
+				count: 54
+				random_bonus: 48
+			}]
+		}
+		{
+			disable_toast: true
+			x: -16.5d
+			y: -13.5d
+			subtitle: "由于市场波动，该种材料的价格变化十分难以预料。"
+			can_repeat: true
+			id: "576DD6A3FA741213"
+			tasks: [{
+				id: "282EA6388A8155B6"
+				type: "item"
+				item: "undergarden:mogmoss"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "35FB6A17D5A8CB6A"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "tinkerscalibration:mangobberslime_ingot"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"\\u00A7e这个奇异的合金极不稳定，似乎可以变作任何武器。\"}"]
+								Name: "{\"text\":\"\\u00A7d\\u00A7l万象质料\"}"
+							}
+						}
+					}
+					random_bonus: 2
+				}
+				{
+					id: "09C425429586A517"
+					type: "item"
+					team_reward: true
+					item: "hanew_village_mod:hanewcoin"
+					count: 32
+					random_bonus: 608
+				}
+			]
+		}
+		{
+			title: "亿般等价物"
+			disable_toast: true
+			x: -17.5d
+			y: -9.5d
+			can_repeat: true
+			id: "40C0468C6345CFA0"
+			tasks: [{
+				id: "6870C7AB00FB1DA9"
+				type: "item"
+				item: "hanew_village_mod:hanewcoin"
+				count: 1024L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0E239FCE5CC80E3A"
+				type: "item"
+				team_reward: true
+				item: "useless_sword:gold_iron_alloy_ingot"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -16.5d
+			y: -9.5d
+			can_repeat: true
+			id: "3BE87FDE5633DD98"
+			tasks: [{
+				id: "223630B18568DD72"
+				type: "item"
+				item: "useless_sword:gold_iron_alloy_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6AEE333980D79951"
+				type: "item"
+				team_reward: true
+				item: "hanew_village_mod:hanewcoin"
+				count: 512
+				random_bonus: 512
+			}]
+		}
+		{
+			title: "神秘废金属"
+			disable_toast: true
+			x: -13.0d
+			y: -13.5d
+			can_repeat: true
+			id: "17CFE1C7C7FFDBD9"
+			tasks: [{
+				id: "6403D6129264BD02"
+				type: "item"
+				item: "apotheosis:common_material"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "39FB511DBFA75E11"
+				type: "item"
+				team_reward: true
+				item: "hanew_village_mod:hanewcoin"
+				count: 10
+				random_bonus: 1
+			}]
+		}
+		{
+			title: "陈旧布匹"
+			disable_toast: true
+			x: -13.0d
+			y: -12.5d
+			can_repeat: true
+			id: "0243F03CCBC5133E"
+			tasks: [{
+				id: "5667B6794E139A81"
+				type: "item"
+				item: "apotheosis:uncommon_material"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "623D512B01E35ED6"
+				type: "item"
+				team_reward: true
+				item: "apotheosis:common_material"
+				count: 10
+				random_bonus: 1
+			}]
+		}
+		{
+			title: "发光水晶碎片"
+			disable_toast: true
+			x: -13.0d
+			y: -11.5d
+			can_repeat: true
+			id: "067F624393905910"
+			tasks: [{
+				id: "6073E9CD0EE3AC06"
+				type: "item"
+				item: "apotheosis:rare_material"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0DA270B23B0A821A"
+				type: "item"
+				team_reward: true
+				item: "apotheosis:uncommon_material"
+				count: 10
+				random_bonus: 1
+			}]
+		}
+		{
+			title: "玄奥沙"
+			disable_toast: true
+			x: -13.0d
+			y: -10.5d
+			can_repeat: true
+			id: "404CA0FE9F3A0FDC"
+			tasks: [{
+				id: "01256263E1E2F23A"
+				type: "item"
+				item: "apotheosis:epic_material"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0D5320E74564B4A5"
+				type: "item"
+				team_reward: true
+				item: "apotheosis:rare_material"
+				count: 10
+				random_bonus: 1
+			}]
+		}
+		{
+			title: "神铸珍珠"
+			disable_toast: true
+			x: -13.0d
+			y: -9.5d
+			can_repeat: true
+			id: "6748B078F71C31BC"
+			tasks: [{
+				id: "4A51F13A07FE0C94"
+				type: "item"
+				item: "apotheosis:mythic_material"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2ACF84763747BE48"
+				type: "item"
+				team_reward: true
+				item: "apotheosis:epic_material"
+				count: 5
+				random_bonus: 6
+			}]
+		}
+		{
+			disable_toast: true
+			x: -12.0d
+			y: -13.5d
+			can_repeat: true
+			id: "750B4C8DADB832FC"
+			tasks: [{
+				id: "353B1FBA29ACE460"
+				type: "item"
+				item: "apotheosis:common_material"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5B88982ED292EA7C"
+				type: "choice"
+				icon: "hanew_village_mod:hanewcoin"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 6645999739035186746L
+			}]
+		}
+		{
+			disable_toast: true
+			x: -12.0d
+			y: -12.5d
+			can_repeat: true
+			id: "1163CC516ABBE84D"
+			tasks: [{
+				id: "28FF776A31B0A225"
+				type: "item"
+				item: "apotheosis:uncommon_material"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3E3B05DBB31891D0"
+				type: "choice"
+				icon: "apotheosis:common_material"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 6431489923871778147L
+			}]
+		}
+		{
+			disable_toast: true
+			x: -12.0d
+			y: -11.5d
+			can_repeat: true
+			id: "01E8C7A6EDC5322D"
+			tasks: [{
+				id: "44E3FBCBC4381C10"
+				type: "item"
+				item: "apotheosis:rare_material"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4ED1330E0AA814F7"
+				type: "choice"
+				icon: "apotheosis:uncommon_material"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 4613706272083490345L
+			}]
+		}
+		{
+			disable_toast: true
+			x: -12.0d
+			y: -10.5d
+			can_repeat: true
+			id: "2439055DFB728CEB"
+			tasks: [{
+				id: "402E124A4EA6E9F5"
+				type: "item"
+				item: "apotheosis:epic_material"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7D320CED3B6B8DE6"
+				type: "choice"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 6078397869780130286L
+			}]
+		}
+		{
+			disable_toast: true
+			x: -12.0d
+			y: -9.5d
+			can_repeat: true
+			id: "70AD829DC836BC66"
+			tasks: [{
+				id: "035568F9489253BA"
+				type: "item"
+				item: "apotheosis:mythic_material"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "486E23EB8CB2109E"
+				type: "item"
+				team_reward: true
+				item: "apotheosis:epic_material"
+				count: 320
+				random_bonus: 640
+			}]
+		}
+		{
+			disable_toast: true
+			x: -4.0d
+			y: -12.5d
+			size: 0.1d
+			can_repeat: true
+			invisible: true
+			id: "6C796210093A0ED9"
+			tasks: [{
+				id: "0C5757427E885D45"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 1L
+			}]
+		}
+		{
+			disable_toast: true
+			x: -8.5d
+			y: -13.0d
+			can_repeat: true
+			id: "65EE962F7E25E7D1"
+			tasks: [{
+				id: "345718E4084F53B6"
+				type: "item"
+				item: "hanew_village_mod:starberry"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "68DF63A9F2AF6AA5"
+					type: "item"
+					team_reward: true
+					auto: "no_toast"
+					item: "hanew_village_mod:hanewcoin"
+					count: 512
+					random_bonus: 3584
+				}
+				{
+					id: "44BE574768A4753E"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "_"
+						}
+					}
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -8.5d
+			y: -10.0d
+			id: "290224ECDC864308"
+			tasks: [
+				{
+					id: "6FD7C9C123AEFAD8"
+					type: "item"
+					item: "the_cataclysm:cataclysmic_vine_stem"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "6BCC20F83F9EC4EA"
+					type: "item"
+					item: "the_cataclysm:catacylsmic_vine_spore"
+					count: 32L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4F0062DA1FB9E2D1"
+					type: "item"
+					team_reward: true
+					auto: "invisible"
+					item: "hanew_village_mod:hanewcoin"
+					count: 320
+					random_bonus: 8192
+				}
+				{
+					id: "14D6C393ED086315"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "_"
+						}
+					}
+					count: 20
+					random_bonus: 10
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -13.5d
+			can_repeat: true
+			id: "68F88E858E4908A8"
+			tasks: [{
+				id: "4A5A92E16A135954"
+				type: "item"
+				item: "apotheosis:common_material"
+				count: 640L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "047A7C109044078C"
+				type: "item"
+				team_reward: true
+				auto: "no_toast"
+				item: "useless_sword:gold_iron_alloy_ingot"
+				count: 5
+				random_bonus: 5
+			}]
+		}
+		{
+			x: -10.0d
+			y: -13.5d
+			can_repeat: true
+			id: "3DA0B85F13917C7F"
+			tasks: [{
+				id: "58D29BE06B30AA34"
+				type: "item"
+				item: "apotheosis:common_material"
+				count: 2304L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "07AFB9CF54C68CF1"
+				type: "item"
+				team_reward: true
+				auto: "no_toast"
+				item: "twilightforest:cinder_wood"
+				count: 2
+				random_bonus: 1
+			}]
+		}
+	]
+	quest_links: [ ]
+}

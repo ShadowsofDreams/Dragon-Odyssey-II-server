@@ -1,0 +1,926 @@
+[[entities]]
+  entity = "minecraft:creeper"
+  minTier = 1
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["hasty", "arctic"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "ulterlands:combustle"
+  minTier = 1
+  maxTier = 3
+  presetAffixes = []
+  affixList = ["arctic"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "isleofberk:speed_stinger_leader"
+  minTier = 2
+  maxTier = 3
+  presetAffixes = []
+  affixList = ["reality"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "minecraft:blaze"
+  minTier = 0
+  maxTier = 7
+  presetAffixes = []
+  affixList = ["enkindling"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "minecraft:zombie"
+  minTier = 1
+  maxTier = 7
+  presetAffixes = []
+  affixList = ["molten", "infested"]
+  affixPermission = "WHITELIST"
+
+  [[entities]]
+  entity = "born_in_chaos_v1:barrel_zombie"
+  minTier = 1
+  maxTier = 7
+  presetAffixes = []
+  affixList = ["molten", "infested"]
+  affixPermission = "WHITELIST"
+
+  [[entities]]
+  entity = "enemyexpansion:petriman"
+  minTier = 1
+  maxTier = 7
+  presetAffixes = []
+  affixList = ["molten", "infested"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "minecraft:husk"
+  minTier = 1
+  maxTier = 8
+  presetAffixes = []
+  affixList = [ "infested"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "minecraft:zombie_villager"
+  minTier = 1
+  maxTier = 8
+  presetAffixes = []
+  affixList = ["molten"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "minecraft:zombified_piglin"
+  minTier = 1
+  maxTier = 8
+  presetAffixes = []
+  affixList = [ "molten"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "minecraft:drowned"
+  minTier = 1
+  maxTier = 8
+  presetAffixes = []
+  affixList = ["arctic", "infested"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "minecraft:skeleton"
+  minTier = 1
+  maxTier = 8
+  presetAffixes = []
+  affixList = ["lively"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "born_in_chaos_v1:skeleton_demoman"
+  minTier = 1
+  maxTier = 8
+  presetAffixes = []
+  affixList = ["lively"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "bygonenether:wither_skeleton_knight"
+  minTier = 1
+  maxTier = 8
+  presetAffixes = []
+  affixList = [ "arctic"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "bygonenether:corpor"
+  minTier = 1
+  maxTier = 8
+  presetAffixes = []
+  affixList = [ "arctic"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "born_in_chaos_v1:dark_vortex"
+  minTier = 1
+  maxTier = 8
+  presetAffixes = []
+  affixList = [ "arctic"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "bygonenether:wraither"
+  minTier = 1
+  maxTier = 8
+  presetAffixes = []
+  affixList = [ "arctic"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "twilightforest:skeleton_druid"
+  minTier = 1
+  maxTier = 8
+  presetAffixes = []
+  affixList = ["arctic", "enkindling"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "minecraft:wither_skeleton"
+  minTier = 1
+  maxTier = 8
+  presetAffixes = []
+  affixList = [ "arctic"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "minecraft:stray"
+  minTier = 1
+  maxTier = 8
+  presetAffixes = []
+  affixList = ["arctic", "dampening"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "minecraft:giant"
+  minTier = 3
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["arctic","molten"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "minecraft:evoker"
+  minTier = 1
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["plagued", "dispel"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "minecraft:ravager"
+  minTier = 2
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["molten"]
+  affixPermission = "WHITELIST"
+  
+  [[entities]]
+  entity = "minecraft:wither"
+  minTier = 6
+  maxTier = 6
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "twilightforest:naga"
+  minTier = 2
+  maxTier = 3
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "whisperwoods:hirschgeist"
+  minTier = 4
+  maxTier = 5
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "twilightforest:lich"
+  minTier = 3
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "graveyard:lich"
+  minTier = 3
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "graveyard:ghouling"
+  minTier = 1
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"  
+  
+  [[entities]]
+  entity = "born_in_chaos_v1:bonescaller"
+  minTier = 2
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "born_in_chaos_v1:supreme_bonescaller_stage_2"
+  minTier = 5
+  maxTier = 5
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+      
+  [[entities]]
+  entity = "born_in_chaos_v1:supreme_bonescaller"
+  minTier = 4
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+      
+  [[entities]]
+  entity = "born_in_chaos_v1:supreme_bonescaller_not_despawn"
+  minTier = 4
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+ 
+  [[entities]]
+  entity = "meetyourfight:swampjaw"
+  minTier = 1
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "twilightforest:minoshroom"
+  minTier = 3
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "twilightforest:hydra"
+  minTier = 3
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "twilightforest:troll"
+  minTier = 1
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "twilightforest:carminite_golem"
+  minTier = 1
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "iceandfire:troll"
+  minTier = 2
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "born_in_chaos_v1:sir_pumpkinhead"
+  minTier = 4
+  maxTier = 5
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "born_in_chaos_v1:sir_pumpkinhead_without_horse"
+  minTier = 4
+  maxTier = 5
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "born_in_chaos_v1:felsteed"
+  minTier = 4
+  maxTier = 5
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "born_in_chaos_v1:sir_the_headless"
+  minTier = 4
+  maxTier = 5
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "born_in_chaos_v1:pumpkinhead"
+  minTier = 3
+  maxTier = 2
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "ulterlands:osteon"
+  minTier = 1
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "ulterlands:pyre"
+  minTier = 2
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "ulterlands:rook"
+  minTier = 2
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "ulterlands:perished_01"
+  minTier = 4
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "ulterlands:perished_02"
+  minTier = 5
+  maxTier = 5
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "alexsmobs:void_worm"
+  minTier = 5
+  maxTier = 5
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "weirdmobs:wardendragon_entity"
+  minTier = 10
+  maxTier = 10
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "minecraft:ender_dragon"
+  minTier = 7
+  maxTier = 7
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "minecraft:wither"
+  minTier = 7
+  maxTier = 7
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "stalwart_dungeons:nether_keeper"
+  minTier = 6
+  maxTier = 6
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "stalwart_dungeons:awful_ghast"
+  minTier = 8
+  maxTier = 8
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "cataclysm:ender_golem"
+  minTier = 1
+  maxTier = 7
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "cataclysm:netherite_monstrosity"
+  minTier = 2
+  maxTier = 7
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "cataclysm:ender_guardian"
+  minTier = 2
+  maxTier = 7
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "iceandfire:cyclops"
+  minTier = 8
+  maxTier = 8
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "iceandfire:hydra"
+  minTier = 7
+  maxTier = 7
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "the_forgotten_dimensions:ice_golem_valor"
+  minTier = 9
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "the_forgotten_dimensions:ice_golem_resistance"
+  minTier = 10
+  maxTier = 10
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "the_forgotten_dimensions:ice_golem_stregth"
+  minTier = 9
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "the_forgotten_dimensions:ice_golem_core"
+  minTier = 9
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "iceandfire:dread_thrall"
+  minTier = 9
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "iceandfire:dread_ghoul"
+  minTier = 9
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "iceandfire:dread_beast"
+  minTier = 10
+  maxTier = 10
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "iceandfire:dread_scuttler"
+  minTier = 11
+  maxTier = 11
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "iceandfire:lich"
+  minTier = 9
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "iceandfire:dread_knight"
+  minTier = 12
+  maxTier = 12
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "alexsmobs:bone_serpent"
+  minTier = 6
+  maxTier = 6
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "dragone_aventure:dragon"
+  minTier = 6
+  maxTier = 6
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "nether_dragon:nether_dragon"
+  minTier = 2
+  maxTier = 2
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "weirdmobs:vexpiglin_entity"
+  minTier = 2
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "weirdmobs:vexpiglin_entity"
+  minTier = 1
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+    
+  [[entities]]
+  entity = "meetyourfight:bellringer"
+  minTier = 4
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "hanew_village_mod:ancientdragon"
+  minTier = 4
+  maxTier = 5
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "hanew_village_mod:ancientdragon"
+  minTier = 3
+  maxTier = 5
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "twilightforest:knight_phantom"
+  minTier = 4
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "twilightforest:ur_ghast"
+  minTier = 4
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "born_in_chaos_v1:skeleton_thrasher_not_despawn"
+  minTier = 6
+  maxTier = 6
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "weirdmobs:creeper_spider_broodmother"
+  minTier = 5
+  maxTier = 5
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "ulterlands:oriath_queen"
+  minTier = 6
+  maxTier = 6
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "ulterlands:oraith"
+  minTier = 2
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "ulterlands:orcen"
+  minTier = 1
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "ulterlands:endertaker"
+  minTier = 2
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "ulterlands:starshot"
+  minTier = 2
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "ulterlands:dodonzo"
+  minTier = 1
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "ulterlands:flyvern"
+  minTier = 2
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "ulterlands:bazzernaut"
+  minTier = 3
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "aquamirae:captain_cornelia"
+  minTier = 4
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+
+  [[entities]]
+  entity = "minecraft:guardian"
+  minTier = 1
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "minecraft:elder_guardian"
+  minTier = 5
+  maxTier = 5
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "weirdmobs:fire_guardian"
+  minTier = 2
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "iceandfire:worm"
+  minTier = 6
+  maxTier = 6
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "dragone_aventure:evilchiken"
+  minTier = 7
+  maxTier = 7
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "born_in_chaos_v1:dire_hound_leader"
+  minTier = 8
+  maxTier = 8
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "mutantmonsters:mutant_zombie"
+  minTier = 6
+  maxTier = 6
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "mutantmonsters:mutant_skeleton"
+  minTier = 6
+  maxTier = 6
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "mutantmonsters:mutant_creeper"
+  minTier = 6
+  maxTier = 6
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "cataclysm:ignis"
+  minTier = 7
+  maxTier = 7
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "the_cataclysm:warlock"
+  minTier = 3
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "the_cataclysm:cataclysm_crawler"
+  minTier = 1
+  maxTier = 1
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "the_cataclysm:infected_king"
+  minTier = 10
+  maxTier = 10
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "the_cataclysm:portal_guardian"
+  minTier = 6
+  maxTier = 6
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "sons_of_sins:wistiver"
+  minTier = 10
+  maxTier = 10
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "sons_of_sins:walking_bed"
+  minTier = 10
+  maxTier = 10
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "sons_of_sins:prowle"
+  minTier = 12
+  maxTier = 12
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "sons_of_sins:iron_hit"
+  minTier = 11
+  maxTier = 11
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "sons_of_sins:curse"
+  minTier = 9
+  maxTier = 9
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "sons_of_sins:bloody_driver"
+  minTier = 9
+  maxTier = 10
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "sons_of_sins:bloody_butcher"
+  minTier = 9
+  maxTier = 12
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "enemyexpansion:cinder"
+  minTier = 3
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "twilightforest:alpha_yeti"
+  minTier = 4
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "cataclysm:ignited_revenant"
+  minTier = 6
+  maxTier = 8
+  presetAffixes = []
+  affixList = ["adaptable", "desecrating", "reflective", "plagued", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  
+  
+  
+  
+  
+  

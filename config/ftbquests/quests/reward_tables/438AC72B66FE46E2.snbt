@@ -1,0 +1,71 @@
+{
+	id: "438AC72B66FE46E2"
+	order_index: 24
+	title: "实用药水"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "flight_potion:flight"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:splash_potion"
+				Count: 1b
+				tag: {
+					Potion: "useless_sword:vex_effect_potion_item"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "CBC"
+				}
+			}
+		}
+		{
+			title: "刚体药水"
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "thick"
+					CustomPotionEffects: [
+						{
+							Duration: 600
+							Id: 11
+							Amplifier: 2
+							ShowParticles: 0b
+						}
+						{
+							Duration: 600
+							Id: 10
+							Amplifier: 14
+							ShowParticles: 0b
+						}
+						{
+							Duration: 20
+							Id: 6
+							Amplifier: 29
+							ShowParticles: 0b
+						}
+						{
+							Duration: 1200
+							Id: 22
+							Amplifier: 19
+							ShowParticles: 0b
+						}
+					]
+				}
+			}
+		}
+	]
+}

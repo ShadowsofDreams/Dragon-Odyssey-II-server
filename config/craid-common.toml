@@ -1,0 +1,12 @@
+
+#Settings about raid.
+["Raid Settings"]
+	#Turn to false, no new raid will happen, and old raids will be clear.
+	EnableRaid = true
+	#how many ticks will raid wait, when there is no player in it.
+	#Range: 1 ~ 1000000
+	RaidWaitTime = 400
+	#how far will a player join the raid.
+	#Range: 1 ~ 1000
+	RaidRange = 50
+

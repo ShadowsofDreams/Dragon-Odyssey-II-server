@@ -1,0 +1,5 @@
+
+[onPreInit]
+	#The mods' id will make the game crash.(e.g., ["torcherino","projecte"])
+	target_mods = ["torcherino", "dankstorage", "journeymap", "projecte", "xaeroworldmap", "enchantinginfuser", "toms_storage", "refinedstorage", "mekanism", "appliedenergistics2"]
+

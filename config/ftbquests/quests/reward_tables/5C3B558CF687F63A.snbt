@@ -1,0 +1,11 @@
+{
+	id: "5C3B558CF687F63A"
+	order_index: 15
+	title: "神秘废金属"
+	icon: "apotheosis:common_material"
+	loot_size: 1
+	rewards: [
+		{ item: "hanew_village_mod:hanewcoin", count: 640, random_bonus: 320 }
+		{ item: "apotheosis:uncommon_material" }
+	]
+}

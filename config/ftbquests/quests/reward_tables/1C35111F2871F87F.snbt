@@ -1,0 +1,16 @@
+{
+	id: "1C35111F2871F87F"
+	order_index: 23
+	title: "食堂"
+	loot_size: 1
+	rewards: [
+		{ item: "gothic:black_mushroom_item", count: 15, random_bonus: 10 }
+		{ item: "gothic:meatbug_ragout", count: 10, random_bonus: 10 }
+		{ item: "dragonsurvival:charged_soup", count: 5, random_bonus: 15 }
+		{ item: "dragonsurvival:charged_coal", count: 64, random_bonus: 64 }
+		{ item: "dragonsurvival:quartz_explosive_copper", count: 9, random_bonus: 9 }
+		{ item: "dragonsurvival:double_quartz", count: 20, random_bonus: 20 }
+		{ item: "dragonsurvival:explosive_copper", count: 30, random_bonus: 10 }
+		{ item: "dragonsurvival:hot_dragon_rod", count: 15, random_bonus: 12 }
+	]
+}

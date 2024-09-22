@@ -1,0 +1,11 @@
+{
+	id: "4C87CAB59BFBA0BB"
+	order_index: 8
+	title: "法力"
+	loot_size: 1
+	rewards: [
+		{ item: "dragonsurvival:cave_source_of_magic" }
+		{ item: "dragonsurvival:sea_source_of_magic" }
+		{ item: "dragonsurvival:forest_source_of_magic" }
+	]
+}

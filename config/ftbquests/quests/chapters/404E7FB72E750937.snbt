@@ -1,0 +1,471 @@
+{
+	id: "404E7FB72E750937"
+	group: "6FAF4D7A9C6A8763"
+	order_index: 4
+	filename: "404E7FB72E750937"
+	title: "美食"
+	icon: "meetyourfight:marshy_delight"
+	subtitle: ["一些对玩家有帮助的饮食"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -3.5d
+		y: -13.5d
+		width: 6.0d
+		height: 6.0d
+		rotation: 0.0d
+		image: "blackaures_paintings:textures/p32.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -3.5d
+			y: -2.5d
+			description: ["饮用后，移除[魔力耗尽]debuff"]
+			id: "06A680C3FAC00D0F"
+			tasks: [{
+				id: "72095D62A807907C"
+				type: "item"
+				item: "born_in_chaos_v1:bottle_of_magical_energy"
+			}]
+			rewards: [{
+				id: "1147D5ADA5168384"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			description: ["饮用后，给予110秒狂暴buff，可叠加至5层"]
+			id: "5AD9D19D8109C303"
+			tasks: [{
+				id: "797606C65118FEC9"
+				type: "item"
+				item: "born_in_chaos_v1:potion_of_rampage"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			description: ["饮用后，给予40秒夜视2和速度1"]
+			id: "4BF43C85AB728150"
+			tasks: [{
+				id: "0F5602C3A3684F81"
+				type: "item"
+				item: "born_in_chaos_v1:spiritinabottle"
+			}]
+			rewards: [{
+				id: "03C8E56164F908D8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: -9.0d
+			size: 3.0d
+			id: "66FA007BFC8CC52F"
+			tasks: [{
+				id: "5B0698B07F40139F"
+				type: "item"
+				item: "born_in_chaos_v1:eternal_candy"
+			}]
+			rewards: [{
+				id: "08740B0AB09DAC46"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "甜蜜终结者"
+			x: 9.0d
+			y: -12.0d
+			subtitle: "功能型神铸武器的一份子，同时也是五大无限食物之一。"
+			description: ["    以前还只是一把巧克力剑的时候，没人会拿着它打打杀杀，而是吃掉，因此，在摇身一变成为了神铸武器后，终结者先生并不习惯，一直想不通巧克力制成的自己为何也要被当做武器，它只想在这安静地做一块巧克力。但不可否认的是它确实足够强大，因此得名甜蜜终结者。"]
+			size: 3.0d
+			id: "7CD3568A42DAD79F"
+			tasks: [{
+				id: "5102C225EFFBC705"
+				type: "item"
+				item: {
+					id: "useless_sword:chocolate_sword"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						affix_data: {
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:graceful\"},\"\",{\"translate\":\"affix.apotheosis:sophisticated.suffix\"}]}"
+							affixes: {
+								"apotheosis:elongated": 0.7919981f
+								"apotheosis:sophisticated": 0.10148746f
+								"apotheosis:graceful": 0.97701156f
+								"apotheosis:intricate": 0.534643f
+								"apotheosis:vampiric": 0.9007816f
+								"apotheosis:durable": 0.54f
+								"apotheosis:weakening": 0.61410713f
+							}
+							rarity: "mythic"
+						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: 149.0d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									-33401488
+									518604711
+									-1989246764
+									402630162
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: 1.6d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									-1828940318
+									-1202238226
+									-1185615484
+									-754153369
+								]
+								Name: "generic.attack_speed"
+							}
+							{
+								Amount: 50.0d
+								Slot: "offhand"
+								AttributeName: "generic.max_health"
+								Operation: 0
+								UUID: [I;
+									-1247761326
+									706757775
+									-1647122916
+									1730780242
+								]
+								Name: "generic.max_health"
+							}
+							{
+								Amount: 50.0d
+								Slot: "offhand"
+								AttributeName: "generic.luck"
+								Operation: 0
+								UUID: [I;
+									-1176096921
+									456411329
+									-1854123785
+									1421509474
+								]
+								Name: "generic.luck"
+							}
+						]
+						display: {
+							Lore: ["{\"text\":\"\\u00A7f你为什么还会需要其他食物？\"}"]
+							Name: "{\"text\":\"\\u00A76\\u00A7l甜蜜终结者\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "18213BE7941F228C"
+					type: "command"
+					title: "将玩家的基础攻击伤害调整至10"
+					icon: "alexsmobs:falconry_glove"
+					command: "/attribute @p minecraft:generic.attack_damage base set 10"
+					player_command: false
+				}
+				{
+					id: "5E29B6BE285FC5AD"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -4.5d
+			size: 3.0d
+			id: "09B7444F8A0BB3B6"
+			tasks: [{
+				id: "7ECA8FB80BBD0F51"
+				type: "item"
+				item: "enigmaticlegacy:cosmic_cake"
+			}]
+			rewards: [
+				{
+					id: "1474D8C7C9A0F782"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0D88759B9BC7111A"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "apotheosis:inert_trident"
+						Count: 1b
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 20.0d
+									Slot: "offhand"
+									AttributeName: "obscure_api:regeneration"
+									Operation: 0
+									UUID: [I;
+										1927482743
+										230182248
+										-1761474624
+										1740552166
+									]
+									Name: "generic.max_health"
+								}
+								{
+									Amount: 0.3d
+									Slot: "offhand"
+									AttributeName: "generic.max_health"
+									Operation: 2
+									UUID: [I;
+										1277670474
+										1702054377
+										-1284123713
+										-2108072931
+									]
+									Name: "generic.max_health"
+								}
+								{
+									Slot: "offhand"
+									AttributeName: "celestial_artifacts:reply_effect"
+									Operation: 2
+									UUID: [I;
+										204513798
+										-2064563953
+										-2037486020
+										1817776856
+									]
+									Amount: 0.25d
+								}
+							]
+							display: {
+								Name: "{\"text\":\"\\u00A7e神奇餐叉\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			size: 3.0d
+			id: "1F4F67FFBCB48537"
+			tasks: [{
+				id: "50C7775CAB6EBAFC"
+				type: "item"
+				item: "artifacts:eternal_steak"
+			}]
+			rewards: [{
+				id: "4FFA0115BA9EC1ED"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 13.5d
+			y: -9.0d
+			subtitle: "可以无限食用的未知肉类"
+			description: [
+				"    使用积蓄的能量补充佩戴者的饥饿值。能量随时间恢复。"
+				"    在此遗物上使用药水，即可在使用时提供药水效果，使用另一药水后效果将被替换。（需要解锁）"
+				"    在研究台上解锁或升级能力。"
+			]
+			size: 3.0d
+			id: "26927DA2FFA6203E"
+			tasks: [{
+				id: "2885CB443BB71D8C"
+				type: "item"
+				item: {
+					id: "relics:infinity_ham"
+					Count: 1b
+					tag: {
+						abilities: {
+							infusion: {
+								stats: {
+									duration: 1.122d
+								}
+								points: 0
+							}
+							autophagy: {
+								stats: {
+									feed: 1.5d
+								}
+								points: 0
+							}
+						}
+						pieces: 10
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C483AB38EDA3436"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			subtitle: "好喝！"
+			id: "1DCFDE985D0F03AC"
+			tasks: [{
+				id: "68AA45AE0503094E"
+				type: "item"
+				item: "born_in_chaos_v1:intoxicating_decoction"
+			}]
+			rewards: [{
+				id: "7B7050E879624EC4"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			id: "0558FD61113ACB46"
+			tasks: [{
+				id: "7831E43220CBB926"
+				type: "item"
+				item: "bhc:relic_apple"
+			}]
+			rewards: [{
+				id: "296FAE5152111870"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "75F89716B3BCD41B"
+			tasks: [{
+				id: "46FD97FA3BDB09FA"
+				type: "item"
+				item: "quark:golden_frog_leg"
+			}]
+			rewards: [{
+				id: "00CBB2543C3577B0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			id: "7D359FBB743CB8E9"
+			tasks: [{
+				id: "255A8BD4BF8E4E13"
+				type: "item"
+				item: "tconstruct:jeweled_apple"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			id: "036A76D967E37007"
+			tasks: [{
+				id: "40112C2A92DA9589"
+				type: "item"
+				item: "enigmaticlegacy:forbidden_fruit"
+			}]
+			rewards: [{
+				id: "3A56ED18B1733A8B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			id: "327245F4B3EF1C73"
+			tasks: [{
+				id: "60C7C83C14E67E0A"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
+			rewards: [{
+				id: "4BA52A88935B0191"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			id: "773EA03F805A5D87"
+			tasks: [{
+				id: "1042EEEED1B09D55"
+				type: "item"
+				item: "upgradednetherite_items:enchanted_netherite_apple"
+			}]
+			rewards: [{
+				id: "0DE786D60B7E014E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			id: "1A4F7EB0A41C7862"
+			tasks: [{
+				id: "78652BE19DA4E5EF"
+				type: "item"
+				item: "upgradednetherite_items:enchanted_gold_upgraded_netherite_apple"
+			}]
+			rewards: [{
+				id: "526B1AF5C2D6D6FE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			id: "7FE9CA6ECAD6B979"
+			tasks: [{
+				id: "600F6BB3B024AE75"
+				type: "item"
+				item: "enigmaticlegacy:astral_fruit"
+			}]
+			rewards: [{
+				id: "7C44BD9E7E0FD404"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			subtitle: "食用后可以恢复3点（）饥饿值和9点（）饱和度，并给予200 ticks（10秒）的生命恢复II、2400 ticks（2分钟）的抗性提升I、4000 ticks（3分钟20秒）的防火与 2400 ticks 的伤害吸收III。"
+			id: "5331E5125E5F2AF0"
+			tasks: [{
+				id: "39DAC72934891D4B"
+				type: "item"
+				item: "rainbowcompound:rainbow_apple"
+			}]
+			rewards: [{
+				id: "387805146C5FE98B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+	quest_links: [ ]
+}

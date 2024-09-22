@@ -1,0 +1,1125 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 1, 2024, 11:54:38 AM
+
+#tinkerscalibration:moltentitanium
+- tinkerscalibration:moltentitanium
+- tinkerscalibration:flowing_moltentitanium
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- ulterlands:primosoup
+- ulterlands:flowing_primosoup
+- #undergarden:virulent
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- dragone_aventure:waterofyouth
+- dragone_aventure:flowing_waterofyouth
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+- createaddition:flowing_bioethanol
+- createaddition:bioethanol
+
+#tconstruct:molten_porcelain
+- tconstruct:molten_porcelain
+- tconstruct:flowing_molten_porcelain
+- tconstruct:molten_porcelain
+- tconstruct:flowing_molten_porcelain
+
+#tconstruct:molten_rose_gold
+- tconstruct:molten_rose_gold
+- tconstruct:flowing_molten_rose_gold
+- tconstruct:molten_rose_gold
+- tconstruct:flowing_molten_rose_gold
+
+#tinkerscalibration:moltennethergobber
+- tinkerscalibration:moltennethergobber
+- tinkerscalibration:flowing_moltennethergobber
+
+#forge:molten_fiery
+- #twilightforest:molten_fiery?
+
+#tconstruct:molten_platinum
+- tconstruct:molten_platinum
+- tconstruct:flowing_molten_platinum
+- tconstruct:molten_platinum
+- tconstruct:flowing_molten_platinum
+
+#forge:pendorite_alloy
+- #tcintegrations:pendorite_alloy?
+
+#tinkerscalibration:moltenfiberglass
+- tinkerscalibration:moltenfiberglass
+- tinkerscalibration:flowing_moltenfiberglass
+
+#tcintegrations:froststeel
+- tcintegrations:froststeel?
+- tcintegrations:flowing_froststeel?
+
+#tconstruct:earth_slime
+- tconstruct:earth_slime
+- tconstruct:flowing_earth_slime
+- tconstruct:earth_slime
+- tconstruct:flowing_earth_slime
+
+#tconstruct:liquid_soul
+- tconstruct:liquid_soul
+- tconstruct:flowing_liquid_soul
+- tconstruct:liquid_soul
+- tconstruct:flowing_liquid_soul
+
+#tconstruct:spilling/metal/average
+- #tconstruct:molten_quartz
+- #tconstruct:molten_emerald
+- #forge:molten_refined_glowstone
+- #forge:manasteel?
+- #forge:soul_stained_steel?
+- #forge:cloggrum?
+- #forge:froststeel?
+- #tconstruct:molten_quartz
+- #tconstruct:molten_emerald
+- #forge:molten_refined_glowstone
+
+#tinkerscalibration:moltenlindsteel
+- tinkerscalibration:moltenlindsteel
+- tinkerscalibration:flowing_moltenlindsteel
+
+#tconstruct:molten_chlorophyte
+- tinkers_thinking:molten_chlorophyte
+- tinkers_thinking:molten_chlorophyte_flowing
+
+#forge:molten_silver
+- #tconstruct:molten_silver
+
+#create:fan_processing_catalysts/splashing
+- minecraft:water
+- minecraft:flowing_water
+
+#forge:molten_pewter
+- #tconstruct:molten_pewter
+
+#tcintegrations:pendorite_alloy
+- tcintegrations:pendorite_alloy?
+- tcintegrations:flowing_pendorite_alloy?
+
+#forge:molten_manyullyn
+- #tconstruct:molten_manyullyn
+
+#twilightforest:fiery_essence
+- twilightforest:fiery_essence?
+- twilightforest:flowing_fiery_essence?
+
+#tconstruct:molten_white_chocolate
+- tinkers_thinking:molten_white_chocolate
+- tinkers_thinking:molten_white_chocolate_flowing
+
+#forge:molten_emperorslime
+- #tinkerscalibration:moltenemperorslime
+
+#tconstruct:syrup
+- tinkers_thinking:syrup
+- tinkers_thinking:syrup_flowing
+
+#tcintegrations:source_gem
+- tcintegrations:source_gem?
+- tcintegrations:flowing_source_gem?
+
+#forge:molten_fazelle
+- #tinkerscalibration:moltenfazelle
+
+#forge:molten_enderium
+- #tconstruct:molten_enderium
+
+#tconstruct:spilling/clay
+- #tconstruct:molten_clay
+- #tconstruct:molten_porcelain
+- #tconstruct:seared_stone
+- #tconstruct:scorched_stone
+- #tconstruct:molten_clay
+- #tconstruct:molten_porcelain
+- #tconstruct:seared_stone
+- #tconstruct:scorched_stone
+
+#tconstruct:tooltips/metal
+- #tconstruct:molten_tinkers_bronze
+- #tconstruct:molten_ardite
+- #tconstruct:molten_lightite
+- #tconstruct:molten_black_chocolate
+- #tconstruct:molten_white_chocolate
+- #tconstruct:molten_chlorophyte
+- #forge:molten_fiery
+- #forge:molten_knightmetal
+- #forge:molten_iron
+- #forge:molten_gold
+- #forge:molten_copper
+- #forge:molten_cobalt
+- #tconstruct:molten_debris
+- #tconstruct:molten_slimesteel
+- #tconstruct:molten_amethyst_bronze
+- #forge:molten_rose_gold
+- #tconstruct:molten_pig_iron
+- #forge:molten_manyullyn
+- #forge:molten_hepatizon
+- #tconstruct:molten_queens_slime
+- #forge:molten_netherite
+- #tconstruct:molten_soulsteel
+- #tconstruct:molten_knightslime
+- #forge:molten_tin
+- #forge:molten_aluminum
+- #forge:molten_lead
+- #forge:molten_silver
+- #forge:molten_nickel
+- #forge:molten_zinc
+- #forge:molten_platinum
+- #forge:molten_tungsten
+- #forge:molten_osmium
+- #forge:molten_uranium
+- #forge:molten_bronze
+- #forge:molten_brass
+- #forge:molten_electrum
+- #forge:molten_invar
+- #forge:molten_constantan
+- #forge:molten_pewter
+- #forge:molten_steel
+- #forge:molten_enderium
+- #forge:molten_lumium
+- #forge:molten_signalum
+- #forge:molten_refined_glowstone
+- #forge:molten_refined_obsidian
+- #forge:manasteel?
+- #forge:neptunium?
+- #forge:soul_stained_steel?
+- #forge:cloggrum?
+- #forge:froststeel?
+- #forge:forgotten?
+- #forge:pendorite?
+- #forge:pendorite_alloy?
+- tinkerscalibration:moltenemperorslime
+- tinkerscalibration:moltenmangobberslime
+- tinkerscalibration:moltenmandite
+- tinkerscalibration:moltenlindsteel
+- tinkerscalibration:moltentitanium
+- tinkerscalibration:moltensoulgold
+- tinkerscalibration:moltengobber
+- tinkerscalibration:moltenfazelle
+- tinkerscalibration:moltennethergobber
+- tinkerscalibration:moltenendgobber
+- tinkerscalibration:moltencarminite
+- tinkerscalibration:moltenaltairium
+- tinkerscalibration:moltenimmersedsilver
+- tinkerscalibration:molteninertwitherium
+- tinkerscalibration:moltenhalleium
+- tinkerscalibration:moltenhothium
+- tinkerscalibration:moltenmagiga
+- tinkerscalibration:moltentonium
+- tinkerscalibration:moltenoraclium
+- tinkerscalibration:moltensteamium
+- tinkerscalibration:moltenstellarium
+- tinkerscalibration:moltenwitherium
+- tinkers_ingenuity:molten_knight_crystal
+- tinkers_ingenuity:molten_ocean_alloy
+- tinkers_ingenuity:molten_blood_steel
+- tinkers_ingenuity:molten_shine_alloy
+- tinkers_ingenuity:molten_prince_slime
+- tinkers_ingenuity:molten_auroral_alloy
+- tinkers_ingenuity:molten_leaf_green
+- tinkers_ingenuity:molten_shine_gold
+- tinkers_ingenuity:molten_red_maple
+- tinkers_ingenuity:molten_teslin_alloy
+- tinkers_ingenuity:molten_blood_binding
+- tinkers_ingenuity:molten_lefigaro
+- tinkers_ingenuity:molten_zesley
+- tinkers_ingenuity:molten_sunlit
+- tinkers_ingenuity:molten_labolas
+- tinkers_ingenuity:molten_crocell
+- tinkers_ingenuity:molten_glasya
+- tinkers_ingenuity:molten_simir
+- tinkers_ingenuity:molten_gleiter
+- tinkers_ingenuity:molten_etherium
+- tinkers_ingenuity:molten_evil
+- tinkers_ingenuity:molten_blood_binding
+- tinkers_ingenuity:molten_eneutronium
+- tinkers_ingenuity:molten_crystal_matrix
+- tinkers_ingenuity:molten_lightning_steel
+- tinkers_ingenuity:molten_fire_steel
+- tinkers_ingenuity:molten_ice_steel
+- #forge:molten_iron
+- #forge:molten_gold
+- #forge:molten_copper
+- #forge:molten_cobalt
+- #tconstruct:molten_debris
+- #tconstruct:molten_slimesteel
+- #tconstruct:molten_amethyst_bronze
+- #forge:molten_rose_gold
+- #tconstruct:molten_pig_iron
+- #forge:molten_manyullyn
+- #forge:molten_hepatizon
+- #tconstruct:molten_queens_slime
+- #forge:molten_netherite
+- #tconstruct:molten_soulsteel
+- #tconstruct:molten_knightslime
+- #forge:molten_tin
+- #forge:molten_aluminum
+- #forge:molten_lead
+- #forge:molten_silver
+- #forge:molten_nickel
+- #forge:molten_zinc
+- #forge:molten_platinum
+- #forge:molten_tungsten
+- #forge:molten_osmium
+- #forge:molten_uranium
+- #forge:molten_bronze
+- #forge:molten_brass
+- #forge:molten_electrum
+- #forge:molten_invar
+- #forge:molten_constantan
+- #forge:molten_pewter
+- #forge:molten_steel
+- #forge:molten_enderium
+- #forge:molten_lumium
+- #forge:molten_signalum
+- #forge:molten_refined_glowstone
+- #forge:molten_refined_obsidian
+
+#tinkerscalibration:moltenwitherium
+- tinkerscalibration:moltenwitherium
+- tinkerscalibration:flowing_moltenwitherium
+
+#forge:molten_aluminum
+- #tconstruct:molten_aluminum
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#tconstruct:seared_stone
+- tconstruct:seared_stone
+- tconstruct:flowing_seared_stone
+- tconstruct:seared_stone
+- tconstruct:flowing_seared_stone
+
+#tinkersexpansion:molten_slimedice
+- tinkersexpansion:molten_slimedice
+- tinkersexpansion:flowing_molten_slimedice
+
+#forge:molten_iron
+- #tconstruct:molten_iron
+
+#tconstruct:molten_steel
+- tconstruct:molten_steel
+- tconstruct:flowing_molten_steel
+- tconstruct:molten_steel
+- tconstruct:flowing_molten_steel
+
+#forge:ender
+- #tconstruct:molten_ender
+
+#tinkerscalibration:moltenaltairium
+- tinkerscalibration:moltenaltairium
+- tinkerscalibration:flowing_moltenaltairium
+
+#tconstruct:rabbit_stew
+- tconstruct:rabbit_stew
+- tconstruct:flowing_rabbit_stew
+- tconstruct:rabbit_stew
+- tconstruct:flowing_rabbit_stew
+
+#tconstruct:molten_ender
+- tconstruct:molten_ender
+- tconstruct:flowing_molten_ender
+- tconstruct:molten_ender
+- tconstruct:flowing_molten_ender
+
+#forge:molten_osmium
+- #tconstruct:molten_osmium
+
+#forge:molten_uranium
+- #tconstruct:molten_uranium
+
+#tinkerscalibration:moltenmagiga
+- tinkerscalibration:moltenmagiga
+- tinkerscalibration:flowing_moltenmagiga
+
+#tconstruct:molten_nickel
+- tconstruct:molten_nickel
+- tconstruct:flowing_molten_nickel
+- tconstruct:molten_nickel
+- tconstruct:flowing_molten_nickel
+
+#tconstruct:molten_black_chocolate
+- tinkers_thinking:molten_black_chocolate
+- tinkers_thinking:molten_black_chocolate_flowing
+
+#tconstruct:molten_tin
+- tconstruct:molten_tin
+- tconstruct:flowing_molten_tin
+- tconstruct:molten_tin
+- tconstruct:flowing_molten_tin
+
+#tinkerscalibration:moltenichor
+- tinkerscalibration:moltenichor
+- tinkerscalibration:flowing_moltenichor
+
+#tconstruct:molten_quartz
+- tconstruct:molten_quartz
+- tconstruct:flowing_molten_quartz
+- tconstruct:molten_quartz
+- tconstruct:flowing_molten_quartz
+
+#forge:molten_stellarium
+- #tinkerscalibration:moltenstellarium
+
+#forge:molten_cobalt
+- #tconstruct:molten_cobalt
+
+#tconstruct:tooltips/glass
+- #tconstruct:molten_glass
+- #tconstruct:liquid_soul
+- #tconstruct:molten_obsidian
+- tinkerscalibration:moltenfiberglass
+- #tconstruct:molten_glass
+- #tconstruct:liquid_soul
+- #tconstruct:molten_obsidian
+
+#forge:molten_mangobberslime
+- #tinkerscalibration:moltenmangobberslime
+
+#forge:molten_amethyst_bronze
+- #tconstruct:molten_amethyst_bronze
+
+#create:bottomless/deny
+
+#forge:molten_hothium
+- #tinkerscalibration:moltenhothium
+
+#tcintegrations:forgotten
+- tcintegrations:forgotten?
+- tcintegrations:flowing_forgotten?
+
+#forge:molten_carminite
+- #tinkerscalibration:moltencarminite
+
+#forge:mushroom_stew
+- #tconstruct:mushroom_stew
+
+#forge:molten_refined_glowstone
+- #tconstruct:molten_refined_glowstone
+
+#tcintegrations:cloggrum
+- tcintegrations:cloggrum?
+- tcintegrations:flowing_cloggrum?
+
+#undergarden:virulent
+- undergarden:virulent_mix_source
+- undergarden:virulent_mix_flowing
+
+#forge:slime
+- #tconstruct:earth_slime
+
+#mantle:water
+- minecraft:water
+- minecraft:flowing_water
+
+#tconstruct:molten_constantan
+- tconstruct:molten_constantan
+- tconstruct:flowing_molten_constantan
+- tconstruct:molten_constantan
+- tconstruct:flowing_molten_constantan
+
+#tconstruct:molten_clay
+- tconstruct:molten_clay
+- tconstruct:flowing_molten_clay
+- tconstruct:molten_clay
+- tconstruct:flowing_molten_clay
+
+#tconstruct:molten_gold
+- tconstruct:molten_gold
+- tconstruct:flowing_molten_gold
+- tconstruct:molten_gold
+- tconstruct:flowing_molten_gold
+
+#forge:molten_lumium
+- #tconstruct:molten_lumium
+
+#forge:molten_lead
+- #tconstruct:molten_lead
+
+#tconstruct:molten_netherite
+- tconstruct:molten_netherite
+- tconstruct:flowing_molten_netherite
+- tconstruct:molten_netherite
+- tconstruct:flowing_molten_netherite
+
+#tinkerscalibration:moltenfazelle
+- tinkerscalibration:moltenfazelle
+- tinkerscalibration:flowing_moltenfazelle
+
+#forge:molten_altairium
+- #tinkerscalibration:moltenaltairium
+
+#forge:molten_hepatizon
+- #tconstruct:molten_hepatizon
+
+#forge:molten_tinkers_bronze
+- #tconstruct:molten_tinkers_bronze
+
+#tconstruct:venom
+- tconstruct:venom
+- tconstruct:flowing_venom
+- tconstruct:venom
+- tconstruct:flowing_venom
+
+#twilightforest:fire_jet_fuel
+- #minecraft:lava
+
+#forge:plantoil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#tconstruct:molten_electrum
+- tconstruct:molten_electrum
+- tconstruct:flowing_molten_electrum
+- tconstruct:molten_electrum
+- tconstruct:flowing_molten_electrum
+
+#tconstruct:molten_pewter
+- tconstruct:molten_pewter
+- tconstruct:flowing_molten_pewter
+- tconstruct:molten_pewter
+- tconstruct:flowing_molten_pewter
+
+#forge:molten_ardite
+- #tconstruct:molten_ardite
+
+#tconstruct:molten_brass
+- tconstruct:molten_brass
+- tconstruct:flowing_molten_brass
+- tconstruct:molten_brass
+- tconstruct:flowing_molten_brass
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#tconstruct:molten_copper
+- tconstruct:molten_copper
+- tconstruct:flowing_molten_copper
+- tconstruct:molten_copper
+- tconstruct:flowing_molten_copper
+
+#tconstruct:ender_slime
+- tconstruct:ender_slime
+- tconstruct:flowing_ender_slime
+- tconstruct:ender_slime
+- tconstruct:flowing_ender_slime
+
+#tconstruct:molten_signalum
+- tconstruct:molten_signalum
+- tconstruct:flowing_molten_signalum
+- tconstruct:molten_signalum
+- tconstruct:flowing_molten_signalum
+
+#tconstruct:magma
+- tconstruct:magma
+- tconstruct:flowing_magma
+- tconstruct:magma
+- tconstruct:flowing_magma
+
+#tconstruct:beetroot_soup
+- tconstruct:beetroot_soup
+- tconstruct:flowing_beetroot_soup
+- tconstruct:beetroot_soup
+- tconstruct:flowing_beetroot_soup
+
+#tconstruct:molten_diamond
+- tconstruct:molten_diamond
+- tconstruct:flowing_molten_diamond
+- tconstruct:molten_diamond
+- tconstruct:flowing_molten_diamond
+
+#forge:potion
+- tconstruct:potion
+
+#tcintegrations:manasteel
+- tcintegrations:manasteel?
+- tcintegrations:flowing_manasteel?
+
+#tinkerscalibration:molteninertwitherium
+- tinkerscalibration:molteninertwitherium
+- tinkerscalibration:flowing_molteninertwitherium
+
+#forge:molten_tungsten
+- #tconstruct:molten_tungsten
+
+#tconstruct:molten_queens_slime
+- tconstruct:molten_queens_slime
+- tconstruct:flowing_molten_queens_slime
+- tconstruct:molten_queens_slime
+- tconstruct:flowing_molten_queens_slime
+
+#tinkerscalibration:moltenmandite
+- tinkerscalibration:moltenmandite
+- tinkerscalibration:flowing_moltenmandite
+
+#forge:molten_refined_obsidian
+- #tconstruct:molten_refined_obsidian
+
+#forge:molten_zinc
+- #tconstruct:molten_zinc
+
+#tinkerscalibration:moltengobber
+- tinkerscalibration:moltengobber
+- tinkerscalibration:flowing_moltengobber
+
+#forge:honey
+- create:flowing_honey
+- create:honey
+- #tconstruct:honey
+
+#tconstruct:molten_knightslime
+- tconstruct:molten_knightslime
+- tconstruct:flowing_molten_knightslime
+- tconstruct:molten_knightslime
+- tconstruct:flowing_molten_knightslime
+
+#tconstruct:tooltips/gem_large
+- tinkers_things:molten_hematite
+- tinkers_things:molten_hematite_flowing
+- #tconstruct:molten_emerald
+- #tconstruct:molten_diamond
+- #tconstruct:molten_emerald
+- #tconstruct:molten_diamond
+
+#create:fan_processing_catalysts/blasting
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:molten_ichor
+- #tinkerscalibration:moltenichor
+
+#tconstruct:molten_manyullyn
+- tconstruct:molten_manyullyn
+- tconstruct:flowing_molten_manyullyn
+- tconstruct:molten_manyullyn
+- tconstruct:flowing_molten_manyullyn
+
+#tconstruct:molten_invar
+- tconstruct:molten_invar
+- tconstruct:flowing_molten_invar
+- tconstruct:molten_invar
+- tconstruct:flowing_molten_invar
+
+#tconstruct:sky_slime
+- tconstruct:sky_slime
+- tconstruct:flowing_sky_slime
+- tconstruct:sky_slime
+- tconstruct:flowing_sky_slime
+
+#tinkerscalibration:moltenoraclium
+- tinkerscalibration:moltenoraclium
+- tinkerscalibration:flowing_moltenoraclium
+
+#tconstruct:scorched_stone
+- tconstruct:scorched_stone
+- tconstruct:flowing_scorched_stone
+- tconstruct:scorched_stone
+- tconstruct:flowing_scorched_stone
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:neptunium
+- #tcintegrations:neptunium?
+
+#forge:molten_gobber
+- #tinkerscalibration:moltengobber
+
+#tconstruct:blazing_blood
+- tconstruct:blazing_blood
+- tconstruct:flowing_blazing_blood
+- tconstruct:blazing_blood
+- tconstruct:flowing_blazing_blood
+
+#forge:syrup
+- #tconstruct:syrup
+- thermal:syrup?
+
+#create:fan_processing_catalysts/smoking
+
+#tconstruct:tooltips/gem_small
+- #tconstruct:molten_quartz
+- #tconstruct:molten_amethyst
+- #tcintegrations:source_gem?
+- #tconstruct:molten_quartz
+- #tconstruct:molten_amethyst
+
+#tconstruct:molten_obsidian
+- tconstruct:molten_obsidian
+- tconstruct:flowing_molten_obsidian
+- tconstruct:molten_obsidian
+- tconstruct:flowing_molten_obsidian
+
+#forge:rabbit_stew
+- #tconstruct:rabbit_stew
+
+#tconstruct:molten_refined_obsidian
+- tconstruct:molten_refined_obsidian
+- tconstruct:flowing_molten_refined_obsidian
+- tconstruct:molten_refined_obsidian
+- tconstruct:flowing_molten_refined_obsidian
+
+#forge:molten_copper
+- #tconstruct:molten_copper
+
+#tinkerscalibration:moltenimmersedsilver
+- tinkerscalibration:moltenimmersedsilver
+- tinkerscalibration:flowing_moltenimmersedsilver
+
+#forge:molten_witherium
+- #tinkerscalibration:moltenwitherium
+
+#tconstruct:spilling/metal/expensive
+- #tconstruct:molten_ardite
+- #tconstruct:molten_diamond
+- #tconstruct:molten_debris
+- #forge:molten_enderium
+- #forge:molten_lumium
+- #forge:molten_signalum
+- #forge:molten_refined_obsidian
+- #forge:neptunium?
+- #forge:forgotten?
+- #forge:pendorite?
+- #forge:pendorite_alloy?
+- #tconstruct:molten_diamond
+- #tconstruct:molten_debris
+- #forge:molten_enderium
+- #forge:molten_lumium
+- #forge:molten_signalum
+- #forge:molten_refined_obsidian
+
+#forge:molten_bronze
+- #tconstruct:molten_bronze
+
+#tinkerscalibration:moltencarminite
+- tinkerscalibration:moltencarminite
+- tinkerscalibration:flowing_moltencarminite
+
+#twilightforest:molten_fiery
+- twilightforest:molten_fiery?
+- twilightforest:flowing_molten_fiery?
+
+#forge:powdered_snow
+- tconstruct:powdered_snow
+
+#forge:molten_rose_gold
+- #tconstruct:molten_rose_gold
+
+#forge:magma
+- #tconstruct:magma
+
+#tconstruct:spilling/metal/cheap
+- #tconstruct:molten_tinkers_bronze
+- #tconstruct:molten_lightite
+- #forge:molten_fiery
+- #twilightforest:molten_knightmetal
+- #forge:molten_platinum
+- #forge:molten_tungsten
+- #forge:molten_osmium
+- #tconstruct:molten_amethyst
+- #forge:molten_platinum
+- #forge:molten_tungsten
+- #forge:molten_osmium
+- #tconstruct:molten_amethyst
+
+#tinkerscalibration:moltensteamium
+- tinkerscalibration:moltensteamium
+- tinkerscalibration:flowing_moltensteamium
+
+#tinkerscalibration:moltenhothium
+- tinkerscalibration:moltenhothium
+- tinkerscalibration:flowing_moltenhothium
+
+#forge:molten_platinum
+- #tconstruct:molten_platinum
+
+#tinkerscalibration:moltenemperorslime
+- tinkerscalibration:moltenemperorslime
+- tinkerscalibration:flowing_moltenemperorslime
+
+#tconstruct:molten_cocoa
+- tinkers_thinking:molten_cocoa
+- tinkers_thinking:molten_cocoa_flowing
+
+#tconstruct:molten_silver
+- tconstruct:molten_silver
+- tconstruct:flowing_molten_silver
+- tconstruct:molten_silver
+- tconstruct:flowing_molten_silver
+
+#tconstruct:molten_soulsteel
+- tconstruct:molten_soulsteel
+- tconstruct:flowing_molten_soulsteel
+- tconstruct:molten_soulsteel
+- tconstruct:flowing_molten_soulsteel
+
+#forge:molten_lindsteel
+- #tinkerscalibration:moltenlindsteel
+
+#forge:crude_oil
+
+#forge:molten_titanium
+- #tinkerscalibration:moltentitanium
+
+#tconstruct:tooltips/clay
+- #tconstruct:molten_clay
+- #tconstruct:molten_porcelain
+- #tconstruct:seared_stone
+- #tconstruct:scorched_stone
+- #tconstruct:molten_clay
+- #tconstruct:molten_porcelain
+- #tconstruct:seared_stone
+- #tconstruct:scorched_stone
+
+#forge:molten_steel
+- #tconstruct:molten_steel
+
+#tconstruct:molten_aluminum
+- tconstruct:molten_aluminum
+- tconstruct:flowing_molten_aluminum
+- tconstruct:molten_aluminum
+- tconstruct:flowing_molten_aluminum
+
+#tcintegrations:soul_stained_steel
+- tcintegrations:soul_stained_steel?
+- tcintegrations:flowing_soul_stained_steel?
+
+#forge:molten_halleium
+- #tinkerscalibration:moltenhalleium
+
+#tconstruct:molten_iron
+- tconstruct:molten_iron
+- tconstruct:flowing_molten_iron
+- tconstruct:molten_iron
+- tconstruct:flowing_molten_iron
+
+#tconstruct:molten_uranium
+- tconstruct:molten_uranium
+- tconstruct:flowing_molten_uranium
+- tconstruct:molten_uranium
+- tconstruct:flowing_molten_uranium
+
+#tconstruct:molten_glass
+- tconstruct:molten_glass
+- tconstruct:flowing_molten_glass
+- tconstruct:molten_glass
+- tconstruct:flowing_molten_glass
+
+#tconstruct:tooltips/slime
+- #forge:magma
+- #tconstruct:blood
+- #forge:ender
+- #tconstruct:slime
+- tinkerscalibration:moltenichor
+- #forge:magma
+- #tconstruct:blood
+- #forge:ender
+- #tconstruct:slime
+
+#forge:molten_nickel
+- #tconstruct:molten_nickel
+
+#forge:molten_inert_witherium
+- #tinkerscalibration:molteninertwitherium
+
+#forge:cloggrum
+- #tcintegrations:cloggrum?
+
+#tconstruct:molten_enderium
+- tconstruct:molten_enderium
+- tconstruct:flowing_molten_enderium
+- tconstruct:molten_enderium
+- tconstruct:flowing_molten_enderium
+
+#create:fan_processing_catalysts/haunting
+
+#forge:forgotten
+- #tcintegrations:forgotten?
+
+#tcintegrations:neptunium
+- tcintegrations:neptunium?
+- tcintegrations:flowing_neptunium?
+
+#tcintegrations:pendorite
+- tcintegrations:pendorite?
+- tcintegrations:flowing_pendorite?
+
+#tconstruct:honey
+- tconstruct:honey
+- tconstruct:flowing_honey
+- tconstruct:honey
+- tconstruct:flowing_honey
+
+#tconstruct:molten_osmium
+- tconstruct:molten_osmium
+- tconstruct:flowing_molten_osmium
+- tconstruct:molten_osmium
+- tconstruct:flowing_molten_osmium
+
+#tinkerscalibration:moltenmangobberslime
+- tinkerscalibration:moltenmangobberslime
+- tinkerscalibration:flowing_moltenmangobberslime
+
+#tconstruct:molten_refined_glowstone
+- tconstruct:molten_refined_glowstone
+- tconstruct:flowing_molten_refined_glowstone
+- tconstruct:molten_refined_glowstone
+- tconstruct:flowing_molten_refined_glowstone
+
+#forge:manasteel
+- #tcintegrations:manasteel?
+
+#tconstruct:molten_slimesteel
+- tconstruct:molten_slimesteel
+- tconstruct:flowing_molten_slimesteel
+- tconstruct:molten_slimesteel
+- tconstruct:flowing_molten_slimesteel
+
+#forge:molten_tin
+- #tconstruct:molten_tin
+
+#forge:soul_stained_steel
+- #tcintegrations:soul_stained_steel?
+
+#tinkerscalibration:moltenhalleium
+- tinkerscalibration:moltenhalleium
+- tinkerscalibration:flowing_moltenhalleium
+
+#tconstruct:molten_debris
+- tconstruct:molten_debris
+- tconstruct:flowing_molten_debris
+- tconstruct:molten_debris
+- tconstruct:flowing_molten_debris
+
+#forge:molten_constantan
+- #tconstruct:molten_constantan
+
+#tconstruct:molten_cobalt
+- tconstruct:molten_cobalt
+- tconstruct:flowing_molten_cobalt
+- tconstruct:molten_cobalt
+- tconstruct:flowing_molten_cobalt
+
+#tconstruct:molten_amethyst_bronze
+- tconstruct:molten_amethyst_bronze
+- tconstruct:flowing_molten_amethyst_bronze
+- tconstruct:molten_amethyst_bronze
+- tconstruct:flowing_molten_amethyst_bronze
+
+#forge:molten_tonium
+- #tinkerscalibration:moltentonium
+
+#forge:molten_hymon
+- #tinkerscalibration:moltenhymon
+
+#forge:molten_endgobber
+- #tinkerscalibration:moltenendgobber
+
+#tinkerscalibration:moltentonium
+- tinkerscalibration:moltentonium
+- tinkerscalibration:flowing_moltentonium
+
+#tconstruct:molten_emerald
+- tconstruct:molten_emerald
+- tconstruct:flowing_molten_emerald
+- tconstruct:molten_emerald
+- tconstruct:flowing_molten_emerald
+
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
+
+#forge:molten_brass
+- #tconstruct:molten_brass
+
+#tconstruct:slime
+- #forge:slime
+- #tconstruct:sky_slime
+- #tconstruct:ender_slime
+- #forge:slime
+- #tconstruct:sky_slime
+- #tconstruct:ender_slime
+
+#tconstruct:molten_tungsten
+- tconstruct:molten_tungsten
+- tconstruct:flowing_molten_tungsten
+- tconstruct:molten_tungsten
+- tconstruct:flowing_molten_tungsten
+
+#forge:molten_steamium
+- #tinkerscalibration:moltensteamium
+
+#forge:molten_magiga
+- #tinkerscalibration:moltenmagiga
+
+#tconstruct:blood
+- tconstruct:blood
+- tconstruct:flowing_blood
+- tconstruct:blood
+- tconstruct:flowing_blood
+
+#tconstruct:molten_lumium
+- tconstruct:molten_lumium
+- tconstruct:flowing_molten_lumium
+- tconstruct:molten_lumium
+- tconstruct:flowing_molten_lumium
+
+#forge:experience
+- sophisticatedcore:xp_still
+
+#forge:froststeel
+- #tcintegrations:froststeel?
+
+#tinkerscalibration:moltenstellarium
+- tinkerscalibration:moltenstellarium
+- tinkerscalibration:flowing_moltenstellarium
+
+#tconstruct:molten_lead
+- tconstruct:molten_lead
+- tconstruct:flowing_molten_lead
+- tconstruct:molten_lead
+- tconstruct:flowing_molten_lead
+
+#tconstruct:tooltips/soup
+- #tconstruct:beetroot_soup
+- #tconstruct:mushroom_stew
+- #tconstruct:rabbit_stew
+- #tconstruct:beetroot_soup
+- #tconstruct:mushroom_stew
+- #tconstruct:rabbit_stew
+
+#forge:molten_gold
+- #tconstruct:molten_gold
+
+#forge:molten_netherite
+- #tconstruct:molten_netherite
+
+#forge:creosote
+
+#tconstruct:molten_pig_iron
+- tconstruct:molten_pig_iron
+- tconstruct:flowing_molten_pig_iron
+- tconstruct:molten_pig_iron
+- tconstruct:flowing_molten_pig_iron
+
+#forge:molten_oraclium
+- #tinkerscalibration:moltenoraclium
+
+#tconstruct:molten_ardite
+- tinkers_thinking:molten_ardite
+- tinkers_thinking:molten_ardite_flowing
+
+#tinkerscalibration:moltenendgobber
+- tinkerscalibration:moltenendgobber
+- tinkerscalibration:flowing_moltenendgobber
+
+#tconstruct:molten_bronze
+- tconstruct:molten_bronze
+- tconstruct:flowing_molten_bronze
+- tconstruct:molten_bronze
+- tconstruct:flowing_molten_bronze
+
+#forge:beetroot_soup
+- #tconstruct:beetroot_soup
+
+#tconstruct:tooltips/water
+- #forge:syrup
+- #tconstruct:molten_cocoa
+- #mantle:water
+- #mantle:water
+
+#twilightforest:molten_knightmetal
+- twilightforest:molten_knightmetal?
+- twilightforest:flowing_molten_knightmetal?
+
+#forge:biofuel
+- createaddition:flowing_bioethanol
+- createaddition:bioethanol
+
+#tconstruct:molten_tinkers_bronze
+- tinkers_thinking:molten_tinkers_bronze
+- tinkers_thinking:molten_tinkers_bronze_flowing
+
+#forge:pendorite
+- #tcintegrations:pendorite?
+
+#tconstruct:molten_lightite
+- tinkers_thinking:molten_lightite
+- tinkers_thinking:molten_lightite_flowing
+
+#tconstruct:molten_amethyst
+- tconstruct:molten_amethyst
+- tconstruct:flowing_molten_amethyst
+- tconstruct:molten_amethyst
+- tconstruct:flowing_molten_amethyst
+
+#forge:molten_immersed_silver
+- #tinkerscalibration:moltenimmersedsilver
+
+#forge:molten_signalum
+- #tconstruct:molten_signalum
+
+#forge:molten_fiberglass
+- #tinkerscalibration:moltenfiberglass
+
+#tconstruct:molten_zinc
+- tconstruct:molten_zinc
+- tconstruct:flowing_molten_zinc
+- tconstruct:molten_zinc
+- tconstruct:flowing_molten_zinc
+
+#forge:molten_gobbernether
+- #tinkerscalibration:moltennethergobber
+
+#forge:molten_electrum
+- #tconstruct:molten_electrum
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#tconstruct:mushroom_stew
+- tconstruct:mushroom_stew
+- tconstruct:flowing_mushroom_stew
+- tconstruct:mushroom_stew
+- tconstruct:flowing_mushroom_stew
+
+#forge:molten_invar
+- #tconstruct:molten_invar
+
+#mantle:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:molten_knightmetal
+- #twilightforest:molten_knightmetal?
+
+#forge:molten_mandite
+- #tinkerscalibration:moltenmandite
+
+#tconstruct:molten_hepatizon
+- tconstruct:molten_hepatizon
+- tconstruct:flowing_molten_hepatizon
+- tconstruct:molten_hepatizon
+- tconstruct:flowing_molten_hepatizon
+
+#tinkerscalibration:moltenhymon
+- tinkerscalibration:moltenhymon
+- tinkerscalibration:flowing_moltenhymon
+
+#tconstruct:spilling/glass
+- #tconstruct:molten_glass
+- #tconstruct:molten_obsidian
+- #tconstruct:molten_glass
+- #tconstruct:molten_obsidian

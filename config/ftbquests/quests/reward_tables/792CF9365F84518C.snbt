@@ -1,0 +1,32 @@
+{
+	id: "792CF9365F84518C"
+	order_index: 25
+	title: "头颅"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:skeleton_skull" }
+		{
+			item: {
+				id: "mutantmonsters:mutant_skeleton_skull"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:wither_skeleton_skull" }
+		{ item: "tconstruct:blaze_head" }
+		{ item: "tconstruct:stray_head" }
+		{ item: "minecraft:player_head" }
+		{ item: "minecraft:zombie_head" }
+		{ item: "minecraft:creeper_head" }
+		{ item: "tconstruct:husk_head" }
+		{ item: "tconstruct:enderman_head" }
+		{ item: "tconstruct:drowned_head" }
+		{ item: "tconstruct:spider_head" }
+		{ item: "tconstruct:cave_spider_head" }
+		{ item: "tconstruct:piglin_head" }
+		{ item: "tconstruct:piglin_brute_head" }
+		{ item: "tconstruct:zombified_piglin_head" }
+	]
+}
